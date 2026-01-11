@@ -50,7 +50,3 @@ gravity_time.csv
 # Virtual environments
 .venv/
 venv/
-
-# Ad-hoc outputs
-*.jsonl
-*.csv
