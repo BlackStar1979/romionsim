@@ -10,11 +10,17 @@ __pycache__/
 *.ipynb
 
 # Results - keep structure but ignore data
-results/*/simulation.jsonl
-results/*/*.csv
+# Results - ignore generated outputs (keep dirs via .gitkeep if needed)
+
+results/**/*.jsonl
+results/**/*.csv
 results/sweep_*/
 sweep_pilot_*/
 sweep_full_*/
+
+# Optional: keep a single smoke log out of results if you want it versioned:
+# examples/**/*.jsonl
+# tests/fixtures/**/*.jsonl
 
 # Temporary
 *.tmp
