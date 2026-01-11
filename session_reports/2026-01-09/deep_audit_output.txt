@@ -1,0 +1,28 @@
+﻿======================================================================
+DEEP MARKDOWN AUDIT
+======================================================================
+
+Scanning 88 markdown files...
+
+ISSUES FOUND:
+----------------------------------------------------------------------
+
+README.md:
+  EMPTY_SECTIONS:
+python : Traceback (most recent call last):
+At line:1 char:23
++ cd C:\Work\romionsim; python scripts/deep_audit.py 2>&1 | Out-File -F ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Work\romionsim\scripts\deep_audit.py", line 212, in <module>
+    scan_all_markdown()
+    ~~~~~~~~~~~~~~~~~^^
+  File "C:\Work\romionsim\scripts\deep_audit.py", line 191, in scan_all_markdown
+    print(f"    - {issue}")
+    ~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python314\Lib\encodings\cp1250.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 33: character maps to <undefined>

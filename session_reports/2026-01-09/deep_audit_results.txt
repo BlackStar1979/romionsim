@@ -1,0 +1,785 @@
+======================================================================
+DEEP MARKDOWN AUDIT
+======================================================================
+
+Scanning 88 markdown files...
+
+ISSUES FOUND:
+----------------------------------------------------------------------
+
+README.md:
+  EMPTY_SECTIONS:
+    - Line 51: Empty section: ##  Running
+
+analysis\README.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  TOOLS:
+    - Line 59: Empty section: ##  TYPICAL WORKFLOW:
+    - Line 81: Empty section: ##  METRICS EXPLAINED:
+    - Line 105: Empty section: ##  NOTES:
+
+archive\ARCHIVE_CLEANUP_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 35: Empty section: ##  ACTIONS TAKEN:
+    - Line 94: Empty section: ##  STATISTICS:
+    - Line 123: Empty section: ##  RATIONALE:
+    - Line 141: Empty section: ##  BENEFITS:
+    - Line 159: Empty section: ##  RETENTION POLICY ESTABLISHED:
+
+archive\AUDIT.md:
+  EMPTY_SECTIONS:
+    - Line 22: Empty section: ## Source Comparison
+    - Line 45: Empty section: ## What Was Done
+    - Line 74: Empty section: ## Key Decisions
+    - Line 146: Empty section: ## Verification Checklist
+    - Line 182: Empty section: ## Comparison with ChatGPT Version
+    - Line 204: Empty section: ## Usage Guide
+    - Line 236: Empty section: ## Next Steps
+    - Line 258: Empty section: ## Validation Results
+    - Line 280: Empty section: ## Recommendations
+
+archive\AUDIT_2026_01_07.md:
+  EMPTY_SECTIONS:
+    - Line 29: Empty section: ## Methodology Assessment
+    - Line 31: Empty section: ###  STRENGTHS
+    - Line 59: Empty section: ###  AREAS FOR IMPROVEMENT
+    - Line 113: Empty section: ## Code Quality Assessment
+    - Line 115: Empty section: ###  EXCELLENT
+    - Line 146: Empty section: ###  NEEDS WORK
+    - Line 174: Empty section: ## Recommendations
+    - Line 251: Empty section: ## Critical Path Forward
+    - Line 286: Empty section: ## Comparison to Previous Audit
+
+archive\CLEANUP_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ##  WHAT WAS DONE:
+    - Line 89: Empty section: ##  BENEFITS:
+
+archive\DISCOVERY_RANGE_2_RETRACTED.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ##  DISCOVERY SUMMARY
+    - Line 34: Empty section: ##  WHY THIS MATTERS
+    - Line 56: Empty section: ##  WHAT CHANGED
+    - Line 86: Empty section: ##  IMPLICATIONS
+    - Line 104: Empty section: ##  NEXT STEPS
+    - Line 138: Empty section: ##  CRITICAL NOTES
+
+archive\FINAL_INSPECTION_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ##  PROJECT STATISTICS:
+    - Line 27: Empty section: ##  DIRECTORY-BY-DIRECTORY AUDIT:
+    - Line 169: Empty section: ##  CLEANUP ACTIONS TAKEN:
+    - Line 190: Empty section: ##  QUALITY METRICS:
+    - Line 228: Empty section: ##  MINOR NOTES:
+    - Line 250: Empty section: ##  FINAL VERDICT:
+
+archive\IMPROVEMENTS_COMPLETE.md:
+  INCOMPLETE:
+    - Line 197: Incomplete section ending with '...'
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  IMPLEMENTED IMPROVEMENTS:
+    - Line 88: Empty section: ##  STATISTICS:
+    - Line 113: Empty section: ##  TESTING:
+    - Line 149: Empty section: ##  IMPROVEMENTS ACHIEVED:
+    - Line 171: Empty section: ##  KEY INSIGHTS FROM PROCESS:
+    - Line 193: Empty section: ##  IMPACT:
+    - Line 223: Empty section: ##  COMPARISON TO ORIGINAL PLAN:
+    - Line 241: Empty section: ##  PROJECT STATE:
+
+archive\PATH_VERIFICATION_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ##  CHANGES MADE
+    - Line 42: Empty section: ##  VERIFIED WORKING
+    - Line 61: Empty section: ##  PATHS AUDIT
+    - Line 79: Empty section: ##  REMAINING PATHS
+    - Line 109: Empty section: ##  NOTES
+
+archive\PROJECT_AUDIT_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  DISTINCTION:
+    - Line 60: Empty section: ##  USAGE:
+    - Line 92: Empty section: ##  CURRENT PROJECT STATUS:
+    - Line 120: Empty section: ##  WHAT IT CHECKS:
+    - Line 141: Empty section: ##  USE CASES:
+    - Line 148: Empty section: # Fix any critical issues
+    - Line 157: Empty section: # Address all warnings
+    - Line 180: Empty section: ##  WHAT IT DOES NOT CHECK:
+    - Line 200: Empty section: ##  COMPLEMENTARY TOOLS:
+    - Line 221: Empty section: ##  BENEFITS:
+    - Line 268: Empty section: ##  AUDIT CHECKLIST:
+    - Line 292: Empty section: ##  IMPACT:
+    - Line 308: Empty section: ##  FINAL THOUGHTS:
+
+archive\README.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  CONTENTS:
+    - Line 53: Empty section: ##  CLEANED:
+
+archive\RESTRUCTURING_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  WHAT WAS DONE
+    - Line 84: Empty section: ##  BEFORE vs AFTER
+    - Line 150: Empty section: ##  QUALITY CHECKS
+    - Line 177: Empty section: ##  BENEFITS
+    - Line 226: Empty section: ##  READY FOR
+    - Line 242: Empty section: ##  MAINTENANCE NOTES
+    - Line 271: Empty section: ##  COMPLETED FILES
+
+archive\VALIDATION_SYSTEM_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  IMPLEMENTED VALIDATORS:
+    - Line 117: Empty section: ##  VALIDATION WORKFLOW:
+    - Line 124: Empty section: # 2. Fix any errors
+    - Line 143: Empty section: ##  WHAT EACH VALIDATOR CATCHES:
+    - Line 165: Empty section: ##  TEST COVERAGE:
+    - Line 181: Empty section: ##  DOCUMENTATION:
+    - Line 194: Empty section: ##  DESIGN DECISIONS:
+    - Line 215: Empty section: ##  IMPACT:
+    - Line 232: Empty section: ##  BENEFITS:
+    - Line 251: Empty section: ##  FUTURE ENHANCEMENTS (Optional):
+
+archive\sweep_decay_pilot_20260108\ANALYSIS.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  PRIMARY FINDING
+    - Line 21: Empty section: ##  INTERPRETATION
+    - Line 54: Empty section: ##  PHASE TRANSITION MODEL
+    - Line 78: Empty section: ##  PUZZLES
+    - Line 120: Empty section: ##  STATISTICAL NOTES
+    - Line 137: Empty section: ##  NEXT STEPS
+    - Line 151: Empty section: ##  IMPLICATIONS
+
+archive\sweep_decay_pilot_20260108\ISSUES.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  TECHNICAL ISSUES
+    - Line 45: Empty section: ##  METHODOLOGICAL ISSUES
+    - Line 93: Empty section: ##  MISSING DATA
+    - Line 111: Empty section: ##  ACTION ITEMS
+    - Line 148: Empty section: ##  DEBUGGING COMMANDS
+    - Line 182: Empty section: ##  FAILURE ANALYSIS
+    - Line 206: Empty section: ##  LESSONS
+
+archive\sweep_decay_pilot_20260108\MANUAL_EXECUTION_GUIDE.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Manual Decay Sweep - Execution Guide
+    - Line 117: Empty section: # Parse gravity_test output from each point
+
+archive\sweep_decay_pilot_20260108\README.md:
+  EMPTY_SECTIONS:
+    - Line 20: Empty section: ##  EXPERIMENTAL DESIGN
+    - Line 83: Empty section: ##  KEY FINDINGS (Preliminary)
+    - Line 112: Empty section: ##  ISSUES
+    - Line 126: Empty section: ##  FILES
+    - Line 146: Empty section: ##  NEXT STEPS
+
+archive\sweep_decay_pilot_20260108\RESULTS.md:
+  CONTRADICTIONS:
+    - Line 43: Both COMPLETE and INCOMPLETE
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Decay Sweep: Results
+
+docs\ANNEX_DOCUMENTATION_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Complete Annex Documentation Summary
+    - Line 70: Empty section: ## P0 Critical Issues Identified
+    - Line 112: Empty section: ## Implementation Roadmap from Annexes
+    - Line 157: Empty section: ## Key Formulas from Annexes
+    - Line 203: Empty section: ## Session Notes
+
+docs\AUDIT_GPT_VS_IMPLEMENTATION.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Audyt: GPT Annexes vs Implementation Status
+    - Line 2: Empty section: # Date: 2026-01-08 (FINAL)
+    - Line 4: Empty section: ##  WSZYSTKIE POLECENIA GPT WYKONANE:
+
+docs\AUDIT_MAIN_PY_CHANGES.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # AUDIT LOG: main.py modifications for channels/anisotropy
+    - Line 2: Empty section: # Date: 2026-01-08
+    - Line 3: Empty section: # Status: COMPLETED AND TESTED
+    - Line 5: Empty section: ## Changes Made
+    - Line 40: Empty section: ## Test Results
+
+docs\BUG_FIX_COMPLETE_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  ACCOMPLISHED:
+    - Line 35: Empty section: ##  CORRECTED RESULTS:
+    - Line 53: Empty section: ##  READY FOR PILOT SWEEP:
+    - Line 76: Empty section: ##  FILES STATUS:
+
+docs\COMMANDS.md:
+  EMPTY_SECTIONS:
+    - Line 30: Empty section: ##  RUNNING SIMULATIONS
+    - Line 71: Empty section: ##  ANALYSIS (gravity_test)
+    - Line 127: Empty section: ##  TEST REPRODUCTION
+    - Line 143: Empty section: ##  BATCH OPERATIONS
+    - Line 157: Empty section: ##  INSPECTION
+    - Line 173: Empty section: ##  COMMON WORKFLOWS
+
+docs\COSMOLOGY_MAPPING.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Cosmology Mapping
+    - Line 32: Empty section: ## H-C1: Tension from Layered Measurement
+    - Line 68: Empty section: ## H-C2: Anisotropy from Channels
+    - Line 103: Empty section: ## H-C3: Early Structure Maturity
+    - Line 133: Empty section: ## H-C4: Birefringence from Projection Anisotropy
+    - Line 161: Empty section: ## Projection Ratio Discovery
+    - Line 194: Empty section: ## Hubble Tension Mapping
+
+docs\CRITICAL_BUG_FIX_20260108.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  THE BUG:
+    - Line 16: Empty section: # Python: -1 = LAST INDEX!
+    - Line 17: Empty section: # Hub calculation used deg[-1] (wrong cluster!)
+    - Line 18: Empty section: # Bridge counts included cluster(-1) (not inter-cluster!)
+    - Line 29: Empty section: ##  THE FIX:
+    - Line 50: Empty section: ##  CORRECTED NUMBERS (R2@400):
+    - Line 72: Empty section: ##  IMPACT:
+
+docs\GPT_ANNEXES_IMPLEMENTATION_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 16: Empty section: ##  COMPLETED IMPLEMENTATIONS (Annexes 01-L)
+    - Line 235: Empty section: ##  PENDING IMPLEMENTATIONS (SPEC - Future Work)
+    - Line 256: Empty section: ##  File Structure Summary
+    - Line 315: Empty section: ##  Key Achievements
+    - Line 363: Empty section: ##  Next Steps (Roadmap)
+    - Line 423: Empty section: ##  Lessons Learned
+
+docs\IMPLEMENTATION_STATUS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Implementation Status
+    - Line 176: Empty section: ## Next Implementation Priorities
+
+docs\METHODOLOGY.md:
+  INCOMPLETE:
+    - Line 155: Placeholder text: wcluster: X.XXX (cluster/matter)
+    - Line 156: Placeholder text: wdist: X.XXX (background geometry)
+    - Line 157: Placeholder text: wbridge: X.XXX (bridges/field)
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION O'LOGIC Methodology
+    - Line 10: Empty section: ## 1. Core Principles
+    - Line 49: Empty section: ## Pre-registration
+    - Line 81: Empty section: ## 3. Canonical Metrics
+    - Line 113: Empty section: ## 4. Ranking Protocol
+    - Line 147: Empty section: ## 5. Report Format
+    - Line 176: Empty section: ## 6. Cosmology Mapping Hypotheses
+    - Line 226: Empty section: ## 7. Channel Metrics (SPEC)
+    - Line 262: Empty section: ## 8. Validation Layer
+    - Line 301: Empty section: ## 9. Documentation Standards
+
+docs\P0_CRITICAL_PATCHES.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # P0 Fixes Required - Critical Patches
+    - Line 19: Empty section: ## Patch 1: CLI Semantics (main.py)
+    - Line 28: Empty section: # NEW SEMANTICS:
+    - Line 29: Empty section: # wcluster = cluster/matter threshold (objects)
+    - Line 30: Empty section: # wdist    = background threshold (geometry for distances)
+    - Line 31: Empty section: # wbridge  = bridge threshold (field interactions)
+    - Line 66: Empty section: ## Patch 2: Background Distance Graph (distances.py)
+    - Line 149: Empty section: ## Patch 3: Clustering (clustering.py)
+    - Line 175: Empty section: ## Patch 4: Unassigned Reporting (metrics.py)
+    - Line 224: Empty section: ## Patch 5: Batch Runner (batch_test_c.py)
+    - Line 244: Empty section: ## Verification After Patches
+
+docs\QUESTIONS_FOR_CHATGPT.md:
+  EMPTY_SECTIONS:
+    - Line 68: Empty section: ## Specyfikacja implementacyjna (z odpowiedzi)
+
+docs\QUICK_REFERENCE.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  ONE-LINER COMMANDS
+    - Line 45: Empty section: ##  KEY METRICS
+    - Line 59: Empty section: ##  THRESHOLDS (Pre-Registered)
+    - Line 72: Empty section: ##  KEY FILES
+    - Line 91: Empty section: ##  QUALITY GATES
+
+docs\README.md:
+  EMPTY_SECTIONS:
+    - Line 24: Empty section: ##  Quick Start
+    - Line 66: Empty section: ##  Key Results
+    - Line 84: Empty section: ##  Documentation
+
+docs\ROADMAP.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ##  Project Status
+    - Line 42: Empty section: ##  Key Discoveries (Updated 2026-01-09)
+    - Line 99: Empty section: ##  Immediate Next Steps (Priority Order - Updated 2026-01-09)
+    - Line 263: Empty section: ##  Long-term Goals
+    - Line 336: Empty section: ##  Open Questions
+    - Line 359: Empty section: ##  Infrastructure Status
+
+docs\S2_TAIL_STATUS.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ##  What Was Done:
+    - Line 26: Empty section: ##  Problem: Bridges NOT Visible in gravity_test
+    - Line 55: Empty section: ##  Required Tuning:
+    - Line 90: Empty section: ##  Next Steps:
+
+docs\SPEC_S2_TAIL.md:
+  INCOMPLETE:
+    - Line 72: Incomplete section ending with '...'
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ## Mechanism (per tick):
+    - Line 62: Empty section: ## Acceptance Test:
+
+docs\SPEC_THAW_SHOCK.md:
+  EMPTY_SECTIONS:
+    - Line 16: Empty section: ## Solution: Fracture Mode
+    - Line 62: Empty section: ## Example Usage:
+    - Line 83: Empty section: ## Acceptance Test:
+
+docs\STATUS.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  Current State
+    - Line 23: Empty section: ##  Key Findings
+    - Line 45: Empty section: ##  Next Steps
+
+docs\STRUCTURE.md:
+  EMPTY_SECTIONS:
+    - Line 83: Empty section: ##  TESTS/ - Experiments
+    - Line 177: Empty section: ##  FILE SIZE POLICY
+    - Line 213: Empty section: ##  ORGANIZATION PRINCIPLES
+
+docs\TASK_RUNNER.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  USAGE:
+    - Line 27: Empty section: ##  AVAILABLE COMMANDS:
+    - Line 51: Empty section: ##  EXAMPLES:
+
+docs\THEORY.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ## Core Formalism
+    - Line 42: Empty section: ## Spawn Rules
+    - Line 110: Empty section: ## Metrics
+    - Line 177: Empty section: ## Projection
+    - Line 203: Empty section: ## Observables
+    - Line 262: Empty section: ## Physical Interpretations
+    - Line 318: Empty section: ## Experimental Predictions
+    - Line 390: Empty section: ## Open Questions
+    - Line 446: Empty section: ## Falsification Criteria
+    - Line 467: Empty section: ## Theory Development Roadmap
+
+docs\theory\COSMOLOGICAL_SCHOOLS_CRITIQUE.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Methodological Critique of Cosmological Schools
+    - Line 18: Empty section: ## 1. De Sitter School: Methodological Completion
+    - Line 88: Empty section: ## 2. Friedmann School: What He Unconsciously Described
+    - Line 103: Empty section: ### Point-by-Point Translation
+    - Line 161: Empty section: ## 3. Connection to ~5% Projection Ratio Discovery
+    - Line 187: Empty section: ## 4. Methodological Corrections Summary
+
+docs\theory\EXTENDED_THEORY_ENTANGLEMENT_GRAVITY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Extended Theory - Entanglement, Gravity, Black Holes, Inflation
+    - Line 10: Empty section: ## 1. Entanglement: Local in CORE, Non-local in FRACTURE
+    - Line 85: Empty section: ## 2. ER=EPR in ROMION:  as "Topological Bridge"
+    - Line 116: Empty section: ## 3. Gravity as Pressure Density
+    - Line 148: Empty section: ## 4. Black Holes: Extreme  Density
+    - Line 184: Empty section: ## 5. Cosmic Inflation: Rapid FRACTURE Stabilization
+    - Line 222: Empty section: ## 6. Hubble Tension: Not an Error, a Signal
+    - Line 252: Empty section: ## 7. Relational Detectors: Selective Measurement
+    - Line 279: Empty section: ## 8. Time and Pressure
+    - Line 299: Empty section: ## 9. Noise as Emergence Signature
+    - Line 317: Empty section: ## 10. Universe Age: Observable Impression Only
+
+docs\theory\GLOSSARY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION O'LOGIC Glossary
+    - Line 10: Empty section: ## Core Ontology
+    - Line 34: Empty section: ## Two Phases
+    - Line 58: Empty section: ## Metrics and Parameters
+    - Line 82: Empty section: ## Structural Elements
+    - Line 115: Empty section: ## Threshold Parameters
+    - Line 137: Empty section: ## Dynamic Rules
+    - Line 156: Empty section: ## Particle Ontology
+    - Line 180: Empty section: ## Boson Modes
+    - Line 210: Empty section: ## Phenomena
+    - Line 234: Empty section: ## Cosmological Mappings
+    - Line 256: Empty section: ## Methodological Terms
+    - Line 279: Empty section: ## Quick Reference: Key Formulas
+
+docs\theory\HYPERGRAPH_TOPOLOGY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Hypergraph Topology - Foundational Constraints
+    - Line 10: Empty section: ## 1. The Edgeless Hypergraph Principle
+    - Line 41: Empty section: ## 2. No Edge  "Everything at Once"
+    - Line 62: Empty section: ## 3. No Edge  Multiverse
+    - Line 95: Empty section: ## 4. Local Emergences Instead of Multiple Universes
+    - Line 120: Empty section: ## 5. Relational Infinity vs Spatial Infinity
+    - Line 136: Empty section: ## 6. Multi-Dimensionality as Path Potential Illusion
+    - Line 182: Empty section: ## 7. Local Repeatability  Global Cyclicity
+    - Line 222: Empty section: ## 9. Implementation Notes for romionsim
+
+docs\theory\INDEX.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Theory Documents - Complete Index
+    - Line 9: Empty section: ## Canonical Theory Documents
+    - Line 35: Empty section: ## Key Theoretical Principles
+    - Line 64: Empty section: ## Canonical Anchor Statements (Polish)
+    - Line 91: Empty section: ## Source Materials
+    - Line 112: Empty section: ## Experimental Validation (2026-01-08 Session)
+    - Line 128: Empty section: ## Implementation Status
+    - Line 154: Empty section: ## Usage Guide
+
+docs\theory\MEASUREMENT_THRESHOLDS.md:
+  EMPTY_SECTIONS:
+    - Line 13: Empty section: ## The Three Entities
+    - Line 47: Empty section: ## The Two Meta-Graphs
+    - Line 98: Empty section: ## Diagnostic Warnings
+
+docs\theory\PARTICLE_PHYSICS_LOOPS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Particle Physics - Loops, Baryons, Fermions, Bosons
+    - Line 10: Empty section: ## Part 1: Loops in Relational Hypergraph (Annex M)
+    - Line 53: Empty section: ## Part 2: Loop Algebra (Annex N)
+    - Line 86: Empty section: ## Part 3: Baryons and Strong Force (Annex O)
+    - Line 114: Empty section: ## Part 4: Pauli Exclusion (Annex P)
+    - Line 155: Empty section: ## Part 5: Fermion Classification (Annexes S-T)
+    - Line 220: Empty section: ## Part 6: Bosons as Modes/Operations (Annex U)
+    - Line 278: Empty section: ## Part 7: Antiparticles and Graviton (Annex V)
+    - Line 343: Empty section: ## Implementation Requirements
+
+docs\theory\PHOTON_ROMION.md:
+  EMPTY_SECTIONS:
+    - Line 16: Empty section: ## 2. Czym foton JEST w ROMION
+    - Line 35: Empty section: ## 3. Dualno korpuskularno-falowa
+    - Line 47: Empty section: ## 4. Propagacja fotonu
+    - Line 59: Empty section: ## 5. Wpyw struktury grafu na foton
+    - Line 114: Empty section: ## 9. Wyniki testw (2026-01-08)
+
+docs\theory\ROMION_COMPLETE_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION O'LOGIC  Complete Methodological and Ontological Summary
+    - Line 91: Empty section: ## 4. Time and "Age of Universe"
+
+research\2026-01-08_session\ADDITIONAL_CONCEPTS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Theoretical Concepts - Session Notes
+    - Line 9: Empty section: ## 1. Klatka Presyjna (Pressure Cage)
+    - Line 34: Empty section: ## 2. Elastyczno Grafu (Graph Elasticity)
+    - Line 65: Empty section: ## 3. Efekt Emergentny vs CORE
+    - Line 81: Empty section: ## 4. Analogia Kryszta/Gbka
+    - Line 98: Empty section: ## 5. Koincydencja 0.025
+    - Line 115: Empty section: ## 6. Lata samotnoci
+
+research\2026-01-08_session\EXPERIMENTAL_ROADMAP.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Experimental Roadmap
+    - Line 18: Empty section: ## Phase 0: Foundation Solidification (Week 1-2)
+    - Line 64: Empty section: ## Phase 1: Projection Ratio Validation (Week 2-4)
+    - Line 123: Empty section: ## Phase 2: Phase Propagation Deep Dive (Week 4-6)
+    - Line 174: Empty section: ## Phase 3: Particle Physics Tests (Week 6-10)
+    - Line 238: Empty section: ## Phase 4: Astronomical Data Connection (Week 10-14)
+    - Line 283: Empty section: ## Phase 5: Publication Preparation (Week 14-20)
+    - Line 338: Empty section: ## Risk Analysis
+    - Line 370: Empty section: ## Success Metrics
+
+research\2026-01-08_session\EXTENDED_SESSION_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Session Summary: 2026-01-08 (Extended)
+    - Line 2: Empty section: # ROMION O'LOGIC - Full Documentation + Channel Metrics Implementation
+    - Line 11: Empty section: ## Part 1: Theory Documentation (Completed Earlier)
+    - Line 25: Empty section: ## Part 2: Channel Metrics Implementation
+    - Line 52: Empty section: ## Part 3: Analysis Results
+    - Line 99: Empty section: ## Part 4: Interpretation
+    - Line 120: Empty section: ## Files Created This Session
+
+research\2026-01-08_session\FINAL_SESSION_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Session Summary: 2026-01-08 Theory Documentation
+    - Line 9: Empty section: ## Documents Created
+    - Line 49: Empty section: ## Key Theoretical Insights Documented
+    - Line 78: Empty section: ## Source Materials Processed
+    - Line 119: Empty section: ## What Remains (Not Yet Documented)
+
+research\2026-01-08_session\INDEX.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Session Files Index
+    - Line 2: Empty section: # 2026-01-08 ROMION Research Session
+
+research\2026-01-08_session\PROJECTION_RATIO_DATA.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Projection Ratio - Hard Data Summary
+    - Line 2: Empty section: # Date: 2026-01-08
+    - Line 3: Empty section: # Test: projection_ratio_test.py at  = 0.5
+
+research\2026-01-08_session\SESSION_REPORT.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # ROMION Research Session - 2026-01-08
+    - Line 2: Empty section: # Comprehensive Documentation of Discoveries and Experimental Path
+    - Line 25: Empty section: ## 1. Critical Discovery: ChatGPT Methodology Errors {#1-critical-discovery}
+    - Line 84: Empty section: ## 2. Theory Foundation: Photon in ROMION {#2-theory-foundation}
+    - Line 147: Empty section: ## 3. Experimental Results {#3-experimental-results}
+    - Line 232: Empty section: ## 4. Major Discovery: Projection Ratio = Baryonic Fraction {#4-major-discovery}
+    - Line 283: Empty section: ## 5. Raw Data {#5-raw-data}
+    - Line 317: Empty section: ## 6. Future Experimental Path {#6-future-experimental-path}
+    - Line 379: Empty section: ## 7. Publication Strategy {#7-publication-strategy}
+
+research\2026-01-08_session\THETA_5PCT_FINDING.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Critical Finding:   0.46 gives exactly 5% projection
+
+scripts\temp\README.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ## Files
+
+session_reports\2026-01-09\AUDIT_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 24: Empty section: ## CO ZNALAZEM
+    - Line 52: Empty section: ## VERIFIED COMPLETENESS
+    - Line 95: Empty section: ## FINAL STATUS
+    - Line 114: Empty section: ## RECOMMENDATIONS
+    - Line 134: Empty section: ## COMPARISON: Before vs After Audit
+
+session_reports\2026-01-09\AUDIT_REPORT_DETAILED.md:
+  CONTRADICTIONS:
+    - Line 72: Both COMPLETE and INCOMPLETE
+    - Line 78: Both COMPLETE and INCOMPLETE
+  EMPTY_SECTIONS:
+    - Line 24: Empty section: ## DETAILED FINDINGS
+    - Line 143: Empty section: ## RECOMMENDATIONS
+    - Line 188: Empty section: ## COMPARISON: Expected vs Actual
+    - Line 219: Empty section: ## ACTION ITEMS (Optional)
+
+session_reports\2026-01-09\CLEANUP_COMPLETE.md:
+  INCOMPLETE:
+    - Line 49: Incomplete section ending with '...'
+    - Line 54: Incomplete section ending with '...'
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Project Cleanup Complete - 2026-01-09
+    - Line 3: Empty section: ##  Uporzdkowanie Zakoczone
+    - Line 27: Empty section: ##  Nowa Struktura
+    - Line 63: Empty section: ##  Gdzie S Wane Pliki
+    - Line 86: Empty section: ##  Co Mona Usun
+
+session_reports\2026-01-09\EMERGING_PATTERNS.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ## Current Results @ Tick 400
+    - Line 29: Empty section: ## Key Finding: Freeze Boundary Located!
+    - Line 45: Empty section: ## Comparison with Test C Data
+    - Line 74: Empty section: ## Predictions for Remaining Runs
+    - Line 136: Empty section: ## Scientific Implications
+    - Line 156: Empty section: ## Next Steps
+
+session_reports\2026-01-09\FINAL_CLEANUP.md:
+  EMPTY_SECTIONS:
+    - Line 8: Empty section: ## Co Zostao Zrobione
+    - Line 31: Empty section: ## Aktualna Struktura
+    - Line 88: Empty section: ## Kluczowe Pliki
+    - Line 106: Empty section: ## Co Mona Usun
+    - Line 118: Empty section: ## Podsumowanie Zmian
+
+session_reports\2026-01-09\INTERIM_FINDINGS.md:
+  INCOMPLETE:
+    - Line 74: Incomplete section ending with '...'
+    - Line 75: Incomplete section ending with '...'
+    - Line 77: Incomplete section ending with '...'
+    - Line 78: Incomplete section ending with '...'
+    - Line 79: Incomplete section ending with '...'
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  COMPLETED: R0 Peak Investigation
+    - Line 41: Empty section: ##  PARTIAL: Decay Sweep Results (5/18 analyzed)
+    - Line 65: Empty section: ##  Implikacje dla Decay Paradox
+    - Line 85: Empty section: ##  Kluczowe hipotezy do testowania
+
+session_reports\2026-01-09\NEXT_SESSION_TODO.md:
+  EMPTY_SECTIONS:
+    - Line 5: Empty section: ## IMMEDIATE ACTIONS (15 min)
+    - Line 42: Empty section: ## SHORT-TERM TASKS (1-2 hours)
+    - Line 75: Empty section: ## DOCUMENTATION TASKS (1 hour)
+    - Line 107: Empty section: ## VALIDATION TASKS (2 hours)
+    - Line 129: Empty section: ## NEXT EXPERIMENTS (3-5 hours)
+    - Line 171: Empty section: ## CLEANUP TASKS (30 min)
+    - Line 193: Empty section: ## COMMUNICATION TASKS (1 hour)
+    - Line 213: Empty section: ## PRIORITY MATRIX
+
+session_reports\2026-01-09\R0_DISCREPANCY_RESOLVED.md:
+  CONTRADICTIONS:
+    - Multiple optimal decay values: {'0.7', '0.9'}
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # IMPORTANT: R0 Discrepancy Resolved
+    - Line 8: Empty section: ## Root Cause: Different System Sizes
+    - Line 20: Empty section: ## Impact on Results
+    - Line 33: Empty section: ## Implications
+    - Line 57: Empty section: ## Action Items
+    - Line 69: Empty section: ## Corrected Interpretation
+
+session_reports\2026-01-09\SESSION_100_PERCENT_COMPLETE.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  FINALNE WYNIKI - WSZYSTKIE 18 RUNS
+    - Line 41: Empty section: ##  KLUCZOWE WZORY
+    - Line 75: Empty section: ##  NAUKOWE POTWIERDZENIA
+    - Line 104: Empty section: ##  KLUCZOWE INSIGHTS
+    - Line 126: Empty section: ##  WSZYSTKIE PLIKI KOMPLETNE
+    - Line 161: Empty section: ##  CO OSIGNLIMY
+    - Line 184: Empty section: ##  NASTPNE KROKI
+    - Line 204: Empty section: ##  FINAL STATUS
+    - Line 261: Empty section: ##  PODSUMOWANIE
+
+session_reports\2026-01-09\SESSION_2026-01-09_FINAL.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Session 2026-01-09: GPT Annexes Complete + Decay Sweep Running
+    - Line 3: Empty section: ##  COMPLETED
+    - Line 58: Empty section: ##  IN PROGRESS
+    - Line 72: Empty section: ##  SESSION DELIVERABLES
+    - Line 100: Empty section: ##  KEY INSIGHTS
+    - Line 138: Empty section: ##  NEXT MILESTONES
+    - Line 161: Empty section: ##  SESSION HIGHLIGHTS
+
+session_reports\2026-01-09\SESSION_2026-01-09_SUMMARY.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  COMPLETED: GPT Annexes Implementation (95%)
+    - Line 36: Empty section: ##  IN PROGRESS: Decay Sweep Implementation
+    - Line 77: Empty section: ##  Files Created This Session
+    - Line 101: Empty section: ##  Next Actions (Priority Order)
+    - Line 121: Empty section: ##  Technical Issues Encountered
+    - Line 144: Empty section: ##  Key Insights
+
+session_reports\2026-01-09\SESSION_COMPLETE_SUCCESS.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  GWNE OSIGNICIA
+    - Line 36: Empty section: ##  KOMPLETNE WYNIKI SWEEP
+    - Line 65: Empty section: ##  NAUKOWE ODKRYCIA
+    - Line 96: Empty section: ##  PORWNANIE: Test C vs Sweep
+    - Line 117: Empty section: ##  KLUCZOWE INSIGHTS
+    - Line 139: Empty section: ##  DOKUMENTACJA UTWORZONA
+    - Line 168: Empty section: ##  PREDICTIONS: VERIFIED vs ACTUAL
+    - Line 188: Empty section: ##  PLIKI & LOKACJE
+    - Line 220: Empty section: ##  NASTPNE KROKI
+    - Line 242: Empty section: ##  PRODUKTYWNO
+    - Line 263: Empty section: ##  CELEBRATION POINTS
+    - Line 290: Empty section: ##  FINALNE PODSUMOWANIE
+
+session_reports\2026-01-09\SESSION_COMPREHENSIVE_SUMMARY.md:
+  INCOMPLETE:
+    - Line 39: Incomplete section ending with '...'
+    - Line 98: Placeholder text: | 0.75 | Running | TBD |
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  MAJOR ACCOMPLISHMENTS
+    - Line 55: Empty section: ##  SCIENTIFIC DISCOVERIES
+    - Line 80: Empty section: ##  QUANTITATIVE RESULTS
+    - Line 103: Empty section: ##  FILES CREATED (30+)
+    - Line 134: Empty section: ##  KEY INSIGHTS
+    - Line 156: Empty section: ##  NEXT STEPS
+    - Line 182: Empty section: ##  LESSONS LEARNED
+    - Line 222: Empty section: ##  SESSION HIGHLIGHTS
+    - Line 246: Empty section: ##  KNOWLEDGE GAINED
+
+session_reports\2026-01-09\SESSION_FINAL_STATUS.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  MISSION ACCOMPLISHED
+    - Line 23: Empty section: ##  QUANTITATIVE ACHIEVEMENTS
+    - Line 45: Empty section: ##  SCIENTIFIC BREAKTHROUGHS
+    - Line 74: Empty section: ##  CURRENT SWEEP STATUS
+    - Line 95: Empty section: ##  TOOLS CREATED
+    - Line 117: Empty section: ##  DOCUMENTATION CREATED
+    - Line 143: Empty section: ##  LESSONS LEARNED
+    - Line 171: Empty section: ##  IMMEDIATE NEXT STEPS
+    - Line 192: Empty section: ##  PRODUCTIVITY STATS
+    - Line 213: Empty section: ##  SUCCESS METRICS
+    - Line 233: Empty section: ##  KNOWLEDGE GRAPH
+    - Line 258: Empty section: ##  PREDICTIONS FOR NEXT SESSION
+    - Line 278: Empty section: ##  SESSION HIGHLIGHTS
+    - Line 309: Empty section: ##  FINAL CHECKLIST
+
+tests\sweep_decay_channels\PROTOCOL.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Decay Sweep with Channels - Protocol
+    - Line 9: Empty section: ## Pre-Registered Parameters
+    - Line 31: Empty section: ## Expected Outputs
+
+tests\sweep_decay_channels\STATUS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Decay Sweep: Wykorzystanie istniejcych wynikw + mae rozszerzenie
+    - Line 9: Empty section: ## Plan dziaania
+    - Line 75: Empty section: # Podobnie dla 0.85/123, 0.75/42, 0.75/123, etc.
+
+tests\sweep_decay_inprocess\FINAL_RESULTS.md:
+  EMPTY_SECTIONS:
+    - Line 41: Empty section: ## Pattern Analysis
+
+tests\sweep_decay_inprocess\PREDICTIONS_VS_REALITY.md:
+  EMPTY_SECTIONS:
+    - Line 66: Empty section: ## HYPOTHESES TO TEST
+
+tests\sweep_decay_inprocess\STATUS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Decay Sweep: IN-PROCESS Solution
+    - Line 11: Empty section: ## Implementation
+    - Line 34: Empty section: ## Coverage
+    - Line 62: Empty section: # 2. Output: tests/sweep_decay_inprocess/results/analysis_results.csv
+    - Line 63: Empty section: # Columns: decay, seed, tick, bridges, weight, hub, coverage, capacity, anisotropy
+    - Line 65: Empty section: # 3. Plot decay curve (external tool or manual)
+    - Line 66: Empty section: # X-axis: decay
+    - Line 67: Empty section: # Y-axis: channel_capacity, bridges_weight
+    - Line 71: Empty section: ## Expected Outcomes
+    - Line 88: Empty section: ## Files Created
+    - Line 98: Empty section: ## Lessons Learned
+
+tests\test_c\ANALYSIS.md:
+  EMPTY_SECTIONS:
+    - Line 7: Empty section: ##  MAIN CONCLUSIONS
+    - Line 45: Empty section: ##  DECAY_SCALE SEMANTICS
+    - Line 73: Empty section: ##  PHASE-LIKE BEHAVIOR
+    - Line 94: Empty section: ##  NON-LINEAR INTERACTIONS
+    - Line 116: Empty section: ##  FALSIFICATION STATUS
+    - Line 130: Empty section: ##  STATISTICAL NOTES
+    - Line 144: Empty section: ##  IMPLICATIONS FOR THEORY
+
+tests\test_c\CHANNELS_ANALYSIS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Channel Metrics Comparison: R0-R5 @ tick 400
+    - Line 2: Empty section: # Date: 2026-01-08
+    - Line 3: Empty section: # Test: Full comparison with new channel/anisotropy metrics
+    - Line 22: Empty section: ## Key Observations
+
+tests\test_c\COMPARISON.md:
+  EMPTY_SECTIONS:
+    - Line 9: Empty section: ##  THE BUG
+    - Line 13: Empty section: # After min_cluster_size filtering
+    - Line 14: Empty section: # Unassigned nodes had node2c = -1
+    - Line 18: Empty section: # cu=-1 accessed deg[-1] (WRONG cluster!)
+    - Line 30: Empty section: ##  R2@400 COMPARISON
+    - Line 57: Empty section: ##  R0@400 COMPARISON
+    - Line 82: Empty section: ##  ALL RUNS IMPACT
+    - Line 106: Empty section: ##  WHAT CHANGED
+    - Line 124: Empty section: ##  VERIFICATION
+    - Line 146: Empty section: ##  LESSONS
+    - Line 162: Empty section: ##  IMPACT ON PROJECT
+
+tests\test_c\EVOLUTION_ANALYSIS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Time Evolution Analysis: R0 vs R2
+    - Line 2: Empty section: # Date: 2026-01-08
+    - Line 3: Empty section: # Test: Channel metrics evolution across ticks 100-600
+    - Line 22: Empty section: ## Key Discoveries
+    - Line 87: Empty section: ## Hypotheses for Future Testing
+
+tests\test_c\R0_PEAK_ANALYSIS.md:
+  EMPTY_SECTIONS:
+    - Line 33: Empty section: ## Phase Analysis
+    - Line 120: Empty section: ## Physical Interpretation
+    - Line 157: Empty section: ## Testable Predictions
+    - Line 181: Empty section: ## Implications for ROMION O'LOGIC
+    - Line 205: Empty section: ## Next Steps
+
+tests\test_c\README.md:
+  EMPTY_SECTIONS:
+    - Line 17: Empty section: ##  EXPERIMENTAL DESIGN
+    - Line 60: Empty section: ##  KEY FINDINGS
+    - Line 85: Empty section: ##  INTERPRETATION
+    - Line 105: Empty section: ##  FILES
+
+tests\test_c\RESULTS.md:
+  EMPTY_SECTIONS:
+    - Line 1: Empty section: # Test C: Results Summary
+    - Line 72: Empty section: ##  REJECTED RUNS
+
+======================================================================
+CROSS-FILE CONSISTENCY CHECK
+======================================================================
+  CONTRADICTION: optimal_decay has values {'7.417', '1.00', '1.0', '0.5', '0.75', '2.6', '0.0056', '0.0277', '0.65', '0.80', '0.020', '0.60', '0.8', '0.3', '0.85', '0.50', '0.90', '0.008', '0.6', '0.9', '0.70', '0.7'}
+  WARNING: runs has values {'18/18', '1/18', '5/18', '7/18', '16/18', '8/18'}
+
+======================================================================
+DEEP AUDIT COMPLETE
+======================================================================

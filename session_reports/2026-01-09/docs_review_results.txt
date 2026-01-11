@@ -1,0 +1,21 @@
+POTENTIAL ISSUES FOUND:
+----------------------------------------------------------------------
+
+AUDIT_GPT_VS_IMPLEMENTATION.md:
+  * Line 95: Active incomplete marker: | Loop detection (SPEC) |  Teoria OK, kod pending |
+  * Line 96: Active incomplete marker: | Particle classification (SPEC) |  Teoria OK, kod pending |
+
+COSMOLOGY_MAPPING.md:
+  * Line 201: Active incomplete marker: H is not a fundamental constant but a parameter depending on:
+
+GPT_ANNEXES_IMPLEMENTATION_SUMMARY.md:
+  * Line 235: Active incomplete marker: ##  PENDING IMPLEMENTATIONS (SPEC - Future Work)
+  * Line 242: Active incomplete marker: **Code pending (requires new core modules):**
+  * Line 419: Active incomplete marker: - Pending (SPEC): Annexes M-V (loop detection + particle physics)
+
+README.md:
+  * Line 13: Active incomplete marker: **Status:** Test C complete, Sweep in progress
+  * Line 13: Document status incomplete: **Status:** Test C complete, Sweep in progress
+
+STATUS.md:
+  * Line 77: Active incomplete marker: tests/sweep_decay/ - In progress 

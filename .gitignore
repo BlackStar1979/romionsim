@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Results - keep structure but ignore data
+results/*/simulation.jsonl
+results/*/*.csv
+results/sweep_*/
+sweep_pilot_*/
+sweep_full_*/
+
+# Temporary
+*.tmp
+*.log
+~*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+
+# Large files
+simulation.jsonl
+gravity_time.csv
+
+# Pytest
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Ad-hoc outputs
+*.jsonl
+*.csv

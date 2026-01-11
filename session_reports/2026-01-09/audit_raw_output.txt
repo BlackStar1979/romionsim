@@ -1,0 +1,206 @@
+﻿======================================================================
+PROJECT AUDIT - 2026-01-09
+======================================================================
+
+1. TODO/FIXME MARKERS
+----------------------------------------------------------------------
+
+archive\AUDIT_2026_01_07.md:
+  L294: | Distance stats incomplete |  FIXED | Total_cnt, Total_wgt added |
+
+archive\VALIDATION_SYSTEM_COMPLETE.md:
+  L185: - scripts/README.md - Validator usage (TODO)
+
+core\metrics.py:
+  L107: # TODO: Derive proper mapping from S1/S2/S3
+
+docs\AUDIT_GPT_VS_IMPLEMENTATION.md:
+  L88: | Dokumentacja metodologii |  100% |
+
+docs\CRITICAL_BUG_FIX_20260108.md:
+  L90: ##  TODO (After Returning):
+
+docs\GPT_ANNEXES_IMPLEMENTATION_SUMMARY.md:
+  L428: 3. **Pre-registration** - avoid p-hacking
+
+docs\METHODOLOGY.md:
+  L155: wcluster: X.XXX (cluster/matter)
+  L156: wdist: X.XXX (background geometry)
+  L157: wbridge: X.XXX (bridges/field)
+
+docs\QUICK_REFERENCE.md:
+  L158: 4.  Post-hoc parameters (p-hacking)
+
+docs\STRUCTURE.md:
+  L139:  CHANGELOG.md                      # History (TODO)
+
+docs\SWEEP_PROTOCOL.md:
+  L70: ## 6) Parameter Schedule (avoid p-hacking)
+
+docs\theory\COSMOLOGICAL_SCHOOLS_CRITIQUE.md:
+  L212: > "Rozwizania typu de Sitter poprawnie opisuj pewien reim geometryczny ewolucji Wszechwiata. Ich ograniczeniem nie jest matematyka, lecz brak metodologicznego rozdzielenia pomidzy parametrami opisu a procesami, ktre te parametry generuj. Romionologia traktuje de Sittera jako przyblienie projekcyjne, a nie jako fundament ontologiczny."
+
+docs\theory\GLOSSARY.md:
+  L224: **Operationalization:** No explicit implementation; channel metrics as TODO.
+
+experiments\phase_sweep_complete.py:
+  L195: # TODO: Implement when gravity_test.py outputs distance-conditional to CSV
+  L266: # 4. Check dist>=2 bridges (TODO: needs gravity CSV enhancement)
+
+scripts\audit_complete.py:
+  L3: Project Audit - Check for incomplete work, TODOs, and consistency
+  L13: def scan_todos(directory, extensions=['.py', '.md', '.txt']):
+  L14: """Find all TODO/FIXME/XXX markers in code and docs."""
+  L15: todos = []
+  L22: if any(marker in line.upper() for marker in ['TODO', 'FIXME', 'XXX', 'HACK', 'INCOMPLETE']):
+  L23: todos.append({
+  L31: return todos
+  L43: def check_incomplete_results():
+  L44: """Check test results for incomplete markers."""
+  L45: incomplete = []
+  L53: if 'INCOMPLETE' in content.upper() or 'IN PROGRESS' in content.upper():
+  L54: incomplete.append({
+  L56: 'markers': re.findall(r'(?:INCOMPLETE|IN PROGRESS)[^\n]*', content, re.IGNORECASE)
+  L61: return incomplete
+  L70: if 'TODO' in report.name or 'NEXT' in report.name:
+  L97: issues.append(f"Incomplete log: {run}/simulation.jsonl ({log.stat().st_size} bytes)")
+  L105: # Check if ROADMAP mentions incomplete items
+  L110: # Check for HIGH priority incomplete items
+  L111: high_matches = re.findall(r'\[HIGH[^\]]*\][^\n]*(?:IN PROGRESS|TODO|INCOMPLETE)', content, re.IGNORECASE)
+  L115: 'type': 'HIGH priority incomplete',
+  L128: # TODOs
+  L129: print("1. TODO/FIXME MARKERS")
+  L131: todos = scan_todos(PROJECT_ROOT)
+  L132: if todos:
+  L134: for todo in todos:
+  L135: by_file[todo['file']].append((todo['line'], todo['text']))
+  L144: print(" No TODO markers found")
+  L158: # Incomplete results
+  L159: print("3. INCOMPLETE RESULTS")
+  L161: incomplete = check_incomplete_results()
+  L162: if incomplete:
+  L163: for item in incomplete:
+  L168: print(" No incomplete result markers")
+  L192: print(" No incomplete high-priority items in ROADMAP")
+
+scripts\audit_complete_fixed.py:
+  L3: Project Audit - Check for incomplete work, TODOs, and consistency
+  L13: def scan_todos(directory, extensions=['.py', '.md', '.txt']):
+  L14: """Find all TODO/FIXME/XXX markers in code and docs."""
+  L15: todos = []
+  L22: if any(marker in line.upper() for marker in ['TODO', 'FIXME', 'XXX', 'HACK', 'INCOMPLETE']):
+  L23: todos.append({
+  L31: return todos
+  L43: def check_incomplete_results():
+  L44: """Check test results for incomplete markers."""
+  L45: incomplete = []
+  L53: if 'INCOMPLETE' in content.upper() or 'IN PROGRESS' in content.upper():
+  L54: incomplete.append({
+  L56: 'markers': re.findall(r'(?:INCOMPLETE|IN PROGRESS)[^\n]*', content, re.IGNORECASE)
+  L61: return incomplete
+  L70: if 'TODO' in report.name or 'NEXT' in report.name:
+  L97: issues.append(f"Incomplete log: {run}/simulation.jsonl ({log.stat().st_size} bytes)")
+  L105: # Check if ROADMAP mentions incomplete items
+  L110: # Check for HIGH priority incomplete items
+  L111: high_matches = re.findall(r'\[HIGH[^\]]*\][^\n]*(?:IN PROGRESS|TODO|INCOMPLETE)', content, re.IGNORECASE)
+  L115: 'type': 'HIGH priority incomplete',
+  L128: # TODOs
+  L129: print("1. TODO/FIXME MARKERS")
+  L131: todos = scan_todos(PROJECT_ROOT)
+  L132: if todos:
+  L134: for todo in todos:
+  L135: by_file[todo['file']].append((todo['line'], todo['text']))
+  L144: print(" No TODO markers found")
+  L158: # Incomplete results
+  L159: print("3. INCOMPLETE RESULTS")
+  L161: incomplete = check_incomplete_results()
+  L162: if incomplete:
+  L163: for item in incomplete:
+  L168: print(" No incomplete result markers")
+  L192: print(" No incomplete high-priority items in ROADMAP")
+
+scripts\auto_analyze.py:
+  L94: print("See NEXT_SESSION_TODO.md for detailed checklist")
+
+scripts\run_romion_clean.py:
+  L37: 'spawn_damping': 0.55,        #  from S1 - TODO: derive from theory
+  L39: 'reinforce_factor': 0.05,     # Resonance boost - TODO: justify
+  L42: 'decay': 0.008,               # Base decay rate - TODO: relate to exp(-Frust)
+  L47: 'W_max': 2.5,                 # Event horizon pressure - TODO: derive
+  L52: 'beta_2hop': 0.25,            # 2-hop path weight - TODO: justify
+
+scripts\temp\README.md:
+  L10: - **check_incomplete.py** - Verified which sweep runs had complete logs
+  L15: - **fix_d05_s123.py** - Repaired incomplete d0.5_s123 run (now complete)
+
+scripts\temp\fix_d05_s123.py:
+  L3: Re-run single incomplete simulation: d0.5_s123
+
+session_reports\2026-01-09\CLEANUP_COMPLETE.md:
+  L8: -  `check_incomplete.py`  `scripts/temp/`
+  L17: -  `NEXT_SESSION_TODO.md`  `session_reports/2026-01-09/`
+  L78: - **Next Steps:** `session_reports/2026-01-09/NEXT_SESSION_TODO.md`
+
+session_reports\2026-01-09\FINAL_CLEANUP.md:
+  L11: -  `check_incomplete.py` (z C:\Work)
+  L22: -  `NEXT_SESSION_TODO.md`
+  L82:  NEXT_SESSION_TODO.md                  Action items
+  L102: 2. **Next Steps:** `session_reports/2026-01-09/NEXT_SESSION_TODO.md`
+
+session_reports\2026-01-09\NEXT_SESSION_TODO.md:
+  L1: # Next Session TODO: Finalize Decay Sweep Analysis
+  L280: - [ ] No TODO markers in published docs
+
+session_reports\2026-01-09\SESSION_100_PERCENT_COMPLETE.md:
+  L155: NEXT_SESSION_TODO.md                     Akcje
+  L176: ### Metodologicznie
+  L187: 1.  Naprawione wszystkie incomplete runs
+
+session_reports\2026-01-09\SESSION_2026-01-09_FINAL.md:
+  L104: 2. **Pre-registration essential** - Prevents p-hacking
+
+session_reports\2026-01-09\SESSION_2026-01-09_SUMMARY.md:
+  L148: 2. **Pre-registration essential:** Prevents p-hacking
+
+session_reports\2026-01-09\SESSION_COMPLETE_SUCCESS.md:
+  L5: **Sweep:**  ZAKOCZONY (16/18 runs, 2 incomplete)
+  L27: **Status:** 16/18 runs przeanalizowanych (d0.5 incomplete, nieistotne)
+  L150: 9. NEXT_SESSION_TODO.md
+  L214: NEXT_SESSION_TODO.md
+  L341: Przeczytaj: `NEXT_SESSION_TODO.md`
+
+session_reports\2026-01-09\SESSION_FINAL_STATUS.md:
+  L124: 5. **NEXT_SESSION_TODO.md** - Action plan
+  L382: **Then:** Follow NEXT_SESSION_TODO.md
+
+session_reports\README.md:
+  L18: - `NEXT_SESSION_TODO.md` - Action items for next session
+
+tests\sweep_decay\RESULTS.md:
+  L43: ##  FAILED/INCOMPLETE RUNS
+
+2. EMPTY FILES
+----------------------------------------------------------------------
+  - audit_report.txt
+
+3. INCOMPLETE RESULTS
+----------------------------------------------------------------------
+
+tests\sweep_decay\RESULTS.md:
+  - INCOMPLETE RUNS
+
+4. TEST COMPLETENESS
+----------------------------------------------------------------------
+ All sweep runs complete (18/18)
+
+5. DOCUMENTATION CONSISTENCY
+----------------------------------------------------------------------
+ No incomplete high-priority items in ROADMAP
+
+6. PENDING ACTION ITEMS
+----------------------------------------------------------------------
+   session_reports\2026-01-09\NEXT_SESSION_TODO.md
+
+======================================================================
+AUDIT COMPLETE
+======================================================================
