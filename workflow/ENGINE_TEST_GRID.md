@@ -460,22 +460,23 @@ This keeps closure lightweight:
 ## 5. NEXT OPTIMAL MOVE
 
 Recommended next stage:
-- Repo hygiene — remote import execution after the first local snapshot
+- Repo hygiene — post-import audit after the first remote publish
 
 Recommended immediate output:
-- one controlled remote-import pass for:
-  - adding the remote
-  - aligning branch naming with `main`
-  - replacing placeholder remote `main` with rebuilt local history
-  - verifying the remote result
+- one short post-import audit for:
+  - local/remote coherence
+  - restart-note correctness
+  - GitHub-preparation-note closure
+  - next upstream hygiene blocker
 
 Reason:
 - local Git bootstrap is already closed,
 - the first clean local snapshot now exists,
 - the old remote has already been archived and `main` cleared,
-- the import path is now defined,
-- so the next honest blocker is controlled remote execution,
-  not more local bootstrap work.
+- the import path has now been executed,
+- the first remote publish is verified,
+- so the next honest blocker is short post-import audit,
+  not another push or more bootstrap work.
 
 ---
 

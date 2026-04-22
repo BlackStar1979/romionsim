@@ -7,9 +7,9 @@ Give the smallest clean restart point for the next session.
 
 ## Current stopping point
 
-- KROK 83 is complete
+- KROK 84 is complete
 - result type: execution
-- next active step: `KROK 84 — Remote Import Execution`
+- next active step: `KROK 85 — Post-Import Audit Plan`
 
 ---
 
@@ -26,19 +26,18 @@ Give the smallest clean restart point for the next session.
 
 ---
 
-## What KROK 84 must do
+## What KROK 85 must do
 
-- add the remote intentionally
-- align local branch naming with `main`
-- verify the preserved archive branch still exists
-- import the rebuilt local history onto remote `main`
-- verify the remote result after push
+- review the first import result
+- confirm workflow files and GitHub-prep notes now reflect published state
+- check local/remote coherence after the initial push
+- stop before widening process scope
 
 ---
 
-## What KROK 84 must NOT do
+## What KROK 85 must NOT do
 
-- no merge with placeholder remote history
+- no blind second push
 - no rewriting of canonical docs
 - no destructive history cleanup
 

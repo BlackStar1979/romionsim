@@ -28,9 +28,12 @@ Execution status update — 2026-04-22:
   so the rebuilt local repository can later replace it intentionally
 - first clean local snapshot commit now exists:
   - `f4584f9` — `Initial rebuilt repository snapshot`
-- the next Git-related blocker is no longer remote cleanup
-  or first local capture,
-  but the controlled import execution to the cleaned remote
+- controlled import has now been executed successfully:
+  - remote `main` -> `ee9d8e3`
+  - archive branch preserved -> `a94ad051`
+- the next Git-related blocker is no longer remote cleanup,
+  local capture, or first import,
+  but short post-import audit and upstream hygiene
 
 ---
 
@@ -126,10 +129,10 @@ Do NOT:
 ## 6. RECOMMENDED NEXT GIT-RELATED ACTION
 
 The next honest move is now:
-- execute the already defined linkage path from local commit `f4584f9`
-  to the cleaned remote
-- verify remote refs and archive preservation
-- complete the first intentional import push
+- confirm that local workflow memory
+  and remote-published state are aligned
+- close one short post-import audit
+- then decide the next upstream hygiene step
 
 This should still happen as a dedicated small step,
 not mixed into engine semantics work.

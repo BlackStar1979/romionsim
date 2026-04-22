@@ -83,6 +83,7 @@ Current experiment status:
 - KROK 81 complete: initial Git snapshot plan written
 - KROK 82 complete: first local Git snapshot committed
 - KROK 83 complete: remote import plan written
+- KROK 84 complete: remote import executed and verified
 
 Hard rule:
 Only one active krok at a time.
@@ -917,6 +918,28 @@ Required output:
 - intentional import push
 - remote verification after push
 
+Status:
+- complete
+
+---
+
+### KROK 85 — Post-Import Audit Plan
+
+Goal:
+Prepare one narrow audit pass
+for the repository after the first successful GitHub import.
+
+Reason selected:
+- KROK 84 now closes the actual remote import,
+- the next honest blocker is not another push,
+  but a short verification of restart notes, workflow state,
+  and upstream hygiene after the first publish.
+
+Required output:
+- one narrow audit note
+- explicit focus on Git/restart coherence
+- no broad workflow redesign
+
 ---
 
 ## 5. NON-NEGOTIABLE OPERATING RULES
@@ -976,6 +999,7 @@ Rules:
 
 - [2026-04-22] First local Git snapshot commit `f4584f9` captured the rebuilt repository; `workflow/oldies/` stayed out of history as archive-only payload
 - [2026-04-22] Remote import plan fixed the safe path as: add origin, rename local branch to `main`, verify archive refs, then replace placeholder remote `main` intentionally
+- [2026-04-22] First GitHub import succeeded: remote `main` now points to rebuilt history `ee9d8e3`, while archive branch `archive/pre-rebuild-2026-04-22` remains preserved at `a94ad051`
 - [2026-04-22] GitHub remote `BlackStar1979/romionsim` was archived locally and on branch `archive/pre-rebuild-2026-04-22`; remote `main` is now a clean placeholder ready for rebuilt import after the first local snapshot
 - [2026-04-22] Morning session audit 05:48 found no new hard inconsistencies; Stage 5 and GitHub preparation plan remain aligned at KROK 75
 - [2026-04-21] Afternoon session audit 17:48 found no new hard inconsistencies; freeze state is clean for restart at KROK 69
@@ -1034,14 +1058,15 @@ Rules:
 
 <!-- AUTO:PROJECT_MAP_START -->
 ## PROJECT STRUCTURE SNAPSHOT (AUTO)
-Updated: 2026-04-22T18:31:53
+Updated: 2026-04-22T18:35:33
 
-- Files: 2716
+- Files: 2717
 - Dirs: 546
 - Map MD: workflow\PROJECT_MAP_FULL.md
 - Map JSON: workflow\PROJECT_MAP_FULL.json
 
 <!-- AUTO:PROJECT_MAP_END -->
+
 
 
 

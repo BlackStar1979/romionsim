@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T18:31:53.173288",
+  "generated": "2026-04-22T18:35:33.699868",
   "items": [
     {
       "type": "file",
@@ -2608,10 +2608,10 @@
     {
       "type": "file",
       "path": "workflow\\ENGINE_TEST_GRID.md",
-      "size_bytes": 13836,
-      "mtime": "2026-04-22T18:31:23",
-      "lines": 482,
-      "sha256_12": "1baf5ac67a1b"
+      "size_bytes": 13843,
+      "mtime": "2026-04-22T18:35:13",
+      "lines": 483,
+      "sha256_12": "ba8fc7c8f437"
     },
     {
       "type": "file",
@@ -2792,10 +2792,10 @@
     {
       "type": "file",
       "path": "workflow\\GITHUB_REPOSITORY_PREPARATION_PLAN.md",
-      "size_bytes": 3822,
-      "mtime": "2026-04-22T18:31:35",
-      "lines": 139,
-      "sha256_12": "4e57699ab755"
+      "size_bytes": 3925,
+      "mtime": "2026-04-22T18:35:25",
+      "lines": 142,
+      "sha256_12": "71443551134c"
     },
     {
       "type": "file",
@@ -2872,10 +2872,10 @@
     {
       "type": "file",
       "path": "workflow\\NEXT_SESSION_START.md",
-      "size_bytes": 1251,
-      "mtime": "2026-04-22T18:31:09",
-      "lines": 58,
-      "sha256_12": "19f7a44b1206"
+      "size_bytes": 1215,
+      "mtime": "2026-04-22T18:34:59",
+      "lines": 57,
+      "sha256_12": "5d62a23396a2"
     },
     {
       "type": "file",
@@ -2896,26 +2896,34 @@
     {
       "type": "file",
       "path": "workflow\\PROJECT_MAP_FULL.json",
-      "size_bytes": 776598,
-      "mtime": "2026-04-22T18:24:04",
-      "lines": 23939,
-      "sha256_12": "25e603d6707a"
+      "size_bytes": 777243,
+      "mtime": "2026-04-22T18:31:53",
+      "lines": 23963,
+      "sha256_12": "7959a9b813f7"
     },
     {
       "type": "file",
       "path": "workflow\\PROJECT_MAP_FULL.md",
-      "size_bytes": 407792,
-      "mtime": "2026-04-22T18:24:04",
-      "lines": 3282,
-      "sha256_12": "a8a8c6bac9c1"
+      "size_bytes": 408080,
+      "mtime": "2026-04-22T18:31:53",
+      "lines": 3285,
+      "sha256_12": "aea265902ba5"
     },
     {
       "type": "file",
       "path": "workflow\\PROJECT_WORKING_MEMORY.md",
-      "size_bytes": 43188,
-      "mtime": "2026-04-22T18:30:57",
-      "lines": 1105,
-      "sha256_12": "19b525455f2f"
+      "size_bytes": 44004,
+      "mtime": "2026-04-22T18:34:48",
+      "lines": 1130,
+      "sha256_12": "1ddd92994110"
+    },
+    {
+      "type": "file",
+      "path": "workflow\\REMOTE_IMPORT_INTERIM.md",
+      "size_bytes": 1355,
+      "mtime": "2026-04-22T18:34:34",
+      "lines": 65,
+      "sha256_12": "593eb8765be8"
     },
     {
       "type": "file",
@@ -23915,7 +23923,7 @@
     }
   ],
   "summary": {
-    "files": 2716,
+    "files": 2717,
     "dirs": 546,
     "largest_files": [
       {
