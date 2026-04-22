@@ -1,0 +1,4 @@
+tag,w_bridge,L_persist,classification,has_active_to_frozen_transition,log_path
+wb0200,0.02,20,frozen_without_persistence_support,true,C:\Work\romionsim\experiments\exp_mvp_frozen_persistence_control\runs\wb0200\raw_logs\simulation_868dc72a-0d9e-4a57-b4ec-e4139e5c22eb.jsonl
+wb0225,0.0225,20,supports_evolving_persistence,true,C:\Work\romionsim\experiments\exp_mvp_frozen_persistence_control\runs\wb0225\raw_logs\simulation_86d224f9-7ff2-4c4d-9bd1-a562e247e80d.jsonl
+wb0250,0.025,20,supports_evolving_persistence,true,C:\Work\romionsim\experiments\exp_mvp_frozen_persistence_control\runs\wb0250\raw_logs\simulation_5885541a-ab1c-48c7-bd10-daa00f114220.jsonl

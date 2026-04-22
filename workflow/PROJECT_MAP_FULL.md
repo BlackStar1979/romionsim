@@ -1,0 +1,3282 @@
+# PROJECT MAP — FULL
+
+Generated: 2026-04-22T18:24:04
+
+Root: C:\Work\romionsim
+
+---
+
+## Summary
+- Files: 2713
+- Dirs: 546
+
+### Largest files
+- workflow\oldies\oldromion\2707\secondary\acisf02707_000N004_evt1.fits.gz (489269077 bytes)
+- workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf02707_000N004_evt1.fits.gz (489269077 bytes)
+- workflow\oldies\oldromion\3130\secondary\acisf03130_000N006_evt1.fits.gz (323499662 bytes)
+- workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf03130_000N006_evt1.fits.gz (323499662 bytes)
+- workflow\oldies\oldromion\3130\secondary\axaff03130N004_VV001_vvref2.pdf.gz (245180701 bytes)
+
+---
+
+## Full listing
+
+- file | .gitignore | 113 | 2026-04-22T18:01:58 |  | 94f48fb0b520
+- file | .hermesignore | 16 | 2026-04-21T19:53:51 |  | d4447ec453af
+- file | rebuild_project_map.py | 5986 | 2026-04-19T13:33:29 | 220 | 0852602fe81e
+- dir  | analysis
+- file | analysis\mvp_read_log.py | 4817 | 2026-04-19T10:44:13 | 144 | 022611930e98
+- file | analysis\README.md | 802 | 2026-04-21T17:11:37 | 33 | ba0ec30f5c12
+- dir  | analysis\automation
+- file | analysis\automation\add_tail_metric_to_csv.py | 2886 | 2026-04-19T20:26:49 | 98 | dd401e7a59c4
+- file | analysis\automation\generate_refine_runs.py | 1124 | 2026-04-19T12:53:38 | 45 | e2091f3af37c
+- file | analysis\automation\run_stability_refine.py | 3713 | 2026-04-19T13:06:46 | 148 | bf3ff178c802
+- file | analysis\automation\run_stability_sweep.py | 3352 | 2026-04-19T12:37:12 | 126 | 2bbbd8084098
+- dir  | analysis\metrics
+- file | analysis\metrics\FRACTURE_SURVIVAL_TIME_v1.md | 1403 | 2026-04-19T11:19:34 | 69 | dea75e10dfde
+- file | analysis\metrics\TAIL_MEAN_VISIBLE_RATIO_v1.md | 1640 | 2026-04-19T20:26:49 | 79 | c2573f1bc8da
+- dir  | conclusions
+- file | conclusions\EVOLVING_FROZEN_PERSISTENCE_CONTROL_INTERIM.md | 2168 | 2026-04-20T18:32:30 | 74 | 91072e949fc7
+- file | conclusions\EVOLVING_FROZEN_PERSISTENCE_INTERIM.md | 2448 | 2026-04-20T18:16:42 | 72 | 58dc911f123c
+- file | conclusions\EXCLUSION_CANDIDATE_PATH_INTERIM.md | 2746 | 2026-04-21T06:17:17 | 114 | 1cc42096d6fa
+- file | conclusions\EXCLUSION_CANONICAL_PATCH_GATE_INTERIM.md | 1986 | 2026-04-22T05:45:33 | 76 | b602da2d8477
+- file | conclusions\EXCLUSION_CONTRACT_BOUNDARY_INTERIM.md | 2417 | 2026-04-21T17:27:29 | 84 | 96643cae0ed4
+- file | conclusions\EXCLUSION_CONTRACT_PATCH_CANDIDATE_INTERIM.md | 2148 | 2026-04-22T05:43:29 | 77 | 1c7395f96661
+- file | conclusions\EXCLUSION_CONTRACT_PROMOTION_SYNTHESIS.md | 1850 | 2026-04-22T18:01:11 | 72 | 796c4a118ebe
+- file | conclusions\EXCLUSION_HUMAN_REVIEW_PACKET_INTERIM.md | 2098 | 2026-04-22T17:24:07 | 88 | d1c75a647472
+- file | conclusions\EXCLUSION_INGREDIENT_INSTRUMENTATION_INTERIM.md | 3200 | 2026-04-21T05:31:32 | 135 | 56add28a1897
+- file | conclusions\EXCLUSION_MINIMAL_ENFORCEMENT_INTERIM.md | 1001 | 2026-04-21T17:22:15 | 32 | 6371ef24098f
+- file | conclusions\EXCLUSION_NARROW_CONTRACT_PROPOSAL_INTERIM.md | 2125 | 2026-04-22T05:40:45 | 76 | da372a65f999
+- file | conclusions\EXCLUSION_PROMOTION_CANDIDATE_INTERIM.md | 1904 | 2026-04-21T17:34:35 | 63 | 827c0c351230
+- file | conclusions\EXCLUSION_PROMOTION_GATE_INTERIM.md | 2500 | 2026-04-21T17:43:42 | 78 | e0cf6bc92ad7
+- file | conclusions\EXCLUSION_READINESS_INTERIM.md | 3158 | 2026-04-20T22:27:08 | 113 | 5723ddc97fe6
+- file | conclusions\EXCLUSION_REJECTION_OUTCOME_INTERIM.md | 835 | 2026-04-21T17:14:56 | 26 | f662cda3395c
+- file | conclusions\EXCLUSION_REJECTION_SIGNAL_INTERIM.md | 2080 | 2026-04-21T17:00:01 | 80 | 92b97bb8604c
+- file | conclusions\EXCLUSION_REVIEW_HANDOFF_INTERIM.md | 1951 | 2026-04-22T17:35:59 | 87 | fc79706ee1ad
+- file | conclusions\exp_mvp_smoke.md | 1989 | 2026-04-19T10:47:38 | 79 | eedbc0b95cf8
+- file | conclusions\exp_mvp_smoke_comparison.md | 2015 | 2026-04-19T11:09:43 | 92 | c31d87fd983d
+- file | conclusions\FRACTURE_STABILITY_INTERIM.md | 1479 | 2026-04-20T17:50:52 | 35 | 9a4dadd3bd21
+- file | conclusions\FRACTURE_STABILITY_REFINE_INTERIM.md | 2014 | 2026-04-20T17:50:52 | 52 | ca86d75981d8
+- file | conclusions\FRACTURE_STABILITY_SECONDARY_METRIC.md | 2476 | 2026-04-20T17:50:52 | 56 | cac7a2e977bd
+- file | conclusions\FREEZE_STATE_INTERIM.md | 1623 | 2026-04-20T17:10:37 | 48 | 4b79055d7435
+- file | conclusions\FREEZE_STATE_REFINED_INTERIM.md | 2484 | 2026-04-20T17:22:47 | 80 | 6c80bc542b8c
+- file | conclusions\FROZEN_PERSISTENCE_INTERIM.md | 1991 | 2026-04-20T17:28:31 | 60 | 0fa167d43c8c
+- file | conclusions\LOOP_DETECTION_INTERIM.md | 2272 | 2026-04-20T19:29:36 | 62 | 89edc73cd5d6
+- file | conclusions\LOOP_IDENTITY_INTERIM.md | 2093 | 2026-04-20T21:44:05 | 73 | be2faf1e88c9
+- file | conclusions\LOOP_PERSISTENCE_INTERIM.md | 2077 | 2026-04-20T20:16:53 | 69 | 9b8871b36ac6
+- file | conclusions\PROJECTION_LAYER_SEPARATION_INTERIM.md | 1474 | 2026-04-19T20:55:41 | 37 | 92c8b1d02cce
+- file | conclusions\TICK_HORIZON_REASSESSMENT_INTERIM.md | 3507 | 2026-04-20T17:50:52 | 113 | 51c038595167
+- dir  | docs
+- file | docs\ARCHITECTURE.md | 2187 | 2026-04-19T09:03:49 | 145 | 62aae5758c5d
+- file | docs\CHANGELOG.md | 817 | 2026-04-19T09:21:04 | 55 | 47e04177adfe
+- file | docs\CONTRIBUTING.md | 4540 | 2026-04-19T08:50:44 | 211 | fa1d788ecd7f
+- file | docs\ENGINE_CONTRACT.md | 2466 | 2026-04-19T09:22:26 | 106 | bc552ae7ac4e
+- file | docs\ENGINE_MVP_SCOPE.md | 2696 | 2026-04-19T09:23:31 | 133 | c94d7b6a2663
+- file | docs\FAQ.md | 4875 | 2026-04-19T08:53:41 | 220 | 691ba55e7348
+- file | docs\FOUNDATION_HYPERGRAPH.md | 4413 | 2026-04-19T08:03:29 | 171 | 8dd2e7a1027b
+- file | docs\FOUNDATION_PROJECTION.md | 5390 | 2026-04-19T08:04:21 | 230 | 93e42f123d4e
+- file | docs\GLOSSARY.md | 4780 | 2026-04-19T08:02:40 | 205 | 6e36fe6c4d1c
+- file | docs\HYPOTHESIS_CWD_DIPOLE.md | 9129 | 2026-04-19T08:25:36 | 193 | 4e7d8f232f81
+- file | docs\HYPOTHESIS_PHASE_PROPAGATION.md | 4440 | 2026-04-19T08:26:32 | 181 | 26ac5810619a
+- file | docs\INDEX.md | 3783 | 2026-04-19T08:56:52 | 202 | 3914a4400a7b
+- file | docs\MAP_COSMOLOGY.md | 4564 | 2026-04-19T08:19:00 | 212 | 45549fb11994
+- file | docs\MAP_INTERACTIONS.md | 4878 | 2026-04-19T08:18:00 | 209 | 55b94388a147
+- file | docs\MAP_PARTICLE_PHYSICS.md | 3883 | 2026-04-19T08:17:12 | 177 | 58ce3fb7e0dc
+- file | docs\MECHANICS_EMERGENCE.md | 5001 | 2026-04-19T08:13:48 | 225 | a55d7b068d80
+- file | docs\POTENTIALS.md | 6936 | 2026-04-19T08:44:11 | 192 | 05ba524514bb
+- file | docs\PRE_RELEASE.md | 2019 | 2026-04-19T19:47:59 | 75 | a83ed5e7b02f
+- file | docs\PUBLIC_SUMMARY.md | 3984 | 2026-04-19T08:51:57 | 160 | 8e02f584d65d
+- file | docs\README.md | 2876 | 2026-04-19T19:47:49 | 154 | b337f20efd02
+- file | docs\SPEC_EXCLUSION_MECHANICS.md | 4341 | 2026-04-19T08:16:30 | 184 | 60081627259b
+- file | docs\SPEC_LOOP_ALGEBRA.md | 4346 | 2026-04-19T08:14:36 | 205 | 42f364a1fdd3
+- file | docs\SPEC_LOOP_CLASSES.md | 4250 | 2026-04-19T08:15:29 | 188 | f0277a770ab6
+- file | docs\THEORY_V3.9.md | 8044 | 2026-04-19T08:31:30 | 352 | e80c9def491f
+- dir  | engine
+- file | engine\__init__.py | 16 | 2026-04-19T10:19:20 | 1 | c0bbbb5b6d77
+- dir  | engine\api
+- file | engine\api\engine.py | 8330 | 2026-04-20T17:50:52 | 244 | b828f38ee119
+- file | engine\api\log_contract.py | 4349 | 2026-04-21T17:00:01 | 170 | d9178e7e3a8c
+- file | engine\api\__init__.py | 16 | 2026-04-19T10:19:20 | 1 | c0bbbb5b6d77
+- dir  | engine\boundary
+- file | engine\boundary\stabilization.py | 14924 | 2026-04-21T05:28:50 | 422 | c27475e32fd7
+- file | engine\boundary\__init__.py | 16 | 2026-04-19T10:19:20 | 1 | c0bbbb5b6d77
+- dir  | engine\core
+- file | engine\core\core_metrics.py | 3036 | 2026-04-19T10:13:48 | 110 | 27cba99a70a4
+- file | engine\core\evolution.py | 5064 | 2026-04-20T17:50:52 | 156 | 69196d899614
+- file | engine\core\graph.py | 4455 | 2026-04-19T10:18:27 | 147 | ab0fb8d3371b
+- file | engine\core\params.py | 3887 | 2026-04-19T10:12:50 | 133 | fa8d034baea0
+- file | engine\core\rng.py | 2886 | 2026-04-19T10:09:52 | 104 | 92f7d3f97af0
+- file | engine\core\__init__.py | 16 | 2026-04-19T10:19:20 | 1 | c0bbbb5b6d77
+- dir  | engine\fracture
+- file | engine\fracture\state.py | 22759 | 2026-04-21T05:28:50 | 451 | 9825ee3922fd
+- file | engine\fracture\__init__.py | 16 | 2026-04-19T10:19:20 | 1 | c0bbbb5b6d77
+- dir  | experiments
+- file | experiments\README.md | 694 | 2026-04-21T17:11:37 | 44 | 8c457e0c76f7
+- dir  | experiments\exp_mvp_frozen_persistence_control
+- file | experiments\exp_mvp_frozen_persistence_control\run_lane.py | 3436 | 2026-04-20T18:29:44 | 118 | e40d15691dc2
+- file | experiments\exp_mvp_frozen_persistence_control\spec.md | 1661 | 2026-04-20T18:29:44 | 84 | b29f5602859e
+- dir  | experiments\exp_mvp_frozen_persistence_control\analysis
+- file | experiments\exp_mvp_frozen_persistence_control\analysis\control_lane_results.csv | 661 | 2026-04-20T18:30:15 | 4 | 183b2fda6e40
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs\wb0200
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0200\params.json | 327 | 2026-04-20T18:29:44 | 19 | 7526d7bcca50
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0200\run.py | 1287 | 2026-04-20T18:29:44 | 45 | 489c88c3dcd5
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0200\validate.py | 2067 | 2026-04-20T18:30:07 | 77 | 61f161ee7828
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs\wb0200\raw_logs
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0200\raw_logs\simulation_868dc72a-0d9e-4a57-b4ec-e4139e5c22eb.jsonl | 221982 | 2026-04-20T18:30:13 |  | af48f589f475
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs\wb0225
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0225\params.json | 329 | 2026-04-20T18:29:44 | 19 | aaffd4154ebf
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0225\run.py | 1287 | 2026-04-20T18:29:44 | 45 | 489c88c3dcd5
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0225\validate.py | 2067 | 2026-04-20T18:30:07 | 77 | 1f3f189a5708
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs\wb0225\raw_logs
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0225\raw_logs\simulation_86d224f9-7ff2-4c4d-9bd1-a562e247e80d.jsonl | 221240 | 2026-04-20T18:30:14 |  | 11d366920252
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs\wb0250
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0250\params.json | 328 | 2026-04-20T18:29:44 | 19 | 0f7709b4013c
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0250\run.py | 1287 | 2026-04-20T18:29:44 | 45 | 489c88c3dcd5
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0250\validate.py | 2067 | 2026-04-20T18:30:07 | 77 | b66e76c4d4b7
+- dir  | experiments\exp_mvp_frozen_persistence_control\runs\wb0250\raw_logs
+- file | experiments\exp_mvp_frozen_persistence_control\runs\wb0250\raw_logs\simulation_5885541a-ab1c-48c7-bd10-daa00f114220.jsonl | 220702 | 2026-04-20T18:30:14 |  | d386e0bee3d8
+- dir  | experiments\exp_mvp_smoke
+- file | experiments\exp_mvp_smoke\params.json | 283 | 2026-04-19T10:23:28 | 21 | 7f9b636d89ef
+- file | experiments\exp_mvp_smoke\run.py | 1532 | 2026-04-19T19:48:03 | 48 | fee2e451aa5a
+- file | experiments\exp_mvp_smoke\spec.md | 1392 | 2026-04-19T10:21:51 | 59 | 8fdda63b0ed3
+- file | experiments\exp_mvp_smoke\validate.py | 2602 | 2026-04-19T19:48:07 | 85 | f8e64f3e19e9
+- dir  | experiments\exp_mvp_smoke\analysis
+- file | experiments\exp_mvp_smoke\analysis\summary.json | 1535 | 2026-04-19T10:44:39 | 62 | c6a5936550f8
+- dir  | experiments\exp_mvp_smoke\raw_logs
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_13c85251-c7cf-4e7b-9abe-d0d8c1a44e3a.jsonl | 41215 | 2026-04-19T20:54:36 |  | ecb825ec7870
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_3e655fc0-2c03-4b2c-b776-38d140088ab4.jsonl | 41215 | 2026-04-20T17:09:18 |  | bcae3622f2c5
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_44f09bf3-62f0-483b-a657-1dade4df1bee.jsonl | 41162 | 2026-04-19T10:34:24 |  | 883c321c052e
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_606a2fc8-e07e-4d4b-a872-d52998c4d942.jsonl | 41215 | 2026-04-20T17:21:09 |  | 8117db814a6f
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_a972c12d-888c-473b-9942-9d8ba6317fa7.jsonl | 41215 | 2026-04-20T19:28:54 |  | d467bdec405b
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_bfa677d2-7314-44b0-8ce3-cf042be71b7a.jsonl | 41215 | 2026-04-21T05:30:41 |  | 378b7d71c631
+- file | experiments\exp_mvp_smoke\raw_logs\simulation_fb2484e8-4920-4675-8e1b-20fb2b110be6.jsonl | 41215 | 2026-04-20T21:43:22 |  | c4b170f39fef
+- dir  | experiments\exp_mvp_smoke_2
+- file | experiments\exp_mvp_smoke_2\params.json | 284 | 2026-04-19T11:00:12 | 21 | cfd15240ce39
+- file | experiments\exp_mvp_smoke_2\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_smoke_2\spec.md | 868 | 2026-04-19T10:59:46 | 41 | 0fb394220745
+- file | experiments\exp_mvp_smoke_2\validate.py | 2400 | 2026-04-19T10:29:25 | 82 | 8e80fa91d731
+- dir  | experiments\exp_mvp_smoke_2\analysis
+- file | experiments\exp_mvp_smoke_2\analysis\summary.json | 1537 | 2026-04-19T11:06:11 | 62 | 6d622a0d580f
+- dir  | experiments\exp_mvp_smoke_2\raw_logs
+- file | experiments\exp_mvp_smoke_2\raw_logs\simulation_ce63f897-31d4-49d4-8928-33f8ea2f3237.jsonl | 41105 | 2026-04-19T11:01:06 |  | 60c334cb8039
+- dir  | experiments\exp_mvp_stability_refine
+- dir  | experiments\exp_mvp_stability_refine\analysis
+- file | experiments\exp_mvp_stability_refine\analysis\stability_table_auto.csv | 1323 | 2026-04-19T20:27:25 | 14 | 129ee552eac3
+- dir  | experiments\exp_mvp_stability_refine\runs
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v018
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v018\params.json | 275 | 2026-04-19T12:53:43 | 16 | a82f5f88e06a
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v018\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v018\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v018\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v018\analysis\summary.json | 1540 | 2026-04-19T13:09:10 | 62 | 1203cb5e9dd1
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v018\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v018\raw_logs\simulation_9bc11759-a679-458d-aeed-815c9a8c04d9.jsonl | 41100 | 2026-04-19T13:09:10 |  | 264e71c4d013
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v019
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v019\params.json | 275 | 2026-04-19T12:53:43 | 16 | a2b5ace4e5e1
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v019\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v019\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v019\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v019\analysis\summary.json | 1543 | 2026-04-19T13:09:11 | 62 | d0d4c10df5fa
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v019\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v019\raw_logs\simulation_99c3690f-f506-47b5-ad62-333333cebe4e.jsonl | 41101 | 2026-04-19T13:09:11 |  | fbd866974381
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v020
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v020\params.json | 274 | 2026-04-19T12:53:43 | 16 | 1c94e98f4f02
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v020\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v020\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v020\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v020\analysis\summary.json | 1537 | 2026-04-19T13:09:11 | 62 | 8c1cb0cb0ff2
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v020\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v020\raw_logs\simulation_b20e667f-263d-409b-ae45-e2fcc869ed07.jsonl | 41105 | 2026-04-19T13:09:11 |  | 076a26ef6597
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v021
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v021\params.json | 275 | 2026-04-19T12:53:43 | 16 | 4e9d58b18623
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v021\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v021\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v021\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v021\analysis\summary.json | 1542 | 2026-04-19T13:09:11 | 62 | 9dd4e3b2569a
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v021\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v021\raw_logs\simulation_a9cb5179-05b7-41a3-bcc5-5a91a8e6257a.jsonl | 41129 | 2026-04-19T13:09:11 |  | e0896e167a35
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v022
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v022\params.json | 275 | 2026-04-19T12:53:43 | 16 | adc2b4d50b27
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v022\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v022\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v022\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v022\analysis\summary.json | 1541 | 2026-04-19T13:09:11 | 62 | d8f932d12281
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v022\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v022\raw_logs\simulation_e63ea65c-4faf-4985-b419-aa9ba6b0a33c.jsonl | 41036 | 2026-04-19T13:09:11 |  | ca2a48e40aab
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v023
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v023\params.json | 275 | 2026-04-19T12:53:43 | 16 | 44f6cef9ab20
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v023\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v023\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v023\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v023\analysis\summary.json | 1540 | 2026-04-19T13:09:12 | 62 | bbc6197e74ca
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v023\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v023\raw_logs\simulation_97e63b8c-836c-4a6b-bbc2-78e1e2397205.jsonl | 40999 | 2026-04-19T13:09:11 |  | c977b9cb05f7
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v024
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v024\params.json | 275 | 2026-04-19T12:53:43 | 16 | ed20f5bb8024
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v024\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v024\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v024\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v024\analysis\summary.json | 1543 | 2026-04-19T13:09:12 | 62 | 88d8e1cd1ff4
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v024\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v024\raw_logs\simulation_3ba42836-c1ae-45c7-96ec-7a50c0eb74bd.jsonl | 41030 | 2026-04-19T13:09:12 |  | 9f72ff00dba9
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v025
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v025\params.json | 275 | 2026-04-19T12:53:43 | 16 | 2d58772378c1
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v025\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v025\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v025\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v025\analysis\summary.json | 1543 | 2026-04-19T13:09:12 | 62 | 50bd90099c91
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v025\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v025\raw_logs\simulation_7b7349fa-969a-4fae-a6ba-930792b2e011.jsonl | 41140 | 2026-04-19T13:09:12 |  | 381626f6e047
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v026
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v026\params.json | 275 | 2026-04-19T12:53:43 | 16 | a2de2de8d8dd
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v026\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v026\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v026\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v026\analysis\summary.json | 1537 | 2026-04-19T13:09:12 | 62 | 9cd855301076
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v026\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v026\raw_logs\simulation_76fde75a-953c-4c25-9c53-8f1486fef260.jsonl | 41148 | 2026-04-19T13:09:12 |  | 481878d7c9d9
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v027
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v027\params.json | 275 | 2026-04-19T12:53:43 | 16 | 6ac09c7c8254
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v027\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v027\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v027\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v027\analysis\summary.json | 1541 | 2026-04-19T13:09:13 | 62 | 0c5498789e89
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v027\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v027\raw_logs\simulation_5e094d45-cbcb-49fb-a299-d8c5d06d3fe2.jsonl | 41159 | 2026-04-19T13:09:12 |  | 8229dd0f3a5f
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v028
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v028\params.json | 275 | 2026-04-19T12:53:43 | 16 | 25b05e439787
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v028\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v028\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v028\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v028\analysis\summary.json | 1538 | 2026-04-19T13:09:13 | 62 | 3300c443b13e
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v028\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v028\raw_logs\simulation_7b3bee68-b81a-428e-ba7c-079f15af25da.jsonl | 41069 | 2026-04-19T13:09:13 |  | 8d16570672dc
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v029
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v029\params.json | 275 | 2026-04-19T12:53:43 | 16 | 4e7bc7c61285
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v029\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v029\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v029\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v029\analysis\summary.json | 1540 | 2026-04-19T13:09:13 | 62 | ee746844fe22
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v029\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v029\raw_logs\simulation_f2483cdd-540b-4be3-a9a8-50fb24f728e1.jsonl | 41079 | 2026-04-19T13:09:13 |  | 4e2c2d7ec1c1
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v030
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v030\params.json | 274 | 2026-04-19T12:53:43 | 16 | a3fd4248a78d
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v030\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v030\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v030\analysis
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v030\analysis\summary.json | 1506 | 2026-04-19T13:09:13 | 62 | 0223f0c8fd8b
+- dir  | experiments\exp_mvp_stability_refine\runs\d0995_v030\raw_logs
+- file | experiments\exp_mvp_stability_refine\runs\d0995_v030\raw_logs\simulation_38399f75-19a1-40c9-a682-cd4fa1467505.jsonl | 40995 | 2026-04-19T13:09:13 |  | 9f16d2c01519
+- dir  | experiments\exp_mvp_stability_sweep
+- file | experiments\exp_mvp_stability_sweep\spec.md | 675 | 2026-04-19T11:22:08 | 42 | 0728f5d832ad
+- dir  | experiments\exp_mvp_stability_sweep\analysis
+- file | experiments\exp_mvp_stability_sweep\analysis\stability_table.csv | 1309 | 2026-04-19T12:18:33 | 10 | a8e4337a6262
+- file | experiments\exp_mvp_stability_sweep\analysis\stability_table_auto.csv | 900 | 2026-04-19T20:27:25 | 10 | 0f37f60c9daa
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d0995_v015
+- file | experiments\exp_mvp_stability_sweep\analysis\d0995_v015\summary.json | 1540 | 2026-04-19T12:00:21 | 62 | 0efbcc9b640e
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d0995_v020
+- file | experiments\exp_mvp_stability_sweep\analysis\d0995_v020\summary.json | 1537 | 2026-04-19T12:00:21 | 62 | 05a2986cafd5
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d0995_v030
+- file | experiments\exp_mvp_stability_sweep\analysis\d0995_v030\summary.json | 1506 | 2026-04-19T12:00:21 | 62 | 8ebdde163552
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d0999_v015
+- file | experiments\exp_mvp_stability_sweep\analysis\d0999_v015\summary.json | 1545 | 2026-04-19T12:00:21 | 62 | a53565ea05bb
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d0999_v020
+- file | experiments\exp_mvp_stability_sweep\analysis\d0999_v020\summary.json | 1543 | 2026-04-19T12:00:21 | 62 | 1a070bd77cfe
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d0999_v030
+- file | experiments\exp_mvp_stability_sweep\analysis\d0999_v030\summary.json | 1545 | 2026-04-19T12:00:21 | 62 | a5baa2472283
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d099_v015
+- file | experiments\exp_mvp_stability_sweep\analysis\d099_v015\summary.json | 1538 | 2026-04-19T12:00:21 | 62 | 6ecb2b993801
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d099_v020
+- file | experiments\exp_mvp_stability_sweep\analysis\d099_v020\summary.json | 1535 | 2026-04-19T12:00:21 | 62 | d53652473eeb
+- dir  | experiments\exp_mvp_stability_sweep\analysis\d099_v030
+- file | experiments\exp_mvp_stability_sweep\analysis\d099_v030\summary.json | 1501 | 2026-04-19T12:00:21 | 62 | 6b21b2b98994
+- dir  | experiments\exp_mvp_stability_sweep\runs
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v015
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\params.json | 285 | 2026-04-19T11:33:57 | 21 | faa4c571c8b2
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v015\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\analysis\summary.json | 1540 | 2026-04-19T12:37:23 | 62 | 77e6e156a68c
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v015\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\raw_logs\simulation_5ef34ad9-b23a-4b93-9360-9e02c1ea6821.jsonl | 41106 | 2026-04-19T11:40:39 |  | 0b5407f0122e
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\raw_logs\simulation_83019864-fb1b-45d2-a897-f915eb5bb89f.jsonl | 41106 | 2026-04-19T11:47:13 |  | fee181767d50
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v015\raw_logs\simulation_c0c20720-d4f3-414c-b274-4cbef68631de.jsonl | 41106 | 2026-04-19T12:37:23 |  | 30a7ff9470b4
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v020
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\params.json | 284 | 2026-04-19T11:34:44 | 21 | cfd15240ce39
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v020\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\analysis\summary.json | 1537 | 2026-04-19T12:37:23 | 62 | 05a2986cafd5
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v020\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\raw_logs\simulation_00bf2f66-42bd-476b-b1b0-b26d7e2c6857.jsonl | 41105 | 2026-04-19T11:47:18 |  | 66886ae32507
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\raw_logs\simulation_011a11c9-79a8-41f0-9583-d02c9658b13b.jsonl | 41105 | 2026-04-19T11:40:46 |  | 4962d99ca5a2
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v020\raw_logs\simulation_f600bea4-1239-454d-ae49-1f375cda7024.jsonl | 41105 | 2026-04-19T12:37:23 |  | 34535b1b8a8a
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v030
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v030\params.json | 284 | 2026-04-19T11:34:58 | 21 | 9c5f950ff4df
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v030\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v030\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v030\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v030\analysis\summary.json | 1506 | 2026-04-19T12:37:24 | 62 | 8ebdde163552
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0995_v030\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v030\raw_logs\simulation_21f55f14-c842-451a-bd00-f0c074daba54.jsonl | 40995 | 2026-04-19T11:47:24 |  | d711cda393b0
+- file | experiments\exp_mvp_stability_sweep\runs\d0995_v030\raw_logs\simulation_3d945908-34d9-49a3-83c6-eac43259cc60.jsonl | 40995 | 2026-04-19T12:37:23 |  | eaf983f3ea67
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v015
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v015\params.json | 285 | 2026-04-19T11:35:21 | 21 | ea065ce58955
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v015\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v015\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v015\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v015\analysis\summary.json | 1545 | 2026-04-19T12:37:24 | 62 | 9289383f67ef
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v015\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v015\raw_logs\simulation_701748e6-4e15-4a85-b68a-9c7c2097f93a.jsonl | 41063 | 2026-04-19T12:37:24 |  | c8c5d7d8c608
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v015\raw_logs\simulation_f820c0ef-1c69-49f4-aa0f-26b2ddb3a1fa.jsonl | 41063 | 2026-04-19T11:47:31 |  | f15b43653793
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v020
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v020\params.json | 284 | 2026-04-19T11:35:56 | 21 | 0013be73a23e
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v020\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v020\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v020\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v020\analysis\summary.json | 1543 | 2026-04-19T12:37:24 | 62 | 1ca14e9eebec
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v020\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v020\raw_logs\simulation_a57f24f4-a012-42c8-bcf5-5b04141e0855.jsonl | 41088 | 2026-04-19T12:37:24 |  | 1cb96587f9f7
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v020\raw_logs\simulation_b743bab7-62da-48f0-82d2-841ef266af91.jsonl | 41088 | 2026-04-19T11:47:36 |  | e8b8e8f8ccd4
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v030
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v030\params.json | 284 | 2026-04-19T11:36:17 | 21 | b2cc08426834
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v030\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v030\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v030\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v030\analysis\summary.json | 1545 | 2026-04-19T12:37:24 | 62 | a5baa2472283
+- dir  | experiments\exp_mvp_stability_sweep\runs\d0999_v030\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v030\raw_logs\simulation_00c2161f-7280-4a2c-9db2-96783d22b1ed.jsonl | 41122 | 2026-04-19T11:47:43 |  | bec418231b7e
+- file | experiments\exp_mvp_stability_sweep\runs\d0999_v030\raw_logs\simulation_37ad959f-75d6-4d70-9bf7-27887db7b4ee.jsonl | 41122 | 2026-04-19T12:37:24 |  | 82a8636ed116
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v015
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\params.json | 284 | 2026-04-19T11:31:26 | 21 | a8bdb6d18eaa
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v015\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\analysis\summary.json | 1538 | 2026-04-19T12:37:22 | 62 | 7927f5faf385
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v015\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\raw_logs\simulation_0c6a8279-1b33-4816-87c3-01c433b10ba6.jsonl | 41165 | 2026-04-19T11:38:54 |  | e0ec1d966dd9
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\raw_logs\simulation_b03f5bc1-925c-4f7d-8e57-a98ac922aabd.jsonl | 41165 | 2026-04-19T11:45:40 |  | b5fdae1319cc
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\raw_logs\simulation_b9f4449a-4e8b-4791-a82e-5573d6a4679a.jsonl | 41165 | 2026-04-19T12:37:22 |  | c386dbd48ad2
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v015\raw_logs\simulation_d715f651-9cfa-47c8-94ca-c8e44418a886.jsonl | 41165 | 2026-04-19T12:34:45 |  | 7b7e4f9e90bb
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v020
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\params.json | 283 | 2026-04-19T11:33:07 | 21 | 7f9b636d89ef
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v020\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\analysis\summary.json | 1535 | 2026-04-19T12:37:23 | 62 | d53652473eeb
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v020\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\raw_logs\simulation_0071ac9f-d63d-4e3e-8476-7e62ce166403.jsonl | 41162 | 2026-04-19T11:45:52 |  | c904f3061209
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\raw_logs\simulation_68f8ec1d-74c9-42bc-abb1-e90eb6d87daf.jsonl | 41162 | 2026-04-19T12:37:22 |  | 39dc8e27dc97
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v020\raw_logs\simulation_aa311a34-debd-417c-938b-c86032c9d26c.jsonl | 41162 | 2026-04-19T11:39:05 |  | 3ff59ab27ede
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v030
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\params.json | 283 | 2026-04-19T11:33:23 | 21 | 5d700fecfc6c
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\run.py | 1330 | 2026-04-19T10:25:41 | 45 | 5d0009d0ef19
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\validate.py | 2400 | 2026-04-19T11:44:39 | 82 | 5b0072dbdbd8
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v030\analysis
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\analysis\summary.json | 1501 | 2026-04-19T12:37:23 | 62 | 2901cf6f49f4
+- dir  | experiments\exp_mvp_stability_sweep\runs\d099_v030\raw_logs
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\raw_logs\simulation_121e9e57-ffe1-4b13-8a58-bc7b78152258.jsonl | 40198 | 2026-04-19T12:37:23 |  | ccf5736bf360
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\raw_logs\simulation_22da7519-029d-45ec-bdcb-e3b5b89feb8e.jsonl | 40198 | 2026-04-19T11:45:58 |  | f016e772feef
+- file | experiments\exp_mvp_stability_sweep\runs\d099_v030\raw_logs\simulation_a2a0e90a-ab33-4b85-ae0f-fc6917660ce5.jsonl | 40198 | 2026-04-19T11:39:12 |  | 7907632a175c
+- dir  | experiments\_templates
+- dir  | hypotheses
+- file | hypotheses\HYPOTHESIS_FRACTURE_STABILITY_V1.md | 1008 | 2026-04-19T12:21:05 | 40 | 1792b1048875
+- file | hypotheses\HYPOTHESIS_FRACTURE_STABILITY_V1_TEST.md | 2169 | 2026-04-20T17:50:52 | 69 | aefe476fdc96
+- dir  | validation
+- file | validation\README.md | 1781 | 2026-04-21T17:22:15 | 59 | cba22c23daa4
+- file | validation\validate_exclusion_candidate_path.py | 4540 | 2026-04-21T06:16:23 | 133 | 2951ebea29d7
+- file | validation\validate_exclusion_ingredients.py | 7458 | 2026-04-21T05:30:07 | 196 | e315f6dec599
+- file | validation\validate_exclusion_minimal_enforcement.py | 6514 | 2026-04-21T17:22:15 | 185 | bfa3b4785497
+- file | validation\validate_exclusion_readiness.py | 7285 | 2026-04-20T22:22:54 | 205 | 86a8b1f97537
+- file | validation\validate_exclusion_rejection_outcome.py | 6496 | 2026-04-21T17:14:55 | 184 | 6e9c94767a12
+- file | validation\validate_exclusion_rejection_signal.py | 5918 | 2026-04-21T17:00:01 | 168 | e5ae586df3a0
+- file | validation\validate_freeze_modes.py | 5599 | 2026-04-20T17:20:45 | 161 | f74e8c45c3ea
+- file | validation\validate_frozen_persistence.py | 5943 | 2026-04-20T18:14:27 | 200 | ae7ec0b9e8be
+- file | validation\validate_log_minimal.py | 4417 | 2026-04-19T10:27:14 | 135 | baf32ec18800
+- file | validation\validate_loop_identity.py | 6553 | 2026-04-20T21:41:07 | 186 | d22a09e8295a
+- file | validation\validate_loop_modes.py | 6128 | 2026-04-20T19:27:48 | 169 | cf34b283632b
+- file | validation\validate_loop_persistence.py | 6026 | 2026-04-20T20:15:47 | 196 | 3c063405d63d
+- file | validation\validate_projection_modes.py | 3677 | 2026-04-20T17:22:12 | 126 | c7cefd5f5760
+- dir  | workflow
+- file | workflow\AFTERNOON_SESSION_AUDIT_2026-04-21_1748.md | 1826 | 2026-04-21T17:49:16 | 66 | 1868f874704a
+- file | workflow\BRIDGE_WEIGHT_FREEZE_REFINEMENT_PLAN.md | 6027 | 2026-04-20T17:18:32 | 278 | 46ad71295f88
+- file | workflow\DOCS_WORKFLOW_CONSISTENCY_AUDIT_2026-04-21_0628.md | 6816 | 2026-04-21T06:28:34 | 238 | fe2070ced3f8
+- file | workflow\ENGINE_TEST_GRID.md | 15195 | 2026-04-22T18:02:57 | 512 | f9eee5a92c45
+- file | workflow\EVOLVING_FROZEN_PERSISTENCE_CONTROL_PLAN.md | 6673 | 2026-04-20T18:23:56 | 277 | bc8a2277e4cf
+- file | workflow\EVOLVING_FROZEN_PERSISTENCE_PLAN.md | 5644 | 2026-04-20T17:44:40 | 251 | 543db6e37fbb
+- file | workflow\EXCLUSION_CANDIDATE_PATH_PLAN.md | 5621 | 2026-04-21T06:13:48 | 215 | 346802eca815
+- file | workflow\EXCLUSION_CANONICAL_PATCH_GATE_PLAN.md | 1402 | 2026-04-22T05:43:29 | 62 | 762007a2a155
+- file | workflow\EXCLUSION_CONTRACT_NARROWING_PLAN.md | 4363 | 2026-04-21T17:25:22 | 149 | 59a1905da2c4
+- file | workflow\EXCLUSION_CONTRACT_PATCH_CANDIDATE_PLAN.md | 1824 | 2026-04-22T05:40:45 | 77 | 7e949adee206
+- file | workflow\EXCLUSION_CONTRACT_PROMOTION_PLAN.md | 2936 | 2026-04-21T17:31:38 | 109 | fbe324a9cab3
+- file | workflow\EXCLUSION_CONTRACT_PROMOTION_TRACK.md | 2838 | 2026-04-22T18:01:11 | 126 | 88c0ce5fd417
+- file | workflow\EXCLUSION_HUMAN_REVIEW_PACKET_PLAN.md | 1547 | 2026-04-22T05:45:33 | 71 | 20896139d8be
+- file | workflow\EXCLUSION_INGREDIENTS_PLAN.md | 4669 | 2026-04-20T22:27:08 | 186 | 8a18d49de759
+- file | workflow\EXCLUSION_INGREDIENT_INSTRUMENTATION_PLAN.md | 7568 | 2026-04-21T05:28:50 | 281 | 04db87216f94
+- file | workflow\EXCLUSION_MINIMAL_ENFORCEMENT_PLAN.md | 4427 | 2026-04-21T17:19:49 | 174 | ca3a6e462985
+- file | workflow\EXCLUSION_NARROW_CONTRACT_PROPOSAL_PLAN.md | 2809 | 2026-04-21T17:46:31 | 109 | 13dd850b6b7b
+- file | workflow\EXCLUSION_PROMOTION_GATE_PLAN.md | 2354 | 2026-04-21T17:37:17 | 97 | 9bce8ae3239c
+- file | workflow\EXCLUSION_READINESS_PLAN.md | 5783 | 2026-04-20T22:15:53 | 239 | e52b04c34390
+- file | workflow\EXCLUSION_REJECTION_OUTCOME_PLAN.md | 3938 | 2026-04-21T17:11:37 | 165 | f317bcb1af11
+- file | workflow\EXCLUSION_REJECTION_POINT_PLAN.md | 5505 | 2026-04-21T16:48:41 | 221 | d5e332c05f18
+- file | workflow\EXCLUSION_REVIEW_HANDOFF_PLAN.md | 1456 | 2026-04-22T17:24:07 | 69 | 7de14b65fa50
+- file | workflow\EXPERIMENT_WORKFLOW.md | 7794 | 2026-04-21T17:42:14 | 308 | 360275256e1a
+- file | workflow\FIXED_PARAMETER_AUDIT.md | 6361 | 2026-04-20T17:58:07 | 236 | f4a2d1a36cf9
+- file | workflow\FREEZE_THAW_STAGE_PLAN.md | 5908 | 2026-04-20T17:15:34 | 253 | 7ba559fd105a
+- file | workflow\FROZEN_PERSISTENCE_PLAN.md | 5739 | 2026-04-20T17:26:14 | 264 | 300f34093340
+- file | workflow\GITHUB_REPOSITORY_PREPARATION_PLAN.md | 3651 | 2026-04-22T18:23:36 | 135 | b37d15d190d7
+- file | workflow\INHERITED_PARAMETER_ORIGINS.md | 8045 | 2026-04-20T17:58:07 | 275 | 6e0d44df3d7b
+- file | workflow\LOCAL_GIT_BOOTSTRAP_INTERIM.md | 1396 | 2026-04-22T18:02:57 | 69 | 2f9cd7d51302
+- file | workflow\LOOP_DETECTION_PLAN.md | 7910 | 2026-04-20T19:14:33 | 317 | ce5b057ce97e
+- file | workflow\LOOP_IDENTITY_PLAN.md | 7358 | 2026-04-20T21:36:54 | 298 | 8863e9ae8790
+- file | workflow\LOOP_INTERPRETATION_NOTE.md | 3969 | 2026-04-20T20:05:16 | 157 | 6a4fdee05790
+- file | workflow\LOOP_PERSISTENCE_PLAN.md | 6683 | 2026-04-20T19:55:22 | 281 | 3577e6d8f12b
+- file | workflow\MORNING_SESSION_AUDIT_2026-04-22_0548.md | 2344 | 2026-04-22T05:48:49 | 78 | 66d6d60fbeec
+- file | workflow\NEXT_SESSION_START.md | 1292 | 2026-04-22T18:23:56 | 59 | 2f6fe133012b
+- file | workflow\OLDIES_EVOLUTION_REVIEW.md | 9141 | 2026-04-20T18:09:48 | 295 | 0ab0d29f6a87
+- file | workflow\PROJECTION_LAYER_SEPARATION_PLAN.md | 8010 | 2026-04-19T20:46:16 | 325 | 1ce2d930574a
+- file | workflow\PROJECT_MAP_FULL.json | 776598 | 2026-04-22T18:03:36 | 23939 | ec476b071011
+- file | workflow\PROJECT_MAP_FULL.md | 407792 | 2026-04-22T18:03:36 | 3282 | 7e1f5fc926d4
+- file | workflow\PROJECT_WORKING_MEMORY.md | 41189 | 2026-04-22T18:23:45 | 1031 | ae92dfdcd096
+- file | workflow\SCAFFOLD_ROBUSTNESS_PLAN.md | 6345 | 2026-04-20T18:01:36 | 265 | 29aecd85c2a4
+- file | workflow\THEORY_REFRESH_2026-04-21_1653.md | 5122 | 2026-04-21T16:54:23 | 156 | 32353372ff1b
+- file | workflow\TICK_HORIZON_ASSESSMENT.md | 4587 | 2026-04-20T17:34:05 | 181 | 9afb18686986
+- file | workflow\WORKFLOW_CONSOLIDATION_AUDIT_2026-04-22_1759.md | 1398 | 2026-04-22T18:01:11 | 57 | f647430dd1c6
+- file | workflow\WORKFLOW_CONSOLIDATION_STRATEGY.md | 3096 | 2026-04-22T17:35:59 | 128 | ea0cb063872d
+- dir  | workflow\exclusion_candidate_path_test_logs
+- dir  | workflow\exclusion_candidate_path_test_logs\synthetic_candidate_partial
+- file | workflow\exclusion_candidate_path_test_logs\synthetic_candidate_partial\simulation_synthetic_candidate_partial.jsonl | 1672 | 2026-04-21T17:00:01 |  | 1d5827988b4d
+- dir  | workflow\exclusion_ingredient_test_logs
+- dir  | workflow\exclusion_ingredient_test_logs\canonical_generated
+- file | workflow\exclusion_ingredient_test_logs\canonical_generated\simulation_ae10e421-33cb-43e7-9094-4fa3381c340d.jsonl | 9652 | 2026-04-21T05:30:27 |  | f2c10a3f9bae
+- dir  | workflow\exclusion_readiness_test_logs
+- dir  | workflow\exclusion_readiness_test_logs\synthetic_candidate_ready
+- file | workflow\exclusion_readiness_test_logs\synthetic_candidate_ready\simulation_synthetic_candidate_ready.jsonl | 1812 | 2026-04-21T17:00:01 |  | c561e1aa3e77
+- dir  | workflow\exclusion_rejection_test_logs
+- dir  | workflow\exclusion_rejection_test_logs\synthetic_duplicate_persistence_detected
+- file | workflow\exclusion_rejection_test_logs\synthetic_duplicate_persistence_detected\simulation_synthetic_duplicate_persistence_detected.jsonl | 1709 | 2026-04-21T17:14:56 |  | 6ecbbd99fe1c
+- dir  | workflow\freeze_test_logs
+- dir  | workflow\freeze_test_logs\canonical_active
+- file | workflow\freeze_test_logs\canonical_active\simulation_f01d28ef-4fa7-43bb-8c96-fb55d7f4d24f.jsonl | 2600 | 2026-04-20T17:09:39 |  | bd0c1b01376a
+- dir  | workflow\freeze_test_logs\canonical_frozen
+- file | workflow\freeze_test_logs\canonical_frozen\simulation_eb30726e-6fe0-4dd4-a752-d518be96b78c.jsonl | 2609 | 2026-04-20T17:09:39 |  | 84b3dbec19c1
+- dir  | workflow\freeze_test_logs\contaminated_active
+- file | workflow\freeze_test_logs\contaminated_active\simulation_50f8aafa-2104-4bc7-b4aa-43dff79dd887.jsonl | 2605 | 2026-04-20T17:09:54 |  | c550b717f61a
+- dir  | workflow\freeze_test_logs\contaminated_frozen
+- file | workflow\freeze_test_logs\contaminated_frozen\simulation_74f1fcef-edfc-4b54-aeed-32a4044cb5cb.jsonl | 725 | 2026-04-20T17:09:39 |  | fa5dd456cebf
+- dir  | workflow\freeze_test_logs_stage3b
+- dir  | workflow\freeze_test_logs_stage3b\canonical_active
+- file | workflow\freeze_test_logs_stage3b\canonical_active\simulation_37a9081e-c932-44d4-94de-890367b0d97d.jsonl | 2669 | 2026-04-20T17:21:39 |  | 5f17c238c6e2
+- dir  | workflow\freeze_test_logs_stage3b\canonical_frozen_no_bridges
+- file | workflow\freeze_test_logs_stage3b\canonical_frozen_no_bridges\simulation_399842c8-05bd-4194-a6ad-0158566c2745.jsonl | 2675 | 2026-04-20T17:21:39 |  | 5ac89422afd0
+- dir  | workflow\freeze_test_logs_stage3b\canonical_frozen_no_persistence_support_synthetic
+- file | workflow\freeze_test_logs_stage3b\canonical_frozen_no_persistence_support_synthetic\simulation_synthetic_no_persistence_support.jsonl | 2187 | 2026-04-20T17:28:05 |  | c226d76d541e
+- dir  | workflow\freeze_test_logs_stage3b\canonical_frozen_zero_bridge_weight_synthetic
+- file | workflow\freeze_test_logs_stage3b\canonical_frozen_zero_bridge_weight_synthetic\simulation_synthetic_zero_bridge_weight.jsonl | 2198 | 2026-04-20T17:21:39 |  | 0a4cea389a91
+- dir  | workflow\freeze_test_logs_stage3b\contaminated_active
+- file | workflow\freeze_test_logs_stage3b\contaminated_active\simulation_924130f5-132d-48a5-b367-b8cb65caff95.jsonl | 2674 | 2026-04-20T17:21:39 |  | 336058e8c45f
+- dir  | workflow\freeze_test_logs_stage3c
+- dir  | workflow\freeze_test_logs_stage3c\canonical_frozen_long_interval_synthetic
+- file | workflow\freeze_test_logs_stage3c\canonical_frozen_long_interval_synthetic\simulation_synthetic_long_interval.jsonl | 4615 | 2026-04-20T18:15:02 |  | 3de9be89de8c
+- dir  | workflow\freeze_test_logs_stage3c\canonical_frozen_short_interval_synthetic
+- file | workflow\freeze_test_logs_stage3c\canonical_frozen_short_interval_synthetic\simulation_synthetic_short_interval.jsonl | 920 | 2026-04-20T18:15:02 |  | dab8ca19fca9
+- dir  | workflow\loop_identity_test_logs
+- dir  | workflow\loop_identity_test_logs\canonical_acyclic
+- file | workflow\loop_identity_test_logs\canonical_acyclic\simulation_9ddac6bb-9711-4624-9d40-ba41726cbdda.jsonl | 3410 | 2026-04-20T21:41:39 |  | 2ba2d6491f1a
+- dir  | workflow\loop_identity_test_logs\canonical_birth_synthetic
+- file | workflow\loop_identity_test_logs\canonical_birth_synthetic\simulation_synthetic_birth.jsonl | 2527 | 2026-04-20T21:42:28 |  | a530f65a0ba0
+- dir  | workflow\loop_identity_test_logs\canonical_dissolution_synthetic
+- file | workflow\loop_identity_test_logs\canonical_dissolution_synthetic\simulation_synthetic_dissolution.jsonl | 2539 | 2026-04-20T21:42:28 |  | d71d9c3f3c52
+- dir  | workflow\loop_identity_test_logs\canonical_loopy
+- file | workflow\loop_identity_test_logs\canonical_loopy\simulation_92e177d7-8ac4-4b0d-af94-df8aaf5ab334.jsonl | 8172 | 2026-04-20T21:41:39 |  | fc7da352ce27
+- dir  | workflow\loop_identity_test_logs\canonical_similar_not_identical_synthetic
+- file | workflow\loop_identity_test_logs\canonical_similar_not_identical_synthetic\simulation_synthetic_similar_not_identical.jsonl | 1887 | 2026-04-20T21:42:28 |  | dbd3483b3e0f
+- dir  | workflow\loop_identity_test_logs\contaminated
+- file | workflow\loop_identity_test_logs\contaminated\simulation_aed7756e-7ce4-475c-b21f-f12bff7941bf.jsonl | 3010 | 2026-04-20T21:41:39 |  | 17ffb2647c6a
+- dir  | workflow\loop_identity_test_logs\legacy
+- file | workflow\loop_identity_test_logs\legacy\simulation_80c66863-7c19-40ca-87dc-07da458c7a56.jsonl | 1770 | 2026-04-20T21:41:39 |  | 7d837c16b83f
+- dir  | workflow\loop_test_logs
+- dir  | workflow\loop_test_logs\canonical_acyclic
+- file | workflow\loop_test_logs\canonical_acyclic\simulation_f244e703-bbcb-41bf-8b04-e0a1dd3fae3e.jsonl | 3182 | 2026-04-20T19:28:24 |  | fc0b0e4758d1
+- dir  | workflow\loop_test_logs\canonical_loopy
+- file | workflow\loop_test_logs\canonical_loopy\simulation_eed609b1-62ea-4310-8c72-eb25c64fc520.jsonl | 7292 | 2026-04-20T19:28:24 |  | 5f81fdac99f1
+- dir  | workflow\loop_test_logs\canonical_short_interval_synthetic
+- file | workflow\loop_test_logs\canonical_short_interval_synthetic\simulation_synthetic_short_loop_interval.jsonl | 2881 | 2026-04-20T20:15:47 |  | dce3b826b5d7
+- dir  | workflow\loop_test_logs\contaminated
+- file | workflow\loop_test_logs\contaminated\simulation_dec7bb16-5654-4a21-b7a5-408546b4deb0.jsonl | 2845 | 2026-04-20T19:28:24 |  | cd568b112d51
+- dir  | workflow\loop_test_logs\legacy
+- file | workflow\loop_test_logs\legacy\simulation_99b46b89-d8e5-4057-b4da-cb80d6b588c4.jsonl | 1770 | 2026-04-20T19:28:24 |  | 7a7f31cac9f6
+- dir  | workflow\oldies
+- file | workflow\oldies\6z32-3zf4.pdf | 4085368 | 2026-01-20T19:28:18 |  | 
+- file | workflow\oldies\CLAUDE_WORKFLOW_V2.md | 27917 | 2026-01-17T17:28:19 | 1026 | 6a94a1c16350
+- file | workflow\oldies\GPT_memory_extract.txt | 27222 | 2026-01-18T15:53:08 | 106 | ea66ce69adf2
+- file | workflow\oldies\GPT_ROMION_EVOLUTION.md | 41267 | 2026-01-20T18:05:13 | 1651 | 8504e0e74b35
+- file | workflow\oldies\install-romion-skill.bat | 866 | 2026-01-06T14:45:36 |  | 9c5481d3538f
+- file | workflow\oldies\romionsim_20260110_1528.zip | 44373664 | 2026-01-10T15:28:26 |  | 
+- file | workflow\oldies\romionsim_20260110_2013.zip | 44745026 | 2026-01-10T20:13:12 |  | 
+- file | workflow\oldies\romionsim_20260110_2107.zip | 44753979 | 2026-01-10T21:07:28 |  | 
+- file | workflow\oldies\romionsim_20260111_1645.zip | 44937850 | 2026-01-11T16:45:12 |  | 
+- file | workflow\oldies\romionsim_20260111_1707.zip | 44941258 | 2026-01-11T17:07:08 |  | 
+- file | workflow\oldies\romionsim_20260111_2101.zip | 44939818 | 2026-01-11T21:01:10 |  | 
+- file | workflow\oldies\romionsim_20260111_2153.zip | 44884364 | 2026-01-11T21:52:59 |  | 
+- file | workflow\oldies\romionsim_20260112_1922.zip | 44902937 | 2026-01-12T19:22:41 |  | 
+- file | workflow\oldies\romionsim_20260113_1935.zip | 44914919 | 2026-01-13T19:35:44 |  | 
+- file | workflow\oldies\romionsim_20260115_2156.zip | 45007365 | 2026-01-15T21:56:27 |  | 
+- file | workflow\oldies\romionsim_20260115_2228.zip | 45020937 | 2026-01-15T22:28:36 |  | 
+- file | workflow\oldies\romionsim_20260116_1837.zip | 45091305 | 2026-01-16T18:36:59 |  | 
+- file | workflow\oldies\romionsim_20260118_1437.zip | 46556762 | 2026-01-18T14:37:13 |  | 
+- file | workflow\oldies\romionsim_20260118_1709.zip | 46596999 | 2026-01-18T17:08:51 |  | 
+- dir  | workflow\oldies\20260108
+- file | workflow\oldies\20260108\20260108.zip | 92780 | 2026-01-18T19:36:35 |  | 55cb54e69a26
+- file | workflow\oldies\20260108\for_claude1.txt | 7223 | 2026-01-08T12:29:36 | 138 | ae866b207b09
+- file | workflow\oldies\20260108\for_claude2.txt | 11404 | 2026-01-08T12:43:28 | 321 | bc8fe2620c8f
+- file | workflow\oldies\20260108\for_claude3.txt | 12607 | 2026-01-08T13:28:31 | 346 | 04eaa0858849
+- file | workflow\oldies\20260108\theory_update_anex_01.txt | 11139 | 2026-01-08T13:44:21 | 261 | a554fc035957
+- file | workflow\oldies\20260108\theory_update_anex_02.txt | 10185 | 2026-01-08T13:45:45 | 254 | 8065e455683e
+- file | workflow\oldies\20260108\theory_update_anex_03.txt | 8617 | 2026-01-08T13:47:30 | 303 | 85961464a7d8
+- file | workflow\oldies\20260108\theory_update_anex_04.txt | 13226 | 2026-01-08T13:50:22 | 218 | 7db1731cedf8
+- file | workflow\oldies\20260108\theory_update_anex_05.txt | 8972 | 2026-01-08T13:52:44 | 209 | 38595b833ea0
+- file | workflow\oldies\20260108\theory_update_anex_06.txt | 10964 | 2026-01-08T13:54:36 | 362 | bb2b5bb1f84c
+- file | workflow\oldies\20260108\theory_update_anex_07.txt | 5944 | 2026-01-08T14:10:07 | 183 | 6a9495545eb1
+- file | workflow\oldies\20260108\theory_update_anex_08.txt | 5111 | 2026-01-08T14:15:11 | 144 | b522d4ed866c
+- file | workflow\oldies\20260108\theory_update_anex_09.txt | 4999 | 2026-01-08T14:20:17 | 159 | fdc8daa8e529
+- file | workflow\oldies\20260108\theory_update_anex_A.txt | 18966 | 2026-01-08T14:03:15 | 542 | 922fbf12f3e4
+- file | workflow\oldies\20260108\theory_update_anex_B.txt | 9284 | 2026-01-08T14:05:38 | 303 | 77e2c84d88ca
+- file | workflow\oldies\20260108\theory_update_anex_C.txt | 4632 | 2026-01-08T14:08:05 | 137 | 6ee5afc60d11
+- file | workflow\oldies\20260108\theory_update_anex_D.txt | 15302 | 2026-01-08T14:13:49 | 573 | d00bbb28b9ce
+- file | workflow\oldies\20260108\theory_update_anex_E.txt | 5686 | 2026-01-08T14:18:06 | 218 | db34c4880d1f
+- file | workflow\oldies\20260108\theory_update_anex_F.txt | 24154 | 2026-01-08T14:38:39 | 656 | 7365e9d87e00
+- file | workflow\oldies\20260108\theory_update_anex_G_H.txt | 6583 | 2026-01-08T14:41:14 | 286 | ef1ffd5ec75a
+- file | workflow\oldies\20260108\theory_update_anex_I.txt | 27712 | 2026-01-08T14:45:00 | 752 | 399b97e57ad4
+- file | workflow\oldies\20260108\theory_update_anex_J.txt | 13115 | 2026-01-08T14:49:35 | 361 | 94855e194138
+- file | workflow\oldies\20260108\theory_update_anex_K.txt | 6748 | 2026-01-08T15:00:22 | 238 | 57214a49e9c4
+- file | workflow\oldies\20260108\theory_update_anex_L.txt | 6329 | 2026-01-08T15:02:13 | 202 | d96961309424
+- file | workflow\oldies\20260108\theory_update_anex_M_Q.txt | 11777 | 2026-01-08T15:09:44 | 311 | ccc210c0653c
+- file | workflow\oldies\20260108\theory_update_anex_R_V.txt | 12856 | 2026-01-08T15:32:33 | 338 | a42952e22324
+- file | workflow\oldies\20260108\theory_update_description.txt | 3480 | 2026-01-08T13:36:54 | 56 | 6c5e1053a23e
+- dir  | workflow\oldies\20260109
+- file | workflow\oldies\20260109\dla_claude.pdf | 4159899 | 2026-01-10T00:08:51 |  | 
+- file | workflow\oldies\20260109\dla_claude.txt | 69879 | 2026-01-10T00:07:44 | 1230 | 1b51e4401afe
+- dir  | workflow\oldies\20260111
+- file | workflow\oldies\20260111\elements.txt | 22691 | 2026-01-11T12:01:22 | 439 | f06838b9482c
+- dir  | workflow\oldies\20260115
+- file | workflow\oldies\20260115\romionsim_project_complete.zip | 49057950 | 2026-01-15T17:41:56 |  | 
+- file | workflow\oldies\20260115\romionsim_project_corrected.zip | 49054013 | 2026-01-15T17:33:56 |  | 
+- file | workflow\oldies\20260115\romionsim_project_cov_ready.zip | 49047326 | 2026-01-15T17:51:29 |  | 
+- file | workflow\oldies\20260115\romionsim_project_cov_ready_final.zip | 49047326 | 2026-01-15T17:55:32 |  | 
+- file | workflow\oldies\20260115\romionsim_project_doc_updated.zip | 49054144 | 2026-01-15T17:29:19 |  | 
+- file | workflow\oldies\20260115\romionsim_project_final_fixed.zip | 49048209 | 2026-01-15T18:28:11 |  | 
+- file | workflow\oldies\20260115\romionsim_project_fixed_and_ready.zip | 49048169 | 2026-01-15T18:25:35 |  | 
+- file | workflow\oldies\20260115\romionsim_project_pep8_cleaned.zip | 49052607 | 2026-01-15T17:18:57 |  | 
+- file | workflow\oldies\20260115\romionsim_project_perf_optimized.zip | 49048254 | 2026-01-15T18:17:50 |  | 
+- file | workflow\oldies\20260115\romionsim_project_precommit_ready.zip | 49047746 | 2026-01-15T18:12:34 |  | 
+- file | workflow\oldies\20260115\romionsim_project_refactored_packages.zip | 49048208 | 2026-01-15T18:13:27 |  | 
+- file | workflow\oldies\20260115\romionsim_project_safe.zip | 22 | 2026-01-15T17:32:12 |  | 8739c76e681f
+- file | workflow\oldies\20260115\romionsim_project_structured.zip | 49053847 | 2026-01-15T17:25:53 |  | 
+- file | workflow\oldies\20260115\romionsim_project_test_final.zip | 49048282 | 2026-01-15T19:13:57 |  | 
+- file | workflow\oldies\20260115\romionsim_project_test_final_fixed(1).zip | 49048304 | 2026-01-15T19:24:01 |  | 
+- file | workflow\oldies\20260115\romionsim_project_test_final_fixed.zip | 49048304 | 2026-01-15T19:23:36 |  | 
+- file | workflow\oldies\20260115\romionsim_project_test_ready.zip | 49048208 | 2026-01-15T19:01:56 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_all_fixed.zip | 49035218 | 2026-01-15T19:28:46 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_all_fixed_patched.zip | 49049357 | 2026-01-15T19:31:23 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_fully_patched.zip | 49049730 | 2026-01-15T19:37:42 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_fully_patched_fixed.zip | 49049722 | 2026-01-15T19:39:10 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_import_fixed.zip | 49049838 | 2026-01-15T19:47:15 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_import_fully_fixed.zip | 49049984 | 2026-01-15T19:50:13 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_patched.zip | 49048585 | 2026-01-15T19:25:37 |  | 
+- file | workflow\oldies\20260115\romionsim_test_final_patched_fixed.zip | 49034869 | 2026-01-15T19:27:18 |  | 
+- file | workflow\oldies\20260115\ROMION_AUDIT_REPORT.md | 1975 | 2026-01-15T17:43:38 | 70 | 47c2eb3ec26d
+- file | workflow\oldies\20260115\ROMION_FINAL_AUDIT_REPORT.md | 2291 | 2026-01-15T18:19:05 | 71 | 9d9b2eb59a57
+- file | workflow\oldies\20260115\rozmowa.txt | 247518 | 2026-01-15T20:16:25 | 4748 | eedf02bf35e9
+- dir  | workflow\oldies\20260116
+- file | workflow\oldies\20260116\msg1.txt | 4719 | 2026-01-18T09:58:28 | 215 | 82a69bf5dd4c
+- file | workflow\oldies\20260116\msg2.txt | 4250 | 2026-01-18T09:59:06 | 180 | c7dcc3e10632
+- file | workflow\oldies\20260116\msg3.txt | 4241 | 2026-01-18T09:59:45 | 206 | d9a4f547c7ec
+- dir  | workflow\oldies\oldromion
+- file | workflow\oldies\oldromion\4FGL-DR2.fit | 5460480 | 2025-07-06T09:51:06 |  | 
+- file | workflow\oldies\oldromion\4FGL-DR3.fit | 6952320 | 2025-07-06T09:50:26 |  | 
+- file | workflow\oldies\oldromion\4FGL-DR4.fit | 7819200 | 2025-07-05T18:38:12 |  | 
+- file | workflow\oldies\oldromion\analyze_chandra.py | 1455 | 2025-07-05T20:30:24 | 33 | 7cc73bea7161
+- file | workflow\oldies\oldromion\analyze_chandra_22483_22484.py | 2138 | 2025-07-06T09:45:22 | 50 | be38a443868e
+- file | workflow\oldies\oldromion\analyze_evt2_romion.py | 928 | 2025-07-06T18:20:58 | 25 | 7ce56892cfa0
+- file | workflow\oldies\oldromion\analyze_evt2_romion_full.py | 1237 | 2025-07-06T18:23:08 | 30 | c06229e0a458
+- file | workflow\oldies\oldromion\analyze_fermi_chandra_romion.py | 2443 | 2025-07-05T21:08:26 | 44 | 065af66b2a5e
+- file | workflow\oldies\oldromion\analyze_romion_auxdata_20250707_170928.py | 1916 | 2025-07-07T19:09:44 | 59 | 3d3ff335ab67
+- file | workflow\oldies\oldromion\bootes_clean.ecsv.csv | 43778 | 2025-07-06T10:40:20 | 288 | 3cbd2338770f
+- file | workflow\oldies\oldromion\bootes_fermi_results.ecsv | 43766 | 2025-07-05T20:26:58 |  | 35f67f0c0f2b
+- file | workflow\oldies\oldromion\dump-20250707_184523.txt | 40586 | 2025-07-07T18:45:24 | 668 | 50c8dd8e497f
+- file | workflow\oldies\oldromion\dumpdir.py | 1102 | 2025-07-07T18:37:42 | 30 | bed1a8567e29
+- file | workflow\oldies\oldromion\extract.py | 674 | 2025-07-07T19:01:04 | 17 | 3fa628a6ff88
+- file | workflow\oldies\oldromion\extract_romion_gwdata_20250707_165314.py | 1622 | 2025-07-07T18:53:36 | 39 | aa78559f7639
+- file | workflow\oldies\oldromion\generate_romion_hdf5_filelist.py | 1107 | 2025-07-07T19:25:00 | 29 | a94e09ec6ad5
+- file | workflow\oldies\oldromion\GPT_CONSTANTS_ANALYSIS.md | 19330 | 2026-01-20T18:36:08 | 611 | 9356260a98f3
+- file | workflow\oldies\oldromion\HE0435_Bonvin2016.rdb | 74051 | 2025-07-07T17:38:24 |  | 00308d9e79fb
+- file | workflow\oldies\oldromion\list_directory.py | 755 | 2025-07-05T20:00:38 | 20 | f3dfa5bc7a09
+- file | workflow\oldies\oldromion\MAGIC_2008_3C279.fits | 31680 | 2025-07-05T19:28:32 |  | 719e3b75af80
+- file | workflow\oldies\oldromion\MAGIC_2012_M87.fits | 14400 | 2025-07-05T19:25:32 |  | 94a7c972fedc
+- file | workflow\oldies\oldromion\MAGIC_2014_3C_279.fits | 14400 | 2025-07-05T19:28:50 |  | 8c1f1af1dd66
+- file | workflow\oldies\oldromion\pobierz_fermi.py | 3875 | 2025-07-05T20:12:26 | 91 | aa914bce7f51
+- file | workflow\oldies\oldromion\pobierz_fermi_clean.py | 1604 | 2025-07-06T10:40:08 | 45 | c8fe2aeaabf1
+- file | workflow\oldies\oldromion\pobierz_fermi_dual.py | 3776 | 2025-07-05T20:26:40 | 80 | 98642aea0778
+- file | workflow\oldies\oldromion\RCC.tex | 3295 | 2025-07-07T17:08:58 |  | 118ee65d9c2d
+- file | workflow\oldies\oldromion\romion_analyze_fullbatch.py | 2037 | 2025-07-07T19:26:46 | 50 | 1b93d6572ba5
+- file | workflow\oldies\oldromion\ROMION_Batch_Analysis.csv | 40052788 | 2025-07-07T20:14:20 | 188774 | 
+- file | workflow\oldies\oldromion\ROMION_Batch_Analysis.zip | 12512509 | 2025-07-07T20:38:30 |  | 
+- file | workflow\oldies\oldromion\romion_batch_analysis_20250707_192650.csv | 40506505 | 2025-07-07T19:49:46 | 188774 | 
+- file | workflow\oldies\oldromion\romion_batch_analysis_20250707_192650.zip | 12556809 | 2025-07-07T20:12:24 |  | 
+- file | workflow\oldies\oldromion\romion_batch_errors_20250707_192650.log | 0 | 2025-07-07T19:26:52 |  | e3b0c44298fc
+- file | workflow\oldies\oldromion\romion_data_dump_20250707_165314.txt | 25688 | 2025-07-07T18:55:18 | 338 | 2cf0f01fc380
+- file | workflow\oldies\oldromion\romion_equation_collapse.tex | 1723 | 2025-07-06T19:58:52 |  | 15d0dff865bf
+- file | workflow\oldies\oldromion\romion_equation_verified.tex | 2488 | 2025-07-06T20:09:14 |  | d10e9bf455ff
+- file | workflow\oldies\oldromion\romion_equation_verified_en.tex | 2140 | 2025-07-07T05:54:20 |  | 39bdc955ce6d
+- file | workflow\oldies\oldromion\romion_equation_verified_final.tex | 2686 | 2025-07-06T20:14:20 |  | 249b55c1c5dd
+- file | workflow\oldies\oldromion\romion_equation_verified_manual_en.tex | 2488 | 2025-07-06T20:18:40 |  | d10e9bf455ff
+- file | workflow\oldies\oldromion\romion_equation_verified_polish.tex | 2568 | 2025-07-06T20:12:50 |  | b6d10781d954
+- file | workflow\oldies\oldromion\romion_features_output_20250707_170928.csv | 2 | 2025-07-07T19:11:12 | 1 | 7eb70257593d
+- file | workflow\oldies\oldromion\romion_generate_phase2a_dataset.py | 2348 | 2025-07-07T20:56:02 | 67 | b998c79beec1
+- file | workflow\oldies\oldromion\romion_hdf5_paths_batch_fixed_20250707_192505.txt | 22308 | 2025-07-07T19:25:06 | 338 | 8bf234bfd9b6
+- file | workflow\oldies\oldromion\romion_model_comparison 2.tex | 3819 | 2025-07-06T19:23:26 |  | eb44b01e0c0f
+- file | workflow\oldies\oldromion\romion_model_comparison.tex | 3694 | 2025-07-06T19:22:38 |  | 2825488aa14c
+- file | workflow\oldies\oldromion\romion_model_comparison_fixed.tex | 3738 | 2025-07-06T19:26:14 |  | 9ee5df4da861
+- file | workflow\oldies\oldromion\romion_simulation.py | 1174 | 2025-07-05T19:06:28 | 31 | ea4e12501dca
+- file | workflow\oldies\oldromion\romion_test_dump.py | 994 | 2025-07-07T19:18:42 | 25 | fc6889fbdec8
+- file | workflow\oldies\oldromion\romion_test_dump_20250707_191845.txt | 169657 | 2025-07-07T19:18:46 | 3458 | 3df219839d9c
+- file | workflow\oldies\oldromion\romion_valid_hdf5_paths_20250707_190113.txt | 22308 | 2025-07-07T19:01:14 | 338 | 8bf234bfd9b6
+- file | workflow\oldies\oldromion\RXJ1131_Tewes2013.rdb | 86087 | 2025-07-07T17:37:40 |  | fbb22121f215
+- file | workflow\oldies\oldromion\test1.py | 120 | 2025-07-05T18:24:06 | 5 | 0281e02f74cb
+- file | workflow\oldies\oldromion\verify_deepseek_romion.py | 1941 | 2025-07-06T08:42:38 | 38 | ea82a98e79b3
+- file | workflow\oldies\oldromion\virgo_clean.ecsv.csv | 43757 | 2025-07-06T10:40:20 | 288 | ffa5ca232a1d
+- file | workflow\oldies\oldromion\virgo_fermi_results.ecsv | 43745 | 2025-07-05T20:26:58 |  | 7ff94fb0f9eb
+- dir  | workflow\oldies\oldromion\22483
+- file | workflow\oldies\oldromion\22483\00README | 10425 | 2021-03-10T02:20:02 |  | 2787b15980e4
+- file | workflow\oldies\oldromion\22483\axaff22483N002_VV001_vv2.pdf | 39867 | 2020-11-12T15:03:00 |  | 27db542a0e9d
+- file | workflow\oldies\oldromion\22483\oif.fits | 20160 | 2021-03-10T02:20:04 |  | 593fb88d70f1
+- dir  | workflow\oldies\oldromion\22483\primary
+- file | workflow\oldies\oldromion\22483\primary\acisf22483N002_cntr_img2.fits.gz | 106856 | 2020-11-04T20:13:40 |  | 9fc0d9f52c1b
+- file | workflow\oldies\oldromion\22483\primary\acisf22483N002_cntr_img2.jpg | 661622 | 2020-11-04T20:13:40 |  | f8834b5c50ae
+- file | workflow\oldies\oldromion\22483\primary\acisf22483N002_evt2.fits.gz | 7374660 | 2020-11-04T20:13:44 |  | 
+- file | workflow\oldies\oldromion\22483\primary\acisf22483N002_full_img2.fits.gz | 25433 | 2020-11-04T20:13:42 |  | 5b91dca23b9a
+- file | workflow\oldies\oldromion\22483\primary\acisf22483N002_full_img2.jpg | 15351 | 2020-11-04T20:13:42 |  | 2a62ae1d9aa7
+- file | workflow\oldies\oldromion\22483\primary\acisf22483_000N002_bpix1.fits.gz | 6493 | 2020-11-04T20:12:58 |  | 4791feac5e32
+- file | workflow\oldies\oldromion\22483\primary\acisf22483_000N002_fov1.fits.gz | 5435 | 2020-11-04T20:12:58 |  | 730bc06b9051
+- file | workflow\oldies\oldromion\22483\primary\orbitf700056305N001_eph1.fits.gz | 318728 | 2020-04-07T15:50:20 |  | 836573268985
+- file | workflow\oldies\oldromion\22483\primary\pcadf22483_000N001_asol1.fits.gz | 6650739 | 2020-11-04T20:11:44 |  | 
+- dir  | workflow\oldies\oldromion\22483\secondary
+- file | workflow\oldies\oldromion\22483\secondary\acisf22483_000N002_evt1.fits.gz | 23415570 | 2020-11-04T20:13:06 |  | 
+- file | workflow\oldies\oldromion\22483\secondary\acisf22483_000N002_flt1.fits.gz | 4426 | 2020-11-04T20:12:58 |  | 602ec80247dd
+- file | workflow\oldies\oldromion\22483\secondary\acisf22483_000N002_msk1.fits.gz | 4101 | 2020-11-04T20:12:58 |  | 95409eb4da2c
+- file | workflow\oldies\oldromion\22483\secondary\acisf22483_000N002_mtl1.fits.gz | 1059947 | 2020-11-04T20:13:00 |  | 0cd52e14adb8
+- file | workflow\oldies\oldromion\22483\secondary\acisf22483_000N002_stat1.fits.gz | 175379 | 2020-11-04T20:12:58 |  | 1b6a48ba558b
+- file | workflow\oldies\oldromion\22483\secondary\acisf700096909N002_1_bias0.fits.gz | 506241 | 2020-11-03T22:04:18 |  | bd7ec82ffee8
+- file | workflow\oldies\oldromion\22483\secondary\acisf700097624N002_pbk0.fits.gz | 3943 | 2020-11-03T22:04:20 |  | 1fcb00bd8db9
+- file | workflow\oldies\oldromion\22483\secondary\axaff22483N002_VV001_vvref2.pdf.gz | 59373973 | 2020-11-12T15:02:48 |  | 
+- dir  | workflow\oldies\oldromion\22483\secondary\aspect
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700091819N002_osol1.fits.gz | 374046 | 2020-11-04T20:45:04 |  | e383026c7f62
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700097538N002_aqual1.fits.gz | 452288 | 2020-11-04T20:11:14 |  | 2e93b9cd73fe
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700098379N002_osol1.fits.gz | 376921 | 2020-11-04T20:45:04 |  | 9dca78978028
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700104939N002_osol1.fits.gz | 241386 | 2020-11-04T20:45:04 |  | 3062ae53b7ca
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700109170N002_osol1.fits.gz | 369856 | 2020-11-04T20:45:04 |  | a3c0fa5daeac
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700115730N002_osol1.fits.gz | 373451 | 2020-11-04T20:45:04 |  | 40f9e8dbfe0e
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700122290N002_osol1.fits.gz | 264409 | 2020-11-04T20:45:06 |  | 88abeb97374a
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700126915N002_osol1.fits.gz | 19864 | 2020-11-04T20:45:06 |  | 4f4c60dff72b
+- file | workflow\oldies\oldromion\22483\secondary\aspect\pcadf700127177N002_osol1.fits.gz | 377089 | 2020-11-04T20:45:06 |  | 4772f3173277
+- dir  | workflow\oldies\oldromion\22483\secondary\ephem
+- file | workflow\oldies\oldromion\22483\secondary\ephem\anglesf22483_000N002_eph1.fits.gz | 12598 | 2020-11-04T20:12:38 |  | b6cf3ad8ad85
+- file | workflow\oldies\oldromion\22483\secondary\ephem\lunarf700056305N001_eph1.fits.gz | 312806 | 2020-04-07T15:50:20 |  | ad36294e0ac7
+- file | workflow\oldies\oldromion\22483\secondary\ephem\solarf700056305N001_eph1.fits.gz | 295274 | 2020-04-07T15:50:28 |  | f147ce12e875
+- dir  | workflow\oldies\oldromion\22484
+- file | workflow\oldies\oldromion\22484\00README | 10145 | 2022-03-24T15:16:40 |  | 888b86a42793
+- file | workflow\oldies\oldromion\22484\axaff22484N001_VV001_vv2.pdf | 45362 | 2021-03-24T14:36:44 |  | a281355e48a5
+- file | workflow\oldies\oldromion\22484\oif.fits | 23040 | 2022-03-24T15:16:42 |  | 4f088bbdafed
+- dir  | workflow\oldies\oldromion\22484\primary
+- file | workflow\oldies\oldromion\22484\primary\acisf22484N001_cntr_img2.fits.gz | 133766 | 2021-03-24T14:51:08 |  | edbc4d4ba280
+- file | workflow\oldies\oldromion\22484\primary\acisf22484N001_cntr_img2.jpg | 860258 | 2021-03-24T14:51:08 |  | 18e2583c0b6f
+- file | workflow\oldies\oldromion\22484\primary\acisf22484N001_evt2.fits.gz | 12764932 | 2021-03-24T14:51:10 |  | 
+- file | workflow\oldies\oldromion\22484\primary\acisf22484N001_full_img2.fits.gz | 55206 | 2021-03-24T14:51:10 |  | 764de02eb0d5
+- file | workflow\oldies\oldromion\22484\primary\acisf22484N001_full_img2.jpg | 65664 | 2021-03-24T14:51:08 |  | f2e7919cd84e
+- file | workflow\oldies\oldromion\22484\primary\acisf22484_000N001_bpix1.fits.gz | 35809 | 2021-03-24T14:50:50 |  | be270fa54eec
+- file | workflow\oldies\oldromion\22484\primary\acisf22484_000N001_fov1.fits.gz | 7259 | 2021-03-24T14:51:00 |  | 09a90b9eabee
+- file | workflow\oldies\oldromion\22484\primary\orbitf732715505N001_eph1.fits.gz | 318706 | 2021-04-20T09:01:42 |  | ca258adbd9e2
+- file | workflow\oldies\oldromion\22484\primary\pcadf22484_000N001_asol1.fits.gz | 6634613 | 2021-03-24T14:50:36 |  | 
+- dir  | workflow\oldies\oldromion\22484\secondary
+- file | workflow\oldies\oldromion\22484\secondary\acisf22484_000N001_evt1.fits.gz | 69648217 | 2021-03-24T14:51:04 |  | 
+- file | workflow\oldies\oldromion\22484\secondary\acisf22484_000N001_flt1.fits.gz | 5828 | 2021-03-24T14:51:02 |  | da6368b6d540
+- file | workflow\oldies\oldromion\22484\secondary\acisf22484_000N001_msk1.fits.gz | 4781 | 2021-03-24T14:51:02 |  | 1d1de3a65e0e
+- file | workflow\oldies\oldromion\22484\secondary\acisf22484_000N001_mtl1.fits.gz | 1149466 | 2021-03-24T14:51:02 |  | ca7e0e5846f6
+- file | workflow\oldies\oldromion\22484\secondary\acisf22484_000N001_stat1.fits.gz | 717477 | 2021-03-24T14:51:00 |  | 9463ebc4a88a
+- file | workflow\oldies\oldromion\22484\secondary\acisf732824228N001_1_bias0.fits.gz | 509640 | 2021-03-24T12:34:42 |  | 1f2d1851445d
+- file | workflow\oldies\oldromion\22484\secondary\acisf732824228N001_2_bias0.fits.gz | 443029 | 2021-03-24T12:34:42 |  | 431111e33901
+- file | workflow\oldies\oldromion\22484\secondary\acisf732824228N001_3_bias0.fits.gz | 440969 | 2021-03-24T12:34:42 |  | 1d04ae4bc687
+- file | workflow\oldies\oldromion\22484\secondary\acisf732824228N001_4_bias0.fits.gz | 444394 | 2021-03-24T12:34:42 |  | 79f8e235c5ff
+- file | workflow\oldies\oldromion\22484\secondary\acisf732825298N001_pbk0.fits.gz | 3986 | 2021-03-24T12:34:46 |  | 09ddff6565c9
+- file | workflow\oldies\oldromion\22484\secondary\axaff22484N001_VV001_vvref2.pdf.gz | 59402847 | 2021-03-24T14:36:26 |  | 
+- dir  | workflow\oldies\oldromion\22484\secondary\aspect
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732823395N001_osol1.fits.gz | 380639 | 2021-03-24T12:32:56 |  | 63b647900eaf
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732825223N001_aqual1.fits.gz | 446542 | 2021-03-24T14:49:52 |  | 5c13eae2265c
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732829955N001_osol1.fits.gz | 16116 | 2021-03-24T12:35:04 |  | 7871c87ea3a3
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732830184N001_osol1.fits.gz | 367484 | 2021-03-24T12:35:58 |  | 5d7611cf9d2c
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732836744N001_osol1.fits.gz | 366304 | 2021-03-24T12:35:58 |  | e0b40b72a121
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732843304N001_osol1.fits.gz | 365897 | 2021-03-24T12:35:58 |  | 6ca75731c777
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732849864N001_osol1.fits.gz | 263879 | 2021-03-24T12:35:58 |  | 6ac069220236
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732854588N001_osol1.fits.gz | 7716 | 2021-03-24T14:47:12 |  | 5688b484b0b1
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732854653N001_osol1.fits.gz | 15404 | 2021-03-24T14:49:24 |  | 54f09dcc5c46
+- file | workflow\oldies\oldromion\22484\secondary\aspect\pcadf732854850N001_osol1.fits.gz | 376849 | 2021-03-24T14:49:24 |  | 0d019dd5b24a
+- dir  | workflow\oldies\oldromion\22484\secondary\ephem
+- file | workflow\oldies\oldromion\22484\secondary\ephem\anglesf22484_000N001_eph1.fits.gz | 12651 | 2021-03-24T14:50:46 |  | 752670565742
+- file | workflow\oldies\oldromion\22484\secondary\ephem\lunarf732715505N001_eph1.fits.gz | 312171 | 2021-04-20T09:01:42 |  | b11a2127a5c7
+- file | workflow\oldies\oldromion\22484\secondary\ephem\solarf732715505N001_eph1.fits.gz | 294734 | 2021-04-20T09:01:44 |  | 9deef235ae89
+- dir  | workflow\oldies\oldromion\2707
+- file | workflow\oldies\oldromion\2707\00README | 10142 | 2021-04-30T13:54:46 |  | ce9fb77a45d6
+- file | workflow\oldies\oldromion\2707\axaff02707N003_VV001_vv2.pdf | 43037 | 2021-04-30T13:47:54 |  | 4983f5e002e9
+- file | workflow\oldies\oldromion\2707\oif.fits | 25920 | 2021-04-30T13:54:48 |  | 1a8f216a3344
+- dir  | workflow\oldies\oldromion\2707\primary
+- file | workflow\oldies\oldromion\2707\primary\acisf02707N004_cntr_img2.fits.gz | 607483 | 2021-03-29T07:00:34 |  | 5c23cd61e439
+- file | workflow\oldies\oldromion\2707\primary\acisf02707N004_cntr_img2.jpg | 488464 | 2021-03-29T07:00:34 |  | 55084b76cb64
+- file | workflow\oldies\oldromion\2707\primary\acisf02707N004_evt2.fits.gz | 229103475 | 2021-03-29T07:01:20 |  | 
+- file | workflow\oldies\oldromion\2707\primary\acisf02707N004_full_img2.fits.gz | 129209 | 2021-03-29T07:00:36 |  | dd28f55f0735
+- file | workflow\oldies\oldromion\2707\primary\acisf02707N004_full_img2.jpg | 34832 | 2021-03-29T07:00:36 |  | f6bf90ea78f2
+- file | workflow\oldies\oldromion\2707\primary\acisf02707_000N004_bpix1.fits.gz | 67045 | 2021-03-29T06:59:14 |  | 4fd11fd6b800
+- file | workflow\oldies\oldromion\2707\primary\acisf02707_000N004_fov1.fits.gz | 8128 | 2021-03-29T06:59:18 |  | 19aa3f6978c4
+- file | workflow\oldies\oldromion\2707\primary\orbitf142257900N001_eph1.fits.gz | 288629 | 2002-08-04T20:58:18 |  | 120f4fc95c02
+- file | workflow\oldies\oldromion\2707\primary\pcadf02707_000N001_asol1.fits.gz | 22419864 | 2021-03-29T06:57:38 |  | 
+- dir  | workflow\oldies\oldromion\2707\secondary
+- file | workflow\oldies\oldromion\2707\secondary\acisf02707_000N004_evt1.fits.gz | 489269077 | 2021-03-29T07:01:08 |  | 
+- file | workflow\oldies\oldromion\2707\secondary\acisf02707_000N004_flt1.fits.gz | 7488 | 2021-03-29T06:59:18 |  | 4ff93dea8b73
+- file | workflow\oldies\oldromion\2707\secondary\acisf02707_000N004_msk1.fits.gz | 5476 | 2021-03-29T06:59:20 |  | a8427725f328
+- file | workflow\oldies\oldromion\2707\secondary\acisf02707_000N004_mtl1.fits.gz | 4336039 | 2021-03-29T06:59:22 |  | 
+- file | workflow\oldies\oldromion\2707\secondary\acisf02707_000N004_stat1.fits.gz | 3626642 | 2021-03-29T06:59:16 |  | 
+- file | workflow\oldies\oldromion\2707\secondary\acisf142378668N004_0_bias0.fits.gz | 438626 | 2021-03-28T13:09:50 |  | 7ecc95817d8f
+- file | workflow\oldies\oldromion\2707\secondary\acisf142378668N004_1_bias0.fits.gz | 510490 | 2021-03-28T13:09:50 |  | a04d62d86285
+- file | workflow\oldies\oldromion\2707\secondary\acisf142378668N004_2_bias0.fits.gz | 456830 | 2021-03-28T13:09:50 |  | ce602923317b
+- file | workflow\oldies\oldromion\2707\secondary\acisf142378668N004_3_bias0.fits.gz | 438421 | 2021-03-28T13:09:50 |  | 110bca603a96
+- file | workflow\oldies\oldromion\2707\secondary\acisf142378668N004_4_bias0.fits.gz | 442788 | 2021-03-28T13:09:50 |  | edbcfd59b3d1
+- file | workflow\oldies\oldromion\2707\secondary\acisf142378668N004_5_bias0.fits.gz | 453085 | 2021-03-28T13:09:50 |  | 531ad3b82ca6
+- file | workflow\oldies\oldromion\2707\secondary\acisf142379975N004_pbk0.fits.gz | 4023 | 2021-03-28T13:10:08 |  | e7a345fdbb6c
+- file | workflow\oldies\oldromion\2707\secondary\axaff02707N003_VV001_vvref2.pdf.gz | 202118751 | 2021-04-30T13:47:24 |  | 
+- dir  | workflow\oldies\oldromion\2707\secondary\aspect
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142372981N004_osol1.fits.gz | 371096 | 2021-03-29T07:33:54 |  | 13ffea3da38e
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142379541N004_osol1.fits.gz | 368003 | 2021-03-29T07:33:54 |  | 9d05a6461eec
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142379688N004_aqual1.fits.gz | 1555625 | 2021-03-29T06:56:26 |  | f868401c7bac
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142386101N004_osol1.fits.gz | 362987 | 2021-03-29T07:33:54 |  | 3e486f07ec23
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142392661N004_osol1.fits.gz | 170736 | 2021-03-29T07:33:54 |  | bc73956e3158
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142395744N004_osol1.fits.gz | 361400 | 2021-03-29T07:33:56 |  | b7852f565f00
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142402304N004_osol1.fits.gz | 361027 | 2021-03-29T07:33:52 |  | 54aef1d4f5f6
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142408864N004_osol1.fits.gz | 361238 | 2021-03-29T07:33:52 |  | d43f23b63993
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142415424N004_osol1.fits.gz | 361604 | 2021-03-29T07:33:52 |  | 9d6d9210255f
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142421984N004_osol1.fits.gz | 361101 | 2021-03-29T07:33:54 |  | 2c3504deefee
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142428544N004_osol1.fits.gz | 103388 | 2021-03-29T07:33:54 |  | f4fe548cf07f
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142430381N004_osol1.fits.gz | 360934 | 2021-03-29T07:33:56 |  | 0adecefc15be
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142436941N004_osol1.fits.gz | 362042 | 2021-03-29T07:33:56 |  | 113f646bce6f
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142443501N004_osol1.fits.gz | 361198 | 2021-03-29T07:33:56 |  | 5b257d8de323
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142450061N004_osol1.fits.gz | 360406 | 2021-03-29T07:33:56 |  | f04bf1d941af
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142456621N004_osol1.fits.gz | 32532 | 2021-03-29T07:33:56 |  | d40b13be5323
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142457146N004_osol1.fits.gz | 360978 | 2021-03-29T07:33:56 |  | b4c6faa017b3
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142463706N004_osol1.fits.gz | 360483 | 2021-03-29T07:33:56 |  | e99f8ebd98df
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142470266N004_osol1.fits.gz | 361875 | 2021-03-29T07:33:56 |  | eb38668ef961
+- file | workflow\oldies\oldromion\2707\secondary\aspect\pcadf142476826N004_osol1.fits.gz | 315149 | 2021-03-29T07:33:56 |  | d2dd9ad32b52
+- dir  | workflow\oldies\oldromion\2707\secondary\ephem
+- file | workflow\oldies\oldromion\2707\secondary\ephem\anglesf02707_000N004_eph1.fits.gz | 34674 | 2021-03-29T06:58:06 |  | 8ebb27f4d6aa
+- file | workflow\oldies\oldromion\2707\secondary\ephem\lunarf142257900N001_eph1.fits.gz | 282112 | 2002-08-04T20:58:14 |  | ac456e52ffe6
+- file | workflow\oldies\oldromion\2707\secondary\ephem\solarf142257900N001_eph1.fits.gz | 259051 | 2002-08-04T20:58:20 |  | 0e37cf5b66d0
+- dir  | workflow\oldies\oldromion\3130
+- file | workflow\oldies\oldromion\3130\00README | 10142 | 2021-04-22T20:43:16 |  | c857dbc9a70f
+- file | workflow\oldies\oldromion\3130\axaff03130N004_VV001_vv2.pdf | 48373 | 2021-04-22T20:27:04 |  | 946f8729d561
+- file | workflow\oldies\oldromion\3130\oif.fits | 25920 | 2021-04-22T20:43:22 |  | 3ca7a4d97c2b
+- dir  | workflow\oldies\oldromion\3130\primary
+- file | workflow\oldies\oldromion\3130\primary\acisf03130N006_cntr_img2.fits.gz | 65087 | 2021-03-27T11:53:18 |  | 99e258bfd8e8
+- file | workflow\oldies\oldromion\3130\primary\acisf03130N006_cntr_img2.jpg | 534590 | 2021-03-27T11:53:18 |  | a09ebe94ed9f
+- file | workflow\oldies\oldromion\3130\primary\acisf03130N006_evt2.fits.gz | 34724166 | 2021-03-27T11:53:26 |  | 
+- file | workflow\oldies\oldromion\3130\primary\acisf03130N006_full_img2.fits.gz | 72003 | 2021-03-27T11:53:20 |  | 1f1cd0f6872f
+- file | workflow\oldies\oldromion\3130\primary\acisf03130N006_full_img2.jpg | 69285 | 2021-03-27T11:53:18 |  | 2177ccf6cf43
+- file | workflow\oldies\oldromion\3130\primary\acisf03130_000N006_bpix1.fits.gz | 102575 | 2021-03-27T11:52:32 |  | b91c31a32ed9
+- file | workflow\oldies\oldromion\3130\primary\acisf03130_000N006_fov1.fits.gz | 8939 | 2021-03-27T11:52:34 |  | 175b0b755b95
+- file | workflow\oldies\oldromion\3130\primary\orbitf134136300N002_eph1.fits.gz | 288728 | 2003-03-21T21:00:52 |  | 50b0dc5870dc
+- file | workflow\oldies\oldromion\3130\primary\pcadf03130_000N001_asol1.fits.gz | 27192046 | 2021-03-27T11:47:22 |  | 
+- dir  | workflow\oldies\oldromion\3130\secondary
+- file | workflow\oldies\oldromion\3130\secondary\acisf03130_000N006_evt1.fits.gz | 323499662 | 2021-03-27T11:53:52 |  | 
+- file | workflow\oldies\oldromion\3130\secondary\acisf03130_000N006_flt1.fits.gz | 7584 | 2021-03-27T11:52:34 |  | 8470b15e87d9
+- file | workflow\oldies\oldromion\3130\secondary\acisf03130_000N006_msk1.fits.gz | 5381 | 2021-03-27T11:52:36 |  | fb3674a7a83e
+- file | workflow\oldies\oldromion\3130\secondary\acisf03130_000N006_mtl1.fits.gz | 5173525 | 2021-03-27T11:52:38 |  | 
+- file | workflow\oldies\oldromion\3130\secondary\acisf03130_000N006_stat1.fits.gz | 4402656 | 2021-03-27T11:52:34 |  | 
+- file | workflow\oldies\oldromion\3130\secondary\acisf135312209N004_0_bias0.fits.gz | 448461 | 2021-03-27T09:17:30 |  | 65abad96e25a
+- file | workflow\oldies\oldromion\3130\secondary\acisf135312209N004_1_bias0.fits.gz | 507800 | 2021-03-27T09:17:30 |  | ef8654d7d2cd
+- file | workflow\oldies\oldromion\3130\secondary\acisf135312209N004_2_bias0.fits.gz | 438202 | 2021-03-27T09:17:30 |  | 6fd2eda331c1
+- file | workflow\oldies\oldromion\3130\secondary\acisf135312209N004_3_bias0.fits.gz | 439006 | 2021-03-27T09:17:30 |  | 9363c1da32ed
+- file | workflow\oldies\oldromion\3130\secondary\acisf135312209N004_4_bias0.fits.gz | 441653 | 2021-03-27T09:17:30 |  | 70bb4eeb9da0
+- file | workflow\oldies\oldromion\3130\secondary\acisf135312209N004_5_bias0.fits.gz | 442682 | 2021-03-27T09:17:30 |  | 0efa752a7b3b
+- file | workflow\oldies\oldromion\3130\secondary\acisf135313516N004_pbk0.fits.gz | 4015 | 2021-03-27T09:17:48 |  | f6a551b0f73d
+- file | workflow\oldies\oldromion\3130\secondary\axaff03130N004_VV001_vvref2.pdf.gz | 245180701 | 2021-04-22T20:26:32 |  | 
+- dir  | workflow\oldies\oldromion\3130\secondary\aspect
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135310583N004_osol1.fits.gz | 371697 | 2021-03-27T12:01:42 |  | 9c673f154811
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135313817N006_aqual1.fits.gz | 1895570 | 2021-03-27T11:45:18 |  | 0dd6b695a144
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135317143N004_osol1.fits.gz | 365874 | 2021-03-27T12:01:44 |  | b60113d5e1d9
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135323703N004_osol1.fits.gz | 363480 | 2021-03-27T12:01:46 |  | 4c1059d62462
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135330263N004_osol1.fits.gz | 363832 | 2021-03-27T12:01:46 |  | c457aa3a8008
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135336823N004_osol1.fits.gz | 362137 | 2021-03-27T12:01:46 |  | 389d235dd438
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135343383N004_osol1.fits.gz | 51409 | 2021-03-27T12:01:50 |  | 74a152a8c5ab
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135344268N004_osol1.fits.gz | 363600 | 2021-03-27T12:01:48 |  | 6bc28f45a341
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135350828N004_osol1.fits.gz | 364053 | 2021-03-27T12:01:50 |  | 40e4e4153bb7
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135357388N004_osol1.fits.gz | 363704 | 2021-03-27T12:01:52 |  | 056d89eb2c43
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135363948N004_osol1.fits.gz | 364019 | 2021-03-27T12:01:52 |  | c10729af9817
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135370508N004_osol1.fits.gz | 235798 | 2021-03-27T12:01:52 |  | 111eaa3e0ef3
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135374772N004_osol1.fits.gz | 363580 | 2021-03-27T12:01:54 |  | 60b8311b82a7
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135381332N004_osol1.fits.gz | 363963 | 2021-03-27T12:01:54 |  | 795e0d54c441
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135387892N004_osol1.fits.gz | 364542 | 2021-03-27T12:01:56 |  | 8f93bf26f89c
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135394452N004_osol1.fits.gz | 363679 | 2021-03-27T12:01:56 |  | 72636b63e6c1
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135401012N004_osol1.fits.gz | 363331 | 2021-03-27T12:01:56 |  | 5ab02fcbcaa7
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135407572N004_osol1.fits.gz | 97449 | 2021-03-27T12:01:58 |  | 76376d5d1af0
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135409311N004_osol1.fits.gz | 363285 | 2021-03-27T12:01:58 |  | 858366f30daa
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135415871N004_osol1.fits.gz | 363828 | 2021-03-27T12:01:58 |  | 912167a284ea
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135422431N004_osol1.fits.gz | 229373 | 2021-03-27T12:01:58 |  | 82fd37c8809e
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135426531N004_osol1.fits.gz | 364560 | 2021-03-27T12:02:00 |  | 929c0a191f25
+- file | workflow\oldies\oldromion\3130\secondary\aspect\pcadf135433091N004_osol1.fits.gz | 362190 | 2021-03-27T12:02:00 |  | f27f68676c6d
+- dir  | workflow\oldies\oldromion\3130\secondary\ephem
+- file | workflow\oldies\oldromion\3130\secondary\ephem\anglesf03130_000N006_eph1.fits.gz | 40728 | 2021-03-27T11:50:14 |  | e734a8d30b9d
+- file | workflow\oldies\oldromion\3130\secondary\ephem\lunarf134136300N002_eph1.fits.gz | 281444 | 2003-03-21T21:00:48 |  | 862d6045c8bc
+- file | workflow\oldies\oldromion\3130\secondary\ephem\solarf134136300N002_eph1.fits.gz | 264097 | 2003-03-21T21:00:54 |  | 5ca8e2418eca
+- dir  | workflow\oldies\oldromion\3482
+- file | workflow\oldies\oldromion\3482\00README | 10142 | 2021-05-21T19:34:08 |  | 4cc9599b4e10
+- file | workflow\oldies\oldromion\3482\axaff03482N003_VV001_vv2.pdf | 44133 | 2021-05-21T19:28:02 |  | e4050e0e9f47
+- file | workflow\oldies\oldromion\3482\oif.fits | 23040 | 2021-05-21T19:34:12 |  | 3f717b89e940
+- dir  | workflow\oldies\oldromion\3482\primary
+- file | workflow\oldies\oldromion\3482\primary\acisf03482N005_cntr_img2.fits.gz | 59347 | 2021-03-28T12:31:14 |  | 6735629b7c59
+- file | workflow\oldies\oldromion\3482\primary\acisf03482N005_cntr_img2.jpg | 431421 | 2021-03-28T12:31:14 |  | 481d32e6e274
+- file | workflow\oldies\oldromion\3482\primary\acisf03482N005_evt2.fits.gz | 21786175 | 2021-03-28T12:31:18 |  | 
+- file | workflow\oldies\oldromion\3482\primary\acisf03482N005_full_img2.fits.gz | 72790 | 2021-03-28T12:31:16 |  | 238fc5b84f29
+- file | workflow\oldies\oldromion\3482\primary\acisf03482N005_full_img2.jpg | 80995 | 2021-03-28T12:31:14 |  | 4ff9d7de2bce
+- file | workflow\oldies\oldromion\3482\primary\acisf03482_004N005_bpix1.fits.gz | 67514 | 2021-03-28T12:30:54 |  | ef145fea7cdd
+- file | workflow\oldies\oldromion\3482\primary\acisf03482_004N005_fov1.fits.gz | 8572 | 2021-03-28T12:30:54 |  | 70843d02a976
+- file | workflow\oldies\oldromion\3482\primary\orbitf139752300N001_eph1.fits.gz | 288652 | 2002-07-07T17:57:26 |  | 08ae9c3489e1
+- file | workflow\oldies\oldromion\3482\primary\pcadf03482_004N001_asol1.fits.gz | 13369150 | 2021-03-28T12:29:28 |  | 
+- dir  | workflow\oldies\oldromion\3482\secondary
+- file | workflow\oldies\oldromion\3482\secondary\acisf03482_004N005_evt1.fits.gz | 164349114 | 2021-03-28T12:31:28 |  | 
+- file | workflow\oldies\oldromion\3482\secondary\acisf03482_004N005_flt1.fits.gz | 17687 | 2021-03-28T12:30:56 |  | 1a63291c9495
+- file | workflow\oldies\oldromion\3482\secondary\acisf03482_004N005_msk1.fits.gz | 5375 | 2021-03-28T12:30:56 |  | 84dbedfba2eb
+- file | workflow\oldies\oldromion\3482\secondary\acisf03482_004N005_mtl1.fits.gz | 2536887 | 2021-03-28T12:30:56 |  | 
+- file | workflow\oldies\oldromion\3482\secondary\acisf03482_004N005_stat1.fits.gz | 2163831 | 2021-03-28T12:30:54 |  | 
+- file | workflow\oldies\oldromion\3482\secondary\acisf139981687N004_0_bias0.fits.gz | 436974 | 2021-03-28T11:32:24 |  | 04777fbaaca1
+- file | workflow\oldies\oldromion\3482\secondary\acisf139981687N004_1_bias0.fits.gz | 505798 | 2021-03-28T11:32:24 |  | 2025362403e7
+- file | workflow\oldies\oldromion\3482\secondary\acisf139981687N004_2_bias0.fits.gz | 442190 | 2021-03-28T11:32:24 |  | 36d4cdb3930c
+- file | workflow\oldies\oldromion\3482\secondary\acisf139981687N004_3_bias0.fits.gz | 443686 | 2021-03-28T11:32:24 |  | e0643598de18
+- file | workflow\oldies\oldromion\3482\secondary\acisf139981687N004_4_bias0.fits.gz | 440316 | 2021-03-28T11:32:24 |  | d8b7c1a30fc7
+- file | workflow\oldies\oldromion\3482\secondary\acisf139981687N004_5_bias0.fits.gz | 439304 | 2021-03-28T11:32:24 |  | 539b6975fdb9
+- file | workflow\oldies\oldromion\3482\secondary\acisf139982992N004_pbk0.fits.gz | 4009 | 2021-03-28T11:32:30 |  | 93361b059fea
+- file | workflow\oldies\oldromion\3482\secondary\axaff03482N003_VV001_vvref2.pdf.gz | 122544170 | 2021-05-21T19:27:18 |  | 
+- dir  | workflow\oldies\oldromion\3482\secondary\aspect
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf139979499N004_osol1.fits.gz | 367058 | 2021-03-28T12:49:26 |  | 0c7eda737d65
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf139982406N005_aqual1.fits.gz | 927578 | 2021-03-28T12:28:38 |  | 73e57c82615d
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf139986059N004_osol1.fits.gz | 359758 | 2021-03-28T12:49:26 |  | 7cff774942d7
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf139992619N004_osol1.fits.gz | 357402 | 2021-03-28T12:49:26 |  | b4ca381a9e9f
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf139999179N004_osol1.fits.gz | 355689 | 2021-03-28T12:49:26 |  | 97d3978810bc
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140005739N004_osol1.fits.gz | 205595 | 2021-03-28T12:49:26 |  | b270de1a1313
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140009511N004_osol1.fits.gz | 355761 | 2021-03-28T12:49:28 |  | 22f410634caa
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140016071N004_osol1.fits.gz | 356581 | 2021-03-28T12:49:28 |  | f7afaf3932c7
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140022631N004_osol1.fits.gz | 356826 | 2021-03-28T12:49:28 |  | 3de2bdba6574
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140029191N004_osol1.fits.gz | 357256 | 2021-03-28T12:49:28 |  | a57c15ab84a6
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140035751N004_osol1.fits.gz | 356030 | 2021-03-28T12:49:28 |  | 705625b16fa7
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140042311N004_osol1.fits.gz | 16000 | 2021-03-28T12:49:28 |  | f8060b3e9385
+- file | workflow\oldies\oldromion\3482\secondary\aspect\pcadf140042541N004_osol1.fits.gz | 375964 | 2021-03-28T12:49:28 |  | d0512b3e693d
+- dir  | workflow\oldies\oldromion\3482\secondary\ephem
+- file | workflow\oldies\oldromion\3482\secondary\ephem\anglesf03482_004N005_eph1.fits.gz | 22244 | 2021-03-28T12:29:54 |  | f7e9d0ded5ce
+- file | workflow\oldies\oldromion\3482\secondary\ephem\lunarf139752300N001_eph1.fits.gz | 282045 | 2002-07-07T17:57:24 |  | e654e85d6702
+- file | workflow\oldies\oldromion\3482\secondary\ephem\solarf139752300N001_eph1.fits.gz | 262909 | 2002-07-07T17:57:28 |  | 8ab793db3c92
+- dir  | workflow\oldies\oldromion\352
+- file | workflow\oldies\oldromion\352\00README | 10139 | 2021-04-09T16:31:18 |  | c6b2690e579d
+- file | workflow\oldies\oldromion\352\axaff00352N003_VV001_vv2.pdf | 40736 | 2021-04-09T16:22:54 |  | a62aa739deb8
+- file | workflow\oldies\oldromion\352\oif.fits | 23040 | 2021-04-09T16:31:18 |  | f95ba0b5f77b
+- dir  | workflow\oldies\oldromion\352\primary
+- file | workflow\oldies\oldromion\352\primary\acisf00352N006_cntr_img2.fits.gz | 474706 | 2021-03-16T12:46:52 |  | c922c64643c8
+- file | workflow\oldies\oldromion\352\primary\acisf00352N006_cntr_img2.jpg | 576716 | 2021-03-16T12:46:52 |  | f41f9bebadb2
+- file | workflow\oldies\oldromion\352\primary\acisf00352N006_evt2.fits.gz | 90730040 | 2021-03-16T12:47:12 |  | 
+- file | workflow\oldies\oldromion\352\primary\acisf00352N006_full_img2.fits.gz | 108798 | 2021-03-16T12:46:52 |  | e4a824e14d06
+- file | workflow\oldies\oldromion\352\primary\acisf00352N006_full_img2.jpg | 41855 | 2021-03-16T12:46:52 |  | 989b90ecbabf
+- file | workflow\oldies\oldromion\352\primary\acisf00352_000N006_bpix1.fits.gz | 28411 | 2021-03-16T12:46:16 |  | c49810df57ac
+- file | workflow\oldies\oldromion\352\primary\acisf00352_000N006_fov1.fits.gz | 7676 | 2021-03-16T12:46:16 |  | 3f9f01d536bb
+- file | workflow\oldies\oldromion\352\primary\orbitf081173100N001_eph1.fits.gz | 287896 | 2000-08-30T23:47:40 |  | a669a4e6e994
+- file | workflow\oldies\oldromion\352\primary\pcadf00352_000N001_asol1.fits.gz | 8671309 | 2021-03-16T12:42:06 |  | 
+- dir  | workflow\oldies\oldromion\352\secondary
+- file | workflow\oldies\oldromion\352\secondary\acisf00352_000N006_evt1.fits.gz | 142349313 | 2021-03-16T12:46:48 |  | 
+- file | workflow\oldies\oldromion\352\secondary\acisf00352_000N006_flt1.fits.gz | 6463 | 2021-03-16T12:46:16 |  | bba5c5506c36
+- file | workflow\oldies\oldromion\352\secondary\acisf00352_000N006_msk1.fits.gz | 5266 | 2021-03-16T12:46:18 |  | cc59829a9a81
+- file | workflow\oldies\oldromion\352\secondary\acisf00352_000N006_mtl1.fits.gz | 1666111 | 2021-03-16T12:46:18 |  | 1d42f33af8fb
+- file | workflow\oldies\oldromion\352\secondary\acisf00352_000N006_stat1.fits.gz | 1366038 | 2021-03-16T12:46:16 |  | 1b01d87423e4
+- file | workflow\oldies\oldromion\352\secondary\acisf081281125N006_0_bias0.fits.gz | 439378 | 2021-03-16T10:58:48 |  | c4abab80976a
+- file | workflow\oldies\oldromion\352\secondary\acisf081281125N006_1_bias0.fits.gz | 508102 | 2021-03-16T10:58:48 |  | ccdfc4a38ab9
+- file | workflow\oldies\oldromion\352\secondary\acisf081281125N006_2_bias0.fits.gz | 456858 | 2021-03-16T10:58:48 |  | 283253809205
+- file | workflow\oldies\oldromion\352\secondary\acisf081281125N006_3_bias0.fits.gz | 434085 | 2021-03-16T10:58:48 |  | 87e3421bb199
+- file | workflow\oldies\oldromion\352\secondary\acisf081281125N006_4_bias0.fits.gz | 431599 | 2021-03-16T10:58:48 |  | d1cc3c9f883b
+- file | workflow\oldies\oldromion\352\secondary\acisf081281125N006_5_bias0.fits.gz | 452525 | 2021-03-16T10:58:50 |  | d12a264b2e60
+- file | workflow\oldies\oldromion\352\secondary\acisf081282426N006_pbk0.fits.gz | 4018 | 2021-03-16T10:58:56 |  | 2cf92027e4bb
+- file | workflow\oldies\oldromion\352\secondary\axaff00352N003_VV001_vvref2.pdf.gz | 77870033 | 2021-04-09T16:22:32 |  | 
+- dir  | workflow\oldies\oldromion\352\secondary\aspect
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081280748N005_osol1.fits.gz | 374835 | 2021-03-16T12:49:24 |  | 1a21cccc0662
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081282232N006_aqual1.fits.gz | 597534 | 2021-03-16T12:41:20 |  | 98ca119fe533
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081287308N005_osol1.fits.gz | 361985 | 2021-03-16T12:49:24 |  | 4bcb55ef7093
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081293868N005_osol1.fits.gz | 164813 | 2021-03-16T12:49:24 |  | 5ded3af92b83
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081296820N005_osol1.fits.gz | 361419 | 2021-03-16T12:49:24 |  | e964b7488790
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081303380N005_osol1.fits.gz | 361482 | 2021-03-16T12:49:38 |  | 3046d8746640
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081309940N005_osol1.fits.gz | 360961 | 2021-03-16T12:49:38 |  | ce7213ec58a3
+- file | workflow\oldies\oldromion\352\secondary\aspect\pcadf081316500N005_osol1.fits.gz | 370106 | 2021-03-16T12:49:38 |  | 1244f7a3ad71
+- dir  | workflow\oldies\oldromion\352\secondary\ephem
+- file | workflow\oldies\oldromion\352\secondary\ephem\anglesf00352_000N006_eph1.fits.gz | 15556 | 2021-03-16T12:45:40 |  | f8337b854ee0
+- file | workflow\oldies\oldromion\352\secondary\ephem\lunarf081173100N001_eph1.fits.gz | 280234 | 2000-08-30T23:47:36 |  | bbad2ec55a49
+- file | workflow\oldies\oldromion\352\secondary\ephem\solarf081173100N001_eph1.fits.gz | 255085 | 2000-08-30T23:47:46 |  | 4fd608224489
+- dir  | workflow\oldies\oldromion\AUXR_HDF_v2
+- dir  | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736448-64.h5 | 60136963 | 2021-05-06T22:16:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736512-64.h5 | 60318381 | 2021-05-06T22:19:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736576-64.h5 | 60263000 | 2021-05-06T22:22:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736640-64.h5 | 60254688 | 2021-05-06T22:31:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736704-64.h5 | 60339907 | 2021-05-06T22:33:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736768-64.h5 | 60286226 | 2021-05-06T22:35:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736832-64.h5 | 60285595 | 2021-05-06T22:37:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736896-64.h5 | 60297993 | 2021-05-06T22:39:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736960-64.h5 | 60159842 | 2021-05-06T22:41:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737024-64.h5 | 60201389 | 2021-05-06T22:43:04 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737088-64.h5 | 60036064 | 2021-05-06T22:44:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737152-64.h5 | 60203527 | 2021-05-06T22:46:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737216-64.h5 | 60170494 | 2021-05-06T22:48:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737280-64.h5 | 60298840 | 2021-05-06T22:50:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737344-64.h5 | 60272849 | 2021-05-06T22:52:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737408-64.h5 | 60194166 | 2021-05-06T22:54:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737472-64.h5 | 60100266 | 2021-05-06T22:55:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737536-64.h5 | 60367765 | 2021-05-06T22:57:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737600-64.h5 | 60106062 | 2021-05-06T22:58:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737664-64.h5 | 60058274 | 2021-05-06T22:59:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737728-64.h5 | 60375003 | 2021-05-06T23:01:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737792-64.h5 | 60299668 | 2021-05-06T23:02:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737856-64.h5 | 60193188 | 2021-05-06T23:04:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737920-64.h5 | 60308152 | 2021-05-06T23:05:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737984-64.h5 | 60127598 | 2021-05-06T23:07:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738048-64.h5 | 60202332 | 2021-05-06T23:08:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738112-64.h5 | 60201273 | 2021-05-06T23:09:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738176-64.h5 | 60205646 | 2021-05-06T23:11:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738240-64.h5 | 60242738 | 2021-05-06T23:12:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738304-64.h5 | 60024955 | 2021-05-06T23:14:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738368-64.h5 | 60268054 | 2021-05-06T23:15:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738432-64.h5 | 60293695 | 2021-05-06T23:17:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738496-64.h5 | 60185597 | 2021-05-06T23:18:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738560-64.h5 | 60224634 | 2021-05-06T23:19:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738624-64.h5 | 60110015 | 2021-05-06T23:21:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738688-64.h5 | 60415582 | 2021-05-06T23:23:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738752-64.h5 | 60234946 | 2021-05-06T23:25:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738816-64.h5 | 60422208 | 2021-05-06T23:26:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738880-64.h5 | 60216147 | 2021-05-06T23:28:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738944-64.h5 | 60046785 | 2021-05-06T23:29:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739008-64.h5 | 60263485 | 2021-05-06T23:30:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739072-64.h5 | 60359754 | 2021-05-06T23:32:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739136-64.h5 | 60067075 | 2021-05-06T23:33:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739200-64.h5 | 60356927 | 2021-05-06T23:35:04 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739264-64.h5 | 60291420 | 2021-05-06T23:36:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739328-64.h5 | 60357494 | 2021-05-06T23:37:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739392-64.h5 | 60193109 | 2021-05-06T23:39:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739456-64.h5 | 60439462 | 2021-05-06T23:40:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739520-64.h5 | 60280070 | 2021-05-06T23:42:04 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739584-64.h5 | 60268716 | 2021-05-06T23:43:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739648-64.h5 | 60217552 | 2021-05-06T23:44:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739712-64.h5 | 60191213 | 2021-05-06T23:46:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739776-64.h5 | 60087866 | 2021-05-06T23:47:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739840-64.h5 | 60149673 | 2021-05-06T23:49:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739904-64.h5 | 60217848 | 2021-05-06T23:51:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739968-64.h5 | 60305525 | 2021-05-06T23:52:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740032-64.h5 | 60157620 | 2021-05-06T23:54:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740096-64.h5 | 60246820 | 2021-05-06T23:56:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740160-64.h5 | 60251888 | 2021-05-06T23:58:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740224-64.h5 | 60081531 | 2021-05-07T00:00:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740288-64.h5 | 60289777 | 2021-05-07T00:03:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740352-64.h5 | 60287845 | 2021-05-07T00:05:20 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740416-64.h5 | 60078891 | 2021-05-07T00:07:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740480-64.h5 | 60242282 | 2021-05-07T00:10:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740544-64.h5 | 60227199 | 2021-05-07T00:12:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740608-64.h5 | 60238989 | 2021-05-07T00:14:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740672-64.h5 | 60180323 | 2021-05-07T00:17:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740736-64.h5 | 60347773 | 2021-05-07T00:19:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740800-64.h5 | 60131748 | 2021-05-07T00:21:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740864-64.h5 | 60204326 | 2021-05-07T00:24:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740928-64.h5 | 60277098 | 2021-05-07T00:26:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740992-64.h5 | 60374229 | 2021-05-07T00:28:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741056-64.h5 | 60309725 | 2021-05-07T00:30:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741120-64.h5 | 60234032 | 2021-05-07T00:33:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741184-64.h5 | 60158842 | 2021-05-07T00:35:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741248-64.h5 | 60205893 | 2021-05-07T00:37:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741312-64.h5 | 60360866 | 2021-05-07T00:39:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741376-64.h5 | 60208267 | 2021-05-07T00:40:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741440-64.h5 | 60242770 | 2021-05-07T00:42:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741504-64.h5 | 60341189 | 2021-05-07T00:45:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741568-64.h5 | 60230512 | 2021-05-07T00:47:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741632-64.h5 | 60162889 | 2021-05-07T00:49:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741696-64.h5 | 60234810 | 2021-05-07T00:52:04 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741760-64.h5 | 60241400 | 2021-05-07T00:53:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741824-64.h5 | 60349987 | 2021-05-07T00:55:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741888-64.h5 | 60127843 | 2021-05-07T00:58:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741952-64.h5 | 60190134 | 2021-05-07T01:00:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742016-64.h5 | 60211579 | 2021-05-07T01:02:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742080-64.h5 | 60171970 | 2021-05-07T01:05:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742144-64.h5 | 60230543 | 2021-05-07T01:07:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742208-64.h5 | 60065144 | 2021-05-07T01:09:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742272-64.h5 | 60239940 | 2021-05-07T01:11:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742336-64.h5 | 60267976 | 2021-05-07T01:14:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742400-64.h5 | 60077926 | 2021-05-07T01:16:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742464-64.h5 | 60331326 | 2021-05-07T01:18:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742528-64.h5 | 60253502 | 2021-05-07T01:21:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742592-64.h5 | 60181159 | 2021-05-07T01:23:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742656-64.h5 | 60221878 | 2021-05-07T01:25:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742720-64.h5 | 60259569 | 2021-05-07T01:27:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742784-64.h5 | 60322261 | 2021-05-07T01:28:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742848-64.h5 | 60180072 | 2021-05-07T01:31:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742912-64.h5 | 60423686 | 2021-05-07T01:33:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742976-64.h5 | 60154714 | 2021-05-07T01:36:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743040-64.h5 | 60245239 | 2021-05-07T01:38:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743104-64.h5 | 60245044 | 2021-05-07T01:40:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743168-64.h5 | 60416692 | 2021-05-07T01:43:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743232-64.h5 | 60194095 | 2021-05-07T01:45:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743296-64.h5 | 60111057 | 2021-05-07T01:47:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743360-64.h5 | 60236747 | 2021-05-07T01:50:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743424-64.h5 | 60237994 | 2021-05-07T01:52:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743488-64.h5 | 60150798 | 2021-05-07T01:54:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743552-64.h5 | 60232845 | 2021-05-07T01:57:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743616-64.h5 | 60127377 | 2021-05-07T01:59:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743680-64.h5 | 60149241 | 2021-05-07T02:02:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743744-64.h5 | 60165896 | 2021-05-07T02:04:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743808-64.h5 | 60406862 | 2021-05-07T02:06:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743872-64.h5 | 60228702 | 2021-05-07T02:09:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743936-64.h5 | 60381021 | 2021-05-07T02:11:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744000-64.h5 | 60257340 | 2021-05-07T02:13:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744064-64.h5 | 60121993 | 2021-05-07T02:15:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744128-64.h5 | 60182764 | 2021-05-07T02:17:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744192-64.h5 | 60140560 | 2021-05-07T02:20:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744256-64.h5 | 60268389 | 2021-05-07T02:22:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744320-64.h5 | 60357500 | 2021-05-07T02:24:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744384-64.h5 | 60255901 | 2021-05-07T02:27:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744448-64.h5 | 60285313 | 2021-05-07T02:29:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744512-64.h5 | 60187198 | 2021-05-07T02:32:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744576-64.h5 | 60046056 | 2021-05-07T02:34:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744640-64.h5 | 60288183 | 2021-05-07T02:37:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744704-64.h5 | 60416166 | 2021-05-07T02:39:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744768-64.h5 | 60091140 | 2021-05-07T02:42:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744832-64.h5 | 60207205 | 2021-05-07T02:44:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744896-64.h5 | 60254921 | 2021-05-07T02:46:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744960-64.h5 | 60068908 | 2021-05-07T02:49:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745024-64.h5 | 60255946 | 2021-05-07T02:51:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745088-64.h5 | 60277143 | 2021-05-07T02:54:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745152-64.h5 | 60144819 | 2021-05-07T02:56:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745216-64.h5 | 60405714 | 2021-05-07T02:58:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745280-64.h5 | 60285896 | 2021-05-07T03:00:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745344-64.h5 | 60254535 | 2021-05-07T03:02:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745408-64.h5 | 60242823 | 2021-05-07T03:04:20 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745472-64.h5 | 60152870 | 2021-05-07T03:06:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745536-64.h5 | 60098720 | 2021-05-07T03:07:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745600-64.h5 | 60082086 | 2021-05-07T03:09:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745664-64.h5 | 60260327 | 2021-05-07T03:11:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745728-64.h5 | 60402499 | 2021-05-07T03:14:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745792-64.h5 | 60348215 | 2021-05-07T03:16:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745856-64.h5 | 60261275 | 2021-05-07T03:19:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745920-64.h5 | 60246479 | 2021-05-07T03:21:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745984-64.h5 | 60208088 | 2021-05-07T03:24:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746048-64.h5 | 60409028 | 2021-05-07T03:26:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746112-64.h5 | 60290038 | 2021-05-07T03:28:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746176-64.h5 | 60343197 | 2021-05-07T03:30:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746240-64.h5 | 60158395 | 2021-05-07T03:32:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746304-64.h5 | 60202686 | 2021-05-07T03:35:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746368-64.h5 | 60208831 | 2021-05-07T03:37:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746432-64.h5 | 60193155 | 2021-05-07T03:39:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746496-64.h5 | 60319475 | 2021-05-07T03:41:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746560-64.h5 | 60186548 | 2021-05-07T03:43:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746624-64.h5 | 60421752 | 2021-05-07T03:45:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746688-64.h5 | 60022079 | 2021-05-07T03:46:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746752-64.h5 | 60105301 | 2021-05-07T03:48:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746816-64.h5 | 60461188 | 2021-05-07T03:49:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746880-64.h5 | 60327910 | 2021-05-07T03:51:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746944-64.h5 | 60404891 | 2021-05-07T03:53:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747008-64.h5 | 60148109 | 2021-05-07T03:54:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747072-64.h5 | 60442222 | 2021-05-07T03:57:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747136-64.h5 | 60268839 | 2021-05-07T03:59:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747200-64.h5 | 60370130 | 2021-05-07T04:01:48 |  | 
+- dir  | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736448-64.h5 | 61951367 | 2021-05-06T22:24:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736512-64.h5 | 62196021 | 2021-05-06T22:32:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736576-64.h5 | 62006768 | 2021-05-06T22:34:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736640-64.h5 | 62190215 | 2021-05-06T22:36:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736704-64.h5 | 62165582 | 2021-05-06T22:38:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736768-64.h5 | 61916134 | 2021-05-06T22:41:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736832-64.h5 | 61814367 | 2021-05-06T22:42:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736896-64.h5 | 61918738 | 2021-05-06T22:44:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736960-64.h5 | 62048305 | 2021-05-06T22:46:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737024-64.h5 | 62285373 | 2021-05-06T22:48:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737088-64.h5 | 61999755 | 2021-05-06T22:50:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737152-64.h5 | 62178059 | 2021-05-06T22:51:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737216-64.h5 | 61923208 | 2021-05-06T22:53:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737280-64.h5 | 62093744 | 2021-05-06T22:55:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737344-64.h5 | 62306854 | 2021-05-06T22:56:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737408-64.h5 | 61919592 | 2021-05-06T22:58:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737472-64.h5 | 62127708 | 2021-05-06T22:59:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737536-64.h5 | 62023803 | 2021-05-06T23:01:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737600-64.h5 | 61996383 | 2021-05-06T23:02:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737664-64.h5 | 62036518 | 2021-05-06T23:03:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737728-64.h5 | 62018100 | 2021-05-06T23:05:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737792-64.h5 | 62111325 | 2021-05-06T23:06:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737856-64.h5 | 62073795 | 2021-05-06T23:08:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737920-64.h5 | 61994153 | 2021-05-06T23:09:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737984-64.h5 | 62108933 | 2021-05-06T23:11:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738048-64.h5 | 62052316 | 2021-05-06T23:12:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738112-64.h5 | 61913268 | 2021-05-06T23:13:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738176-64.h5 | 62195092 | 2021-05-06T23:15:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738240-64.h5 | 62018847 | 2021-05-06T23:16:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738304-64.h5 | 62047569 | 2021-05-06T23:18:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738368-64.h5 | 62135956 | 2021-05-06T23:19:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738432-64.h5 | 61928474 | 2021-05-06T23:20:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738496-64.h5 | 62151259 | 2021-05-06T23:22:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738560-64.h5 | 62169826 | 2021-05-06T23:23:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738624-64.h5 | 62144864 | 2021-05-06T23:25:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738688-64.h5 | 61876022 | 2021-05-06T23:26:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738752-64.h5 | 61940663 | 2021-05-06T23:27:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738816-64.h5 | 61895188 | 2021-05-06T23:29:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738880-64.h5 | 61951355 | 2021-05-06T23:30:32 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738944-64.h5 | 62120799 | 2021-05-06T23:31:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739008-64.h5 | 62011573 | 2021-05-06T23:33:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739072-64.h5 | 62123955 | 2021-05-06T23:34:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739136-64.h5 | 62320685 | 2021-05-06T23:36:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739200-64.h5 | 62250891 | 2021-05-06T23:37:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739264-64.h5 | 61939216 | 2021-05-06T23:38:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739328-64.h5 | 62161567 | 2021-05-06T23:40:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739392-64.h5 | 61963760 | 2021-05-06T23:41:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739456-64.h5 | 62362991 | 2021-05-06T23:42:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739520-64.h5 | 62061498 | 2021-05-06T23:44:20 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739584-64.h5 | 62024279 | 2021-05-06T23:45:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739648-64.h5 | 62119088 | 2021-05-06T23:47:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739712-64.h5 | 61905935 | 2021-05-06T23:49:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739776-64.h5 | 62134599 | 2021-05-06T23:50:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739840-64.h5 | 61947001 | 2021-05-06T23:52:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739904-64.h5 | 62005036 | 2021-05-06T23:54:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739968-64.h5 | 61997371 | 2021-05-06T23:56:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740032-64.h5 | 62008192 | 2021-05-06T23:58:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740096-64.h5 | 62148700 | 2021-05-07T00:00:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740160-64.h5 | 62010943 | 2021-05-07T00:02:20 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740224-64.h5 | 62040435 | 2021-05-07T00:04:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740288-64.h5 | 62144324 | 2021-05-07T00:06:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740352-64.h5 | 62179390 | 2021-05-07T00:09:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740416-64.h5 | 62019791 | 2021-05-07T00:11:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740480-64.h5 | 62109332 | 2021-05-07T00:13:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740544-64.h5 | 62008237 | 2021-05-07T00:15:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740608-64.h5 | 62187566 | 2021-05-07T00:18:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740672-64.h5 | 62255269 | 2021-05-07T00:20:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740736-64.h5 | 62180838 | 2021-05-07T00:22:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740800-64.h5 | 62208669 | 2021-05-07T00:24:46 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740864-64.h5 | 62144290 | 2021-05-07T00:27:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740928-64.h5 | 62178538 | 2021-05-07T00:29:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740992-64.h5 | 62160582 | 2021-05-07T00:31:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741056-64.h5 | 62263320 | 2021-05-07T00:33:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741120-64.h5 | 62074071 | 2021-05-07T00:36:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741184-64.h5 | 62137396 | 2021-05-07T00:38:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741248-64.h5 | 62155911 | 2021-05-07T00:39:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741312-64.h5 | 62187594 | 2021-05-07T00:42:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741376-64.h5 | 62169424 | 2021-05-07T00:44:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741440-64.h5 | 62072682 | 2021-05-07T00:46:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741504-64.h5 | 62022587 | 2021-05-07T00:48:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741568-64.h5 | 61916305 | 2021-05-07T00:50:38 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741632-64.h5 | 62175072 | 2021-05-07T00:52:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741696-64.h5 | 62031285 | 2021-05-07T00:54:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741760-64.h5 | 62045441 | 2021-05-07T00:57:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741824-64.h5 | 62072762 | 2021-05-07T00:59:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741888-64.h5 | 62068691 | 2021-05-07T01:01:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741952-64.h5 | 61901353 | 2021-05-07T01:03:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742016-64.h5 | 62154448 | 2021-05-07T01:05:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742080-64.h5 | 61979857 | 2021-05-07T01:08:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742144-64.h5 | 61955563 | 2021-05-07T01:10:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742208-64.h5 | 62164022 | 2021-05-07T01:12:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742272-64.h5 | 62102433 | 2021-05-07T01:14:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742336-64.h5 | 61956417 | 2021-05-07T01:17:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742400-64.h5 | 62118978 | 2021-05-07T01:19:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742464-64.h5 | 61954426 | 2021-05-07T01:21:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742528-64.h5 | 62293135 | 2021-05-07T01:24:04 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742592-64.h5 | 61912685 | 2021-05-07T01:26:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742656-64.h5 | 62246071 | 2021-05-07T01:27:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742720-64.h5 | 62131281 | 2021-05-07T01:30:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742784-64.h5 | 62229846 | 2021-05-07T01:32:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742848-64.h5 | 62076177 | 2021-05-07T01:34:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742912-64.h5 | 62141802 | 2021-05-07T01:36:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742976-64.h5 | 62167936 | 2021-05-07T01:39:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743040-64.h5 | 61950922 | 2021-05-07T01:41:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743104-64.h5 | 62095441 | 2021-05-07T01:44:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743168-64.h5 | 62231191 | 2021-05-07T01:46:18 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743232-64.h5 | 62047616 | 2021-05-07T01:48:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743296-64.h5 | 62192498 | 2021-05-07T01:51:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743360-64.h5 | 62095380 | 2021-05-07T01:53:20 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743424-64.h5 | 62119417 | 2021-05-07T01:55:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743488-64.h5 | 62080233 | 2021-05-07T01:58:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743552-64.h5 | 62240003 | 2021-05-07T02:00:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743616-64.h5 | 62015327 | 2021-05-07T02:02:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743680-64.h5 | 62155916 | 2021-05-07T02:05:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743744-64.h5 | 61950918 | 2021-05-07T02:07:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743808-64.h5 | 61860211 | 2021-05-07T02:09:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743872-64.h5 | 62197606 | 2021-05-07T02:12:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743936-64.h5 | 61949639 | 2021-05-07T02:14:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744000-64.h5 | 62176987 | 2021-05-07T02:16:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744064-64.h5 | 62028640 | 2021-05-07T02:18:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744128-64.h5 | 62208630 | 2021-05-07T02:20:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744192-64.h5 | 61951564 | 2021-05-07T02:23:24 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744256-64.h5 | 62094071 | 2021-05-07T02:25:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744320-64.h5 | 62129700 | 2021-05-07T02:28:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744384-64.h5 | 62211870 | 2021-05-07T02:30:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744448-64.h5 | 62160256 | 2021-05-07T02:33:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744512-64.h5 | 62017506 | 2021-05-07T02:35:42 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744576-64.h5 | 62259295 | 2021-05-07T02:38:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744640-64.h5 | 62147767 | 2021-05-07T02:40:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744704-64.h5 | 62293112 | 2021-05-07T02:42:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744768-64.h5 | 62113521 | 2021-05-07T02:45:22 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744832-64.h5 | 62118419 | 2021-05-07T02:47:48 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744896-64.h5 | 62285513 | 2021-05-07T02:50:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744960-64.h5 | 62086138 | 2021-05-07T02:52:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745024-64.h5 | 62040666 | 2021-05-07T02:54:56 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745088-64.h5 | 62302953 | 2021-05-07T02:57:04 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745152-64.h5 | 62033844 | 2021-05-07T02:59:08 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745216-64.h5 | 62097794 | 2021-05-07T03:01:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745280-64.h5 | 62152206 | 2021-05-07T03:02:52 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745344-64.h5 | 62031879 | 2021-05-07T03:04:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745408-64.h5 | 62154699 | 2021-05-07T03:06:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745472-64.h5 | 61889969 | 2021-05-07T03:08:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745536-64.h5 | 62017363 | 2021-05-07T03:10:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745600-64.h5 | 62139395 | 2021-05-07T03:12:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745664-64.h5 | 62078110 | 2021-05-07T03:15:06 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745728-64.h5 | 61999144 | 2021-05-07T03:17:30 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745792-64.h5 | 61983479 | 2021-05-07T03:20:02 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745856-64.h5 | 62143170 | 2021-05-07T03:22:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745920-64.h5 | 62273474 | 2021-05-07T03:24:58 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745984-64.h5 | 62010912 | 2021-05-07T03:27:16 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746048-64.h5 | 62084881 | 2021-05-07T03:29:26 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746112-64.h5 | 62116372 | 2021-05-07T03:31:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746176-64.h5 | 62102827 | 2021-05-07T03:33:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746240-64.h5 | 62076506 | 2021-05-07T03:36:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746304-64.h5 | 62162475 | 2021-05-07T03:38:14 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746368-64.h5 | 62240450 | 2021-05-07T03:39:54 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746432-64.h5 | 61734915 | 2021-05-07T03:42:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746496-64.h5 | 62180750 | 2021-05-07T03:43:44 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746560-64.h5 | 62250612 | 2021-05-07T03:45:10 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746624-64.h5 | 62035913 | 2021-05-07T03:46:40 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746688-64.h5 | 62118138 | 2021-05-07T03:48:12 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746752-64.h5 | 62182185 | 2021-05-07T03:49:50 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746816-64.h5 | 62220366 | 2021-05-07T03:51:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746880-64.h5 | 62116822 | 2021-05-07T03:53:28 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746944-64.h5 | 62099216 | 2021-05-07T03:55:36 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747008-64.h5 | 62054427 | 2021-05-07T03:58:00 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747072-64.h5 | 62242856 | 2021-05-07T04:00:20 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747136-64.h5 | 62075488 | 2021-05-07T04:02:34 |  | 
+- file | workflow\oldies\oldromion\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747200-64.h5 | 62382182 | 2021-05-07T04:03:48 |  | 
+- dir  | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC40.txt | 3053 | 2018-07-03T18:15:56 | 71 | 2bafbf224abb
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC59.txt | 3053 | 2018-07-03T19:48:44 | 71 | 488b27e37e00
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC79.txt | 3053 | 2018-07-03T19:44:54 | 71 | 1ea9372a0733
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC86a.txt | 3053 | 2018-07-03T19:40:06 | 71 | b8060f40bc84
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC86b.txt | 3053 | 2018-07-03T19:28:44 | 71 | f5ae42a6a2af
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC86c.txt | 3053 | 2018-07-03T19:21:44 | 71 | 87429a91f049
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC40.txt | 1541 | 2018-07-03T18:06:38 | 32 | 54c8adf6974b
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC59.txt | 5285 | 2018-07-03T18:26:38 | 110 | af4a0a38978e
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC79.txt | 4709 | 2018-07-03T18:33:32 | 98 | a77380499833
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC86a.txt | 5285 | 2018-07-03T18:42:28 | 110 | ac14b229e1e4
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC86b.txt | 15413 | 2018-07-03T18:55:52 | 321 | 876e5183ec80
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC86c.txt | 28421 | 2018-07-03T19:22:32 | 592 | b25e71973f64
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Fig_S4_tabulated.txt | 6974 | 2019-09-05T14:51:00 | 32 | 4b62e5c0f785
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Fig_S5_tabulated.txt | 6974 | 2019-09-05T14:52:30 | 32 | c943787b5cb3
+- file | workflow\oldies\oldromion\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\list_of_samples.txt | 356 | 2018-07-06T00:19:14 | 7 | 8bec9eae3830
+- dir  | workflow\oldies\romion-development-skill
+- file | workflow\oldies\romion-development-skill\README.md | 10876 | 2026-01-10T11:25:07 | 387 | 842cd157abf9
+- file | workflow\oldies\romion-development-skill\Skill.md | 12343 | 2026-01-17T15:47:14 | 299 | bf6b3cc49f04
+- file | workflow\oldies\romion-development-skill\Skill_202601101501.md | 12045 | 2026-01-10T15:01:10 | 299 | 0e0cb9763b02
+- dir  | workflow\oldies\romion-development-skill\archive
+- file | workflow\oldies\romion-development-skill\archive\romion-development-skill_202501101116.zip | 24727 | 2026-01-10T11:06:41 |  | 657d65af22b1
+- dir  | workflow\oldies\romion-development-skill\references
+- file | workflow\oldies\romion-development-skill\references\methodology.md | 11831 | 2026-01-10T11:20:34 | 479 | 7ac5f99a7447
+- file | workflow\oldies\romion-development-skill\references\red-flags.md | 7954 | 2026-01-10T11:20:34 | 333 | 80f2ce8937b7
+- file | workflow\oldies\romion-development-skill\references\ten-principles.md | 5996 | 2026-01-10T11:20:34 | 249 | 8a601a246bd3
+- file | workflow\oldies\romion-development-skill\references\theory-core.md | 9977 | 2026-01-10T11:20:34 | 359 | 950f4d0414bb
+- dir  | workflow\oldies\romion-development-skill\scripts
+- file | workflow\oldies\romion-development-skill\scripts\context_snapshot.py | 4426 | 2026-01-10T11:20:34 | 158 | 8468742e933c
+- dir  | workflow\oldies\romionsim_old_2
+- file | workflow\oldies\romionsim_old_2\.coverage | 53248 | 2026-01-18T12:50:28 |  | b31aab69e886
+- file | workflow\oldies\romionsim_old_2\.gitignore | 641 | 2026-01-15T19:50:28 |  | e0b5a9997c5b
+- file | workflow\oldies\romionsim_old_2\CLEANUP_REPORT.md | 5561 | 2026-01-17T12:37:00 | 175 | 5f06f24a0510
+- file | workflow\oldies\romionsim_old_2\DIPOLE_FINAL_SUMMARY_WITH_BOHME.md | 12965 | 2026-01-20T19:53:52 | 438 | 896db0789a63
+- file | workflow\oldies\romionsim_old_2\DIPOLE_FINAL_SUMMARY_WITH_BOHME.pdf | 4148481 | 2026-04-20T21:10:47 |  | 
+- file | workflow\oldies\romionsim_old_2\DIPOLE_FINAL_SUMMARY_WITH_BOHME.txt | 13403 | 2026-04-20T21:09:14 | 438 | b3b711d2f0b2
+- file | workflow\oldies\romionsim_old_2\pyproject.toml | 458 | 2026-01-16T17:13:49 |  | 07c656de07e8
+- file | workflow\oldies\romionsim_old_2\pytest.ini | 121 | 2026-01-16T17:10:01 |  | c91fd0d01a4b
+- file | workflow\oldies\romionsim_old_2\README.md | 11225 | 2026-01-15T21:47:57 | 376 | ed5dc82ac98c
+- file | workflow\oldies\romionsim_old_2\requirements-dev.txt | 84 | 2026-01-15T22:44:28 | 6 | 44ef5c68bc58
+- file | workflow\oldies\romionsim_old_2\requirements.txt | 46 | 2026-01-15T19:50:28 | 6 | d87a33677c33
+- file | workflow\oldies\romionsim_old_2\SESSION_DENSITY_MODULATION_READY.md | 24234 | 2026-01-20T20:25:01 | 870 | f1f4fd74df9a
+- dir  | workflow\oldies\romionsim_old_2\archive
+- file | workflow\oldies\romionsim_old_2\archive\ARCHIVE_CLEANUP_COMPLETE.md | 3548 | 2026-01-15T19:50:26 | 194 | 5f2d6169658a
+- file | workflow\oldies\romionsim_old_2\archive\AUDIT.md | 8785 | 2026-01-15T19:50:26 | 334 | 6935b4452943
+- file | workflow\oldies\romionsim_old_2\archive\AUDIT_2026_01_07.md | 8264 | 2026-01-15T19:50:26 | 335 | 725f064040c2
+- file | workflow\oldies\romionsim_old_2\archive\CLEANUP_COMPLETE.md | 3419 | 2026-01-15T19:50:26 | 144 | fe01f6012927
+- file | workflow\oldies\romionsim_old_2\archive\DEPRECATED_NOTICE.md | 1894 | 2026-01-15T19:50:26 | 71 | 87fea505db12
+- file | workflow\oldies\romionsim_old_2\archive\DISCOVERY_RANGE_2_RETRACTED.md | 7252 | 2026-01-15T19:50:26 | 230 | 6461c9f8b796
+- file | workflow\oldies\romionsim_old_2\archive\FIELD_TAIL_EXPERIMENT_POSTMORTEM.md | 10583 | 2026-01-21T06:56:23 | 300 | 3af2edf6ceb2
+- file | workflow\oldies\romionsim_old_2\archive\FINAL_INSPECTION_COMPLETE.md | 6452 | 2026-01-15T19:50:26 | 313 | de340e54a31b
+- file | workflow\oldies\romionsim_old_2\archive\gravity_test_before_chatgpt_fix.py | 23183 | 2026-01-15T19:50:26 | 656 | 534d09bae93d
+- file | workflow\oldies\romionsim_old_2\archive\gravity_test_monolith.py | 23791 | 2026-01-15T19:50:26 | 691 | a62724a2f775
+- file | workflow\oldies\romionsim_old_2\archive\IMPROVEMENTS_COMPLETE.md | 5786 | 2026-01-15T19:50:26 | 275 | bc3da30d19b7
+- file | workflow\oldies\romionsim_old_2\archive\Makefile | 5779 | 2026-01-15T19:50:28 |  | ba239a917892
+- file | workflow\oldies\romionsim_old_2\archive\PATH_VERIFICATION_COMPLETE.md | 2855 | 2026-01-15T19:50:26 | 126 | c8c8867dd7ce
+- file | workflow\oldies\romionsim_old_2\archive\PROJECT_AUDIT_COMPLETE.md | 6387 | 2026-01-15T19:50:26 | 336 | 2a55717354ac
+- file | workflow\oldies\romionsim_old_2\archive\QUESTIONS_FOR_CHATGPT.md | 3177 | 2026-01-15T19:50:27 | 94 | 2fb3cc3b05e8
+- file | workflow\oldies\romionsim_old_2\archive\README.md | 2613 | 2026-01-15T19:50:26 | 126 | d3b62fd89d1d
+- file | workflow\oldies\romionsim_old_2\archive\RESTRUCTURING_COMPLETE.md | 5928 | 2026-01-15T19:50:26 | 293 | c1333c1414be
+- file | workflow\oldies\romionsim_old_2\archive\S2_TAIL_STATUS.md | 3242 | 2026-01-15T19:50:27 | 123 | 5119ef5e4f7a
+- file | workflow\oldies\romionsim_old_2\archive\START_HERE_2025_01_06.md | 8047 | 2026-01-06T15:06:06 | 303 | c1ae74afce8e
+- file | workflow\oldies\romionsim_old_2\archive\task.bat | 3444 | 2026-01-15T19:50:28 |  | 85e6f471ac40
+- file | workflow\oldies\romionsim_old_2\archive\TASK_RUNNER.md | 1625 | 2026-01-15T19:50:27 | 96 | 68c874f792e4
+- file | workflow\oldies\romionsim_old_2\archive\TODO_gpt_cli_idea.md | 932 | 2026-01-15T22:44:28 | 19 | ff07c583bace
+- file | workflow\oldies\romionsim_old_2\archive\VALIDATION_SYSTEM_COMPLETE.md | 6424 | 2026-01-15T19:50:26 | 287 | b5136bce51f6
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_channels
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_channels\PROTOCOL.md | 2267 | 2026-01-15T19:50:28 | 82 | fc5c1d79029e
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_channels\STATUS.md | 2673 | 2026-01-15T19:50:28 | 100 | 76070c67f4da
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\FINAL_RESULTS.md | 2860 | 2026-01-15T19:50:28 | 115 | 822c88d70bb2
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\PREDICTIONS_VS_REALITY.md | 3956 | 2026-01-15T19:50:28 | 175 | f7269661e8aa
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\STATUS.md | 3771 | 2026-01-15T19:50:28 | 125 | 72ae804f4692
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\analysis_results.csv | 1076 | 2026-01-15T19:50:28 | 19 | 95febb3de320
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.5_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.5_s123\simulation.jsonl | 1876661 | 2026-01-15T19:50:28 |  | 3cbd1fb02b2d
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.5_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.5_s42\simulation.jsonl | 1906882 | 2026-01-15T19:50:28 |  | c16795e79928
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.65_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.65_s123\simulation.jsonl | 1726384 | 2026-01-15T19:50:28 |  | 3544aa600d7c
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.65_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.65_s42\simulation.jsonl | 1752597 | 2026-01-15T19:50:28 |  | 46ce6b981422
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.6_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.6_s123\simulation.jsonl | 1780174 | 2026-01-15T19:50:28 |  | 96eada5a5f9b
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.6_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.6_s42\simulation.jsonl | 1820876 | 2026-01-15T19:50:28 |  | 2f3cf0bd2059
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.75_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.75_s123\simulation.jsonl | 1521479 | 2026-01-15T19:50:28 |  | e153c330de7e
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.75_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.75_s42\simulation.jsonl | 1535610 | 2026-01-15T19:50:28 |  | 881cba86c80f
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.7_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.7_s123\simulation.jsonl | 1624836 | 2026-01-15T19:50:28 |  | 4fde422f02a6
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.7_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.7_s42\simulation.jsonl | 1636074 | 2026-01-15T19:50:28 |  | f97a80462aa8
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.85_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.85_s123\simulation.jsonl | 1362227 | 2026-01-15T19:50:28 |  | 6430f08e0bdd
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.85_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.85_s42\simulation.jsonl | 1354928 | 2026-01-15T19:50:28 |  | f828fbad85f1
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.8_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.8_s123\simulation.jsonl | 1460282 | 2026-01-15T19:50:28 |  | 3e22d1d0e486
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.8_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.8_s42\simulation.jsonl | 1440473 | 2026-01-15T19:50:28 |  | 762ae2c83ff8
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.9_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.9_s123\simulation.jsonl | 1314576 | 2026-01-15T19:50:28 |  | 9d1440304b50
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.9_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d0.9_s42\simulation.jsonl | 1278779 | 2026-01-15T19:50:28 |  | 5426b504cf6a
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d1.0_s123
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d1.0_s123\simulation.jsonl | 1191748 | 2026-01-15T19:50:28 |  | 156bb9191abd
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d1.0_s42
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_decay_inprocess\results\d1.0_s42\simulation.jsonl | 1157016 | 2026-01-15T19:50:28 |  | 09ff1ad94c84
+- dir  | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_test
+- file | workflow\oldies\romionsim_old_2\archive\old_sweep_tests\sweep_test\simulation.jsonl | 36246 | 2026-01-15T19:50:28 |  | 0998ce4bfd90
+- dir  | workflow\oldies\romionsim_old_2\archive\pre_audit
+- file | workflow\oldies\romionsim_old_2\archive\pre_audit\AUDIT_MAIN_PY_CHANGES.md | 3222 | 2026-01-15T19:50:26 | 116 | f1898534d544
+- file | workflow\oldies\romionsim_old_2\archive\pre_audit\BUG_FIX_COMPLETE_SUMMARY.md | 3454 | 2026-01-15T19:50:26 | 139 | 21fa0c08b57a
+- file | workflow\oldies\romionsim_old_2\archive\pre_audit\CRITICAL_BUG_FIX_20260108.md | 1738 | 2026-01-15T19:50:26 | 101 | 3a9474c814fd
+- dir  | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\check_incomplete.py | 1020 | 2026-01-15T19:50:27 | 28 | 1ec0cadb925e
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\check_r0.py | 534 | 2026-01-15T19:50:27 | 19 | b4f03a726194
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\check_sweep.py | 327 | 2026-01-15T19:50:27 | 9 | 7e3657395571
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\fix_d05_s123.py | 2958 | 2026-01-15T19:50:27 | 113 | 424ee3cce4d1
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\quick_test_sweep.py | 1257 | 2026-01-15T19:50:27 | 48 | e2e3bee9cc39
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\README.md | 1650 | 2026-01-15T19:50:27 | 50 | 5657ef18e773
+- file | workflow\oldies\romionsim_old_2\archive\scripts_temp_backup\test_sweep_simple.py | 4477 | 2026-01-15T19:50:27 | 160 | 10a263e90d26
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\ANALYSIS.md | 3539 | 2026-01-15T19:50:26 | 190 | ab5a722321b6
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\ISSUES.md | 4377 | 2026-01-15T19:50:26 | 226 | 2328676c04ad
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\MANUAL_EXECUTION_GUIDE.md | 3798 | 2026-01-15T19:50:26 | 148 | 33bf20a4d41e
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\README.md | 4248 | 2026-01-15T19:50:26 | 195 | ab9ea7d49d0e
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\RESULTS.md | 1628 | 2026-01-15T19:50:26 | 73 | 1fdca7ec083b
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg\full_sweep.cfg | 684 | 2026-01-15T19:50:26 |  | 39dd27349df5
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg\pilot_a.cfg | 631 | 2026-01-15T19:50:26 |  | e70c47e0af21
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg\pilot_b.cfg | 664 | 2026-01-15T19:50:26 |  | 30da8933d6a7
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.5_s123.cfg | 302 | 2026-01-15T19:50:26 |  | ae66822215ce
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.5_s42.cfg | 300 | 2026-01-15T19:50:26 |  | 1ac26ee068e7
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.6_s123.cfg | 302 | 2026-01-15T19:50:26 |  | 6319f155a2b3
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.6_s42.cfg | 300 | 2026-01-15T19:50:26 |  | 4ad7a03b947d
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.7_s123.cfg | 302 | 2026-01-15T19:50:26 |  | 28a327310eb1
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.7_s42.cfg | 300 | 2026-01-15T19:50:26 |  | 99d7390156f3
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.8_s123.cfg | 302 | 2026-01-15T19:50:26 |  | 3ae8f0cc70e3
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.8_s42.cfg | 300 | 2026-01-15T19:50:26 |  | a1b560c81108
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.9_s123.cfg | 302 | 2026-01-15T19:50:26 |  | 0bdf25aab847
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.9_s42.cfg | 300 | 2026-01-15T19:50:26 |  | f1c5b4302fc5
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d1.0_s123.cfg | 302 | 2026-01-15T19:50:26 |  | b144747c55ba
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d1.0_s42.cfg | 300 | 2026-01-15T19:50:26 |  | 6b872e44213e
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\decay_sweep_pilot.csv | 492 | 2026-01-15T19:50:26 | 8 | a64ff9fd7125
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\decay_sweep_pilot_channels.csv | 213 | 2026-01-15T19:50:27 | 1 | 3b81f204ddde
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_log.txt | 5580 | 2026-01-15T19:50:27 | 165 | 432258bc216c
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s123\simulation.jsonl | 3364962 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s42\simulation.jsonl | 3315008 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s123\simulation.jsonl | 3125055 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s42\simulation.jsonl | 3264939 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s123\simulation.jsonl | 3242292 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s42\simulation.jsonl | 3170045 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s123\simulation.jsonl | 3207514 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s42\simulation.jsonl | 3166074 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s123\simulation.jsonl | 3057493 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s42\simulation.jsonl | 3045628 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s123\simulation.jsonl | 2927967 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s42\simulation.jsonl | 2951812 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.75_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.75_s42\simulation.jsonl | 3119102 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s123\simulation.jsonl | 2995017 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s42\simulation.jsonl | 3106691 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s123\simulation.jsonl | 3207514 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s42\simulation.jsonl | 3166074 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s123
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s123\simulation.jsonl | 2927967 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s42\simulation.jsonl | 32336 | 2026-01-15T19:50:27 |  | 775ddedded21
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\test
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\test\d0.7_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\test\d0.7_s42\simulation.jsonl | 3170045 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\test\d1.0_s42
+- file | workflow\oldies\romionsim_old_2\archive\sweep_decay_pilot_20260108\test\d1.0_s42\simulation.jsonl | 2951812 | 2026-01-15T19:50:27 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\ANALYZE_V2_DESIGN.md | 1007 | 2026-01-17T11:41:15 | 36 | b138135b615a
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION2_CHECKPOINT.md | 3687 | 2026-01-16T22:04:55 | 144 | 9877ddd45d01
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION3_CHECKPOINT.md | 4968 | 2026-01-17T11:39:49 | 230 | 06293a112135
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION4_CHECKPOINT.md | 5673 | 2026-01-17T11:43:43 | 241 | e4b6d1b0573e
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION5_CHECKPOINT.md | 4662 | 2026-01-17T11:49:34 | 191 | 1838b7224285
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION5_UPDATES_SUMMARY.md | 2017 | 2026-01-17T11:48:54 | 75 | e7512aaaa4b3
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION6_CHECKPOINT.md | 4872 | 2026-01-17T11:54:13 | 196 | 9671c8cd0b2d
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SESSION7_CHECKPOINT.md | 5543 | 2026-01-17T12:26:37 | 236 | 8c0cf76be10b
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SWEEP_DEPENDENCIES.md | 6725 | 2026-01-16T21:48:57 | 268 | dbbef74bb92b
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SWEEP_FIX_PLAN.md | 9302 | 2026-01-16T21:46:37 | 390 | 3791161b7783
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\sweep_krok6.py.backup_session2 | 11779 | 2026-01-15T19:50:27 |  | 6e35ae01428f
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SWEEP_PROTOCOL.md.backup_session5 | 10585 | 2026-01-15T19:50:27 |  | 9f40abf07906
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SWEEP_PROTOCOL_AUDIT.md | 8077 | 2026-01-16T21:42:51 | 314 | e96020bbefab
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\SWEEP_PROTOCOL_ERRORS.md | 1488 | 2026-01-16T21:40:45 | 58 | 608a075db944
+- file | workflow\oldies\romionsim_old_2\archive\sweep_protocol_audit_2026_01\validate_sweep.py.backup_session3 | 10083 | 2026-01-15T19:50:27 |  | b5af88324865
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\ANALYSIS.md | 3349 | 2026-01-15T19:50:28 | 167 | 7a578e334a7d
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\CHANNELS_ANALYSIS.md | 5262 | 2026-01-15T19:50:28 | 143 | c7f987295d55
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\CHANNELS_COMPARISON.csv | 344 | 2026-01-15T19:50:28 | 7 | be1c56b5b087
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\COMPARISON.md | 3221 | 2026-01-15T19:50:28 | 177 | f160f4cae712
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\EVOLUTION_ANALYSIS.md | 4023 | 2026-01-15T19:50:28 | 115 | 0563eac77946
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\R0_PEAK_ANALYSIS.md | 7877 | 2026-01-15T19:50:28 | 246 | 57a8a8cc244e
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\README.md | 3681 | 2026-01-15T19:50:28 | 149 | ac8d6f359d5d
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\RESULTS.md | 3724 | 2026-01-15T19:50:28 | 127 | 6cfbf3b9e819
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg\R0_baseline.cfg | 192 | 2026-01-15T19:50:28 |  | 968b362678f3
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg\R1_spawn_up.cfg | 255 | 2026-01-15T19:50:28 |  | 4df514923345
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg\R2_decay_slow.cfg | 350 | 2026-01-15T19:50:28 |  | d67358a63adc
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg\R3_tension_up.cfg | 261 | 2026-01-15T19:50:28 |  | effb9fefee3e
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg\R4_combo.cfg | 333 | 2026-01-15T19:50:28 |  | c27ad77c9997
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\cfg\R5_shock.cfg | 375 | 2026-01-15T19:50:28 |  | a3c701db7e79
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\test_c_corrected_results.csv | 686 | 2026-01-15T19:50:28 | 7 | ee3f7cf1f761
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R0_base
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R0_base\gravity_time.csv | 1671 | 2026-01-15T19:50:28 | 22 | 280d98f267e3
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R0_base\peak_analysis_dense.csv | 330 | 2026-01-15T19:50:28 | 7 | 9fb599e67fdc
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R0_base\simulation.jsonl | 4758404 | 2026-01-15T19:50:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R1_spawnUp
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R1_spawnUp\gravity_time.csv | 1716 | 2026-01-15T19:50:28 | 22 | 544377159834
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R1_spawnUp\simulation.jsonl | 4785661 | 2026-01-15T19:50:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R2_decayDown
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R2_decayDown\gravity_time.csv | 3660 | 2026-01-15T19:50:28 | 22 | b0cd2611e37a
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R2_decayDown\simulation.jsonl | 5179791 | 2026-01-15T19:50:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R3_tensionUp
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R3_tensionUp\gravity_time.csv | 1860 | 2026-01-15T19:50:28 | 22 | 67c092843040
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R3_tensionUp\simulation.jsonl | 4821158 | 2026-01-15T19:50:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R4_combo
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R4_combo\gravity_time.csv | 1878 | 2026-01-15T19:50:28 | 22 | c1589b1d96c1
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R4_combo\simulation.jsonl | 5233491 | 2026-01-15T19:50:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R5_shock
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R5_shock\gravity_time.csv | 1671 | 2026-01-15T19:50:28 | 22 | 280d98f267e3
+- file | workflow\oldies\romionsim_old_2\archive\test_c_results\results\R5_shock\simulation.jsonl | 2911800 | 2026-01-15T19:50:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\README.md | 4125 | 2026-01-18T11:53:49 | 154 | 9838abe42148
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_FINAL_VERIFICATION.md | 12029 | 2026-01-18T11:47:39 | 497 | bc0bc91f4473
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_INITIATION.md | 5926 | 2026-01-18T11:35:34 | 237 | 1d1c61b38c99
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_LESSONS_LEARNED.md | 14304 | 2026-01-18T11:49:07 | 585 | 93b57d421f03
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_MILESTONES.md | 9114 | 2026-01-18T11:38:05 | 419 | 85a1e98352c0
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_RISK_REGISTER.md | 11803 | 2026-01-18T11:39:20 | 477 | 85a70c62f01e
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_SCOPE.md | 7220 | 2026-01-18T11:36:23 | 314 | 9380c5cac50a
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_SESSION_1_CHECKPOINT.md | 3759 | 2026-01-18T11:43:23 | 147 | d5bccc9d0638
+- file | workflow\oldies\romionsim_old_2\archive\TEST_FOUNDATION_2026_01_18\TEST_FOUNDATION_WBS.md | 7696 | 2026-01-18T11:37:09 | 287 | 745ae59115ca
+- dir  | workflow\oldies\romionsim_old_2\cfg
+- file | workflow\oldies\romionsim_old_2\cfg\baseline.cfg | 710 | 2026-01-15T19:50:27 |  | 9a1e132a121c
+- file | workflow\oldies\romionsim_old_2\cfg\combo.cfg | 234 | 2026-01-15T19:50:27 |  | c042788d945d
+- file | workflow\oldies\romionsim_old_2\cfg\decay_slow.cfg | 538 | 2026-01-15T19:50:27 |  | 093288a93d37
+- file | workflow\oldies\romionsim_old_2\cfg\R0_v2_baseline.cfg | 473 | 2026-01-18T13:20:50 |  | 6ffeb1a268e7
+- file | workflow\oldies\romionsim_old_2\cfg\spawn_up.cfg | 233 | 2026-01-15T19:50:27 |  | e2f0fff6fe64
+- file | workflow\oldies\romionsim_old_2\cfg\tension_up.cfg | 237 | 2026-01-15T19:50:27 |  | 9d6fedfed792
+- dir  | workflow\oldies\romionsim_old_2\core
+- file | workflow\oldies\romionsim_old_2\core\engine.py | 7815 | 2026-01-18T12:31:14 | 193 | 3f03c2c1536c
+- file | workflow\oldies\romionsim_old_2\core\graph.py | 3092 | 2026-01-15T19:50:27 | 104 | 13460a7d285c
+- file | workflow\oldies\romionsim_old_2\core\metrics.py | 6163 | 2026-01-15T19:50:27 | 189 | e03ee4313a44
+- file | workflow\oldies\romionsim_old_2\core\projection.py | 947 | 2026-01-15T19:50:27 | 35 | 408f9bdde6ab
+- file | workflow\oldies\romionsim_old_2\core\rules.py | 16469 | 2026-01-21T06:56:56 | 475 | 84e15547bfa9
+- file | workflow\oldies\romionsim_old_2\core\validation.py | 7157 | 2026-01-18T12:18:59 | 214 | 06c9ff03382f
+- file | workflow\oldies\romionsim_old_2\core\__init__.py | 967 | 2026-01-15T19:50:27 | 35 | 959a041a7494
+- dir  | workflow\oldies\romionsim_old_2\docs
+- file | workflow\oldies\romionsim_old_2\docs\AUDIT_GPT_VS_IMPLEMENTATION.md | 3565 | 2026-01-15T19:50:27 | 120 | 9f50472af6ef
+- file | workflow\oldies\romionsim_old_2\docs\CANONICAL_LOG_CONTRACT.md | 17909 | 2026-01-15T19:50:27 | 764 | 76586a9706a7
+- file | workflow\oldies\romionsim_old_2\docs\CANONICAL_LOG_SCHEMA_V2.md | 12539 | 2026-01-15T19:50:27 | 548 | 637de7b80c80
+- file | workflow\oldies\romionsim_old_2\docs\CANONICAL_METHODOLOGY.md | 1639 | 2026-01-15T19:50:27 | 56 | dfa20d8d2536
+- file | workflow\oldies\romionsim_old_2\docs\CANONICAL_METRICS.md | 26138 | 2026-01-15T19:50:27 | 1201 | 5e58f986f30d
+- file | workflow\oldies\romionsim_old_2\docs\CANONICAL_SWEEP_PROTOCOL.md | 12938 | 2026-01-17T11:47:07 | 571 | fba59e05f970
+- file | workflow\oldies\romionsim_old_2\docs\CANONICAL_THEORY.md | 14814 | 2026-01-15T19:50:27 | 575 | 8ecd8fa32b48
+- file | workflow\oldies\romionsim_old_2\docs\code_inventory_COMPLETE.csv | 141644 | 2026-01-18T14:14:59 | 914 | d9161fe47ee5
+- file | workflow\oldies\romionsim_old_2\docs\CODE_INVENTORY_COMPLETE.md | 4694 | 2026-01-18T14:16:02 | 181 | 5f214e26d374
+- file | workflow\oldies\romionsim_old_2\docs\CODE_INVENTORY_USAGE.md | 3752 | 2026-01-16T21:31:29 | 142 | bb77cc7be38b
+- file | workflow\oldies\romionsim_old_2\docs\COMMANDS.md | 9739 | 2026-01-15T19:50:27 | 395 | bd35246ca914
+- file | workflow\oldies\romionsim_old_2\docs\COSMOLOGY_MAPPING.md | 7100 | 2026-01-15T19:50:27 | 256 | 00c415246897
+- file | workflow\oldies\romionsim_old_2\docs\EXAMPLE_PRE_COMMIT_CONFIG.yaml | 520 | 2026-01-15T22:45:02 |  | 9df281fbcbe0
+- file | workflow\oldies\romionsim_old_2\docs\MIGRATION_GUIDE.md | 5077 | 2026-01-17T12:32:32 | 220 | 92c5286632d5
+- file | workflow\oldies\romionsim_old_2\docs\MIGRATION_V1_TO_V2.md | 6946 | 2026-01-15T19:50:27 | 311 | 10c47324b373
+- file | workflow\oldies\romionsim_old_2\docs\QUICK_REFERENCE.md | 8030 | 2026-01-15T21:39:37 | 314 | 6f87c8b0a2d8
+- file | workflow\oldies\romionsim_old_2\docs\README.md | 9628 | 2026-01-17T17:29:09 | 305 | 597707c96282
+- file | workflow\oldies\romionsim_old_2\docs\RESULTS_HEADER_TEMPLATE.md | 947 | 2026-01-15T19:50:27 | 47 | 213b982d5fe8
+- file | workflow\oldies\romionsim_old_2\docs\ROADMAP.md | 9510 | 2026-01-20T19:19:08 | 399 | 07de0fdfd16c
+- file | workflow\oldies\romionsim_old_2\docs\ROMION_WHITEPAPER.md | 71815 | 2026-01-18T17:02:40 | 1120 | 0c13a9fea080
+- file | workflow\oldies\romionsim_old_2\docs\SPEC_S2_TAIL.md | 5805 | 2026-01-17T16:42:19 | 218 | 32a7578b1406
+- file | workflow\oldies\romionsim_old_2\docs\SPEC_THAW_SHOCK.md | 5431 | 2026-01-17T16:13:37 | 214 | 550bb11fda7c
+- file | workflow\oldies\romionsim_old_2\docs\START_HERE.md | 1846 | 2026-01-17T17:28:36 | 90 | e89e5db2088f
+- file | workflow\oldies\romionsim_old_2\docs\STATUS.md | 2345 | 2026-01-18T15:37:03 | 77 | fec90c02be76
+- file | workflow\oldies\romionsim_old_2\docs\STRUCTURE.md | 13623 | 2026-01-15T21:49:02 | 402 | 648f998bfa75
+- file | workflow\oldies\romionsim_old_2\docs\TEST_COVERAGE_FINAL_REPORT.md | 5401 | 2026-01-16T21:12:30 | 192 | cdcd254da228
+- file | workflow\oldies\romionsim_old_2\docs\TEST_COVERAGE_IMPROVEMENT_PLAN.md | 3340 | 2026-01-16T18:01:04 | 145 | 727c1d3f8e12
+- file | workflow\oldies\romionsim_old_2\docs\TODO_CLI_ENTRYPOINT.md | 932 | 2026-01-16T21:00:13 | 19 | ff07c583bace
+- dir  | workflow\oldies\romionsim_old_2\docs\archive
+- file | workflow\oldies\romionsim_old_2\docs\archive\ANNEX_DOCUMENTATION_SUMMARY.md | 7984 | 2026-01-15T19:50:27 | 228 | 3f404c65e532
+- file | workflow\oldies\romionsim_old_2\docs\archive\CLEANUP_ACTION_LIST.md | 7522 | 2026-01-15T19:50:27 | 355 | 1d7e12702959
+- file | workflow\oldies\romionsim_old_2\docs\archive\CLEANUP_MASTER_LIST.md | 6345 | 2026-01-15T19:50:27 | 224 | 857e9a60750a
+- file | workflow\oldies\romionsim_old_2\docs\archive\code_inventory_core.csv | 3593 | 2026-01-16T17:39:52 | 32 | 421d02ccdb44
+- file | workflow\oldies\romionsim_old_2\docs\archive\code_inventory_experiments.csv | 3563 | 2026-01-16T17:40:28 | 27 | a3f165e841bc
+- file | workflow\oldies\romionsim_old_2\docs\archive\CODE_INVENTORY_PROGRESS.md | 526 | 2026-01-16T17:39:09 | 24 | 981c247f7cf9
+- file | workflow\oldies\romionsim_old_2\docs\archive\code_inventory_romionsim.csv | 22368 | 2026-01-16T17:38:48 | 163 | 0241073acca9
+- file | workflow\oldies\romionsim_old_2\docs\archive\code_inventory_scripts.csv | 33126 | 2026-01-16T17:40:01 | 276 | 2d64fa3a660a
+- file | workflow\oldies\romionsim_old_2\docs\archive\code_inventory_tests.csv | 23244 | 2026-01-16T17:40:18 | 169 | 42fb18154cbf
+- file | workflow\oldies\romionsim_old_2\docs\archive\code_inventory_tools.csv | 3268 | 2026-01-16T17:40:23 | 28 | 3753d5473941
+- file | workflow\oldies\romionsim_old_2\docs\archive\FINAL_STATUS_COMPLETE.md | 4984 | 2026-01-15T19:50:27 | 186 | 7c3e02a5563a
+- file | workflow\oldies\romionsim_old_2\docs\archive\GPT_ANNEXES_IMPLEMENTATION_SUMMARY.md | 14641 | 2026-01-15T19:50:27 | 474 | 36c3afe5195d
+- file | workflow\oldies\romionsim_old_2\docs\archive\IMPLEMENTATION_STATUS.md | 13216 | 2026-01-15T19:50:27 | 351 | bdd4aeb61413
+- file | workflow\oldies\romionsim_old_2\docs\archive\P0_CRITICAL_PATCHES.md | 8549 | 2026-01-15T19:50:27 | 291 | 61d1b2a54718
+- file | workflow\oldies\romionsim_old_2\docs\archive\PHASE_B2.md | 3424 | 2026-01-15T19:50:27 | 101 | af71f1668f64
+- file | workflow\oldies\romionsim_old_2\docs\archive\ROMION_CORRECTION_COMPLETE.md | 4310 | 2026-01-15T19:50:27 | 166 | 653585d871fd
+- file | workflow\oldies\romionsim_old_2\docs\archive\ROMION_SEMANTIC_CORRECTION.md | 4823 | 2026-01-15T19:50:27 | 152 | 52af62004e56
+- file | workflow\oldies\romionsim_old_2\docs\archive\VERIFICATION_COMPLETE.md | 4890 | 2026-01-15T19:50:27 | 203 | 249bdb977543
+- dir  | workflow\oldies\romionsim_old_2\docs\theory
+- file | workflow\oldies\romionsim_old_2\docs\theory\COSMOLOGICAL_SCHOOLS_CRITIQUE.md | 8820 | 2026-01-15T19:50:27 | 247 | 90c8df871853
+- file | workflow\oldies\romionsim_old_2\docs\theory\EXTENDED_THEORY_ENTANGLEMENT_GRAVITY.md | 9754 | 2026-01-15T19:50:27 | 380 | a15f4562b21a
+- file | workflow\oldies\romionsim_old_2\docs\theory\GLOSSARY.md | 14144 | 2026-01-15T19:50:27 | 382 | bd6e854a7ede
+- file | workflow\oldies\romionsim_old_2\docs\theory\HYPERGRAPH_TOPOLOGY.md | 8365 | 2026-01-15T19:50:27 | 259 | 8fad61281bb7
+- file | workflow\oldies\romionsim_old_2\docs\theory\HYPOTHESIS_DIPOLE_MECHANISM.md | 21135 | 2026-01-20T19:49:12 | 613 | 1758c9e565ac
+- file | workflow\oldies\romionsim_old_2\docs\theory\INDEX.md | 5552 | 2026-01-15T19:50:27 | 175 | 0603e98c461e
+- file | workflow\oldies\romionsim_old_2\docs\theory\MEASUREMENT_THRESHOLDS.md | 1082 | 2026-01-15T19:50:27 | 41 | 83dac236c8b8
+- file | workflow\oldies\romionsim_old_2\docs\theory\PARTICLE_PHYSICS_LOOPS.md | 8018 | 2026-01-15T19:50:27 | 380 | 2282e3a768e7
+- file | workflow\oldies\romionsim_old_2\docs\theory\PHOTON_ROMION.md | 4953 | 2026-01-15T19:50:27 | 145 | de6165a7808a
+- file | workflow\oldies\romionsim_old_2\docs\theory\ROMION_COMPLETE_SUMMARY.md | 7769 | 2026-01-15T19:50:27 | 327 | f3d445c0c33c
+- dir  | workflow\oldies\romionsim_old_2\experiments
+- file | workflow\oldies\romionsim_old_2\experiments\phase_sweep.py | 6987 | 2026-01-15T19:50:27 | 209 | 8f4be6a27f66
+- file | workflow\oldies\romionsim_old_2\experiments\phase_sweep_complete.py | 13892 | 2026-01-15T19:50:27 | 408 | dc8498c22dae
+- dir  | workflow\oldies\romionsim_old_2\experiments\e2e_test
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\PRE_REGISTRATION.md | 1509 | 2026-01-17T12:23:03 | 79 | 5bd3c9733275
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\valid_runs_manifest.json | 2693 | 2026-01-17T12:24:04 | 79 | dbc78324aca4
+- dir  | workflow\oldies\romionsim_old_2\experiments\e2e_test\analysis
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\analysis\REPORT.md | 793 | 2026-01-17T12:24:04 | 45 | 847805374f0a
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\analysis\summary.csv | 637 | 2026-01-17T12:24:04 | 5 | 283b5a3c73e3
+- dir  | workflow\oldies\romionsim_old_2\experiments\e2e_test\analysis\plots
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\analysis\plots\README.txt | 43 | 2026-01-17T12:24:04 | 1 | 0fdebc9c845a
+- dir  | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs
+- dir  | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.007_seed_42
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.007_seed_42\config.json | 735 | 2026-01-17T12:23:33 | 32 | ab45869590cd
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.007_seed_42\metadata.json | 591 | 2026-01-17T12:24:03 | 18 | b7efe4e7e7c7
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.007_seed_42\simulation.jsonl | 759642 | 2026-01-17T12:24:03 |  | 213918652a7d
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.007_seed_42\status.json | 266 | 2026-01-17T12:24:03 | 12 | 25cb54b79fd3
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.007_seed_42\validation.json | 246 | 2026-01-17T12:24:03 | 12 | 548f1017571d
+- dir  | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.008_seed_42
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.008_seed_42\config.json | 735 | 2026-01-17T12:23:03 | 32 | ef37279740a6
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.008_seed_42\metadata.json | 593 | 2026-01-17T12:23:33 | 18 | 25c9d0e8f677
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.008_seed_42\simulation.jsonl | 759495 | 2026-01-17T12:23:33 |  | 8754c6d47ae0
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.008_seed_42\status.json | 266 | 2026-01-17T12:23:33 | 12 | dd45164d2937
+- file | workflow\oldies\romionsim_old_2\experiments\e2e_test\runs\decay_0.008_seed_42\validation.json | 246 | 2026-01-17T12:23:33 | 12 | 952794244389
+- dir  | workflow\oldies\romionsim_old_2\experiments\test_old_structure
+- file | workflow\oldies\romionsim_old_2\experiments\test_old_structure\valid_runs_manifest.json | 1394 | 2026-01-17T12:24:16 | 44 | 35ddc01ceb81
+- dir  | workflow\oldies\romionsim_old_2\experiments\test_old_structure\decay_0.008_seed_42
+- file | workflow\oldies\romionsim_old_2\experiments\test_old_structure\decay_0.008_seed_42\config.json | 332 | 2026-01-17T12:24:16 | 17 | 92c88d81cb4c
+- file | workflow\oldies\romionsim_old_2\experiments\test_old_structure\decay_0.008_seed_42\metadata.json | 563 | 2026-01-17T12:24:16 | 18 | e4e5bc3a0965
+- file | workflow\oldies\romionsim_old_2\experiments\test_old_structure\decay_0.008_seed_42\simulation.jsonl | 27 | 2026-01-17T12:24:16 |  | 20eb9a5dfb6c
+- file | workflow\oldies\romionsim_old_2\experiments\test_old_structure\decay_0.008_seed_42\status.json | 264 | 2026-01-17T12:24:16 | 12 | 822c1968e7dd
+- file | workflow\oldies\romionsim_old_2\experiments\test_old_structure\decay_0.008_seed_42\validation.json | 246 | 2026-01-17T12:24:16 | 12 | de496b655f9b
+- dir  | workflow\oldies\romionsim_old_2\htmlcov
+- file | workflow\oldies\romionsim_old_2\htmlcov\.gitignore | 29 | 2026-01-15T20:29:39 |  | 962528463ab7
+- file | workflow\oldies\romionsim_old_2\htmlcov\class_index.html | 23241 | 2026-01-15T20:29:39 |  | 8fde87450a85
+- file | workflow\oldies\romionsim_old_2\htmlcov\coverage_html_cb_188fc9a4.js | 26185 | 2026-01-15T20:29:39 |  | f89c51412a5c
+- file | workflow\oldies\romionsim_old_2\htmlcov\favicon_32_cb_c827f16f.png | 1732 | 2026-01-15T20:29:39 |  | bc8100fa8743
+- file | workflow\oldies\romionsim_old_2\htmlcov\function_index.html | 69952 | 2026-01-15T20:29:39 |  | 59ac4e0737c3
+- file | workflow\oldies\romionsim_old_2\htmlcov\index.html | 16965 | 2026-01-15T20:29:39 |  | deac5c4bb738
+- file | workflow\oldies\romionsim_old_2\htmlcov\keybd_closed_cb_900cfef5.png | 9004 | 2026-01-15T20:29:39 |  | 7d9bf8ae6637
+- file | workflow\oldies\romionsim_old_2\htmlcov\status.json | 10191 | 2026-01-15T20:29:39 | 1 | 7f15964e11b3
+- file | workflow\oldies\romionsim_old_2\htmlcov\style_cb_5c747636.css | 16493 | 2026-01-15T20:29:39 |  | 939680b655ba
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_0c2dc6ea4176e781___init___py.html | 7802 | 2026-01-15T20:29:39 |  | b0a8f58cc308
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_29e8194a1bb0ee14_io_py.html | 9519 | 2026-01-15T20:29:39 |  | f965243e1708
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_29e8194a1bb0ee14___init___py.html | 4568 | 2026-01-15T20:29:39 |  | a3f1a235e49d
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_bridge_utils_py.html | 5369 | 2026-01-15T20:29:39 |  | 77936faeec05
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_channels_py.html | 8739 | 2026-01-15T20:29:39 |  | e6cad2ef63c7
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_clustering_py.html | 19095 | 2026-01-15T20:29:39 |  | 7c2cfabdaad3
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_distances_py.html | 67247 | 2026-01-15T20:29:39 |  | dbbf730765ae
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_export_py.html | 27356 | 2026-01-15T20:29:39 |  | 10d480b2f565
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_io_py.html | 6190 | 2026-01-15T20:29:39 |  | 0460dcc6078a
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_metrics_py.html | 91951 | 2026-01-15T20:29:39 |  | fb9c57d4a130
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_regions_py.html | 44769 | 2026-01-15T20:29:39 |  | 6afbca7ba961
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_validate_py.html | 11864 | 2026-01-15T20:29:39 |  | 0aeb1b5b613c
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f_validate_romion_py.html | 201636 | 2026-01-15T20:29:39 |  | acfc0240ba14
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_566386433ed6ae6f___init___py.html | 20468 | 2026-01-15T20:29:39 |  | b06e34c66755
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_8213a371822f40f1_clustering_py.html | 18360 | 2026-01-15T20:29:39 |  | 05bdb394e6fc
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_8213a371822f40f1_rolling_alpha_py.html | 30695 | 2026-01-15T20:29:39 |  | dab42e0961ef
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_8213a371822f40f1_soc_simple_py.html | 35493 | 2026-01-15T20:29:39 |  | 59b93cccf246
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_8213a371822f40f1_squid_spectral_py.html | 47469 | 2026-01-15T20:29:39 |  | 5e4da5debc3a
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_8213a371822f40f1_verify_spark_py.html | 22779 | 2026-01-15T20:29:39 |  | 20e4df07003d
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_8213a371822f40f1___init___py.html | 4602 | 2026-01-15T20:29:39 |  | 46d36fcbbffa
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_c3f16863b9cde1a1___init___py.html | 4540 | 2026-01-15T20:29:39 |  | 6186f98b953f
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_cc584cf1c32173a5_distances_py.html | 8801 | 2026-01-15T20:29:39 |  | 11b757056f5a
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_cc584cf1c32173a5_metrics_py.html | 8538 | 2026-01-15T20:29:39 |  | b344f987f2e5
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_cc584cf1c32173a5_utils_py.html | 7006 | 2026-01-15T20:29:39 |  | 9c53b29945e9
+- file | workflow\oldies\romionsim_old_2\htmlcov\z_cc584cf1c32173a5___init___py.html | 4600 | 2026-01-15T20:29:39 |  | adaeff2b7bee
+- dir  | workflow\oldies\romionsim_old_2\research
+- dir  | workflow\oldies\romionsim_old_2\research\2026-01-08_session
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\ADDITIONAL_CONCEPTS.md | 4942 | 2026-01-15T19:50:27 | 148 | 599467ed31f4
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\EXPERIMENTAL_ROADMAP.md | 10912 | 2026-01-15T19:50:27 | 422 | de9e71d7fdda
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\EXTENDED_SESSION_SUMMARY.md | 4639 | 2026-01-15T19:50:27 | 165 | 4baf62ba3902
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\FINAL_SESSION_SUMMARY.md | 4842 | 2026-01-15T19:50:27 | 146 | f6398bfb7fb3
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\find_5pct_theta.py | 593 | 2026-01-15T19:50:27 | 21 | 52f97d5e54bc
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\INDEX.md | 2239 | 2026-01-15T19:50:27 | 72 | 2847171a77ff
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\phase_propagation_tick200.json | 1270 | 2026-01-15T19:50:27 | 39 | 44250c10095d
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\PROJECTION_RATIO_DATA.md | 3545 | 2026-01-15T19:50:27 | 86 | e55d567b3ac6
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\projection_ratio_tick300.json | 9704 | 2026-01-15T19:50:27 | 321 | 0431bf6b6c17
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\projection_ratio_tick400.json | 9450 | 2026-01-15T19:50:27 | 321 | 828f07113bbe
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\run_batch_projection.py | 2771 | 2026-01-15T19:50:27 | 80 | 039be4fb9517
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\SESSION_REPORT.md | 13315 | 2026-01-15T19:50:27 | 455 | 247c08089fdd
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\THETA_5PCT_FINDING.md | 1448 | 2026-01-15T19:50:27 | 52 | 0694a23b2515
+- dir  | workflow\oldies\romionsim_old_2\research\2026-01-08_session\batch_results
+- file | workflow\oldies\romionsim_old_2\research\2026-01-08_session\batch_results\all_projection_ratios.json | 152399 | 2026-01-15T19:50:27 | 4832 | d99b7176c073
+- dir  | workflow\oldies\romionsim_old_2\results
+- file | workflow\oldies\romionsim_old_2\results\gravity_synthetic.jsonl | 182 | 2026-01-15T19:50:27 |  | f741dc7fdb5a
+- file | workflow\oldies\romionsim_old_2\results\phase_b2_smoke.jsonl | 442964 | 2026-01-15T19:50:27 |  | 3229fb348f6b
+- dir  | workflow\oldies\romionsim_old_2\results\R0_v2
+- file | workflow\oldies\romionsim_old_2\results\R0_v2\simulation.jsonl | 3067903 | 2026-01-18T13:32:28 |  | 
+- dir  | workflow\oldies\romionsim_old_2\results\test_b2_v2
+- file | workflow\oldies\romionsim_old_2\results\test_b2_v2\simulation.jsonl | 948126 | 2026-01-15T19:50:27 |  | f8e1b5f5bb4c
+- dir  | workflow\oldies\romionsim_old_2\romionsim
+- file | workflow\oldies\romionsim_old_2\romionsim\README.md | 1179 | 2026-01-16T21:02:31 | 71 | 14dfa2f4af08
+- file | workflow\oldies\romionsim_old_2\romionsim\__init__.py | 308 | 2026-01-15T20:38:12 | 11 | e13f30fef1d2
+- dir  | workflow\oldies\romionsim_old_2\romionsim\analysis
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\clustering.py | 1475 | 2026-01-15T19:50:27 | 41 | c6b5b6a4d36c
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\README.md | 2620 | 2026-01-15T19:50:27 | 120 | 747f0c3cb602
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\rolling_alpha.py | 2704 | 2026-01-15T23:00:27 | 73 | d119abb318e8
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\soc_simple.py | 3235 | 2026-01-15T23:00:27 | 108 | d29b607ab9c0
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\squid_spectral.py | 3956 | 2026-01-15T19:50:27 | 155 | 21597dff7ceb
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\verify_spark.py | 1617 | 2026-01-15T19:50:27 | 51 | 825b0d3c2608
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\__init__.py | 0 | 2026-01-15T19:50:27 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\bridge_utils.py | 89 | 2026-01-15T19:50:27 | 3 | 37337b3ac4ca
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\channels.py | 2822 | 2026-01-15T20:53:13 | 99 | d6f3c88a5f58
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\clustering.py | 1373 | 2026-01-15T19:50:27 | 48 | 68edd4e7a55d
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\distances.py | 9213 | 2026-01-15T21:00:33 | 268 | f60db5a37666
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\export.py | 3106 | 2026-01-15T23:00:27 | 101 | 930083eb6848
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\io.py | 197 | 2026-01-15T19:50:27 | 5 | a3d0d72c4f50
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\main.py | 13523 | 2026-01-15T19:50:27 | 389 | 8d9be3b1c3d0
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\metrics.py | 9094 | 2026-01-15T20:00:28 | 293 | cd0ad71d2b4e
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\README.md | 4946 | 2026-01-15T21:41:57 | 141 | 005df35cd052
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\regions.py | 4404 | 2026-01-15T19:50:27 | 140 | 061442e8a58b
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\validate.py | 960 | 2026-01-15T19:50:27 | 37 | 67724ba3b784
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\validate_romion.py | 25984 | 2026-01-15T19:50:27 | 711 | 3c6d1d0634ec
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\gravity_test\__init__.py | 1932 | 2026-01-15T19:50:27 | 80 | 936bcadd0b8e
+- dir  | workflow\oldies\romionsim_old_2\romionsim\analysis\phase_b
+- file | workflow\oldies\romionsim_old_2\romionsim\analysis\phase_b\exp5_check.py | 3847 | 2026-01-15T19:50:27 | 141 | 3d979768bd9a
+- dir  | workflow\oldies\romionsim_old_2\romionsim\core
+- file | workflow\oldies\romionsim_old_2\romionsim\core\distances.py | 542 | 2026-01-15T22:14:03 | 20 | c2f75f48edfe
+- file | workflow\oldies\romionsim_old_2\romionsim\core\metrics.py | 432 | 2026-01-15T20:38:22 | 12 | 4b4a81027df7
+- file | workflow\oldies\romionsim_old_2\romionsim\core\utils.py | 230 | 2026-01-15T19:50:27 | 7 | fa245c836841
+- file | workflow\oldies\romionsim_old_2\romionsim\core\__init__.py | 0 | 2026-01-15T19:50:27 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_2\romionsim\io
+- file | workflow\oldies\romionsim_old_2\romionsim\io\io.py | 1365 | 2026-01-15T23:00:27 | 41 | b9613e87a7c1
+- file | workflow\oldies\romionsim_old_2\romionsim\io\__init__.py | 0 | 2026-01-15T19:50:27 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_2\romionsim\validation
+- file | workflow\oldies\romionsim_old_2\romionsim\validation\schema_version.py | 1483 | 2026-01-15T23:00:27 | 48 | d4729f8a982b
+- file | workflow\oldies\romionsim_old_2\romionsim\validation\__init__.py | 0 | 2026-01-15T19:50:27 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_2\romionsim.egg-info
+- file | workflow\oldies\romionsim_old_2\romionsim.egg-info\dependency_links.txt | 1 | 2026-01-15T20:14:38 | 1 | 01ba4719c80b
+- file | workflow\oldies\romionsim_old_2\romionsim.egg-info\PKG-INFO | 357 | 2026-01-15T20:14:38 |  | 514ab052433f
+- file | workflow\oldies\romionsim_old_2\romionsim.egg-info\requires.txt | 30 | 2026-01-15T20:14:38 | 4 | b474bbb07fe9
+- file | workflow\oldies\romionsim_old_2\romionsim.egg-info\SOURCES.txt | 507 | 2026-01-15T20:14:38 | 18 | ab305a65a604
+- file | workflow\oldies\romionsim_old_2\romionsim.egg-info\top_level.txt | 10 | 2026-01-15T20:14:38 | 1 | cb9070136fb5
+- dir  | workflow\oldies\romionsim_old_2\scripts
+- file | workflow\oldies\romionsim_old_2\scripts\analyze_sweep.py | 6241 | 2026-01-17T11:51:27 | 203 | ce11e8b7471c
+- file | workflow\oldies\romionsim_old_2\scripts\analyze_sweep_v2.py | 10834 | 2026-01-17T11:41:59 | 341 | 4221c1f379a8
+- file | workflow\oldies\romionsim_old_2\scripts\auto_analyze.py | 3087 | 2026-01-17T11:51:39 | 110 | 83c086b2763a
+- file | workflow\oldies\romionsim_old_2\scripts\batch_sweep.py | 12615 | 2026-01-17T11:52:29 | 408 | aa9c92c934b0
+- file | workflow\oldies\romionsim_old_2\scripts\batch_test_c.py | 7067 | 2026-01-15T19:50:27 | 224 | 5b8361a773d4
+- file | workflow\oldies\romionsim_old_2\scripts\compare_channels.py | 2942 | 2026-01-15T19:50:27 | 100 | 5831de0246d4
+- file | workflow\oldies\romionsim_old_2\scripts\compare_evolution.py | 2529 | 2026-01-15T19:50:27 | 86 | 61aa9e06a292
+- file | workflow\oldies\romionsim_old_2\scripts\create_old_structure_test.py | 2159 | 2026-01-17T11:38:05 | 76 | e0a6fa0a9ed2
+- file | workflow\oldies\romionsim_old_2\scripts\evolution_channels.py | 2198 | 2026-01-15T19:50:27 | 81 | b97081f6f2af
+- file | workflow\oldies\romionsim_old_2\scripts\final_report.py | 9626 | 2026-01-17T11:51:52 | 282 | aa2140abfdf8
+- file | workflow\oldies\romionsim_old_2\scripts\generate_b2_log.py | 1553 | 2026-01-15T19:50:27 | 65 | 2b1e9002a332
+- file | workflow\oldies\romionsim_old_2\scripts\investigate_r0_peak.py | 4720 | 2026-01-15T19:50:27 | 147 | f61e346c39f7
+- file | workflow\oldies\romionsim_old_2\scripts\lint_results.py | 3980 | 2026-01-15T19:50:27 | 124 | 70d00b4a5bde
+- file | workflow\oldies\romionsim_old_2\scripts\quick_viz.py | 5610 | 2026-01-17T11:52:10 | 187 | 1037884ed093
+- file | workflow\oldies\romionsim_old_2\scripts\run_from_config.py | 8185 | 2026-01-15T19:50:27 | 234 | 6959e3f41fda
+- file | workflow\oldies\romionsim_old_2\scripts\run_metadata.py | 10294 | 2026-01-15T19:50:27 | 367 | e8683c2217e0
+- file | workflow\oldies\romionsim_old_2\scripts\run_romion_clean.py | 7518 | 2026-01-15T19:50:27 | 212 | 76041aedb973
+- file | workflow\oldies\romionsim_old_2\scripts\run_romion_extended.py | 9271 | 2026-01-18T13:23:11 | 263 | d826729e9caa
+- file | workflow\oldies\romionsim_old_2\scripts\run_with_frustration.py | 5086 | 2026-01-15T19:50:27 | 166 | 431100d59027
+- file | workflow\oldies\romionsim_old_2\scripts\sweep_inprocess.py | 4289 | 2026-01-17T11:52:51 | 151 | 533cd45e0201
+- file | workflow\oldies\romionsim_old_2\scripts\sweep_krok6.py | 14244 | 2026-01-16T21:57:11 | 506 | af704587a045
+- file | workflow\oldies\romionsim_old_2\scripts\test_e2e_workflow.py | 4175 | 2026-01-17T12:22:37 | 155 | 147c6040d7cd
+- file | workflow\oldies\romionsim_old_2\scripts\test_sweep_structure.py | 1290 | 2026-01-16T21:55:10 | 50 | 599f0b0d2616
+- file | workflow\oldies\romionsim_old_2\scripts\update_sweep_results.py | 3734 | 2026-01-17T11:53:14 | 120 | 52f37cc01c74
+- file | workflow\oldies\romionsim_old_2\scripts\validate.py | 12757 | 2026-01-15T19:50:27 | 394 | a3d69a98d9a8
+- file | workflow\oldies\romionsim_old_2\scripts\validate_config.py | 11465 | 2026-01-15T19:50:27 | 319 | 0f1212702c95
+- file | workflow\oldies\romionsim_old_2\scripts\validate_log_schema.py | 17964 | 2026-01-15T19:50:27 | 578 | 5acc8bf27b3c
+- file | workflow\oldies\romionsim_old_2\scripts\validate_simulation.py | 14001 | 2026-01-15T19:50:27 | 402 | 6f3de04c8950
+- file | workflow\oldies\romionsim_old_2\scripts\validate_sweep.py | 11347 | 2026-01-17T11:35:29 | 327 | 6c96bb37f0af
+- dir  | workflow\oldies\romionsim_old_2\session_reports
+- file | workflow\oldies\romionsim_old_2\session_reports\README.md | 1161 | 2026-01-15T19:50:27 | 41 | d66ce1f50f9c
+- dir  | workflow\oldies\romionsim_old_2\session_reports\2026-01-09
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\audit_raw_output.txt | 8692 | 2026-01-15T19:50:27 | 206 | 1dd7757b962b
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\AUDIT_REPORT_DETAILED.md | 5935 | 2026-01-15T19:50:27 | 239 | 76e36ec72482
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\DEEP_AUDIT_FINDINGS.md | 2388 | 2026-01-15T19:50:27 | 93 | 40576bf2c820
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\deep_audit_output.txt | 1287 | 2026-01-15T19:50:27 | 28 | 0e91f9eac7f5
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\deep_audit_raw.txt | 2608 | 2026-01-15T19:50:27 | 57 | 1de4d80893f0
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\deep_audit_results.txt | 35949 | 2026-01-15T19:50:27 | 785 | 4aa003d2b257
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\DOCS_MANUAL_REVIEW.md | 4800 | 2026-01-15T19:50:27 | 162 | 18ff4b3320e1
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\docs_review_results.txt | 1055 | 2026-01-15T19:50:27 | 21 | c439289b08bf
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\METRIC_DEFINITION_ANALYSIS.md | 4837 | 2026-01-15T19:50:27 | 176 | a1fbc985047b
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\NEXT_SESSION_TODO.md | 7342 | 2026-01-15T19:50:27 | 328 | 8dabaa213b7f
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\PHASE_B_PROGRESS.md | 3190 | 2026-01-15T19:50:27 | 127 | b6933c774dbb
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\R0_DISCREPANCY_RESOLVED.md | 3313 | 2026-01-15T19:50:27 | 108 | 5da3394b6d2f
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\README.md | 3052 | 2026-01-15T19:50:27 | 102 | 0fe87ceceefd
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\ROMION_REFACTOR_PROGRESS.md | 3824 | 2026-01-15T19:50:27 | 143 | 9ec2ef93a7b6
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-09\SESSION_CONTINUATION_PROGRESS.md | 4472 | 2026-01-15T19:50:27 | 170 | e5d094a674d8
+- dir  | workflow\oldies\romionsim_old_2\session_reports\2026-01-10
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-10\KROK_2_INTEGRATION_COMPLETE.md | 4139 | 2026-01-15T19:50:28 | 187 | c610dfacdee1
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-10\KROK_2_SANITY_CHECK.md | 3957 | 2026-01-15T19:50:28 | 165 | 6591fc94bb69
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-10\KROK_3_COMPLETE.md | 7315 | 2026-01-15T19:50:28 | 304 | 76a56af6c7bd
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-10\STRATEGIC_PLAN_POST_EVAL.md | 11600 | 2026-01-15T19:50:28 | 487 | 496e389d0ce1
+- file | workflow\oldies\romionsim_old_2\session_reports\2026-01-10\VALIDATOR_TEST_REPORT.md | 5401 | 2026-01-15T19:50:28 | 241 | bcd3b0507e4c
+- dir  | workflow\oldies\romionsim_old_2\tests
+- file | workflow\oldies\romionsim_old_2\tests\density_velocity_test.py | 9963 | 2026-01-15T19:50:28 | 313 | e26b916c70bc
+- file | workflow\oldies\romionsim_old_2\tests\phase_propagation_test.py | 14722 | 2026-01-15T19:50:28 | 422 | 5f6850cacb88
+- file | workflow\oldies\romionsim_old_2\tests\projection_ratio_test.py | 5931 | 2026-01-15T19:50:28 | 187 | 6832d11b9f77
+- file | workflow\oldies\romionsim_old_2\tests\squid_test.py | 7287 | 2026-01-15T19:50:28 | 255 | 18ff7b5c94af
+- file | workflow\oldies\romionsim_old_2\tests\test_analyze_sweep_v2.py | 13767 | 2026-01-18T13:02:48 | 406 | 9443574a6ea3
+- file | workflow\oldies\romionsim_old_2\tests\test_canonical_metrics.py | 7094 | 2026-01-15T20:19:43 | 249 | 5882dd067699
+- file | workflow\oldies\romionsim_old_2\tests\test_clustering.py | 8151 | 2026-01-16T21:10:58 | 263 | d216c955128a
+- file | workflow\oldies\romionsim_old_2\tests\test_gravity_clustering.py | 326 | 2026-01-15T21:27:23 | 10 | 45a3809b91d7
+- file | workflow\oldies\romionsim_old_2\tests\test_gravity_distances.py | 213 | 2026-01-15T19:50:28 | 8 | d02ef6fdee55
+- file | workflow\oldies\romionsim_old_2\tests\test_gravity_io.py | 531 | 2026-01-15T19:50:28 | 18 | d9ff411f8dcd
+- file | workflow\oldies\romionsim_old_2\tests\test_gravity_metrics.py | 402 | 2026-01-15T21:12:29 | 13 | 87644797f648
+- file | workflow\oldies\romionsim_old_2\tests\test_io.py | 7840 | 2026-01-16T18:06:23 | 239 | eefb59fd72f1
+- file | workflow\oldies\romionsim_old_2\tests\test_phase_sweep.py | 10509 | 2026-01-18T12:55:01 | 309 | cbd492b15caf
+- file | workflow\oldies\romionsim_old_2\tests\test_phase_sweep_complete.py | 13518 | 2026-01-18T12:59:26 | 382 | 4f3c9a9847ab
+- file | workflow\oldies\romionsim_old_2\tests\test_run_from_config.py | 11807 | 2026-01-18T13:04:57 | 424 | 6c71f565e618
+- file | workflow\oldies\romionsim_old_2\tests\test_schema_version_exports.py | 3573 | 2026-01-15T23:00:27 | 113 | 90cd3e281115
+- file | workflow\oldies\romionsim_old_2\tests\test_soc_simple.py | 10289 | 2026-01-16T18:10:12 | 280 | 1b1178a336d9
+- file | workflow\oldies\romionsim_old_2\tests\test_v2_valid.jsonl | 2301 | 2026-01-15T19:50:28 |  | bc76c7e6551e
+- file | workflow\oldies\romionsim_old_2\tests\test_verify_spark.py | 1465 | 2026-01-15T19:50:28 | 43 | 892950204934
+- file | workflow\oldies\romionsim_old_2\tests\__init__.py | 0 | 2026-01-15T19:50:28 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_2\tests\data
+- file | workflow\oldies\romionsim_old_2\tests\data\sample_frustration.jsonl | 188 | 2026-01-15T19:50:28 |  | 523b3dcb651b
+- file | workflow\oldies\romionsim_old_2\tests\data\sample_log.jsonl | 203 | 2026-01-15T19:50:28 |  | a2235091c67e
+- dir  | workflow\oldies\romionsim_old_2\tests\gravity_test
+- file | workflow\oldies\romionsim_old_2\tests\gravity_test\conftest.py | 1216 | 2026-01-15T19:50:28 | 53 | a15126723233
+- file | workflow\oldies\romionsim_old_2\tests\gravity_test\test_anisotropy.py | 1609 | 2026-01-15T20:48:17 | 48 | ef79efe6f73a
+- file | workflow\oldies\romionsim_old_2\tests\gravity_test\test_channels.py | 1063 | 2026-01-15T20:47:49 | 32 | 9704e5fdf1df
+- file | workflow\oldies\romionsim_old_2\tests\gravity_test\test_regions.py | 1687 | 2026-01-15T20:49:01 | 48 | c2adc70fca5b
+- file | workflow\oldies\romionsim_old_2\tests\gravity_test\test_validate.py | 2052 | 2026-01-15T20:49:47 | 64 | c921aa83f3b7
+- dir  | workflow\oldies\romionsim_old_2\tests\unit
+- file | workflow\oldies\romionsim_old_2\tests\unit\test_background_excludes_bridges.py | 1016 | 2026-01-15T19:50:28 | 27 | 7708c3bf05ad
+- file | workflow\oldies\romionsim_old_2\tests\unit\test_distance_table_unreachable.py | 696 | 2026-01-15T22:16:35 | 19 | 0bc859e8262a
+- file | workflow\oldies\romionsim_old_2\tests\unit\test_gravity_test.py | 399 | 2026-01-15T21:28:29 | 19 | 7e6d4108e67a
+- file | workflow\oldies\romionsim_old_2\tests\unit\test_r2_denominators.py | 3463 | 2026-01-15T22:14:32 | 136 | 949b1fc38844
+- file | workflow\oldies\romionsim_old_2\tests\unit\test_romionsim_core.py | 7164 | 2026-01-16T18:01:52 | 226 | 078c408bba5d
+- dir  | workflow\oldies\romionsim_old_2\tools
+- file | workflow\oldies\romionsim_old_2\tools\analyze_code.py | 8681 | 2026-01-16T17:38:42 | 260 | f3cdc4c9c50b
+- file | workflow\oldies\romionsim_old_2\tools\rebuild_inventory.py | 3030 | 2026-01-18T14:14:51 | 110 | 26a1d8f9f141
+- file | workflow\oldies\romionsim_old_2\tools\run_phase_b2_v2_smoke.py | 6393 | 2026-01-15T19:50:28 | 148 | d3c3c8cd9d60
+- file | workflow\oldies\romionsim_old_2\tools\test_coverage_analysis.py | 5440 | 2026-01-16T17:57:26 | 158 | 4d0bb978f5a3
+- dir  | workflow\oldies\romionsim_old_2\workflow
+- file | workflow\oldies\romionsim_old_2\workflow\.gitignore | 322 | 2026-01-17T16:54:44 |  | a2f05df52f2b
+- file | workflow\oldies\romionsim_old_2\workflow\ARCHIVE_CLEANUP_ANALYSIS.md | 10119 | 2026-01-17T16:57:28 | 382 | 74c2ee167dd8
+- file | workflow\oldies\romionsim_old_2\workflow\BACKUP_FILES_CLEANUP_CORRECTION.md | 2053 | 2026-01-17T16:04:24 | 89 | 3daef8d80c3d
+- file | workflow\oldies\romionsim_old_2\workflow\CHATGPT_ANALYSIS_COMPREHENSIVE.md | 42232 | 2026-01-18T10:09:35 | 1669 | ff8a6fba1fee
+- file | workflow\oldies\romionsim_old_2\workflow\CHATGPT_EXECUTIVE_SUMMARY.md | 6434 | 2026-01-18T10:10:28 | 245 | af7c543949e8
+- file | workflow\oldies\romionsim_old_2\workflow\CLAUDE_WORKFLOW_V1.md | 15818 | 2026-01-17T17:02:58 | 746 | c845cd219121
+- file | workflow\oldies\romionsim_old_2\workflow\CLAUDE_WORKFLOW_V2.md | 27917 | 2026-01-17T17:28:19 | 1026 | 6a94a1c16350
+- file | workflow\oldies\romionsim_old_2\workflow\CRITICAL_CORRECTION_CHATGPT_VS_ROADMAP.md | 11081 | 2026-01-18T10:27:23 | 438 | 9603aea1151c
+- file | workflow\oldies\romionsim_old_2\workflow\DOCS_CLASSIFICATION_COMPLETE.md | 9501 | 2026-01-17T16:40:28 | 369 | 5d0e06bd1137
+- file | workflow\oldies\romionsim_old_2\workflow\DOCS_NAMING_AUDIT.md | 12713 | 2026-01-17T16:22:57 | 462 | 0f6c00627237
+- file | workflow\oldies\romionsim_old_2\workflow\DOCS_NAMING_EXECUTION_REPORT.md | 7417 | 2026-01-17T16:48:45 | 289 | 5425869d7d60
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_COMPLIANCE_REPORT.md | 13605 | 2026-01-18T12:11:48 | 507 | d3288fe58c24
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_FINAL_VERIFICATION.md | 12128 | 2026-01-18T12:25:40 | 499 | 69be5a3c9050
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_INITIATION.md | 6375 | 2026-01-18T12:03:00 | 244 | 3a089fa52c81
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_LESSONS_LEARNED.md | 13521 | 2026-01-18T12:27:13 | 538 | 729fbaa8aacc
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_MILESTONES.md | 7206 | 2026-01-18T12:05:23 | 326 | 9be2e911c098
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_PRE_PLANNING_DISCOVERY.md | 6823 | 2026-01-18T11:59:52 | 268 | e22954b93e60
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_RISK_REGISTER.md | 7106 | 2026-01-18T12:06:12 | 289 | 091b36eba48d
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_SCOPE.md | 7622 | 2026-01-18T12:03:50 | 312 | 6c9147304fc0
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_SESSION_1_CHECKPOINT.md | 4453 | 2026-01-18T12:12:23 | 169 | 8362cba3ff4a
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_SESSION_2_CHECKPOINT.md | 6136 | 2026-01-18T12:20:35 | 226 | 7b40b1dfb79b
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_SESSION_3_CHECKPOINT.md | 4201 | 2026-01-18T12:27:48 | 169 | 4f22f0b18918
+- file | workflow\oldies\romionsim_old_2\workflow\ENGINE_CLEANUP_WBS.md | 7636 | 2026-01-18T12:04:36 | 278 | 5e76a182524b
+- file | workflow\oldies\romionsim_old_2\workflow\FIELD_TAIL_CLEANUP_INITIATION.md | 6565 | 2026-01-21T06:52:11 | 197 | a4d7d032f559
+- file | workflow\oldies\romionsim_old_2\workflow\FIELD_TAIL_CLEANUP_MILESTONES.md | 8836 | 2026-01-21T06:54:47 | 394 | 2e5c57959b12
+- file | workflow\oldies\romionsim_old_2\workflow\FIELD_TAIL_CLEANUP_SCOPE.md | 7661 | 2026-01-21T06:52:57 | 267 | 26231d6143da
+- file | workflow\oldies\romionsim_old_2\workflow\FIELD_TAIL_CLEANUP_SESSION_1_CHECKPOINT.md | 9209 | 2026-01-21T06:59:48 | 339 | dc461ddbe743
+- file | workflow\oldies\romionsim_old_2\workflow\FIELD_TAIL_CLEANUP_VERIFICATION.md | 5693 | 2026-01-21T06:58:38 | 171 | fadef723e049
+- file | workflow\oldies\romionsim_old_2\workflow\FIELD_TAIL_CLEANUP_WBS.md | 10097 | 2026-01-21T06:53:50 | 341 | 684cb25d57ae
+- file | workflow\oldies\romionsim_old_2\workflow\FINAL_CLEANUP_CHECKLIST.md | 7691 | 2026-01-17T15:51:10 | 316 | 625d96fb8813
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_R0_ANALYSIS_LEGACY.md | 7377 | 2026-01-18T13:43:32 | 271 | eec0549cca89
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_R0_R2_COMPARISON_LEGACY.md | 8817 | 2026-01-18T13:53:23 | 332 | 9935721790b3
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_REEVAL_FINAL_VERIFICATION.md | 11635 | 2026-01-18T14:16:36 | 446 | aa86e36996cc
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_REEVAL_INITIATION.md | 8260 | 2026-01-18T13:18:22 | 407 | 34c7256b5d3a
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_REEVAL_LESSONS_LEARNED.md | 12271 | 2026-01-18T13:57:55 | 524 | f080a0ddeca0
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_REEVAL_SESSION_1_CHECKPOINT.md | 9509 | 2026-01-18T13:45:55 | 354 | 58d55f1ae1fd
+- file | workflow\oldies\romionsim_old_2\workflow\GRAVITY_REEVAL_SESSION_2_CHECKPOINT.md | 2028 | 2026-01-18T13:53:55 | 83 | da6f4aed9b72
+- file | workflow\oldies\romionsim_old_2\workflow\INTEGRATED_ROADMAP_V1.md | 8717 | 2026-01-18T11:54:53 | 307 | a77468317b70
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_COMPREHENSIVE_CHECKPOINT.md | 9233 | 2026-01-18T16:30:48 | 283 | 36fb87d96250
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_INITIATION.md | 7435 | 2026-01-18T14:19:49 | 327 | 40d0f689e08b
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_M3_SESSION_CHECKPOINT.md | 6292 | 2026-01-18T15:49:59 | 218 | ebf158630826
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_M4_SESSION_CHECKPOINT.md | 6741 | 2026-01-18T16:00:12 | 241 | 0090e10fcf8e
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_M5_SESSION_CHECKPOINT.md | 6954 | 2026-01-18T16:04:05 | 234 | b8453825df79
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_M7_SESSION_CHECKPOINT.md | 7359 | 2026-01-18T17:01:34 | 251 | 3d4615e7ceee
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_M8_FINAL_CHECKPOINT.md | 13093 | 2026-01-18T17:04:13 | 468 | 03d1d93d630f
+- file | workflow\oldies\romionsim_old_2\workflow\PAPER_FREEZE_SESSION_N_CHECKPOINT.md | 9789 | 2026-01-18T15:36:38 | 328 | 3e54bcc6aabc
+- file | workflow\oldies\romionsim_old_2\workflow\README.md | 1886 | 2026-01-17T16:54:36 | 89 | ebbc5c84cb74
+- file | workflow\oldies\romionsim_old_2\workflow\ROMION_SKILL_COMPLIANCE_CHECK.md | 9979 | 2026-01-17T15:50:21 | 380 | a221c10297fa
+- file | workflow\oldies\romionsim_old_2\workflow\ROOT_CLEANUP_ANALYSIS.md | 2229 | 2026-01-17T17:39:14 | 109 | 13b88a8f867e
+- file | workflow\oldies\romionsim_old_2\workflow\ROOT_CLEANUP_EXECUTION_REPORT.md | 4978 | 2026-01-18T09:52:23 | 243 | 77c523b5b42e
+- file | workflow\oldies\romionsim_old_2\workflow\SESSION8_FINAL_CHECKPOINT.md | 8877 | 2026-01-17T12:38:49 | 345 | 3f6ae97edbbe
+- file | workflow\oldies\romionsim_old_2\workflow\SESSION_METADATA_IMPLEMENTATION.md | 10637 | 2026-01-17T17:30:28 | 388 | c6877a2fe3f4
+- file | workflow\oldies\romionsim_old_2\workflow\SESSION_STARTER.md | 12208 | 2026-01-17T17:28:02 | 500 | b1a0fd2dc34a
+- file | workflow\oldies\romionsim_old_2\workflow\SPEC_FILES_CORRECTION_REPORT.md | 6201 | 2026-01-17T16:15:45 | 257 | f64080ae2950
+- file | workflow\oldies\romionsim_old_2\workflow\SPEC_THAW_SHOCK_AUDIT.md | 8211 | 2026-01-17T16:08:46 | 314 | 3a7a06d7be09
+- file | workflow\oldies\romionsim_old_2\workflow\SWEEP_PROTOCOL_AUDIT_FINAL.md | 12279 | 2026-01-17T12:36:07 | 483 | fe9590eb5ddd
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_FINAL_VERIFICATION.md | 8044 | 2026-01-18T13:10:18 | 345 | 79a169515a53
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_INITIATION.md | 6378 | 2026-01-18T12:37:34 | 240 | 375d08fd3677
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_LESSONS_LEARNED.md | 12465 | 2026-01-18T13:11:38 | 528 | bc82eec085d4
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_MILESTONES.md | 4332 | 2026-01-18T12:43:09 | 179 | b053447b2ea4
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_PRE_PLANNING_DISCOVERY.md | 8730 | 2026-01-18T12:39:52 | 334 | 35fc5d62af51
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_RISK_REGISTER.md | 6705 | 2026-01-18T12:43:57 | 257 | e6b1a7aab0b3
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_SCOPE.md | 9334 | 2026-01-18T12:42:07 | 375 | fae1495bb9fd
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_SESSION_1_2_CHECKPOINT.md | 3304 | 2026-01-18T13:00:33 | 146 | 2d2065eafe0e
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_SESSION_1_PARTIAL.md | 2498 | 2026-01-18T12:51:11 | 112 | 32383e2a0ac5
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_SESSION_3_CHECKPOINT.md | 1272 | 2026-01-18T13:03:25 | 63 | e0f13231f26e
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_COMPLETE_WBS.md | 4997 | 2026-01-18T12:42:38 | 173 | 4772fd4215ff
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_FINAL_VERIFICATION.md | 12029 | 2026-01-18T11:47:39 | 497 | bc0bc91f4473
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_INITIATION.md | 5926 | 2026-01-18T11:35:34 | 237 | 1d1c61b38c99
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_LESSONS_LEARNED.md | 14304 | 2026-01-18T11:49:07 | 585 | 93b57d421f03
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_MILESTONES.md | 9114 | 2026-01-18T11:38:05 | 419 | 85a1e98352c0
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_RISK_REGISTER.md | 11803 | 2026-01-18T11:39:20 | 477 | 85a70c62f01e
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_SCOPE.md | 7220 | 2026-01-18T11:36:23 | 314 | 9380c5cac50a
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_SESSION_1_CHECKPOINT.md | 3759 | 2026-01-18T11:43:23 | 147 | d5bccc9d0638
+- file | workflow\oldies\romionsim_old_2\workflow\TEST_FOUNDATION_WBS.md | 7696 | 2026-01-18T11:37:09 | 287 | 745ae59115ca
+- file | workflow\oldies\romionsim_old_2\workflow\WORKFLOW_CODE_INVENTORY.md | 4624 | 2026-01-18T14:17:13 | 210 | a7f735aad962
+- file | workflow\oldies\romionsim_old_2\workflow\WORKFLOW_ORGANIZATION_SUMMARY.md | 4845 | 2026-01-17T16:55:22 | 225 | e094e1131984
+- dir  | workflow\oldies\romionsim_old_repos
+- dir  | workflow\oldies\romionsim_old_repos\romion
+- file | workflow\oldies\romionsim_old_repos\romion\.gitignore | 451 | 2026-01-06T15:04:22 |  | 6c5ca95d5aed
+- file | workflow\oldies\romionsim_old_repos\romion\README.md | 5595 | 2026-01-06T15:04:08 | 236 | b14e9e751379
+- dir  | workflow\oldies\romionsim_old_repos\romion\archive
+- file | workflow\oldies\romionsim_old_repos\romion\archive\CHATGPT_FINAL_APPROVAL.md | 4716 | 2026-01-07T05:05:24 | 189 | 8f480c655005
+- file | workflow\oldies\romionsim_old_repos\romion\archive\CHATGPT_FIXED.md | 7405 | 2026-01-06T23:19:32 | 295 | 95198d2eddc8
+- file | workflow\oldies\romionsim_old_repos\romion\archive\CHATGPT_REVIEW.md | 6093 | 2026-01-06T23:16:06 | 212 | f36b02811f25
+- file | workflow\oldies\romionsim_old_repos\romion\archive\DLA_CIEBIE_FINAL.md | 887 | 2026-01-07T18:44:37 | 43 | c17230a77b1c
+- file | workflow\oldies\romionsim_old_repos\romion\archive\DLA_CIEBIE_PROSTE.md | 2355 | 2026-01-06T23:43:24 | 102 | ac74a41454ec
+- file | workflow\oldies\romionsim_old_repos\romion\archive\FIRST_SUCCESS.md | 6290 | 2026-01-06T15:09:59 | 241 | 5a467f6e8042
+- file | workflow\oldies\romionsim_old_repos\romion\archive\GRAVITY_FIXED.md | 5624 | 2026-01-07T17:59:51 | 205 | eb60941c0ff8
+- file | workflow\oldies\romionsim_old_repos\romion\archive\GRAVITY_TEST_B_FINAL.md | 6311 | 2026-01-07T18:23:59 | 230 | ccd79c781a85
+- file | workflow\oldies\romionsim_old_repos\romion\archive\IMPLEMENTATION_AUDIT.md | 8009 | 2026-01-06T22:14:35 | 288 | a2d477b4036e
+- file | workflow\oldies\romionsim_old_repos\romion\archive\ODPOWIEDZ_CHATGPT_FINAL.md | 2385 | 2026-01-07T18:24:15 | 110 | 64c2652fa4b9
+- file | workflow\oldies\romionsim_old_repos\romion\archive\ODPOWIEDZ_CHATGPT_ULTIMATE.md | 2976 | 2026-01-07T18:44:21 | 120 | 3df2ae47dd1b
+- file | workflow\oldies\romionsim_old_repos\romion\archive\ODPOWIEDZ_CHATGPT_V2.md | 4164 | 2026-01-06T23:43:01 | 158 | af58edbef18d
+- file | workflow\oldies\romionsim_old_repos\romion\archive\ODPOWIEDZ_DLA_CHATGPT.md | 3778 | 2026-01-06T23:33:51 | 125 | f7a8ddf7621a
+- file | workflow\oldies\romionsim_old_repos\romion\archive\ROMIONSIM_COMPLETE.md | 9069 | 2026-01-06T23:01:52 | 380 | d43609c6b9f5
+- file | workflow\oldies\romionsim_old_repos\romion\archive\SESSION_SUMMARY.md | 5594 | 2026-01-06T15:05:00 | 215 | a3944e324d26
+- file | workflow\oldies\romionsim_old_repos\romion\archive\TEST_C_MANUAL_APPROACH.md | 1766 | 2026-01-07T19:18:37 | 64 | 60ad7942c048
+- file | workflow\oldies\romionsim_old_repos\romion\archive\TEST_C_PLAN.md | 1309 | 2026-01-07T18:55:51 | 55 | 7759009ca3b2
+- dir  | workflow\oldies\romionsim_old_repos\romion\cache
+- file | workflow\oldies\romionsim_old_repos\romion\cache\README.md | 516 | 2026-01-06T15:04:28 | 25 | 9b18f58e82c8
+- dir  | workflow\oldies\romionsim_old_repos\romion\docs
+- dir  | workflow\oldies\romionsim_old_repos\romion\docs\experiments
+- dir  | workflow\oldies\romionsim_old_repos\romion\docs\theory
+- file | workflow\oldies\romionsim_old_repos\romion\docs\theory\analysis-romionbygoogle31.md | 11072 | 2026-01-06T22:11:53 | 407 | ef49a4f48ff1
+- file | workflow\oldies\romionsim_old_repos\romion\docs\theory\squid-beta-derivation.md | 3641 | 2026-01-06T15:08:31 | 168 | e3d204a63c90
+- dir  | workflow\oldies\romionsim_old_repos\romion\memory
+- file | workflow\oldies\romionsim_old_repos\romion\memory\decisions.md | 8283 | 2026-01-06T23:00:10 | 270 | 2d55a10bbfa3
+- file | workflow\oldies\romionsim_old_repos\romion\memory\ideas.md | 6140 | 2026-01-06T22:13:42 | 229 | c1a34734441f
+- file | workflow\oldies\romionsim_old_repos\romion\memory\progress.md | 6781 | 2026-01-06T23:00:52 | 245 | a980aefb44d7
+- file | workflow\oldies\romionsim_old_repos\romion\memory\references.md | 2931 | 2026-01-06T15:03:31 | 125 | 6f6112014471
+- dir  | workflow\oldies\romionsim_old_repos\romion\notebooks
+- dir  | workflow\oldies\romionsim_old_repos\romion\src
+- dir  | workflow\oldies\romionsim_old_repos\romion\src\core
+- dir  | workflow\oldies\romionsim_old_repos\romion\src\observables
+- dir  | workflow\oldies\romionsim_old_repos\romion\src\projection
+- dir  | workflow\oldies\romionsim_old_repos\romion\src\spawn
+- dir  | workflow\oldies\romionsim_old_repos\romion\tests
+- dir  | workflow\oldies\romionsim_old_repos\romionbychatgpt
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\run_mvp.py | 2504 | 2026-01-06T19:38:21 | 94 | 7d358a9f748f
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\simulation.jsonl | 42460 | 2026-01-06T19:42:38 |  | ef20a9177634
+- dir  | workflow\oldies\romionsim_old_repos\romionbychatgpt\core
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\core\engine.py | 2454 | 2026-01-06T19:38:01 | 71 | 27f66a8b2c69
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\core\graph.py | 1383 | 2026-01-06T19:37:48 | 55 | 52e8043e6d85
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\core\metrics.py | 2923 | 2026-01-06T19:11:17 | 93 | fcbd3e0e5cf4
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\core\rules.py | 5016 | 2026-01-06T19:37:29 | 155 | 424a30d74278
+- file | workflow\oldies\romionsim_old_repos\romionbychatgpt\core\__init__.py | 0 | 2026-01-06T19:14:02 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_repos\romionbychatgpt\experiments
+- dir  | workflow\oldies\romionsim_old_repos\romionbychatgpt\fracture
+- dir  | workflow\oldies\romionsim_old_repos\romionbychatgpt\io
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\plot_results.py | 2989 | 2026-01-06T19:57:04 | 79 | 4161a9e45d19
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\romion_results_mvp3.png | 154789 | 2026-01-06T20:41:06 |  | 43ef43e875af
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\romion_structure.png | 389079 | 2026-01-06T20:52:05 |  | f8fa50092ceb
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\run_mvp.py | 3365 | 2026-01-06T20:34:27 | 89 | 17f1c8a3045d
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\simulation.jsonl | 338166 | 2026-01-06T20:40:27 |  | 06ad69c9b641
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\visualize_final.py | 2923 | 2026-01-06T20:36:30 | 97 | 716679b16b7e
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\__init__.py | 0 | 2026-01-06T19:14:02 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle\core
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\core\engine.py | 3113 | 2026-01-06T19:56:26 | 78 | 3e365e0fb214
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\core\graph.py | 2785 | 2026-01-06T19:56:26 | 74 | 7494cf5e0b06
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\core\metrics.py | 2939 | 2026-01-06T19:56:26 | 84 | bbdefdb46446
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\core\rules.py | 6232 | 2026-01-06T19:56:26 | 158 | 206d0a183b5b
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle\core\__init__.py | 0 | 2026-01-06T19:14:02 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle\experiments
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle\fracture
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle\io
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\plot_results.py | 2989 | 2026-01-06T19:57:04 | 79 | 4161a9e45d19
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_gravity_test.py | 10739 | 2026-01-06T22:15:01 | 327 | 409b63d7edad
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_mvp_3_results.md | 3631 | 2026-01-06T22:02:40 | 141 | 3b4255cdfd98
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_phase_control_patch.md | 3522 | 2026-01-06T22:15:15 | 134 | 76f080c627c6
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_phase_sweep.py | 6468 | 2026-01-06T22:15:09 | 211 | a33dbad88b6a
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_phase_sweep_local.py | 4860 | 2026-01-06T22:35:03 | 157 | 17d04c1fa025
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_results_mvp3.png | 156291 | 2026-01-06T21:09:54 |  | fd46d3d6e4f0
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_rolling_alpha.png | 64909 | 2026-01-06T21:50:18 |  | 70cc13fa9759
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_squid_B.png | 365332 | 2026-01-06T21:49:58 |  | 693e1fc9f8c2
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_squid_B.py | 3195 | 2026-01-06T21:49:17 | 122 | b9252a320025
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_squid_result.png | 232178 | 2026-01-06T21:37:13 |  | 751b7f4d893d
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_squid_rolling_alpha.py | 1745 | 2026-01-06T21:49:44 | 62 | 3e80fe9cb31a
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_squid_test.py | 6581 | 2026-01-06T21:36:55 | 193 | b97d45a39718
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_squid_testB.py | 8452 | 2026-01-06T21:43:51 | 280 | 0b57db30d2cd
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\romion_structure.png | 389079 | 2026-01-06T21:12:29 |  | f8fa50092ceb
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\run_mvp.py | 3086 | 2026-01-06T22:16:35 | 92 | c4b41798e505
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\run_mvp_phase.py | 6080 | 2026-01-06T22:32:59 | 165 | fd682603d1c8
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\simulation.jsonl | 338258 | 2026-01-06T21:09:44 |  | aafc9fd4069d
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\simulation_backup.jsonl | 338258 | 2026-01-06T22:21:14 |  | aafc9fd4069d
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\visualize_final.py | 2923 | 2026-01-06T20:36:30 | 97 | 716679b16b7e
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\__init__.py | 0 | 2026-01-06T19:14:02 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31\core
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\core\engine.py | 3113 | 2026-01-06T19:56:26 | 78 | 3e365e0fb214
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\core\graph.py | 2785 | 2026-01-06T19:56:26 | 74 | 7494cf5e0b06
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\core\metrics.py | 2939 | 2026-01-06T19:56:26 | 84 | bbdefdb46446
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\core\rules.py | 5224 | 2026-01-06T21:04:47 | 141 | f8e63f1d1ea3
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\core\__init__.py | 0 | 2026-01-06T19:14:02 |  | e3b0c44298fc
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31\experiments
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31\fracture
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31\io
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31\runs
+- dir  | workflow\oldies\romionsim_old_repos\romionbygoogle31\runs\base
+- file | workflow\oldies\romionsim_old_repos\romionbygoogle31\runs\base\simulation.jsonl | 338441 | 2026-01-06T22:40:20 |  | 5f0770ecac64
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\.gitignore | 641 | 2026-01-11T20:36:50 |  | e0b5a9997c5b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\CLEANUP_ACTION_LIST.md | 7522 | 2026-01-10T14:21:45 | 355 | 1d7e12702959
+- file | workflow\oldies\romionsim_old_repos\romionsim1\CLEANUP_MASTER_LIST.md | 6345 | 2026-01-10T14:18:55 | 224 | 857e9a60750a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\FINAL_STATUS_COMPLETE.md | 4984 | 2026-01-11T16:59:48 | 186 | 7c3e02a5563a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\Makefile | 5779 | 2026-01-08T10:44:20 |  | ba239a917892
+- file | workflow\oldies\romionsim_old_repos\romionsim1\pytest.ini | 67 | 2026-01-11T21:25:29 |  | f839b1de1222
+- file | workflow\oldies\romionsim_old_repos\romionsim1\README.md | 7506 | 2026-01-10T14:25:55 | 251 | 6af91795baf5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\ROMION_CORRECTION_COMPLETE.md | 4310 | 2026-01-11T16:25:00 | 166 | 653585d871fd
+- file | workflow\oldies\romionsim_old_repos\romionsim1\task.bat | 3444 | 2026-01-08T10:46:13 |  | 85e6f471ac40
+- file | workflow\oldies\romionsim_old_repos\romionsim1\VERIFICATION_COMPLETE.md | 4890 | 2026-01-11T16:44:03 | 203 | 249bdb977543
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\analysis
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\.gitkeep | 29 | 2026-01-06T22:58:25 |  | 652e69dfe7f5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\density_velocity_test.py | 10121 | 2026-01-08T18:23:05 | 320 | 20c4fa6f3102
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test_backup_20260107.py | 24788 | 2026-01-10T00:19:09 | 704 | 001a64a464da
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test_before_split.py | 24226 | 2026-01-10T00:19:40 | 730 | 1aedff91c4da
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\old_gravity_test.py | 350 | 2026-01-08T10:50:29 | 15 | c12f2f112680
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\phase_propagation_test.py | 15079 | 2026-01-08T18:38:45 | 429 | 5abe1fd0b12c
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\projection_ratio_test.py | 6045 | 2026-01-08T18:45:36 | 191 | 86a173ed6434
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\README.md | 2620 | 2026-01-08T10:55:06 | 120 | 747f0c3cb602
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\rolling_alpha.py | 8273 | 2026-01-06T23:41:33 | 253 | 2f8e76390fa9
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\soc_simple.py | 3178 | 2026-01-07T19:11:26 | 108 | 7155795c6d73
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\squid_spectral.py | 4004 | 2026-01-06T22:55:21 | 163 | b54e02a86306
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\verify_spark.py | 6757 | 2026-01-06T23:29:03 | 203 | ce3a9efec2f5
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\channels.py | 4711 | 2026-01-08T20:01:24 | 161 | 466d1e7eed2d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\clustering.py | 3616 | 2026-01-08T17:08:48 | 137 | 7af59decd94e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\distances.py | 9899 | 2026-01-12T18:46:08 | 323 | 70cb607e24bf
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\export.py | 2998 | 2026-01-11T16:22:15 | 99 | 5ef15998c0b7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\io.py | 4433 | 2026-01-12T19:43:09 | 159 | 70b5350f6566
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\io_old.py | 1563 | 2026-01-08T10:46:48 | 62 | c1b84c6a27e8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\io_old2.py | 4433 | 2026-01-12T18:57:59 | 159 | 70b5350f6566
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\main.py | 3821 | 2026-01-13T20:16:41 | 112 | 444b3f557738
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\main_old.py | 13833 | 2026-01-12T18:46:48 | 390 | 570fc0e279ea
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\main_old2.py | 13657 | 2026-01-12T19:07:08 | 396 | 932c734530bf
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\main_old3.py | 13657 | 2026-01-12T19:45:27 | 396 | 932c734530bf
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\metrics.py | 6379 | 2026-01-09T21:36:46 | 258 | 9638facf49d8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\regions.py | 4408 | 2026-01-08T20:01:01 | 144 | 6c5af9bf20b8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\validate.py | 1744 | 2026-01-13T20:11:56 | 62 | 450b416562a8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\validate_old.py | 3095 | 2026-01-08T20:01:39 | 103 | 969227150546
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\validate_old2.py | 959 | 2026-01-12T19:02:47 | 37 | 5bcd739b7b85
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\validate_old3.py | 959 | 2026-01-12T19:44:31 | 37 | 5bcd739b7b85
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\validate_romion.py | 26487 | 2026-01-10T14:01:16 | 723 | 943a850cd88f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\gravity_test\__init__.py | 2004 | 2026-01-08T20:02:31 | 82 | 9d2e3a339128
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\analysis\phase_b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\analysis\phase_b\exp5_check.py | 4010 | 2026-01-10T21:03:01 | 144 | f6a500a18f1b
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\ARCHIVE_CLEANUP_COMPLETE.md | 3548 | 2026-01-08T10:26:57 | 194 | 5f2d6169658a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\AUDIT.md | 8785 | 2026-01-06T22:59:20 | 334 | 6935b4452943
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\AUDIT_2026_01_07.md | 8264 | 2026-01-07T20:56:08 | 335 | 725f064040c2
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\CLEANUP_COMPLETE.md | 3419 | 2026-01-08T09:48:28 | 144 | fe01f6012927
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\core_engine_old.py | 4832 | 2026-01-06T22:54:12 | 139 | d7735708c161
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\DEPRECATED_NOTICE.md | 1894 | 2026-01-10T00:20:13 | 71 | 87fea505db12
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\DISCOVERY_RANGE_2_RETRACTED.md | 7252 | 2026-01-10T00:21:29 | 230 | 6461c9f8b796
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\FINAL_INSPECTION_COMPLETE.md | 6452 | 2026-01-08T10:34:28 | 313 | de340e54a31b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\gravity_test_backup.py | 16402 | 2026-01-07T18:15:26 | 514 | c4a06895a069
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\gravity_test_before_chatgpt_fix.py | 23907 | 2026-01-07T18:54:47 | 669 | 3fafd20d4d35
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\gravity_test_monolith.py | 23892 | 2026-01-08T08:58:38 | 718 | 70ff8edc5873
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\IMPROVEMENTS_COMPLETE.md | 5786 | 2026-01-08T10:56:19 | 275 | bc3da30d19b7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\PATH_VERIFICATION_COMPLETE.md | 2855 | 2026-01-08T10:21:47 | 126 | c8c8867dd7ce
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\PROJECT_AUDIT_COMPLETE.md | 6387 | 2026-01-08T11:16:03 | 336 | 2a55717354ac
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\README.md | 2613 | 2026-01-08T10:55:36 | 126 | d3b62fd89d1d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\RESTRUCTURING_COMPLETE.md | 5928 | 2026-01-08T10:17:37 | 293 | c1333c1414be
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\run_romion_extended_old.py | 7013 | 2026-01-07T19:06:38 | 221 | 05fb9846530d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\VALIDATION_SYSTEM_COMPLETE.md | 6424 | 2026-01-08T11:11:49 | 287 | b5136bce51f6
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\pre_audit
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\pre_audit\AUDIT_MAIN_PY_CHANGES.md | 3222 | 2026-01-08T20:12:49 | 116 | f1898534d544
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\pre_audit\BUG_FIX_COMPLETE_SUMMARY.md | 3454 | 2026-01-08T09:04:45 | 139 | 21fa0c08b57a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\pre_audit\CRITICAL_BUG_FIX_20260108.md | 1738 | 2026-01-08T06:08:15 | 101 | 3a9474c814fd
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\ANALYSIS.md | 3539 | 2026-01-08T10:13:36 | 190 | ab5a722321b6
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\ISSUES.md | 4377 | 2026-01-08T10:14:07 | 226 | 2328676c04ad
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\MANUAL_EXECUTION_GUIDE.md | 3798 | 2026-01-09T06:43:01 | 148 | 33bf20a4d41e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\README.md | 4248 | 2026-01-08T10:07:35 | 195 | ab9ea7d49d0e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\RESULTS.md | 1628 | 2026-01-08T20:35:26 | 73 | 1fdca7ec083b
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg\full_sweep.cfg | 684 | 2026-01-08T09:58:51 |  | 39dd27349df5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg\pilot_a.cfg | 631 | 2026-01-08T09:54:34 |  | e70c47e0af21
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg\pilot_b.cfg | 664 | 2026-01-08T09:58:40 |  | 30da8933d6a7
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.5_s123.cfg | 302 | 2026-01-09T05:15:16 |  | ae66822215ce
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.5_s42.cfg | 300 | 2026-01-09T05:15:16 |  | 1ac26ee068e7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.6_s123.cfg | 302 | 2026-01-09T05:15:15 |  | 6319f155a2b3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.6_s42.cfg | 300 | 2026-01-09T05:15:15 |  | 4ad7a03b947d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.7_s123.cfg | 302 | 2026-01-09T05:15:15 |  | 28a327310eb1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.7_s42.cfg | 300 | 2026-01-09T05:15:15 |  | 99d7390156f3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.8_s123.cfg | 302 | 2026-01-09T05:15:15 |  | 3ae8f0cc70e3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.8_s42.cfg | 300 | 2026-01-09T05:15:15 |  | a1b560c81108
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.9_s123.cfg | 302 | 2026-01-09T05:15:15 |  | 0bdf25aab847
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d0.9_s42.cfg | 300 | 2026-01-09T05:15:14 |  | f1c5b4302fc5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d1.0_s123.cfg | 302 | 2026-01-09T05:15:14 |  | b144747c55ba
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\cfg_tmp\sweep_d1.0_s42.cfg | 300 | 2026-01-09T05:15:14 |  | 6b872e44213e
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\decay_sweep_pilot.csv | 492 | 2026-01-08T09:46:40 | 8 | a64ff9fd7125
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\decay_sweep_pilot_channels.csv | 213 | 2026-01-09T07:17:51 | 1 | 3b81f204ddde
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_log.txt | 5580 | 2026-01-08T09:34:52 | 165 | 432258bc216c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s123\simulation.jsonl | 3364962 | 2026-01-09T07:17:50 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.5_s42\simulation.jsonl | 3315008 | 2026-01-09T07:14:18 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s123\simulation.jsonl | 3125055 | 2026-01-09T07:10:49 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.6_s42\simulation.jsonl | 3264939 | 2026-01-09T07:07:30 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s123\simulation.jsonl | 3242292 | 2026-01-09T07:04:02 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.7_s42\simulation.jsonl | 3170045 | 2026-01-09T07:00:42 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s123\simulation.jsonl | 3207514 | 2026-01-09T06:57:24 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.8_s42\simulation.jsonl | 3166074 | 2026-01-09T06:54:06 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s123\simulation.jsonl | 3057493 | 2026-01-09T06:50:47 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d0.9_s42\simulation.jsonl | 3045628 | 2026-01-09T06:47:15 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s123\simulation.jsonl | 2927967 | 2026-01-09T06:42:27 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_ch_d1.0_s42\simulation.jsonl | 2951812 | 2026-01-09T06:37:39 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.75_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.75_s42\simulation.jsonl | 3119102 | 2026-01-08T09:46:39 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s123\simulation.jsonl | 2995017 | 2026-01-08T09:35:44 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.85_s42\simulation.jsonl | 3106691 | 2026-01-08T09:31:35 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s123\simulation.jsonl | 3207514 | 2026-01-08T09:43:06 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d0.8_s42\simulation.jsonl | 3166074 | 2026-01-08T09:39:26 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s123\simulation.jsonl | 2927967 | 2026-01-08T09:26:50 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\results\sweep_pilot_d1.0_s42\simulation.jsonl | 32336 | 2026-01-08T09:39:37 |  | 775ddedded21
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\test
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\test\d0.7_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\test\d0.7_s42\simulation.jsonl | 3170045 | 2026-01-09T06:48:05 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\test\d1.0_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\archive\sweep_decay_pilot_20260108\test\d1.0_s42\simulation.jsonl | 2951812 | 2026-01-09T06:43:15 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\cfg
+- file | workflow\oldies\romionsim_old_repos\romionsim1\cfg\baseline.cfg | 710 | 2026-01-08T09:53:57 |  | 9a1e132a121c
+- file | workflow\oldies\romionsim_old_repos\romionsim1\cfg\combo.cfg | 234 | 2026-01-08T09:59:14 |  | c042788d945d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\cfg\decay_slow.cfg | 538 | 2026-01-08T09:54:06 |  | 093288a93d37
+- file | workflow\oldies\romionsim_old_repos\romionsim1\cfg\spawn_up.cfg | 233 | 2026-01-08T09:58:57 |  | e2f0fff6fe64
+- file | workflow\oldies\romionsim_old_repos\romionsim1\cfg\tension_up.cfg | 237 | 2026-01-08T09:59:05 |  | 9d6fedfed792
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\core
+- file | workflow\oldies\romionsim_old_repos\romionsim1\core\engine.py | 6717 | 2026-01-10T00:31:22 | 175 | 7aa47b436239
+- file | workflow\oldies\romionsim_old_repos\romionsim1\core\graph.py | 3156 | 2026-01-06T22:52:30 | 106 | e62dcf037cdd
+- file | workflow\oldies\romionsim_old_repos\romionsim1\core\metrics.py | 6334 | 2026-01-06T23:29:20 | 191 | 6334ad9b68e3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\core\projection.py | 971 | 2026-01-10T21:00:55 | 35 | 7efc57328883
+- file | workflow\oldies\romionsim_old_repos\romionsim1\core\rules.py | 16332 | 2026-01-10T00:30:38 | 469 | b226d4b12524
+- file | workflow\oldies\romionsim_old_repos\romionsim1\core\__init__.py | 968 | 2026-01-10T00:31:36 | 35 | 7134d58f736c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\docs
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\ANNEX_DOCUMENTATION_SUMMARY.md | 7984 | 2026-01-08T19:37:14 | 228 | 3f404c65e532
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\AUDIT_GPT_VS_IMPLEMENTATION.md | 3565 | 2026-01-10T15:26:13 | 120 | 9f50472af6ef
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\CANONICAL_LOG_CONTRACT.md | 17909 | 2026-01-10T13:20:57 | 764 | 76586a9706a7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\CANONICAL_METRICS.md | 26138 | 2026-01-11T16:59:05 | 1201 | 5e58f986f30d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\COMMANDS.md | 9739 | 2026-01-10T15:21:24 | 395 | bd35246ca914
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\COSMOLOGY_MAPPING.md | 7100 | 2026-01-08T19:48:48 | 256 | 00c415246897
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\GPT_ANNEXES_IMPLEMENTATION_SUMMARY.md | 14641 | 2026-01-10T15:26:25 | 474 | 36c3afe5195d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\IMPLEMENTATION_STATUS.md | 13216 | 2026-01-10T15:18:10 | 351 | bdd4aeb61413
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\LOG_SCHEMA_V2.md | 12539 | 2026-01-09T21:13:53 | 548 | 637de7b80c80
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\METHODOLOGY.md | 1639 | 2026-01-12T19:16:27 | 56 | dfa20d8d2536
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\METHODOLOGY_old.md | 17305 | 2026-01-10T15:24:22 | 538 | 560e1ebf282b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\METHODOLOGY_old2.md | 2503 | 2026-01-12T18:52:01 | 86 | 9aa302c47a40
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\MIGRATION_V1_TO_V2.md | 6946 | 2026-01-09T21:38:39 | 311 | 10c47324b373
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\P0_CRITICAL_PATCHES.md | 8549 | 2026-01-10T15:19:54 | 291 | 61d1b2a54718
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\PHASE_B2.md | 3424 | 2026-01-12T19:15:50 | 101 | af71f1668f64
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\PHASE_B2_old.md | 6796 | 2026-01-11T16:26:58 | 260 | 4c15ac6638ed
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\PHASE_B2_old2.md | 2102 | 2026-01-12T18:52:45 | 75 | 7f3ebcaa8a71
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\QUESTIONS_FOR_CHATGPT.md | 3177 | 2026-01-08T17:23:07 | 94 | 2fb3cc3b05e8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\QUICK_REFERENCE.md | 8000 | 2026-01-10T15:10:06 | 314 | cb68624df0d8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\README.md | 9483 | 2026-01-10T14:28:05 | 385 | 84d92c60a968
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\RESULTS_HEADER_TEMPLATE.md | 947 | 2026-01-08T20:32:42 | 47 | 213b982d5fe8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\ROADMAP.md | 9321 | 2026-01-10T14:29:13 | 351 | 9d7b37af3da8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\ROMION_SEMANTIC_CORRECTION.md | 4823 | 2026-01-11T16:24:29 | 152 | 52af62004e56
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\S2_TAIL_STATUS.md | 3242 | 2026-01-10T15:26:37 | 123 | 5119ef5e4f7a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\SPEC_S2_TAIL.md | 3161 | 2026-01-10T15:26:57 | 120 | e5d3f099e6d7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\SPEC_THAW_SHOCK.md | 4898 | 2026-01-10T15:27:02 | 198 | 81c593a1f4e5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\STATUS.md | 954 | 2026-01-12T19:18:26 | 26 | 67d90e2a0926
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\STATUS_old.md | 9888 | 2026-01-10T14:27:03 | 380 | ed0fa6138993
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\STRUCTURE.md | 14109 | 2026-01-10T15:15:56 | 457 | 35010d4436ed
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\SWEEP_PROTOCOL.md | 10585 | 2026-01-10T00:39:55 | 496 | 9f40abf07906
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\TASK_RUNNER.md | 1625 | 2026-01-08T10:44:59 | 96 | 68c874f792e4
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\THEORY.md | 14814 | 2026-01-10T00:32:58 | 575 | 8ecd8fa32b48
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\COSMOLOGICAL_SCHOOLS_CRITIQUE.md | 8820 | 2026-01-08T19:14:50 | 247 | 90c8df871853
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\EXTENDED_THEORY_ENTANGLEMENT_GRAVITY.md | 9754 | 2026-01-08T19:21:38 | 380 | a15f4562b21a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\GLOSSARY.md | 14144 | 2026-01-10T15:25:31 | 382 | bd6e854a7ede
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\HYPERGRAPH_TOPOLOGY.md | 8365 | 2026-01-08T19:10:30 | 259 | 8fad61281bb7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\INDEX.md | 5552 | 2026-01-08T19:29:49 | 175 | 0603e98c461e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\MEASUREMENT_THRESHOLDS.md | 1082 | 2026-01-12T19:17:10 | 41 | 83dac236c8b8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\MEASUREMENT_THRESHOLDS_old.md | 10270 | 2026-01-09T21:10:48 | 349 | c361c1d85321
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\MEASUREMENT_THRESHOLDS_old2.md | 2559 | 2026-01-12T18:51:25 | 69 | e9c3b4920d85
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\PARTICLE_PHYSICS_LOOPS.md | 8018 | 2026-01-08T19:28:46 | 380 | 2282e3a768e7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\PHOTON_ROMION.md | 4953 | 2026-01-08T18:41:10 | 145 | de6165a7808a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\docs\theory\ROMION_COMPLETE_SUMMARY.md | 7769 | 2026-01-08T19:19:11 | 327 | f3d445c0c33c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\experiments
+- file | workflow\oldies\romionsim_old_repos\romionsim1\experiments\phase_sweep.py | 7130 | 2026-01-06T23:18:37 | 214 | 2dfabee09ce5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\experiments\phase_sweep_complete.py | 14217 | 2026-01-07T19:14:38 | 417 | cca4a479e452
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\research
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\ADDITIONAL_CONCEPTS.md | 4942 | 2026-01-08T19:05:20 | 148 | 599467ed31f4
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\EXPERIMENTAL_ROADMAP.md | 10912 | 2026-01-08T18:57:21 | 422 | de9e71d7fdda
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\EXTENDED_SESSION_SUMMARY.md | 4639 | 2026-01-08T20:17:58 | 165 | 4baf62ba3902
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\FINAL_SESSION_SUMMARY.md | 4842 | 2026-01-08T19:32:09 | 146 | f6398bfb7fb3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\find_5pct_theta.py | 593 | 2026-01-08T18:59:36 | 21 | 52f97d5e54bc
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\INDEX.md | 2239 | 2026-01-08T19:05:34 | 72 | 2847171a77ff
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\phase_propagation_tick200.json | 1270 | 2026-01-08T18:56:04 | 39 | 44250c10095d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\PROJECTION_RATIO_DATA.md | 3545 | 2026-01-08T18:59:10 | 86 | e55d567b3ac6
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\projection_ratio_tick300.json | 9704 | 2026-01-08T18:55:44 | 321 | 0431bf6b6c17
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\projection_ratio_tick400.json | 9450 | 2026-01-08T18:55:55 | 321 | 828f07113bbe
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\run_batch_projection.py | 2929 | 2026-01-08T18:57:57 | 80 | 57e9fd0eb026
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\SESSION_REPORT.md | 13315 | 2026-01-08T18:55:37 | 455 | 247c08089fdd
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\THETA_5PCT_FINDING.md | 1448 | 2026-01-08T19:00:22 | 52 | 0694a23b2515
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\batch_results
+- file | workflow\oldies\romionsim_old_repos\romionsim1\research\2026-01-08_session\batch_results\all_projection_ratios.json | 152399 | 2026-01-08T18:58:31 | 4832 | d99b7176c073
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\results
+- file | workflow\oldies\romionsim_old_repos\romionsim1\results\gravity_synthetic.jsonl | 182 | 2026-01-12T18:24:14 |  | f741dc7fdb5a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\results\phase_b2_smoke.jsonl | 442964 | 2026-01-11T21:39:14 |  | 3229fb348f6b
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\results\phase_b2_v2
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\results\test_b2_v2
+- file | workflow\oldies\romionsim_old_repos\romionsim1\results\test_b2_v2\simulation.jsonl | 948126 | 2026-01-10T20:05:56 |  | f8e1b5f5bb4c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\scripts
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\analyze_sweep.py | 6119 | 2026-01-09T16:53:34 | 199 | 379329d838c5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\auto_analyze.py | 2854 | 2026-01-09T17:10:54 | 101 | 995771d7507f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\batch_sweep.py | 12378 | 2026-01-09T05:21:58 | 408 | 83e1b31e9385
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\batch_test_c.py | 7229 | 2026-01-08T17:39:34 | 224 | 202ab04d0c93
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\compare_channels.py | 3020 | 2026-01-08T20:15:06 | 100 | e51d12553d02
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\compare_evolution.py | 2726 | 2026-01-08T20:16:48 | 86 | b7d44d71b602
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\evolution_channels.py | 2239 | 2026-01-08T20:16:22 | 81 | bf454bdd01d8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\final_report.py | 9607 | 2026-01-09T17:02:12 | 275 | 867a7dcbfa5b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\generate_b2_log.py | 1565 | 2026-01-10T20:08:54 | 65 | 70be280ac85e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\investigate_r0_peak.py | 4766 | 2026-01-09T16:40:44 | 147 | 2b86c2874996
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\lint_results.py | 4001 | 2026-01-08T20:33:07 | 133 | 1135603b77cc
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\quick_viz.py | 5534 | 2026-01-09T16:54:51 | 180 | a7854b03dbc6
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\run_from_config.py | 8387 | 2026-01-08T20:21:32 | 237 | b4f73940cadc
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\run_metadata.py | 10536 | 2026-01-10T00:36:25 | 385 | e18369d2400f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\run_romion_clean.py | 7671 | 2026-01-06T22:54:54 | 217 | 02751df821cb
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\run_romion_extended.py | 9195 | 2026-01-09T06:32:47 | 266 | 1902be400232
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\run_with_frustration.py | 5143 | 2026-01-06T23:29:49 | 171 | 3b45176ca6c1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\sweep_inprocess.py | 3987 | 2026-01-09T16:27:58 | 145 | 1b7f1fdd6e2c
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\sweep_krok6.py | 12141 | 2026-01-10T00:38:23 | 407 | f52f12c989df
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\update_sweep_results.py | 3476 | 2026-01-08T20:33:30 | 117 | ee411903a39e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\validate.py | 13513 | 2026-01-08T11:07:10 | 398 | 1dabce7b9de7
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\validate_config.py | 11834 | 2026-01-08T11:03:01 | 323 | f7479654a757
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\validate_log_schema.py | 18335 | 2026-01-10T13:32:43 | 593 | d8825ef7d4ce
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\validate_simulation.py | 14786 | 2026-01-08T11:05:05 | 406 | 70912dd2d351
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\validate_sweep.py | 10276 | 2026-01-10T13:42:32 | 302 | c727f0bcf821
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\check_incomplete.py | 1020 | 2026-01-09T17:27:18 | 28 | 1ec0cadb925e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\check_r0.py | 538 | 2026-01-09T16:58:27 | 19 | 84a626330fec
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\check_sweep.py | 327 | 2026-01-09T17:23:44 | 9 | 7e3657395571
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\fix_d05_s123.py | 3026 | 2026-01-09T17:28:15 | 113 | 16c33ddb7aed
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\quick_test_sweep.py | 1273 | 2026-01-09T06:37:28 | 48 | 08c171674b16
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\README.md | 1650 | 2026-01-09T17:46:40 | 50 | 5657ef18e773
+- file | workflow\oldies\romionsim_old_repos\romionsim1\scripts\temp\test_sweep_simple.py | 4607 | 2026-01-09T05:34:51 | 164 | 198c35b8b3a2
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\session_reports
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\README.md | 1161 | 2026-01-09T17:43:40 | 41 | d66ce1f50f9c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\ABSOLUTELY_FINAL_AUDIT.md | 1183 | 2026-01-09T18:25:41 | 43 | c2f4087524f3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\AUDIT_COMPLETE.md | 5245 | 2026-01-09T17:51:35 | 206 | 3cf33de11cca
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\audit_raw_output.txt | 8692 | 2026-01-09T17:49:51 | 206 | 1dd7757b962b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\AUDIT_REPORT_DETAILED.md | 5935 | 2026-01-09T17:50:38 | 239 | 76e36ec72482
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\CLEANUP_COMPLETE.md | 3786 | 2026-01-09T17:44:06 | 117 | 0ce2f79b4a93
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\COMPLETE_AUDIT_SUMMARY.md | 5889 | 2026-01-09T18:07:46 | 236 | cdd221097782
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\COMPLETE_SESSION_REPORT.md | 10503 | 2026-01-10T00:41:10 | 383 | 3d53dfde916f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\DEEP_AUDIT_FINDINGS.md | 2388 | 2026-01-09T18:01:29 | 93 | 40576bf2c820
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\deep_audit_output.txt | 1287 | 2026-01-09T17:53:47 | 28 | 0e91f9eac7f5
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\deep_audit_raw.txt | 2608 | 2026-01-09T17:53:58 | 57 | 1de4d80893f0
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\deep_audit_results.txt | 35949 | 2026-01-09T17:54:20 | 785 | 4aa003d2b257
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\DOCS_MANUAL_REVIEW.md | 4800 | 2026-01-09T18:06:47 | 162 | 18ff4b3320e1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\docs_review_results.txt | 1055 | 2026-01-09T18:10:15 | 21 | c439289b08bf
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\FINAL_AUDIT_SUMMARY.md | 7984 | 2026-01-09T18:21:25 | 314 | 0ecd1e6ba307
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\FINAL_CLEANUP.md | 4695 | 2026-01-09T17:47:21 | 158 | 4ea47e83d520
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\KROK_4_COMPLETE.md | 6511 | 2026-01-10T00:29:00 | 259 | a1575f51af85
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\KROK_5_COMPLETE.md | 7935 | 2026-01-10T00:33:56 | 297 | ccf039ee772b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\METRIC_DEFINITION_ANALYSIS.md | 4837 | 2026-01-09T21:15:31 | 176 | a1fbc985047b
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\NEXT_SESSION_TODO.md | 7342 | 2026-01-09T18:20:22 | 328 | 8dabaa213b7f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\PHASE_B_PROGRESS.md | 3190 | 2026-01-09T21:37:31 | 127 | b6933c774dbb
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\R0_DISCREPANCY_RESOLVED.md | 3313 | 2026-01-09T16:59:32 | 108 | 5da3394b6d2f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\README.md | 3052 | 2026-01-09T18:24:34 | 102 | 0fe87ceceefd
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\ROMION_REFACTOR_FINAL.md | 6297 | 2026-01-09T21:41:09 | 227 | c361bdbe1d56
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\ROMION_REFACTOR_PROGRESS.md | 3824 | 2026-01-09T21:16:23 | 143 | 9ec2ef93a7b6
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\ROOT_CLEANUP_COMPLETE.md | 4790 | 2026-01-09T18:16:40 | 201 | 0e1bede48da2
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SESSION_100_PERCENT_COMPLETE.md | 8354 | 2026-01-09T17:34:13 | 294 | 45036b4c79df
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SESSION_CONTINUATION_PROGRESS.md | 4472 | 2026-01-10T00:22:04 | 170 | e5d094a674d8
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_EMERGING_PATTERNS.md | 5376 | 2026-01-09T16:56:05 | 204 | 150d72b92c5f
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_INTERIM_FINDINGS.md | 4189 | 2026-01-09T16:48:23 | 142 | 91317fa7ee20
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_SESSION_2026-01-09_FINAL.md | 6505 | 2026-01-09T16:35:26 | 208 | bd00967c2549
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_SESSION_2026-01-09_SUMMARY.md | 6348 | 2026-01-09T05:18:51 | 195 | 17f6aea25f80
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_SESSION_COMPLETE_SUCCESS.md | 10005 | 2026-01-09T17:26:04 | 354 | 75fd297329ca
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_SESSION_COMPREHENSIVE_SUMMARY.md | 8480 | 2026-01-09T17:01:17 | 304 | c4554c63ec08
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SUPERSEDED_SESSION_FINAL_STATUS.md | 9344 | 2026-01-09T17:06:06 | 384 | c3685d34c047
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-09\SYSTEMATIC_DOCS_AUDIT_FINAL.md | 5589 | 2026-01-09T18:12:16 | 179 | 0fbc733dc9e7
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-10
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-10\KROK_2_INTEGRATION_COMPLETE.md | 4139 | 2026-01-10T13:43:13 | 187 | c610dfacdee1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-10\KROK_2_SANITY_CHECK.md | 3957 | 2026-01-10T13:47:31 | 165 | 6591fc94bb69
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-10\KROK_3_COMPLETE.md | 7315 | 2026-01-10T14:07:01 | 304 | 76a56af6c7bd
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-10\STRATEGIC_PLAN_POST_EVAL.md | 11600 | 2026-01-10T13:13:26 | 487 | 496e389d0ce1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\session_reports\2026-01-10\VALIDATOR_TEST_REPORT.md | 5401 | 2026-01-10T13:34:37 | 241 | bcd3b0507e4c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\squid_test.py | 7529 | 2026-01-06T23:32:00 | 260 | 457f7627c051
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_canonical_metrics.py | 7455 | 2026-01-10T14:05:30 | 260 | 5f5cee568cc9
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_v2_valid.jsonl | 2301 | 2026-01-10T13:33:38 |  | bc76c7e6551e
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\gravity_test
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\gravity_test\conftest.py | 1220 | 2026-01-08T20:02:48 | 57 | d0e99c58d907
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\gravity_test\test_anisotropy.py | 1574 | 2026-01-08T20:03:24 | 52 | a89c02bd89dc
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\gravity_test\test_channels.py | 1036 | 2026-01-08T20:03:13 | 35 | 4ac5a631fc3e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\gravity_test\test_regions.py | 1642 | 2026-01-08T20:03:02 | 53 | 0194f9e5e640
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\gravity_test\test_validate.py | 2007 | 2026-01-08T20:03:37 | 69 | da1af49e4239
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_channels
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_channels\PROTOCOL.md | 2267 | 2026-01-09T05:09:44 | 82 | fc5c1d79029e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_channels\STATUS.md | 2673 | 2026-01-09T05:18:02 | 100 | 76070c67f4da
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\FINAL_RESULTS.md | 2860 | 2026-01-09T17:33:08 | 115 | 822c88d70bb2
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\PREDICTIONS_VS_REALITY.md | 3956 | 2026-01-09T17:12:21 | 175 | f7269661e8aa
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\STATUS.md | 3771 | 2026-01-09T16:33:42 | 125 | 72ae804f4692
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\analysis_results.csv | 1076 | 2026-01-09T17:32:26 | 19 | 95febb3de320
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.5_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.5_s123\simulation.jsonl | 1876661 | 2026-01-09T17:31:47 |  | 3cbd1fb02b2d
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.5_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.5_s42\simulation.jsonl | 1906882 | 2026-01-09T17:26:57 |  | c16795e79928
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.65_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.65_s123\simulation.jsonl | 1726384 | 2026-01-09T17:15:48 |  | 3544aa600d7c
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.65_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.65_s42\simulation.jsonl | 1752597 | 2026-01-09T17:11:48 |  | 46ce6b981422
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.6_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.6_s123\simulation.jsonl | 1780174 | 2026-01-09T17:22:55 |  | 96eada5a5f9b
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.6_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.6_s42\simulation.jsonl | 1820876 | 2026-01-09T17:19:42 |  | 2f3cf0bd2059
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.75_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.75_s123\simulation.jsonl | 1521479 | 2026-01-09T17:00:20 |  | e153c330de7e
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.75_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.75_s42\simulation.jsonl | 1535610 | 2026-01-09T16:56:44 |  | 881cba86c80f
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.7_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.7_s123\simulation.jsonl | 1624836 | 2026-01-09T17:07:51 |  | 4fde422f02a6
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.7_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.7_s42\simulation.jsonl | 1636074 | 2026-01-09T17:04:06 |  | f97a80462aa8
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.85_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.85_s123\simulation.jsonl | 1362227 | 2026-01-09T16:47:26 |  | 6430f08e0bdd
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.85_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.85_s42\simulation.jsonl | 1354928 | 2026-01-09T16:44:21 |  | f828fbad85f1
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.8_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.8_s123\simulation.jsonl | 1460282 | 2026-01-09T16:53:22 |  | 3e22d1d0e486
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.8_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.8_s42\simulation.jsonl | 1440473 | 2026-01-09T16:50:42 |  | 762ae2c83ff8
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.9_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.9_s123\simulation.jsonl | 1314576 | 2026-01-09T16:41:09 |  | 9d1440304b50
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.9_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d0.9_s42\simulation.jsonl | 1278779 | 2026-01-09T16:38:37 |  | 5426b504cf6a
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d1.0_s123
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d1.0_s123\simulation.jsonl | 1191748 | 2026-01-09T16:35:35 |  | 156bb9191abd
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d1.0_s42
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_decay_inprocess\results\d1.0_s42\simulation.jsonl | 1157016 | 2026-01-09T16:32:46 |  | 09ff1ad94c84
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_test
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\sweep_test\simulation.jsonl | 36246 | 2026-01-09T05:29:24 |  | 0998ce4bfd90
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\ANALYSIS.md | 3349 | 2026-01-08T10:10:48 | 167 | 7a578e334a7d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\CHANNELS_ANALYSIS.md | 5262 | 2026-01-08T20:15:42 | 143 | c7f987295d55
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\CHANNELS_COMPARISON.csv | 344 | 2026-01-08T20:37:33 | 7 | be1c56b5b087
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\COMPARISON.md | 3221 | 2026-01-08T10:11:17 | 177 | f160f4cae712
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\EVOLUTION_ANALYSIS.md | 4023 | 2026-01-08T20:17:28 | 115 | 0563eac77946
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\R0_PEAK_ANALYSIS.md | 7877 | 2026-01-09T16:42:23 | 246 | 57a8a8cc244e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\README.md | 3681 | 2026-01-08T10:00:38 | 149 | ac8d6f359d5d
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\RESULTS.md | 3724 | 2026-01-08T20:34:15 | 127 | 6cfbf3b9e819
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg\R0_baseline.cfg | 192 | 2026-01-08T09:54:15 |  | 968b362678f3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg\R1_spawn_up.cfg | 255 | 2026-01-08T09:57:41 |  | 4df514923345
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg\R2_decay_slow.cfg | 350 | 2026-01-08T09:54:25 |  | d67358a63adc
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg\R3_tension_up.cfg | 261 | 2026-01-08T09:57:47 |  | effb9fefee3e
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg\R4_combo.cfg | 333 | 2026-01-08T09:57:54 |  | c27ad77c9997
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\cfg\R5_shock.cfg | 375 | 2026-01-08T09:58:01 |  | a3c701db7e79
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\test_c_corrected_results.csv | 686 | 2026-01-08T17:42:57 | 7 | ee3f7cf1f761
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R0_base
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R0_base\gravity_time.csv | 1671 | 2026-01-07T20:22:36 | 22 | 280d98f267e3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R0_base\peak_analysis_dense.csv | 330 | 2026-01-09T16:40:55 | 7 | 9fb599e67fdc
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R0_base\simulation.jsonl | 4758404 | 2026-01-07T20:20:48 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R1_spawnUp
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R1_spawnUp\gravity_time.csv | 1716 | 2026-01-07T20:30:44 | 22 | 544377159834
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R1_spawnUp\simulation.jsonl | 4785661 | 2026-01-07T20:30:48 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R2_decayDown
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R2_decayDown\gravity_time.csv | 3660 | 2026-01-07T20:34:59 | 22 | b0cd2611e37a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R2_decayDown\simulation.jsonl | 5179791 | 2026-01-07T20:36:13 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R3_tensionUp
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R3_tensionUp\gravity_time.csv | 1860 | 2026-01-07T20:39:30 | 22 | 67c092843040
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R3_tensionUp\simulation.jsonl | 4821158 | 2026-01-07T20:40:27 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R4_combo
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R4_combo\gravity_time.csv | 1878 | 2026-01-07T20:45:45 | 22 | c1589b1d96c1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R4_combo\simulation.jsonl | 5233491 | 2026-01-07T20:44:31 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R5_shock
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R5_shock\gravity_time.csv | 1671 | 2026-01-07T20:50:50 | 22 | 280d98f267e3
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_c\results\R5_shock\simulation.jsonl | 2911800 | 2026-01-08T20:26:16 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_quick
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\test_quick\simulation.jsonl | 1684263 | 2026-01-09T06:05:02 |  | 73b70db68e6b
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tests\unit
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\unit\test_background_excludes_bridges.py | 1054 | 2026-01-11T21:36:23 | 30 | d4945b1e7ca1
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\unit\test_distance_table_unreachable.py | 729 | 2026-01-12T18:48:03 | 20 | 2a3892237338
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\unit\test_gravity_test.py | 5230 | 2026-01-11T21:30:07 | 195 | a793902090db
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\unit\test_r2_denominators.py | 3493 | 2026-01-12T19:47:38 | 141 | 08336a02011a
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tests\unit\test_r2_denominators_old.py | 3493 | 2026-01-12T18:54:51 | 141 | 08336a02011a
+- dir  | workflow\oldies\romionsim_old_repos\romionsim1\tools
+- file | workflow\oldies\romionsim_old_repos\romionsim1\tools\run_phase_b2_v2_smoke.py | 6494 | 2026-01-11T16:30:27 | 153 | 16085d722301
+- dir  | workflow\oldies\romionsim_old_repos\romion_next_tests_pack
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\.gitignore | 525 | 2026-01-06T23:13:19 |  | e262ddf1523e
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\AUDIT.md | 8785 | 2026-01-06T23:13:19 | 334 | 6935b4452943
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\README.md | 7290 | 2026-01-06T23:13:19 | 310 | e82298dfbde4
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\RESULTS.md5 | 2432 | 2026-01-06T23:13:19 |  | 36bed58d5b1b
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\run_romion_clean.py | 7671 | 2026-01-06T23:13:19 | 217 | 02751df821cb
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\run_romion_clean_plus.py | 4615 | 2026-01-06T23:13:19 | 139 | af151d16f035
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\THEORY.md | 10749 | 2026-01-06T23:13:19 | 508 | fc87a0d8513b
+- dir  | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\analysis
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\analysis\.gitkeep | 29 | 2026-01-06T23:13:19 |  | 652e69dfe7f5
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\analysis\rolling_alpha.py | 3090 | 2026-01-06T23:13:19 | 94 | 542964e8ca0a
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\analysis\romion_gravity.py | 6137 | 2026-01-06T23:13:19 | 199 | 1258fd462ed7
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\analysis\squid_spectral.py | 4004 | 2026-01-06T23:13:19 | 163 | b54e02a86306
+- dir  | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\core
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\core\engine.py | 4832 | 2026-01-06T23:13:19 | 139 | d7735708c161
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\core\graph.py | 3156 | 2026-01-06T23:13:19 | 106 | e62dcf037cdd
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\core\metrics.py | 4286 | 2026-01-06T23:13:19 | 127 | 96098d77933b
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\core\rules.py | 8827 | 2026-01-06T23:13:19 | 256 | 4e2381d71817
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\core\__init__.py | 615 | 2026-01-06T23:13:19 | 28 | 314c5651e0ed
+- dir  | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\experiments
+- file | workflow\oldies\romionsim_old_repos\romion_next_tests_pack\experiments\phase_sweep.py | 4127 | 2026-01-06T23:13:19 | 111 | 6b167d668241
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\4FGL-DR2.fit | 5460480 | 2025-07-06T09:51:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\4FGL-DR3.fit | 6952320 | 2025-07-06T09:50:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\4FGL-DR4.fit | 7819200 | 2025-07-05T18:38:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\analyze_chandra.py | 1455 | 2025-07-05T20:30:24 | 33 | 7cc73bea7161
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\analyze_chandra_22483_22484.py | 2138 | 2025-07-06T09:45:22 | 50 | be38a443868e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\analyze_evt2_romion.py | 928 | 2025-07-06T18:20:58 | 25 | 7ce56892cfa0
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\analyze_evt2_romion_full.py | 1237 | 2025-07-06T18:23:08 | 30 | c06229e0a458
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\analyze_fermi_chandra_romion.py | 2443 | 2025-07-05T21:08:26 | 44 | 065af66b2a5e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\analyze_romion_auxdata_20250707_170928.py | 1916 | 2025-07-07T19:09:44 | 59 | 3d3ff335ab67
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\bootes_clean.ecsv.csv | 43778 | 2025-07-06T10:40:20 | 288 | 3cbd2338770f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\bootes_fermi_results.ecsv | 43766 | 2025-07-05T20:26:58 |  | 35f67f0c0f2b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\dump-20250707_184523.txt | 40586 | 2025-07-07T18:45:24 | 668 | 50c8dd8e497f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\dumpdir.py | 1102 | 2025-07-07T18:37:42 | 30 | bed1a8567e29
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\extract.py | 674 | 2025-07-07T19:01:04 | 17 | 3fa628a6ff88
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\extract_romion_gwdata_20250707_165314.py | 1622 | 2025-07-07T18:53:36 | 39 | aa78559f7639
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\generate_romion_hdf5_filelist.py | 1107 | 2025-07-07T19:25:00 | 29 | a94e09ec6ad5
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\HE0435_Bonvin2016.rdb | 74051 | 2025-07-07T17:38:24 |  | 00308d9e79fb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\list_directory.py | 755 | 2025-07-05T20:00:38 | 20 | f3dfa5bc7a09
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\MAGIC_2008_3C279.fits | 31680 | 2025-07-05T19:28:32 |  | 719e3b75af80
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\MAGIC_2012_M87.fits | 14400 | 2025-07-05T19:25:32 |  | 94a7c972fedc
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\MAGIC_2014_3C_279.fits | 14400 | 2025-07-05T19:28:50 |  | 8c1f1af1dd66
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\pobierz_fermi.py | 3875 | 2025-07-05T20:12:26 | 91 | aa914bce7f51
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\pobierz_fermi_clean.py | 1604 | 2025-07-06T10:40:08 | 45 | c8fe2aeaabf1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\pobierz_fermi_dual.py | 3776 | 2025-07-05T20:26:40 | 80 | 98642aea0778
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\RCC.tex | 3295 | 2025-07-07T17:08:58 |  | 118ee65d9c2d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_analyze_fullbatch.py | 2037 | 2025-07-07T19:26:46 | 50 | 1b93d6572ba5
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\ROMION_Batch_Analysis.csv | 40052788 | 2025-07-07T20:14:20 | 188774 | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\ROMION_Batch_Analysis.zip | 12512509 | 2025-07-07T20:38:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_batch_analysis_20250707_192650.csv | 40506505 | 2025-07-07T19:49:46 | 188774 | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_batch_analysis_20250707_192650.zip | 12556809 | 2025-07-07T20:12:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_batch_errors_20250707_192650.log | 0 | 2025-07-07T19:26:52 |  | e3b0c44298fc
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_data_dump_20250707_165314.txt | 25688 | 2025-07-07T18:55:18 | 338 | 2cf0f01fc380
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_equation_collapse.tex | 1723 | 2025-07-06T19:58:52 |  | 15d0dff865bf
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_equation_verified.tex | 2488 | 2025-07-06T20:09:14 |  | d10e9bf455ff
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_equation_verified_en.tex | 2140 | 2025-07-07T05:54:20 |  | 39bdc955ce6d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_equation_verified_final.tex | 2686 | 2025-07-06T20:14:20 |  | 249b55c1c5dd
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_equation_verified_manual_en.tex | 2488 | 2025-07-06T20:18:40 |  | d10e9bf455ff
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_equation_verified_polish.tex | 2568 | 2025-07-06T20:12:50 |  | b6d10781d954
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_features_output_20250707_170928.csv | 2 | 2025-07-07T19:11:12 | 1 | 7eb70257593d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_generate_phase2a_dataset.py | 2348 | 2025-07-07T20:56:02 | 67 | b998c79beec1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_hdf5_paths_batch_fixed_20250707_192505.txt | 22308 | 2025-07-07T19:25:06 | 338 | 8bf234bfd9b6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_model_comparison 2.tex | 3819 | 2025-07-06T19:23:26 |  | eb44b01e0c0f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_model_comparison.tex | 3694 | 2025-07-06T19:22:38 |  | 2825488aa14c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_model_comparison_fixed.tex | 3738 | 2025-07-06T19:26:14 |  | 9ee5df4da861
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_simulation.py | 1174 | 2025-07-05T19:06:28 | 31 | ea4e12501dca
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_test_dump.py | 994 | 2025-07-07T19:18:42 | 25 | fc6889fbdec8
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_test_dump_20250707_191845.txt | 169657 | 2025-07-07T19:18:46 | 3458 | 3df219839d9c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\romion_valid_hdf5_paths_20250707_190113.txt | 22308 | 2025-07-07T19:01:14 | 338 | 8bf234bfd9b6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\RXJ1131_Tewes2013.rdb | 86087 | 2025-07-07T17:37:40 |  | fbb22121f215
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\test1.py | 120 | 2025-07-05T18:24:06 | 5 | 0281e02f74cb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\verify_deepseek_romion.py | 1941 | 2025-07-06T08:42:38 | 38 | ea82a98e79b3
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\virgo_clean.ecsv.csv | 43757 | 2025-07-06T10:40:20 | 288 | ffa5ca232a1d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\virgo_fermi_results.ecsv | 43745 | 2025-07-05T20:26:58 |  | 7ff94fb0f9eb
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\00README | 10425 | 2021-03-10T02:20:02 |  | 2787b15980e4
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\axaff22483N002_VV001_vv2.pdf | 39867 | 2020-11-12T15:03:00 |  | 27db542a0e9d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\oif.fits | 20160 | 2021-03-10T02:20:04 |  | 593fb88d70f1
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483N002_cntr_img2.fits.gz | 106856 | 2020-11-04T20:13:40 |  | 9fc0d9f52c1b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483N002_cntr_img2.jpg | 661622 | 2020-11-04T20:13:40 |  | f8834b5c50ae
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483N002_evt2.fits.gz | 7374660 | 2020-11-04T20:13:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483N002_full_img2.fits.gz | 25433 | 2020-11-04T20:13:42 |  | 5b91dca23b9a
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483N002_full_img2.jpg | 15351 | 2020-11-04T20:13:42 |  | 2a62ae1d9aa7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483_000N002_bpix1.fits.gz | 6493 | 2020-11-04T20:12:58 |  | 4791feac5e32
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\acisf22483_000N002_fov1.fits.gz | 5435 | 2020-11-04T20:12:58 |  | 730bc06b9051
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\orbitf700056305N001_eph1.fits.gz | 318728 | 2020-04-07T15:50:20 |  | 836573268985
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\primary\pcadf22483_000N001_asol1.fits.gz | 6650739 | 2020-11-04T20:11:44 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf22483_000N002_evt1.fits.gz | 23415570 | 2020-11-04T20:13:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf22483_000N002_flt1.fits.gz | 4426 | 2020-11-04T20:12:58 |  | 602ec80247dd
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf22483_000N002_msk1.fits.gz | 4101 | 2020-11-04T20:12:58 |  | 95409eb4da2c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf22483_000N002_mtl1.fits.gz | 1059947 | 2020-11-04T20:13:00 |  | 0cd52e14adb8
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf22483_000N002_stat1.fits.gz | 175379 | 2020-11-04T20:12:58 |  | 1b6a48ba558b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf700096909N002_1_bias0.fits.gz | 506241 | 2020-11-03T22:04:18 |  | bd7ec82ffee8
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\acisf700097624N002_pbk0.fits.gz | 3943 | 2020-11-03T22:04:20 |  | 1fcb00bd8db9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\axaff22483N002_VV001_vvref2.pdf.gz | 59373973 | 2020-11-12T15:02:48 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700091819N002_osol1.fits.gz | 374046 | 2020-11-04T20:45:04 |  | e383026c7f62
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700097538N002_aqual1.fits.gz | 452288 | 2020-11-04T20:11:14 |  | 2e93b9cd73fe
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700098379N002_osol1.fits.gz | 376921 | 2020-11-04T20:45:04 |  | 9dca78978028
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700104939N002_osol1.fits.gz | 241386 | 2020-11-04T20:45:04 |  | 3062ae53b7ca
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700109170N002_osol1.fits.gz | 369856 | 2020-11-04T20:45:04 |  | a3c0fa5daeac
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700115730N002_osol1.fits.gz | 373451 | 2020-11-04T20:45:04 |  | 40f9e8dbfe0e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700122290N002_osol1.fits.gz | 264409 | 2020-11-04T20:45:06 |  | 88abeb97374a
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700126915N002_osol1.fits.gz | 19864 | 2020-11-04T20:45:06 |  | 4f4c60dff72b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\aspect\pcadf700127177N002_osol1.fits.gz | 377089 | 2020-11-04T20:45:06 |  | 4772f3173277
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\ephem
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\ephem\anglesf22483_000N002_eph1.fits.gz | 12598 | 2020-11-04T20:12:38 |  | b6cf3ad8ad85
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\ephem\lunarf700056305N001_eph1.fits.gz | 312806 | 2020-04-07T15:50:20 |  | ad36294e0ac7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22483\secondary\ephem\solarf700056305N001_eph1.fits.gz | 295274 | 2020-04-07T15:50:28 |  | f147ce12e875
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\00README | 10145 | 2022-03-24T15:16:40 |  | 888b86a42793
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\axaff22484N001_VV001_vv2.pdf | 45362 | 2021-03-24T14:36:44 |  | a281355e48a5
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\oif.fits | 23040 | 2022-03-24T15:16:42 |  | 4f088bbdafed
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484N001_cntr_img2.fits.gz | 133766 | 2021-03-24T14:51:08 |  | edbc4d4ba280
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484N001_cntr_img2.jpg | 860258 | 2021-03-24T14:51:08 |  | 18e2583c0b6f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484N001_evt2.fits.gz | 12764932 | 2021-03-24T14:51:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484N001_full_img2.fits.gz | 55206 | 2021-03-24T14:51:10 |  | 764de02eb0d5
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484N001_full_img2.jpg | 65664 | 2021-03-24T14:51:08 |  | f2e7919cd84e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484_000N001_bpix1.fits.gz | 35809 | 2021-03-24T14:50:50 |  | be270fa54eec
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\acisf22484_000N001_fov1.fits.gz | 7259 | 2021-03-24T14:51:00 |  | 09a90b9eabee
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\orbitf732715505N001_eph1.fits.gz | 318706 | 2021-04-20T09:01:42 |  | ca258adbd9e2
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\primary\pcadf22484_000N001_asol1.fits.gz | 6634613 | 2021-03-24T14:50:36 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf22484_000N001_evt1.fits.gz | 69648217 | 2021-03-24T14:51:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf22484_000N001_flt1.fits.gz | 5828 | 2021-03-24T14:51:02 |  | da6368b6d540
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf22484_000N001_msk1.fits.gz | 4781 | 2021-03-24T14:51:02 |  | 1d1de3a65e0e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf22484_000N001_mtl1.fits.gz | 1149466 | 2021-03-24T14:51:02 |  | ca7e0e5846f6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf22484_000N001_stat1.fits.gz | 717477 | 2021-03-24T14:51:00 |  | 9463ebc4a88a
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf732824228N001_1_bias0.fits.gz | 509640 | 2021-03-24T12:34:42 |  | 1f2d1851445d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf732824228N001_2_bias0.fits.gz | 443029 | 2021-03-24T12:34:42 |  | 431111e33901
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf732824228N001_3_bias0.fits.gz | 440969 | 2021-03-24T12:34:42 |  | 1d04ae4bc687
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf732824228N001_4_bias0.fits.gz | 444394 | 2021-03-24T12:34:42 |  | 79f8e235c5ff
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\acisf732825298N001_pbk0.fits.gz | 3986 | 2021-03-24T12:34:46 |  | 09ddff6565c9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\axaff22484N001_VV001_vvref2.pdf.gz | 59402847 | 2021-03-24T14:36:26 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732823395N001_osol1.fits.gz | 380639 | 2021-03-24T12:32:56 |  | 63b647900eaf
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732825223N001_aqual1.fits.gz | 446542 | 2021-03-24T14:49:52 |  | 5c13eae2265c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732829955N001_osol1.fits.gz | 16116 | 2021-03-24T12:35:04 |  | 7871c87ea3a3
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732830184N001_osol1.fits.gz | 367484 | 2021-03-24T12:35:58 |  | 5d7611cf9d2c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732836744N001_osol1.fits.gz | 366304 | 2021-03-24T12:35:58 |  | e0b40b72a121
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732843304N001_osol1.fits.gz | 365897 | 2021-03-24T12:35:58 |  | 6ca75731c777
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732849864N001_osol1.fits.gz | 263879 | 2021-03-24T12:35:58 |  | 6ac069220236
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732854588N001_osol1.fits.gz | 7716 | 2021-03-24T14:47:12 |  | 5688b484b0b1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732854653N001_osol1.fits.gz | 15404 | 2021-03-24T14:49:24 |  | 54f09dcc5c46
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\aspect\pcadf732854850N001_osol1.fits.gz | 376849 | 2021-03-24T14:49:24 |  | 0d019dd5b24a
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\ephem
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\ephem\anglesf22484_000N001_eph1.fits.gz | 12651 | 2021-03-24T14:50:46 |  | 752670565742
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\ephem\lunarf732715505N001_eph1.fits.gz | 312171 | 2021-04-20T09:01:42 |  | b11a2127a5c7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\22484\secondary\ephem\solarf732715505N001_eph1.fits.gz | 294734 | 2021-04-20T09:01:44 |  | 9deef235ae89
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\00README | 10142 | 2021-04-30T13:54:46 |  | ce9fb77a45d6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\axaff02707N003_VV001_vv2.pdf | 43037 | 2021-04-30T13:47:54 |  | 4983f5e002e9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\oif.fits | 25920 | 2021-04-30T13:54:48 |  | 1a8f216a3344
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707N004_cntr_img2.fits.gz | 607483 | 2021-03-29T07:00:34 |  | 5c23cd61e439
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707N004_cntr_img2.jpg | 488464 | 2021-03-29T07:00:34 |  | 55084b76cb64
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707N004_evt2.fits.gz | 229103475 | 2021-03-29T07:01:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707N004_full_img2.fits.gz | 129209 | 2021-03-29T07:00:36 |  | dd28f55f0735
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707N004_full_img2.jpg | 34832 | 2021-03-29T07:00:36 |  | f6bf90ea78f2
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707_000N004_bpix1.fits.gz | 67045 | 2021-03-29T06:59:14 |  | 4fd11fd6b800
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\acisf02707_000N004_fov1.fits.gz | 8128 | 2021-03-29T06:59:18 |  | 19aa3f6978c4
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\orbitf142257900N001_eph1.fits.gz | 288629 | 2002-08-04T20:58:18 |  | 120f4fc95c02
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\primary\pcadf02707_000N001_asol1.fits.gz | 22419864 | 2021-03-29T06:57:38 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf02707_000N004_evt1.fits.gz | 489269077 | 2021-03-29T07:01:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf02707_000N004_flt1.fits.gz | 7488 | 2021-03-29T06:59:18 |  | 4ff93dea8b73
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf02707_000N004_msk1.fits.gz | 5476 | 2021-03-29T06:59:20 |  | a8427725f328
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf02707_000N004_mtl1.fits.gz | 4336039 | 2021-03-29T06:59:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf02707_000N004_stat1.fits.gz | 3626642 | 2021-03-29T06:59:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142378668N004_0_bias0.fits.gz | 438626 | 2021-03-28T13:09:50 |  | 7ecc95817d8f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142378668N004_1_bias0.fits.gz | 510490 | 2021-03-28T13:09:50 |  | a04d62d86285
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142378668N004_2_bias0.fits.gz | 456830 | 2021-03-28T13:09:50 |  | ce602923317b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142378668N004_3_bias0.fits.gz | 438421 | 2021-03-28T13:09:50 |  | 110bca603a96
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142378668N004_4_bias0.fits.gz | 442788 | 2021-03-28T13:09:50 |  | edbcfd59b3d1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142378668N004_5_bias0.fits.gz | 453085 | 2021-03-28T13:09:50 |  | 531ad3b82ca6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\acisf142379975N004_pbk0.fits.gz | 4023 | 2021-03-28T13:10:08 |  | e7a345fdbb6c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\axaff02707N003_VV001_vvref2.pdf.gz | 202118751 | 2021-04-30T13:47:24 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142372981N004_osol1.fits.gz | 371096 | 2021-03-29T07:33:54 |  | 13ffea3da38e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142379541N004_osol1.fits.gz | 368003 | 2021-03-29T07:33:54 |  | 9d05a6461eec
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142379688N004_aqual1.fits.gz | 1555625 | 2021-03-29T06:56:26 |  | f868401c7bac
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142386101N004_osol1.fits.gz | 362987 | 2021-03-29T07:33:54 |  | 3e486f07ec23
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142392661N004_osol1.fits.gz | 170736 | 2021-03-29T07:33:54 |  | bc73956e3158
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142395744N004_osol1.fits.gz | 361400 | 2021-03-29T07:33:56 |  | b7852f565f00
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142402304N004_osol1.fits.gz | 361027 | 2021-03-29T07:33:52 |  | 54aef1d4f5f6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142408864N004_osol1.fits.gz | 361238 | 2021-03-29T07:33:52 |  | d43f23b63993
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142415424N004_osol1.fits.gz | 361604 | 2021-03-29T07:33:52 |  | 9d6d9210255f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142421984N004_osol1.fits.gz | 361101 | 2021-03-29T07:33:54 |  | 2c3504deefee
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142428544N004_osol1.fits.gz | 103388 | 2021-03-29T07:33:54 |  | f4fe548cf07f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142430381N004_osol1.fits.gz | 360934 | 2021-03-29T07:33:56 |  | 0adecefc15be
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142436941N004_osol1.fits.gz | 362042 | 2021-03-29T07:33:56 |  | 113f646bce6f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142443501N004_osol1.fits.gz | 361198 | 2021-03-29T07:33:56 |  | 5b257d8de323
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142450061N004_osol1.fits.gz | 360406 | 2021-03-29T07:33:56 |  | f04bf1d941af
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142456621N004_osol1.fits.gz | 32532 | 2021-03-29T07:33:56 |  | d40b13be5323
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142457146N004_osol1.fits.gz | 360978 | 2021-03-29T07:33:56 |  | b4c6faa017b3
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142463706N004_osol1.fits.gz | 360483 | 2021-03-29T07:33:56 |  | e99f8ebd98df
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142470266N004_osol1.fits.gz | 361875 | 2021-03-29T07:33:56 |  | eb38668ef961
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\aspect\pcadf142476826N004_osol1.fits.gz | 315149 | 2021-03-29T07:33:56 |  | d2dd9ad32b52
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\ephem
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\ephem\anglesf02707_000N004_eph1.fits.gz | 34674 | 2021-03-29T06:58:06 |  | 8ebb27f4d6aa
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\ephem\lunarf142257900N001_eph1.fits.gz | 282112 | 2002-08-04T20:58:14 |  | ac456e52ffe6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\2707\secondary\ephem\solarf142257900N001_eph1.fits.gz | 259051 | 2002-08-04T20:58:20 |  | 0e37cf5b66d0
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\00README | 10142 | 2021-04-22T20:43:16 |  | c857dbc9a70f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\axaff03130N004_VV001_vv2.pdf | 48373 | 2021-04-22T20:27:04 |  | 946f8729d561
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\oif.fits | 25920 | 2021-04-22T20:43:22 |  | 3ca7a4d97c2b
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130N006_cntr_img2.fits.gz | 65087 | 2021-03-27T11:53:18 |  | 99e258bfd8e8
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130N006_cntr_img2.jpg | 534590 | 2021-03-27T11:53:18 |  | a09ebe94ed9f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130N006_evt2.fits.gz | 34724166 | 2021-03-27T11:53:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130N006_full_img2.fits.gz | 72003 | 2021-03-27T11:53:20 |  | 1f1cd0f6872f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130N006_full_img2.jpg | 69285 | 2021-03-27T11:53:18 |  | 2177ccf6cf43
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130_000N006_bpix1.fits.gz | 102575 | 2021-03-27T11:52:32 |  | b91c31a32ed9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\acisf03130_000N006_fov1.fits.gz | 8939 | 2021-03-27T11:52:34 |  | 175b0b755b95
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\orbitf134136300N002_eph1.fits.gz | 288728 | 2003-03-21T21:00:52 |  | 50b0dc5870dc
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\primary\pcadf03130_000N001_asol1.fits.gz | 27192046 | 2021-03-27T11:47:22 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf03130_000N006_evt1.fits.gz | 323499662 | 2021-03-27T11:53:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf03130_000N006_flt1.fits.gz | 7584 | 2021-03-27T11:52:34 |  | 8470b15e87d9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf03130_000N006_msk1.fits.gz | 5381 | 2021-03-27T11:52:36 |  | fb3674a7a83e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf03130_000N006_mtl1.fits.gz | 5173525 | 2021-03-27T11:52:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf03130_000N006_stat1.fits.gz | 4402656 | 2021-03-27T11:52:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135312209N004_0_bias0.fits.gz | 448461 | 2021-03-27T09:17:30 |  | 65abad96e25a
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135312209N004_1_bias0.fits.gz | 507800 | 2021-03-27T09:17:30 |  | ef8654d7d2cd
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135312209N004_2_bias0.fits.gz | 438202 | 2021-03-27T09:17:30 |  | 6fd2eda331c1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135312209N004_3_bias0.fits.gz | 439006 | 2021-03-27T09:17:30 |  | 9363c1da32ed
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135312209N004_4_bias0.fits.gz | 441653 | 2021-03-27T09:17:30 |  | 70bb4eeb9da0
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135312209N004_5_bias0.fits.gz | 442682 | 2021-03-27T09:17:30 |  | 0efa752a7b3b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\acisf135313516N004_pbk0.fits.gz | 4015 | 2021-03-27T09:17:48 |  | f6a551b0f73d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\axaff03130N004_VV001_vvref2.pdf.gz | 245180701 | 2021-04-22T20:26:32 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135310583N004_osol1.fits.gz | 371697 | 2021-03-27T12:01:42 |  | 9c673f154811
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135313817N006_aqual1.fits.gz | 1895570 | 2021-03-27T11:45:18 |  | 0dd6b695a144
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135317143N004_osol1.fits.gz | 365874 | 2021-03-27T12:01:44 |  | b60113d5e1d9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135323703N004_osol1.fits.gz | 363480 | 2021-03-27T12:01:46 |  | 4c1059d62462
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135330263N004_osol1.fits.gz | 363832 | 2021-03-27T12:01:46 |  | c457aa3a8008
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135336823N004_osol1.fits.gz | 362137 | 2021-03-27T12:01:46 |  | 389d235dd438
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135343383N004_osol1.fits.gz | 51409 | 2021-03-27T12:01:50 |  | 74a152a8c5ab
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135344268N004_osol1.fits.gz | 363600 | 2021-03-27T12:01:48 |  | 6bc28f45a341
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135350828N004_osol1.fits.gz | 364053 | 2021-03-27T12:01:50 |  | 40e4e4153bb7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135357388N004_osol1.fits.gz | 363704 | 2021-03-27T12:01:52 |  | 056d89eb2c43
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135363948N004_osol1.fits.gz | 364019 | 2021-03-27T12:01:52 |  | c10729af9817
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135370508N004_osol1.fits.gz | 235798 | 2021-03-27T12:01:52 |  | 111eaa3e0ef3
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135374772N004_osol1.fits.gz | 363580 | 2021-03-27T12:01:54 |  | 60b8311b82a7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135381332N004_osol1.fits.gz | 363963 | 2021-03-27T12:01:54 |  | 795e0d54c441
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135387892N004_osol1.fits.gz | 364542 | 2021-03-27T12:01:56 |  | 8f93bf26f89c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135394452N004_osol1.fits.gz | 363679 | 2021-03-27T12:01:56 |  | 72636b63e6c1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135401012N004_osol1.fits.gz | 363331 | 2021-03-27T12:01:56 |  | 5ab02fcbcaa7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135407572N004_osol1.fits.gz | 97449 | 2021-03-27T12:01:58 |  | 76376d5d1af0
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135409311N004_osol1.fits.gz | 363285 | 2021-03-27T12:01:58 |  | 858366f30daa
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135415871N004_osol1.fits.gz | 363828 | 2021-03-27T12:01:58 |  | 912167a284ea
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135422431N004_osol1.fits.gz | 229373 | 2021-03-27T12:01:58 |  | 82fd37c8809e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135426531N004_osol1.fits.gz | 364560 | 2021-03-27T12:02:00 |  | 929c0a191f25
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\aspect\pcadf135433091N004_osol1.fits.gz | 362190 | 2021-03-27T12:02:00 |  | f27f68676c6d
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\ephem
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\ephem\anglesf03130_000N006_eph1.fits.gz | 40728 | 2021-03-27T11:50:14 |  | e734a8d30b9d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\ephem\lunarf134136300N002_eph1.fits.gz | 281444 | 2003-03-21T21:00:48 |  | 862d6045c8bc
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3130\secondary\ephem\solarf134136300N002_eph1.fits.gz | 264097 | 2003-03-21T21:00:54 |  | 5ca8e2418eca
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\00README | 10142 | 2021-05-21T19:34:08 |  | 4cc9599b4e10
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\axaff03482N003_VV001_vv2.pdf | 44133 | 2021-05-21T19:28:02 |  | e4050e0e9f47
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\oif.fits | 23040 | 2021-05-21T19:34:12 |  | 3f717b89e940
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482N005_cntr_img2.fits.gz | 59347 | 2021-03-28T12:31:14 |  | 6735629b7c59
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482N005_cntr_img2.jpg | 431421 | 2021-03-28T12:31:14 |  | 481d32e6e274
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482N005_evt2.fits.gz | 21786175 | 2021-03-28T12:31:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482N005_full_img2.fits.gz | 72790 | 2021-03-28T12:31:16 |  | 238fc5b84f29
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482N005_full_img2.jpg | 80995 | 2021-03-28T12:31:14 |  | 4ff9d7de2bce
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482_004N005_bpix1.fits.gz | 67514 | 2021-03-28T12:30:54 |  | ef145fea7cdd
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\acisf03482_004N005_fov1.fits.gz | 8572 | 2021-03-28T12:30:54 |  | 70843d02a976
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\orbitf139752300N001_eph1.fits.gz | 288652 | 2002-07-07T17:57:26 |  | 08ae9c3489e1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\primary\pcadf03482_004N001_asol1.fits.gz | 13369150 | 2021-03-28T12:29:28 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf03482_004N005_evt1.fits.gz | 164349114 | 2021-03-28T12:31:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf03482_004N005_flt1.fits.gz | 17687 | 2021-03-28T12:30:56 |  | 1a63291c9495
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf03482_004N005_msk1.fits.gz | 5375 | 2021-03-28T12:30:56 |  | 84dbedfba2eb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf03482_004N005_mtl1.fits.gz | 2536887 | 2021-03-28T12:30:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf03482_004N005_stat1.fits.gz | 2163831 | 2021-03-28T12:30:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139981687N004_0_bias0.fits.gz | 436974 | 2021-03-28T11:32:24 |  | 04777fbaaca1
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139981687N004_1_bias0.fits.gz | 505798 | 2021-03-28T11:32:24 |  | 2025362403e7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139981687N004_2_bias0.fits.gz | 442190 | 2021-03-28T11:32:24 |  | 36d4cdb3930c
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139981687N004_3_bias0.fits.gz | 443686 | 2021-03-28T11:32:24 |  | e0643598de18
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139981687N004_4_bias0.fits.gz | 440316 | 2021-03-28T11:32:24 |  | d8b7c1a30fc7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139981687N004_5_bias0.fits.gz | 439304 | 2021-03-28T11:32:24 |  | 539b6975fdb9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\acisf139982992N004_pbk0.fits.gz | 4009 | 2021-03-28T11:32:30 |  | 93361b059fea
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\axaff03482N003_VV001_vvref2.pdf.gz | 122544170 | 2021-05-21T19:27:18 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf139979499N004_osol1.fits.gz | 367058 | 2021-03-28T12:49:26 |  | 0c7eda737d65
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf139982406N005_aqual1.fits.gz | 927578 | 2021-03-28T12:28:38 |  | 73e57c82615d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf139986059N004_osol1.fits.gz | 359758 | 2021-03-28T12:49:26 |  | 7cff774942d7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf139992619N004_osol1.fits.gz | 357402 | 2021-03-28T12:49:26 |  | b4ca381a9e9f
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf139999179N004_osol1.fits.gz | 355689 | 2021-03-28T12:49:26 |  | 97d3978810bc
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140005739N004_osol1.fits.gz | 205595 | 2021-03-28T12:49:26 |  | b270de1a1313
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140009511N004_osol1.fits.gz | 355761 | 2021-03-28T12:49:28 |  | 22f410634caa
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140016071N004_osol1.fits.gz | 356581 | 2021-03-28T12:49:28 |  | f7afaf3932c7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140022631N004_osol1.fits.gz | 356826 | 2021-03-28T12:49:28 |  | 3de2bdba6574
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140029191N004_osol1.fits.gz | 357256 | 2021-03-28T12:49:28 |  | a57c15ab84a6
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140035751N004_osol1.fits.gz | 356030 | 2021-03-28T12:49:28 |  | 705625b16fa7
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140042311N004_osol1.fits.gz | 16000 | 2021-03-28T12:49:28 |  | f8060b3e9385
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\aspect\pcadf140042541N004_osol1.fits.gz | 375964 | 2021-03-28T12:49:28 |  | d0512b3e693d
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\ephem
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\ephem\anglesf03482_004N005_eph1.fits.gz | 22244 | 2021-03-28T12:29:54 |  | f7e9d0ded5ce
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\ephem\lunarf139752300N001_eph1.fits.gz | 282045 | 2002-07-07T17:57:24 |  | e654e85d6702
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\3482\secondary\ephem\solarf139752300N001_eph1.fits.gz | 262909 | 2002-07-07T17:57:28 |  | 8ab793db3c92
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\00README | 10139 | 2021-04-09T16:31:18 |  | c6b2690e579d
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\axaff00352N003_VV001_vv2.pdf | 40736 | 2021-04-09T16:22:54 |  | a62aa739deb8
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\oif.fits | 23040 | 2021-04-09T16:31:18 |  | f95ba0b5f77b
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352N006_cntr_img2.fits.gz | 474706 | 2021-03-16T12:46:52 |  | c922c64643c8
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352N006_cntr_img2.jpg | 576716 | 2021-03-16T12:46:52 |  | f41f9bebadb2
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352N006_evt2.fits.gz | 90730040 | 2021-03-16T12:47:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352N006_full_img2.fits.gz | 108798 | 2021-03-16T12:46:52 |  | e4a824e14d06
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352N006_full_img2.jpg | 41855 | 2021-03-16T12:46:52 |  | 989b90ecbabf
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352_000N006_bpix1.fits.gz | 28411 | 2021-03-16T12:46:16 |  | c49810df57ac
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\acisf00352_000N006_fov1.fits.gz | 7676 | 2021-03-16T12:46:16 |  | 3f9f01d536bb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\orbitf081173100N001_eph1.fits.gz | 287896 | 2000-08-30T23:47:40 |  | a669a4e6e994
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\primary\pcadf00352_000N001_asol1.fits.gz | 8671309 | 2021-03-16T12:42:06 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf00352_000N006_evt1.fits.gz | 142349313 | 2021-03-16T12:46:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf00352_000N006_flt1.fits.gz | 6463 | 2021-03-16T12:46:16 |  | bba5c5506c36
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf00352_000N006_msk1.fits.gz | 5266 | 2021-03-16T12:46:18 |  | cc59829a9a81
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf00352_000N006_mtl1.fits.gz | 1666111 | 2021-03-16T12:46:18 |  | 1d42f33af8fb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf00352_000N006_stat1.fits.gz | 1366038 | 2021-03-16T12:46:16 |  | 1b01d87423e4
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081281125N006_0_bias0.fits.gz | 439378 | 2021-03-16T10:58:48 |  | c4abab80976a
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081281125N006_1_bias0.fits.gz | 508102 | 2021-03-16T10:58:48 |  | ccdfc4a38ab9
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081281125N006_2_bias0.fits.gz | 456858 | 2021-03-16T10:58:48 |  | 283253809205
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081281125N006_3_bias0.fits.gz | 434085 | 2021-03-16T10:58:48 |  | 87e3421bb199
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081281125N006_4_bias0.fits.gz | 431599 | 2021-03-16T10:58:48 |  | d1cc3c9f883b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081281125N006_5_bias0.fits.gz | 452525 | 2021-03-16T10:58:50 |  | d12a264b2e60
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\acisf081282426N006_pbk0.fits.gz | 4018 | 2021-03-16T10:58:56 |  | 2cf92027e4bb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\axaff00352N003_VV001_vvref2.pdf.gz | 77870033 | 2021-04-09T16:22:32 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081280748N005_osol1.fits.gz | 374835 | 2021-03-16T12:49:24 |  | 1a21cccc0662
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081282232N006_aqual1.fits.gz | 597534 | 2021-03-16T12:41:20 |  | 98ca119fe533
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081287308N005_osol1.fits.gz | 361985 | 2021-03-16T12:49:24 |  | 4bcb55ef7093
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081293868N005_osol1.fits.gz | 164813 | 2021-03-16T12:49:24 |  | 5ded3af92b83
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081296820N005_osol1.fits.gz | 361419 | 2021-03-16T12:49:24 |  | e964b7488790
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081303380N005_osol1.fits.gz | 361482 | 2021-03-16T12:49:38 |  | 3046d8746640
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081309940N005_osol1.fits.gz | 360961 | 2021-03-16T12:49:38 |  | ce7213ec58a3
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\aspect\pcadf081316500N005_osol1.fits.gz | 370106 | 2021-03-16T12:49:38 |  | 1244f7a3ad71
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\ephem
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\ephem\anglesf00352_000N006_eph1.fits.gz | 15556 | 2021-03-16T12:45:40 |  | f8337b854ee0
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\ephem\lunarf081173100N001_eph1.fits.gz | 280234 | 2000-08-30T23:47:36 |  | bbad2ec55a49
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\352\secondary\ephem\solarf081173100N001_eph1.fits.gz | 255085 | 2000-08-30T23:47:46 |  | 4fd608224489
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736448-64.h5 | 60136963 | 2021-05-06T22:16:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736512-64.h5 | 60318381 | 2021-05-06T22:19:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736576-64.h5 | 60263000 | 2021-05-06T22:22:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736640-64.h5 | 60254688 | 2021-05-06T22:31:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736704-64.h5 | 60339907 | 2021-05-06T22:33:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736768-64.h5 | 60286226 | 2021-05-06T22:35:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736832-64.h5 | 60285595 | 2021-05-06T22:37:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736896-64.h5 | 60297993 | 2021-05-06T22:39:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186736960-64.h5 | 60159842 | 2021-05-06T22:41:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737024-64.h5 | 60201389 | 2021-05-06T22:43:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737088-64.h5 | 60036064 | 2021-05-06T22:44:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737152-64.h5 | 60203527 | 2021-05-06T22:46:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737216-64.h5 | 60170494 | 2021-05-06T22:48:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737280-64.h5 | 60298840 | 2021-05-06T22:50:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737344-64.h5 | 60272849 | 2021-05-06T22:52:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737408-64.h5 | 60194166 | 2021-05-06T22:54:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737472-64.h5 | 60100266 | 2021-05-06T22:55:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737536-64.h5 | 60367765 | 2021-05-06T22:57:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737600-64.h5 | 60106062 | 2021-05-06T22:58:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737664-64.h5 | 60058274 | 2021-05-06T22:59:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737728-64.h5 | 60375003 | 2021-05-06T23:01:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737792-64.h5 | 60299668 | 2021-05-06T23:02:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737856-64.h5 | 60193188 | 2021-05-06T23:04:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737920-64.h5 | 60308152 | 2021-05-06T23:05:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186737984-64.h5 | 60127598 | 2021-05-06T23:07:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738048-64.h5 | 60202332 | 2021-05-06T23:08:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738112-64.h5 | 60201273 | 2021-05-06T23:09:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738176-64.h5 | 60205646 | 2021-05-06T23:11:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738240-64.h5 | 60242738 | 2021-05-06T23:12:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738304-64.h5 | 60024955 | 2021-05-06T23:14:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738368-64.h5 | 60268054 | 2021-05-06T23:15:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738432-64.h5 | 60293695 | 2021-05-06T23:17:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738496-64.h5 | 60185597 | 2021-05-06T23:18:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738560-64.h5 | 60224634 | 2021-05-06T23:19:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738624-64.h5 | 60110015 | 2021-05-06T23:21:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738688-64.h5 | 60415582 | 2021-05-06T23:23:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738752-64.h5 | 60234946 | 2021-05-06T23:25:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738816-64.h5 | 60422208 | 2021-05-06T23:26:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738880-64.h5 | 60216147 | 2021-05-06T23:28:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186738944-64.h5 | 60046785 | 2021-05-06T23:29:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739008-64.h5 | 60263485 | 2021-05-06T23:30:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739072-64.h5 | 60359754 | 2021-05-06T23:32:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739136-64.h5 | 60067075 | 2021-05-06T23:33:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739200-64.h5 | 60356927 | 2021-05-06T23:35:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739264-64.h5 | 60291420 | 2021-05-06T23:36:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739328-64.h5 | 60357494 | 2021-05-06T23:37:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739392-64.h5 | 60193109 | 2021-05-06T23:39:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739456-64.h5 | 60439462 | 2021-05-06T23:40:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739520-64.h5 | 60280070 | 2021-05-06T23:42:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739584-64.h5 | 60268716 | 2021-05-06T23:43:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739648-64.h5 | 60217552 | 2021-05-06T23:44:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739712-64.h5 | 60191213 | 2021-05-06T23:46:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739776-64.h5 | 60087866 | 2021-05-06T23:47:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739840-64.h5 | 60149673 | 2021-05-06T23:49:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739904-64.h5 | 60217848 | 2021-05-06T23:51:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186739968-64.h5 | 60305525 | 2021-05-06T23:52:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740032-64.h5 | 60157620 | 2021-05-06T23:54:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740096-64.h5 | 60246820 | 2021-05-06T23:56:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740160-64.h5 | 60251888 | 2021-05-06T23:58:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740224-64.h5 | 60081531 | 2021-05-07T00:00:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740288-64.h5 | 60289777 | 2021-05-07T00:03:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740352-64.h5 | 60287845 | 2021-05-07T00:05:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740416-64.h5 | 60078891 | 2021-05-07T00:07:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740480-64.h5 | 60242282 | 2021-05-07T00:10:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740544-64.h5 | 60227199 | 2021-05-07T00:12:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740608-64.h5 | 60238989 | 2021-05-07T00:14:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740672-64.h5 | 60180323 | 2021-05-07T00:17:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740736-64.h5 | 60347773 | 2021-05-07T00:19:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740800-64.h5 | 60131748 | 2021-05-07T00:21:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740864-64.h5 | 60204326 | 2021-05-07T00:24:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740928-64.h5 | 60277098 | 2021-05-07T00:26:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186740992-64.h5 | 60374229 | 2021-05-07T00:28:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741056-64.h5 | 60309725 | 2021-05-07T00:30:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741120-64.h5 | 60234032 | 2021-05-07T00:33:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741184-64.h5 | 60158842 | 2021-05-07T00:35:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741248-64.h5 | 60205893 | 2021-05-07T00:37:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741312-64.h5 | 60360866 | 2021-05-07T00:39:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741376-64.h5 | 60208267 | 2021-05-07T00:40:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741440-64.h5 | 60242770 | 2021-05-07T00:42:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741504-64.h5 | 60341189 | 2021-05-07T00:45:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741568-64.h5 | 60230512 | 2021-05-07T00:47:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741632-64.h5 | 60162889 | 2021-05-07T00:49:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741696-64.h5 | 60234810 | 2021-05-07T00:52:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741760-64.h5 | 60241400 | 2021-05-07T00:53:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741824-64.h5 | 60349987 | 2021-05-07T00:55:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741888-64.h5 | 60127843 | 2021-05-07T00:58:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186741952-64.h5 | 60190134 | 2021-05-07T01:00:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742016-64.h5 | 60211579 | 2021-05-07T01:02:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742080-64.h5 | 60171970 | 2021-05-07T01:05:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742144-64.h5 | 60230543 | 2021-05-07T01:07:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742208-64.h5 | 60065144 | 2021-05-07T01:09:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742272-64.h5 | 60239940 | 2021-05-07T01:11:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742336-64.h5 | 60267976 | 2021-05-07T01:14:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742400-64.h5 | 60077926 | 2021-05-07T01:16:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742464-64.h5 | 60331326 | 2021-05-07T01:18:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742528-64.h5 | 60253502 | 2021-05-07T01:21:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742592-64.h5 | 60181159 | 2021-05-07T01:23:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742656-64.h5 | 60221878 | 2021-05-07T01:25:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742720-64.h5 | 60259569 | 2021-05-07T01:27:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742784-64.h5 | 60322261 | 2021-05-07T01:28:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742848-64.h5 | 60180072 | 2021-05-07T01:31:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742912-64.h5 | 60423686 | 2021-05-07T01:33:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186742976-64.h5 | 60154714 | 2021-05-07T01:36:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743040-64.h5 | 60245239 | 2021-05-07T01:38:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743104-64.h5 | 60245044 | 2021-05-07T01:40:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743168-64.h5 | 60416692 | 2021-05-07T01:43:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743232-64.h5 | 60194095 | 2021-05-07T01:45:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743296-64.h5 | 60111057 | 2021-05-07T01:47:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743360-64.h5 | 60236747 | 2021-05-07T01:50:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743424-64.h5 | 60237994 | 2021-05-07T01:52:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743488-64.h5 | 60150798 | 2021-05-07T01:54:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743552-64.h5 | 60232845 | 2021-05-07T01:57:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743616-64.h5 | 60127377 | 2021-05-07T01:59:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743680-64.h5 | 60149241 | 2021-05-07T02:02:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743744-64.h5 | 60165896 | 2021-05-07T02:04:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743808-64.h5 | 60406862 | 2021-05-07T02:06:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743872-64.h5 | 60228702 | 2021-05-07T02:09:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186743936-64.h5 | 60381021 | 2021-05-07T02:11:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744000-64.h5 | 60257340 | 2021-05-07T02:13:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744064-64.h5 | 60121993 | 2021-05-07T02:15:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744128-64.h5 | 60182764 | 2021-05-07T02:17:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744192-64.h5 | 60140560 | 2021-05-07T02:20:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744256-64.h5 | 60268389 | 2021-05-07T02:22:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744320-64.h5 | 60357500 | 2021-05-07T02:24:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744384-64.h5 | 60255901 | 2021-05-07T02:27:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744448-64.h5 | 60285313 | 2021-05-07T02:29:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744512-64.h5 | 60187198 | 2021-05-07T02:32:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744576-64.h5 | 60046056 | 2021-05-07T02:34:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744640-64.h5 | 60288183 | 2021-05-07T02:37:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744704-64.h5 | 60416166 | 2021-05-07T02:39:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744768-64.h5 | 60091140 | 2021-05-07T02:42:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744832-64.h5 | 60207205 | 2021-05-07T02:44:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744896-64.h5 | 60254921 | 2021-05-07T02:46:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186744960-64.h5 | 60068908 | 2021-05-07T02:49:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745024-64.h5 | 60255946 | 2021-05-07T02:51:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745088-64.h5 | 60277143 | 2021-05-07T02:54:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745152-64.h5 | 60144819 | 2021-05-07T02:56:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745216-64.h5 | 60405714 | 2021-05-07T02:58:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745280-64.h5 | 60285896 | 2021-05-07T03:00:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745344-64.h5 | 60254535 | 2021-05-07T03:02:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745408-64.h5 | 60242823 | 2021-05-07T03:04:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745472-64.h5 | 60152870 | 2021-05-07T03:06:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745536-64.h5 | 60098720 | 2021-05-07T03:07:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745600-64.h5 | 60082086 | 2021-05-07T03:09:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745664-64.h5 | 60260327 | 2021-05-07T03:11:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745728-64.h5 | 60402499 | 2021-05-07T03:14:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745792-64.h5 | 60348215 | 2021-05-07T03:16:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745856-64.h5 | 60261275 | 2021-05-07T03:19:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745920-64.h5 | 60246479 | 2021-05-07T03:21:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186745984-64.h5 | 60208088 | 2021-05-07T03:24:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746048-64.h5 | 60409028 | 2021-05-07T03:26:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746112-64.h5 | 60290038 | 2021-05-07T03:28:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746176-64.h5 | 60343197 | 2021-05-07T03:30:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746240-64.h5 | 60158395 | 2021-05-07T03:32:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746304-64.h5 | 60202686 | 2021-05-07T03:35:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746368-64.h5 | 60208831 | 2021-05-07T03:37:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746432-64.h5 | 60193155 | 2021-05-07T03:39:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746496-64.h5 | 60319475 | 2021-05-07T03:41:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746560-64.h5 | 60186548 | 2021-05-07T03:43:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746624-64.h5 | 60421752 | 2021-05-07T03:45:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746688-64.h5 | 60022079 | 2021-05-07T03:46:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746752-64.h5 | 60105301 | 2021-05-07T03:48:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746816-64.h5 | 60461188 | 2021-05-07T03:49:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746880-64.h5 | 60327910 | 2021-05-07T03:51:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186746944-64.h5 | 60404891 | 2021-05-07T03:53:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747008-64.h5 | 60148109 | 2021-05-07T03:54:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747072-64.h5 | 60442222 | 2021-05-07T03:57:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747136-64.h5 | 60268839 | 2021-05-07T03:59:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\H1_vII\H-H1_AUXR-1186747200-64.h5 | 60370130 | 2021-05-07T04:01:48 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736448-64.h5 | 61951367 | 2021-05-06T22:24:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736512-64.h5 | 62196021 | 2021-05-06T22:32:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736576-64.h5 | 62006768 | 2021-05-06T22:34:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736640-64.h5 | 62190215 | 2021-05-06T22:36:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736704-64.h5 | 62165582 | 2021-05-06T22:38:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736768-64.h5 | 61916134 | 2021-05-06T22:41:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736832-64.h5 | 61814367 | 2021-05-06T22:42:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736896-64.h5 | 61918738 | 2021-05-06T22:44:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186736960-64.h5 | 62048305 | 2021-05-06T22:46:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737024-64.h5 | 62285373 | 2021-05-06T22:48:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737088-64.h5 | 61999755 | 2021-05-06T22:50:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737152-64.h5 | 62178059 | 2021-05-06T22:51:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737216-64.h5 | 61923208 | 2021-05-06T22:53:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737280-64.h5 | 62093744 | 2021-05-06T22:55:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737344-64.h5 | 62306854 | 2021-05-06T22:56:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737408-64.h5 | 61919592 | 2021-05-06T22:58:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737472-64.h5 | 62127708 | 2021-05-06T22:59:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737536-64.h5 | 62023803 | 2021-05-06T23:01:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737600-64.h5 | 61996383 | 2021-05-06T23:02:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737664-64.h5 | 62036518 | 2021-05-06T23:03:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737728-64.h5 | 62018100 | 2021-05-06T23:05:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737792-64.h5 | 62111325 | 2021-05-06T23:06:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737856-64.h5 | 62073795 | 2021-05-06T23:08:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737920-64.h5 | 61994153 | 2021-05-06T23:09:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186737984-64.h5 | 62108933 | 2021-05-06T23:11:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738048-64.h5 | 62052316 | 2021-05-06T23:12:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738112-64.h5 | 61913268 | 2021-05-06T23:13:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738176-64.h5 | 62195092 | 2021-05-06T23:15:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738240-64.h5 | 62018847 | 2021-05-06T23:16:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738304-64.h5 | 62047569 | 2021-05-06T23:18:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738368-64.h5 | 62135956 | 2021-05-06T23:19:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738432-64.h5 | 61928474 | 2021-05-06T23:20:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738496-64.h5 | 62151259 | 2021-05-06T23:22:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738560-64.h5 | 62169826 | 2021-05-06T23:23:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738624-64.h5 | 62144864 | 2021-05-06T23:25:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738688-64.h5 | 61876022 | 2021-05-06T23:26:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738752-64.h5 | 61940663 | 2021-05-06T23:27:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738816-64.h5 | 61895188 | 2021-05-06T23:29:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738880-64.h5 | 61951355 | 2021-05-06T23:30:32 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186738944-64.h5 | 62120799 | 2021-05-06T23:31:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739008-64.h5 | 62011573 | 2021-05-06T23:33:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739072-64.h5 | 62123955 | 2021-05-06T23:34:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739136-64.h5 | 62320685 | 2021-05-06T23:36:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739200-64.h5 | 62250891 | 2021-05-06T23:37:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739264-64.h5 | 61939216 | 2021-05-06T23:38:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739328-64.h5 | 62161567 | 2021-05-06T23:40:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739392-64.h5 | 61963760 | 2021-05-06T23:41:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739456-64.h5 | 62362991 | 2021-05-06T23:42:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739520-64.h5 | 62061498 | 2021-05-06T23:44:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739584-64.h5 | 62024279 | 2021-05-06T23:45:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739648-64.h5 | 62119088 | 2021-05-06T23:47:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739712-64.h5 | 61905935 | 2021-05-06T23:49:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739776-64.h5 | 62134599 | 2021-05-06T23:50:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739840-64.h5 | 61947001 | 2021-05-06T23:52:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739904-64.h5 | 62005036 | 2021-05-06T23:54:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186739968-64.h5 | 61997371 | 2021-05-06T23:56:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740032-64.h5 | 62008192 | 2021-05-06T23:58:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740096-64.h5 | 62148700 | 2021-05-07T00:00:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740160-64.h5 | 62010943 | 2021-05-07T00:02:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740224-64.h5 | 62040435 | 2021-05-07T00:04:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740288-64.h5 | 62144324 | 2021-05-07T00:06:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740352-64.h5 | 62179390 | 2021-05-07T00:09:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740416-64.h5 | 62019791 | 2021-05-07T00:11:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740480-64.h5 | 62109332 | 2021-05-07T00:13:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740544-64.h5 | 62008237 | 2021-05-07T00:15:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740608-64.h5 | 62187566 | 2021-05-07T00:18:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740672-64.h5 | 62255269 | 2021-05-07T00:20:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740736-64.h5 | 62180838 | 2021-05-07T00:22:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740800-64.h5 | 62208669 | 2021-05-07T00:24:46 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740864-64.h5 | 62144290 | 2021-05-07T00:27:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740928-64.h5 | 62178538 | 2021-05-07T00:29:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186740992-64.h5 | 62160582 | 2021-05-07T00:31:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741056-64.h5 | 62263320 | 2021-05-07T00:33:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741120-64.h5 | 62074071 | 2021-05-07T00:36:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741184-64.h5 | 62137396 | 2021-05-07T00:38:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741248-64.h5 | 62155911 | 2021-05-07T00:39:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741312-64.h5 | 62187594 | 2021-05-07T00:42:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741376-64.h5 | 62169424 | 2021-05-07T00:44:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741440-64.h5 | 62072682 | 2021-05-07T00:46:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741504-64.h5 | 62022587 | 2021-05-07T00:48:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741568-64.h5 | 61916305 | 2021-05-07T00:50:38 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741632-64.h5 | 62175072 | 2021-05-07T00:52:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741696-64.h5 | 62031285 | 2021-05-07T00:54:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741760-64.h5 | 62045441 | 2021-05-07T00:57:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741824-64.h5 | 62072762 | 2021-05-07T00:59:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741888-64.h5 | 62068691 | 2021-05-07T01:01:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186741952-64.h5 | 61901353 | 2021-05-07T01:03:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742016-64.h5 | 62154448 | 2021-05-07T01:05:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742080-64.h5 | 61979857 | 2021-05-07T01:08:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742144-64.h5 | 61955563 | 2021-05-07T01:10:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742208-64.h5 | 62164022 | 2021-05-07T01:12:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742272-64.h5 | 62102433 | 2021-05-07T01:14:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742336-64.h5 | 61956417 | 2021-05-07T01:17:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742400-64.h5 | 62118978 | 2021-05-07T01:19:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742464-64.h5 | 61954426 | 2021-05-07T01:21:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742528-64.h5 | 62293135 | 2021-05-07T01:24:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742592-64.h5 | 61912685 | 2021-05-07T01:26:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742656-64.h5 | 62246071 | 2021-05-07T01:27:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742720-64.h5 | 62131281 | 2021-05-07T01:30:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742784-64.h5 | 62229846 | 2021-05-07T01:32:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742848-64.h5 | 62076177 | 2021-05-07T01:34:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742912-64.h5 | 62141802 | 2021-05-07T01:36:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186742976-64.h5 | 62167936 | 2021-05-07T01:39:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743040-64.h5 | 61950922 | 2021-05-07T01:41:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743104-64.h5 | 62095441 | 2021-05-07T01:44:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743168-64.h5 | 62231191 | 2021-05-07T01:46:18 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743232-64.h5 | 62047616 | 2021-05-07T01:48:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743296-64.h5 | 62192498 | 2021-05-07T01:51:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743360-64.h5 | 62095380 | 2021-05-07T01:53:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743424-64.h5 | 62119417 | 2021-05-07T01:55:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743488-64.h5 | 62080233 | 2021-05-07T01:58:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743552-64.h5 | 62240003 | 2021-05-07T02:00:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743616-64.h5 | 62015327 | 2021-05-07T02:02:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743680-64.h5 | 62155916 | 2021-05-07T02:05:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743744-64.h5 | 61950918 | 2021-05-07T02:07:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743808-64.h5 | 61860211 | 2021-05-07T02:09:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743872-64.h5 | 62197606 | 2021-05-07T02:12:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186743936-64.h5 | 61949639 | 2021-05-07T02:14:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744000-64.h5 | 62176987 | 2021-05-07T02:16:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744064-64.h5 | 62028640 | 2021-05-07T02:18:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744128-64.h5 | 62208630 | 2021-05-07T02:20:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744192-64.h5 | 61951564 | 2021-05-07T02:23:24 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744256-64.h5 | 62094071 | 2021-05-07T02:25:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744320-64.h5 | 62129700 | 2021-05-07T02:28:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744384-64.h5 | 62211870 | 2021-05-07T02:30:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744448-64.h5 | 62160256 | 2021-05-07T02:33:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744512-64.h5 | 62017506 | 2021-05-07T02:35:42 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744576-64.h5 | 62259295 | 2021-05-07T02:38:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744640-64.h5 | 62147767 | 2021-05-07T02:40:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744704-64.h5 | 62293112 | 2021-05-07T02:42:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744768-64.h5 | 62113521 | 2021-05-07T02:45:22 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744832-64.h5 | 62118419 | 2021-05-07T02:47:48 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744896-64.h5 | 62285513 | 2021-05-07T02:50:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186744960-64.h5 | 62086138 | 2021-05-07T02:52:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745024-64.h5 | 62040666 | 2021-05-07T02:54:56 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745088-64.h5 | 62302953 | 2021-05-07T02:57:04 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745152-64.h5 | 62033844 | 2021-05-07T02:59:08 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745216-64.h5 | 62097794 | 2021-05-07T03:01:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745280-64.h5 | 62152206 | 2021-05-07T03:02:52 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745344-64.h5 | 62031879 | 2021-05-07T03:04:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745408-64.h5 | 62154699 | 2021-05-07T03:06:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745472-64.h5 | 61889969 | 2021-05-07T03:08:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745536-64.h5 | 62017363 | 2021-05-07T03:10:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745600-64.h5 | 62139395 | 2021-05-07T03:12:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745664-64.h5 | 62078110 | 2021-05-07T03:15:06 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745728-64.h5 | 61999144 | 2021-05-07T03:17:30 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745792-64.h5 | 61983479 | 2021-05-07T03:20:02 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745856-64.h5 | 62143170 | 2021-05-07T03:22:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745920-64.h5 | 62273474 | 2021-05-07T03:24:58 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186745984-64.h5 | 62010912 | 2021-05-07T03:27:16 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746048-64.h5 | 62084881 | 2021-05-07T03:29:26 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746112-64.h5 | 62116372 | 2021-05-07T03:31:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746176-64.h5 | 62102827 | 2021-05-07T03:33:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746240-64.h5 | 62076506 | 2021-05-07T03:36:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746304-64.h5 | 62162475 | 2021-05-07T03:38:14 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746368-64.h5 | 62240450 | 2021-05-07T03:39:54 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746432-64.h5 | 61734915 | 2021-05-07T03:42:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746496-64.h5 | 62180750 | 2021-05-07T03:43:44 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746560-64.h5 | 62250612 | 2021-05-07T03:45:10 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746624-64.h5 | 62035913 | 2021-05-07T03:46:40 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746688-64.h5 | 62118138 | 2021-05-07T03:48:12 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746752-64.h5 | 62182185 | 2021-05-07T03:49:50 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746816-64.h5 | 62220366 | 2021-05-07T03:51:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746880-64.h5 | 62116822 | 2021-05-07T03:53:28 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186746944-64.h5 | 62099216 | 2021-05-07T03:55:36 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747008-64.h5 | 62054427 | 2021-05-07T03:58:00 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747072-64.h5 | 62242856 | 2021-05-07T04:00:20 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747136-64.h5 | 62075488 | 2021-05-07T04:02:34 |  | 
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\AUXR_HDF_v2\L1_vII\L-L1_AUXR-1186747200-64.h5 | 62382182 | 2021-05-07T04:03:48 |  | 
+- dir  | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC40.txt | 3053 | 2018-07-03T18:15:56 | 71 | 2bafbf224abb
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC59.txt | 3053 | 2018-07-03T19:48:44 | 71 | 488b27e37e00
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC79.txt | 3053 | 2018-07-03T19:44:54 | 71 | 1ea9372a0733
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC86a.txt | 3053 | 2018-07-03T19:40:06 | 71 | b8060f40bc84
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC86b.txt | 3053 | 2018-07-03T19:28:44 | 71 | f5ae42a6a2af
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Aeff_IC86c.txt | 3053 | 2018-07-03T19:21:44 | 71 | 87429a91f049
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC40.txt | 1541 | 2018-07-03T18:06:38 | 32 | 54c8adf6974b
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC59.txt | 5285 | 2018-07-03T18:26:38 | 110 | af4a0a38978e
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC79.txt | 4709 | 2018-07-03T18:33:32 | 98 | a77380499833
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC86a.txt | 5285 | 2018-07-03T18:42:28 | 110 | ac14b229e1e4
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC86b.txt | 15413 | 2018-07-03T18:55:52 | 321 | 876e5183ec80
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\events_IC86c.txt | 28421 | 2018-07-03T19:22:32 | 592 | b25e71973f64
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Fig_S4_tabulated.txt | 6974 | 2019-09-05T14:51:00 | 32 | 4b62e5c0f785
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\Fig_S5_tabulated.txt | 6974 | 2019-09-05T14:52:30 | 32 | c943787b5cb3
+- file | workflow\oldies\romionsim_old_repos\romion_V0.5 Beta\IceCube_data_from_2008_to_2017_related_to_analysis_of_TXS_0506+056\list_of_samples.txt | 356 | 2018-07-06T00:19:14 | 7 | 8bec9eae3830
+- dir  | workflow\projection_test_logs
+- dir  | workflow\projection_test_logs\canonical
+- file | workflow\projection_test_logs\canonical\simulation_19bed481-7ebe-4b66-9f2e-9d0670d2806b.jsonl | 3955 | 2026-04-19T20:55:05 |  | 4dfa56446592
+- dir  | workflow\projection_test_logs\contaminated
+- file | workflow\projection_test_logs\contaminated\simulation_b732a1db-6e01-4e71-81e2-a30fe327fd63.jsonl | 4045 | 2026-04-19T20:55:05 |  | 9cbde9adfc27
+- dir  | workflow\tick_horizon_probe
+- dir  | workflow\tick_horizon_probe\decay0995_vis026
+- dir  | workflow\tick_horizon_probe\decay0995_vis026\t100
+- file | workflow\tick_horizon_probe\decay0995_vis026\t100\simulation_e5b71af7-b0a3-4494-a268-1a89890b068a.jsonl | 41201 | 2026-04-20T17:32:50 |  | 48593341761e
+- dir  | workflow\tick_horizon_probe\decay0995_vis026\t200
+- file | workflow\tick_horizon_probe\decay0995_vis026\t200\simulation_19228cb1-42dd-4f5b-9947-bb7623393037.jsonl | 79950 | 2026-04-20T17:32:50 |  | 1a0e04900a4e
+- dir  | workflow\tick_horizon_probe\decay0995_vis026\t300
+- file | workflow\tick_horizon_probe\decay0995_vis026\t300\simulation_98e64a90-ad5d-42c5-bcb6-5b8fd20c784f.jsonl | 120698 | 2026-04-20T17:32:50 |  | 3449b43e8291
+- dir  | workflow\tick_horizon_probe\decay0995_vis026\t500
+- file | workflow\tick_horizon_probe\decay0995_vis026\t500\simulation_9f42ad3d-e9f8-45b7-99c5-ed2bfaedc329.jsonl | 203085 | 2026-04-20T17:32:50 |  | 6da3f61babca
+- dir  | workflow\tick_horizon_probe\decay0995_vis027
+- dir  | workflow\tick_horizon_probe\decay0995_vis027\t100
+- file | workflow\tick_horizon_probe\decay0995_vis027\t100\simulation_f258d87f-1a1e-4231-843c-a83499417601.jsonl | 41212 | 2026-04-20T17:32:51 |  | b5e549fee701
+- dir  | workflow\tick_horizon_probe\decay0995_vis027\t200
+- file | workflow\tick_horizon_probe\decay0995_vis027\t200\simulation_93568daf-bcc7-4ba9-89f7-0781195f9401.jsonl | 79709 | 2026-04-20T17:32:51 |  | ac79f3777577
+- dir  | workflow\tick_horizon_probe\decay0995_vis027\t300
+- file | workflow\tick_horizon_probe\decay0995_vis027\t300\simulation_2dba9ec7-0668-46d7-8f38-69ef1e12cb97.jsonl | 120460 | 2026-04-20T17:32:51 |  | 1dbe2c67fd46
+- dir  | workflow\tick_horizon_probe\decay0995_vis027\t500
+- file | workflow\tick_horizon_probe\decay0995_vis027\t500\simulation_01f4a060-abcc-4e9e-8cd7-1e2d75382b43.jsonl | 202860 | 2026-04-20T17:32:51 |  | ca748e991617
+- dir  | workflow\tick_horizon_probe\decay0999_vis020
+- dir  | workflow\tick_horizon_probe\decay0999_vis020\t100
+- file | workflow\tick_horizon_probe\decay0999_vis020\t100\simulation_fe55ec5f-de33-4556-b53e-1808c96ab2a8.jsonl | 41141 | 2026-04-20T17:32:51 |  | 5ac2143d1821
+- dir  | workflow\tick_horizon_probe\decay0999_vis020\t200
+- file | workflow\tick_horizon_probe\decay0999_vis020\t200\simulation_121a88f5-01da-4dc8-b60e-5a4b8c741ab5.jsonl | 82074 | 2026-04-20T17:32:51 |  | 12f37ca1c948
+- dir  | workflow\tick_horizon_probe\decay0999_vis020\t300
+- file | workflow\tick_horizon_probe\decay0999_vis020\t300\simulation_56a0025f-8a12-4a7c-b848-93c544c4bb2e.jsonl | 122973 | 2026-04-20T17:32:51 |  | 1750d0fe79b6
+- dir  | workflow\tick_horizon_probe\decay0999_vis020\t500
+- file | workflow\tick_horizon_probe\decay0999_vis020\t500\simulation_bbc87717-517a-4b7a-8716-8427d0eb80ae.jsonl | 204824 | 2026-04-20T17:32:51 |  | 4af91f4945e8
+- dir  | workflow\tick_horizon_probe\decay099_vis020
+- dir  | workflow\tick_horizon_probe\decay099_vis020\t100
+- file | workflow\tick_horizon_probe\decay099_vis020\t100\simulation_543e08c1-e6fa-4d0c-8951-3911652f087c.jsonl | 41215 | 2026-04-20T17:32:50 |  | 786367006367
+- dir  | workflow\tick_horizon_probe\decay099_vis020\t200
+- file | workflow\tick_horizon_probe\decay099_vis020\t200\simulation_5654a8a7-aa38-4975-860f-7363910752c5.jsonl | 79476 | 2026-04-20T17:32:50 |  | 3419fb405ae5
+- dir  | workflow\tick_horizon_probe\decay099_vis020\t300
+- file | workflow\tick_horizon_probe\decay099_vis020\t300\simulation_7339d669-6b16-499d-a236-3b496370989e.jsonl | 120363 | 2026-04-20T17:32:50 |  | a8d070a99253
+- dir  | workflow\tick_horizon_probe\decay099_vis020\t500
+- file | workflow\tick_horizon_probe\decay099_vis020\t500\simulation_2d86094e-2882-49c6-8de1-b90f6a9b7d70.jsonl | 202832 | 2026-04-20T17:32:50 |  | 94ea5dbe8369
+- dir  | workflow\tick_horizon_probe\longer
+- dir  | workflow\tick_horizon_probe\longer\decay0995_vis026
+- file | workflow\tick_horizon_probe\longer\decay0995_vis026\simulation_0eff8294-ed21-452f-b331-d83fe0a276ef.jsonl | 407910 | 2026-04-20T17:33:12 |  | 4dfc0be123c5
+- dir  | workflow\tick_horizon_probe\longer\decay0999_vis020
+- file | workflow\tick_horizon_probe\longer\decay0999_vis020\simulation_eb7e5150-a8f7-44dc-b3c4-b1e535699277.jsonl | 408994 | 2026-04-20T17:33:12 |  | 837e5264c436
+- dir  | workflow\tick_reassessment
+- file | workflow\tick_reassessment\tick_reassessment_100_vs_300.csv | 3376 | 2026-04-20T17:37:18 | 45 | 8c3664108cb3
+- dir  | workflow\tick_reassessment\refine
+- dir  | workflow\tick_reassessment\refine\d0995_v018
+- dir  | workflow\tick_reassessment\refine\d0995_v018\t100
+- file | workflow\tick_reassessment\refine\d0995_v018\t100\simulation_509b7e8d-6ce0-4a30-aea0-78a77c737616.jsonl | 41153 | 2026-04-20T17:37:17 |  | 04af47b2a1de
+- dir  | workflow\tick_reassessment\refine\d0995_v018\t300
+- file | workflow\tick_reassessment\refine\d0995_v018\t300\simulation_5f466fad-7b25-4a52-9bf0-b9a576dbf365.jsonl | 122972 | 2026-04-20T17:37:17 |  | 14c51a0fe40f
+- dir  | workflow\tick_reassessment\refine\d0995_v019
+- dir  | workflow\tick_reassessment\refine\d0995_v019\t100
+- file | workflow\tick_reassessment\refine\d0995_v019\t100\simulation_40acad13-8455-4e41-82aa-e6a21431e199.jsonl | 41154 | 2026-04-20T17:37:17 |  | e928f43051b5
+- dir  | workflow\tick_reassessment\refine\d0995_v019\t300
+- file | workflow\tick_reassessment\refine\d0995_v019\t300\simulation_53756324-b470-4414-8963-b372c8148c4d.jsonl | 122621 | 2026-04-20T17:37:17 |  | 14bb2dc845a2
+- dir  | workflow\tick_reassessment\refine\d0995_v020
+- dir  | workflow\tick_reassessment\refine\d0995_v020\t100
+- file | workflow\tick_reassessment\refine\d0995_v020\t100\simulation_9455c88f-eba3-4896-85ec-3272b6e10a11.jsonl | 41158 | 2026-04-20T17:37:17 |  | 90d6118712b0
+- dir  | workflow\tick_reassessment\refine\d0995_v020\t300
+- file | workflow\tick_reassessment\refine\d0995_v020\t300\simulation_74c4ebf0-2ec5-4a9f-9934-4c82c2be5160.jsonl | 122317 | 2026-04-20T17:37:17 |  | bb619546d2cd
+- dir  | workflow\tick_reassessment\refine\d0995_v021
+- dir  | workflow\tick_reassessment\refine\d0995_v021\t100
+- file | workflow\tick_reassessment\refine\d0995_v021\t100\simulation_9b228533-7ec3-4760-b270-45c12d8dd717.jsonl | 41182 | 2026-04-20T17:37:17 |  | 0dbb2a40893f
+- dir  | workflow\tick_reassessment\refine\d0995_v021\t300
+- file | workflow\tick_reassessment\refine\d0995_v021\t300\simulation_0557c653-48e9-4890-b39d-0d3b03a0bc0e.jsonl | 122009 | 2026-04-20T17:37:17 |  | dac35dd6bb85
+- dir  | workflow\tick_reassessment\refine\d0995_v022
+- dir  | workflow\tick_reassessment\refine\d0995_v022\t100
+- file | workflow\tick_reassessment\refine\d0995_v022\t100\simulation_7e9fa93c-f62f-4486-bb16-21bf207d390d.jsonl | 41089 | 2026-04-20T17:37:17 |  | f4e4a9a7ccf7
+- dir  | workflow\tick_reassessment\refine\d0995_v022\t300
+- file | workflow\tick_reassessment\refine\d0995_v022\t300\simulation_70670ed0-ac56-4f21-8abb-6b052a9b320b.jsonl | 121632 | 2026-04-20T17:37:17 |  | 0f40e379a606
+- dir  | workflow\tick_reassessment\refine\d0995_v023
+- dir  | workflow\tick_reassessment\refine\d0995_v023\t100
+- file | workflow\tick_reassessment\refine\d0995_v023\t100\simulation_240da53a-f8d8-41d2-8907-3ff69a8ce4fc.jsonl | 41052 | 2026-04-20T17:37:17 |  | 9159ae03a20b
+- dir  | workflow\tick_reassessment\refine\d0995_v023\t300
+- file | workflow\tick_reassessment\refine\d0995_v023\t300\simulation_ef9ddeed-897f-47f8-88fc-dec88f5f9be4.jsonl | 121308 | 2026-04-20T17:37:17 |  | c2fdaad4440c
+- dir  | workflow\tick_reassessment\refine\d0995_v024
+- dir  | workflow\tick_reassessment\refine\d0995_v024\t100
+- file | workflow\tick_reassessment\refine\d0995_v024\t100\simulation_4efae1cd-4a8c-4815-8127-939afcec8ff3.jsonl | 41083 | 2026-04-20T17:37:17 |  | cb820f6cc382
+- dir  | workflow\tick_reassessment\refine\d0995_v024\t300
+- file | workflow\tick_reassessment\refine\d0995_v024\t300\simulation_6fe10331-8f6c-4fb5-9ed7-fc84b4c67f4a.jsonl | 121085 | 2026-04-20T17:37:17 |  | ee2560bd9cd5
+- dir  | workflow\tick_reassessment\refine\d0995_v025
+- dir  | workflow\tick_reassessment\refine\d0995_v025\t100
+- file | workflow\tick_reassessment\refine\d0995_v025\t100\simulation_56528c4f-6155-4850-a12c-bcc832c27712.jsonl | 41193 | 2026-04-20T17:37:17 |  | fbeeea9fdc19
+- dir  | workflow\tick_reassessment\refine\d0995_v025\t300
+- file | workflow\tick_reassessment\refine\d0995_v025\t300\simulation_bad39690-8f01-4e3c-b681-74e273ac7db3.jsonl | 120908 | 2026-04-20T17:37:17 |  | 52bf386ec5ee
+- dir  | workflow\tick_reassessment\refine\d0995_v026
+- dir  | workflow\tick_reassessment\refine\d0995_v026\t100
+- file | workflow\tick_reassessment\refine\d0995_v026\t100\simulation_751d1f4e-8dd6-4a12-a0ac-fc69422532d8.jsonl | 41201 | 2026-04-20T17:37:17 |  | 4ab1794a369e
+- dir  | workflow\tick_reassessment\refine\d0995_v026\t300
+- file | workflow\tick_reassessment\refine\d0995_v026\t300\simulation_51b3ae43-d6ca-4ddb-af46-fe0856c5a4cc.jsonl | 120698 | 2026-04-20T17:37:17 |  | 4fc80f0c4424
+- dir  | workflow\tick_reassessment\refine\d0995_v027
+- dir  | workflow\tick_reassessment\refine\d0995_v027\t100
+- file | workflow\tick_reassessment\refine\d0995_v027\t100\simulation_086f3864-f95b-414a-b878-b929955dc918.jsonl | 41212 | 2026-04-20T17:37:17 |  | ba6b61fde15e
+- dir  | workflow\tick_reassessment\refine\d0995_v027\t300
+- file | workflow\tick_reassessment\refine\d0995_v027\t300\simulation_23f3d0e5-cbdd-4e5f-b736-1ec76bb6ce7d.jsonl | 120460 | 2026-04-20T17:37:18 |  | 3c59cf9a614f
+- dir  | workflow\tick_reassessment\refine\d0995_v028
+- dir  | workflow\tick_reassessment\refine\d0995_v028\t100
+- file | workflow\tick_reassessment\refine\d0995_v028\t100\simulation_50924c71-8a1c-44be-829d-631470813e98.jsonl | 41122 | 2026-04-20T17:37:18 |  | a57fac2c2a6c
+- dir  | workflow\tick_reassessment\refine\d0995_v028\t300
+- file | workflow\tick_reassessment\refine\d0995_v028\t300\simulation_96cd0975-da70-4e81-a5f8-e6cd0984cb71.jsonl | 120145 | 2026-04-20T17:37:18 |  | b4210cccfea2
+- dir  | workflow\tick_reassessment\refine\d0995_v029
+- dir  | workflow\tick_reassessment\refine\d0995_v029\t100
+- file | workflow\tick_reassessment\refine\d0995_v029\t100\simulation_01200543-5306-4022-a914-d9c70d5b4c55.jsonl | 41132 | 2026-04-20T17:37:18 |  | c6f86beb6885
+- dir  | workflow\tick_reassessment\refine\d0995_v029\t300
+- file | workflow\tick_reassessment\refine\d0995_v029\t300\simulation_eb7c7a91-1f0d-4c94-832a-3d665c5dedd7.jsonl | 119930 | 2026-04-20T17:37:18 |  | d03d9fd5de08
+- dir  | workflow\tick_reassessment\refine\d0995_v030
+- dir  | workflow\tick_reassessment\refine\d0995_v030\t100
+- file | workflow\tick_reassessment\refine\d0995_v030\t100\simulation_5c2aace4-0e66-48c7-8472-78a5a0f11d6c.jsonl | 41048 | 2026-04-20T17:37:18 |  | f2df7640bacf
+- dir  | workflow\tick_reassessment\refine\d0995_v030\t300
+- file | workflow\tick_reassessment\refine\d0995_v030\t300\simulation_79c40901-61d1-46de-96f7-068dfed08a89.jsonl | 119734 | 2026-04-20T17:37:18 |  | d0244d070873
+- dir  | workflow\tick_reassessment\sweep
+- dir  | workflow\tick_reassessment\sweep\d0995_v015
+- dir  | workflow\tick_reassessment\sweep\d0995_v015\t100
+- file | workflow\tick_reassessment\sweep\d0995_v015\t100\simulation_075c10b0-b309-4121-9c12-acec37bea746.jsonl | 41159 | 2026-04-20T17:37:18 |  | 8ffc772e5274
+- dir  | workflow\tick_reassessment\sweep\d0995_v015\t300
+- file | workflow\tick_reassessment\sweep\d0995_v015\t300\simulation_fe034e9d-0c99-4fcd-b013-2f46187797ab.jsonl | 123294 | 2026-04-20T17:37:18 |  | 61ccf795260a
+- dir  | workflow\tick_reassessment\sweep\d0995_v020
+- dir  | workflow\tick_reassessment\sweep\d0995_v020\t100
+- file | workflow\tick_reassessment\sweep\d0995_v020\t100\simulation_92b12010-c9bd-4c1a-82bf-7fc842897fa5.jsonl | 41158 | 2026-04-20T17:37:18 |  | 8e7fbe52185a
+- dir  | workflow\tick_reassessment\sweep\d0995_v020\t300
+- file | workflow\tick_reassessment\sweep\d0995_v020\t300\simulation_3ffd46d6-0719-4a07-b77b-0131cf1307b8.jsonl | 122317 | 2026-04-20T17:37:18 |  | 4e3eb229fe13
+- dir  | workflow\tick_reassessment\sweep\d0995_v030
+- dir  | workflow\tick_reassessment\sweep\d0995_v030\t100
+- file | workflow\tick_reassessment\sweep\d0995_v030\t100\simulation_634c7882-3fef-466d-bb80-c9e7b55109f7.jsonl | 41048 | 2026-04-20T17:37:18 |  | e9a58f043062
+- dir  | workflow\tick_reassessment\sweep\d0995_v030\t300
+- file | workflow\tick_reassessment\sweep\d0995_v030\t300\simulation_c274493f-5fca-41e9-9f56-e3eaea9d7ccd.jsonl | 119734 | 2026-04-20T17:37:18 |  | cd4a9671c83b
+- dir  | workflow\tick_reassessment\sweep\d0999_v015
+- dir  | workflow\tick_reassessment\sweep\d0999_v015\t100
+- file | workflow\tick_reassessment\sweep\d0999_v015\t100\simulation_e2804ba2-f603-41b4-9ebc-08cec8c3cc29.jsonl | 41116 | 2026-04-20T17:37:18 |  | e5bcdd4e4c4a
+- dir  | workflow\tick_reassessment\sweep\d0999_v015\t300
+- file | workflow\tick_reassessment\sweep\d0999_v015\t300\simulation_20c93ac9-31e1-42e3-8c97-a53ce0aef17c.jsonl | 122966 | 2026-04-20T17:37:18 |  | 1b5435fce415
+- dir  | workflow\tick_reassessment\sweep\d0999_v020
+- dir  | workflow\tick_reassessment\sweep\d0999_v020\t100
+- file | workflow\tick_reassessment\sweep\d0999_v020\t100\simulation_fd1c91bf-3aa9-419d-8fb4-485778678b6d.jsonl | 41141 | 2026-04-20T17:37:18 |  | aa8bc40e9dce
+- dir  | workflow\tick_reassessment\sweep\d0999_v020\t300
+- file | workflow\tick_reassessment\sweep\d0999_v020\t300\simulation_f5e5d3f3-e3e4-475e-8b3a-2b73ed2f6ed1.jsonl | 122973 | 2026-04-20T17:37:18 |  | b51f29c6217a
+- dir  | workflow\tick_reassessment\sweep\d0999_v030
+- dir  | workflow\tick_reassessment\sweep\d0999_v030\t100
+- file | workflow\tick_reassessment\sweep\d0999_v030\t100\simulation_9a971f94-5f76-406b-961e-f974e34b0ff6.jsonl | 41175 | 2026-04-20T17:37:18 |  | ca152b92d8e0
+- dir  | workflow\tick_reassessment\sweep\d0999_v030\t300
+- file | workflow\tick_reassessment\sweep\d0999_v030\t300\simulation_261dfbca-5a07-4e75-9a3a-ee64f4f4200f.jsonl | 123152 | 2026-04-20T17:37:18 |  | f7da9468b090
+- dir  | workflow\tick_reassessment\sweep\d099_v015
+- dir  | workflow\tick_reassessment\sweep\d099_v015\t100
+- file | workflow\tick_reassessment\sweep\d099_v015\t100\simulation_0321b3a1-7a94-444b-8bfb-009616adf6a5.jsonl | 41218 | 2026-04-20T17:37:18 |  | ccc7b2d92bde
+- dir  | workflow\tick_reassessment\sweep\d099_v015\t300
+- file | workflow\tick_reassessment\sweep\d099_v015\t300\simulation_314a5957-93b9-4cf8-a840-817f433d47eb.jsonl | 121256 | 2026-04-20T17:37:18 |  | d0085289078a
+- dir  | workflow\tick_reassessment\sweep\d099_v020
+- dir  | workflow\tick_reassessment\sweep\d099_v020\t100
+- file | workflow\tick_reassessment\sweep\d099_v020\t100\simulation_8ac03310-c4e2-490b-aae9-f8ed0f250645.jsonl | 41215 | 2026-04-20T17:37:18 |  | 5b1d3559107e
+- dir  | workflow\tick_reassessment\sweep\d099_v020\t300
+- file | workflow\tick_reassessment\sweep\d099_v020\t300\simulation_ba59b462-e07d-40db-8e47-811a60a571ec.jsonl | 120363 | 2026-04-20T17:37:18 |  | 1aab9355fe83
+- dir  | workflow\tick_reassessment\sweep\d099_v030
+- dir  | workflow\tick_reassessment\sweep\d099_v030\t100
+- file | workflow\tick_reassessment\sweep\d099_v030\t100\simulation_b8609d74-53f9-4dc9-8551-1ae2e6761b64.jsonl | 40251 | 2026-04-20T17:37:18 |  | e8bfaafe569a
+- dir  | workflow\tick_reassessment\sweep\d099_v030\t300
+- file | workflow\tick_reassessment\sweep\d099_v030\t300\simulation_d2ae32c1-ff67-4485-aae5-803ec91c0bd3.jsonl | 118841 | 2026-04-20T17:37:18 |  | 644ba71e69f7

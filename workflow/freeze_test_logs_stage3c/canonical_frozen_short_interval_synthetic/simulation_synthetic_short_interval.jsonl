@@ -1,0 +1,5 @@
+{"type":"TICK","tick":0,"fracture":{"projection_regime":"canonical_separated","freeze_state":true,"freeze_reason":"no_bridges","visible_edges":4,"bridge_edges":0,"bridge_weight":0.0}}
+{"type":"TICK","tick":1,"fracture":{"projection_regime":"canonical_separated","freeze_state":true,"freeze_reason":"no_bridges","visible_edges":4,"bridge_edges":0,"bridge_weight":0.0}}
+{"type":"TICK","tick":2,"fracture":{"projection_regime":"canonical_separated","freeze_state":true,"freeze_reason":"no_bridges","visible_edges":4,"bridge_edges":0,"bridge_weight":0.0}}
+{"type":"TICK","tick":3,"fracture":{"projection_regime":"canonical_separated","freeze_state":true,"freeze_reason":"no_bridges","visible_edges":4,"bridge_edges":0,"bridge_weight":0.0}}
+{"type":"TICK","tick":4,"fracture":{"projection_regime":"canonical_separated","freeze_state":true,"freeze_reason":"no_bridges","visible_edges":4,"bridge_edges":0,"bridge_weight":0.0}}

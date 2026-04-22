@@ -1,0 +1,62 @@
+{
+  "schema_version": "2.0",
+  "run_ok": true,
+  "n_ticks": 100,
+  "params": {
+    "seed": 42,
+    "n_nodes": 50,
+    "ticks": 100,
+    "spawn_scale": 1.0,
+    "decay_scale": 1.0,
+    "w_max": null,
+    "extra": {
+      "w_init_min": 0.01,
+      "w_init_max": 0.05,
+      "p_add": 0.05,
+      "p_decay": 0.99,
+      "w_prune": 0.0,
+      "w_visible": 0.02
+    },
+    "used": {
+      "evolution": {
+        "w_init_min": 0.01,
+        "w_init_max": 0.05,
+        "p_add": 0.05,
+        "p_decay": 0.99,
+        "w_prune": 0.0,
+        "units": "RI"
+      },
+      "stabilization": {
+        "w_visible": 0.02,
+        "units": "RI"
+      }
+    }
+  },
+  "fracture": {
+    "visible_ratio_start": 0.6530612244897959,
+    "visible_ratio_end": 0.018867924528301886,
+    "visible_ratio_slope": -0.00640599292890398,
+    "visible_edges_start": 32.0,
+    "visible_edges_end": 1.0,
+    "visible_edges_slope": -0.31313131313131315
+  },
+  "core": {
+    "total_weight_start": 1.363007454289892,
+    "total_weight_end": 0.5616211971616101,
+    "total_weight_slope": -0.008094810678063454,
+    "mean_pressure_start": 0.05452029817159568,
+    "mean_pressure_end": 0.0224648478864644,
+    "mean_pressure_slope": -0.0003237924271225382
+  },
+  "end": {
+    "type": "END",
+    "run_id": "0071ac9f-d63d-4e3e-8476-7e62ce166403",
+    "ok": true,
+    "summary": {
+      "ticks": 100,
+      "final_visible_edges": 1,
+      "final_visible_ratio": 0.018867924528301886,
+      "units": "RI"
+    }
+  }
+}
