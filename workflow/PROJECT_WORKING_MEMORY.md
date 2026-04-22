@@ -79,6 +79,10 @@ Current experiment status:
 - KROK 77 complete: exclusion review handoff note written
 - KROK 78 complete: workflow consolidation strategy written
 - KROK 79 complete: workflow consolidation executed
+- KROK 80 complete: local Git bootstrap executed
+- KROK 81 complete: initial Git snapshot plan written
+- KROK 82 complete: first local Git snapshot committed
+- KROK 83 complete: remote import plan written
 
 Hard rule:
 Only one active krok at a time.
@@ -846,6 +850,73 @@ Required output:
 - explicit first-snapshot scope
 - no remote replacement yet
 
+Status:
+- complete
+
+---
+
+### KROK 82 — Initial Git Snapshot Execution
+
+Goal:
+Execute the first clean local snapshot commit
+for the rebuilt repository,
+using the scope fixed by KROK 81.
+
+Reason selected:
+- KROK 81 now defines what belongs in the first snapshot,
+- the next honest move is to capture that state locally,
+  before any remote import or push logic is attempted.
+
+Required output:
+- first local snapshot commit
+- explicit exclusion of archive-only payloads
+- post-commit repository state check
+
+Status:
+- complete
+
+---
+
+### KROK 83 — Remote Import Plan
+
+Goal:
+Prepare one narrow plan
+for connecting the rebuilt local repository
+to the already cleaned remote on GitHub.
+
+Reason selected:
+- KROK 82 now captures the first local source-of-truth snapshot,
+- the next honest blocker is not another local bootstrap step,
+  but the safest import / linkage path to the prepared remote.
+
+Required output:
+- one narrow remote-import planning note
+- explicit branch / remote strategy
+- no push yet
+
+Status:
+- complete
+
+---
+
+### KROK 84 — Remote Import Execution
+
+Goal:
+Execute one controlled import pass
+from the rebuilt local repository
+to the already cleaned GitHub remote.
+
+Reason selected:
+- KROK 83 now defines the safe linkage path,
+- the next honest blocker is no longer planning,
+  but careful remote execution and verification.
+
+Required output:
+- remote added locally
+- local branch naming aligned
+- intentional import push
+- remote verification after push
+
 ---
 
 ## 5. NON-NEGOTIABLE OPERATING RULES
@@ -903,6 +974,8 @@ Rules:
 
 <!-- APPEND_LOG_START -->
 
+- [2026-04-22] First local Git snapshot commit `f4584f9` captured the rebuilt repository; `workflow/oldies/` stayed out of history as archive-only payload
+- [2026-04-22] Remote import plan fixed the safe path as: add origin, rename local branch to `main`, verify archive refs, then replace placeholder remote `main` intentionally
 - [2026-04-22] GitHub remote `BlackStar1979/romionsim` was archived locally and on branch `archive/pre-rebuild-2026-04-22`; remote `main` is now a clean placeholder ready for rebuilt import after the first local snapshot
 - [2026-04-22] Morning session audit 05:48 found no new hard inconsistencies; Stage 5 and GitHub preparation plan remain aligned at KROK 75
 - [2026-04-21] Afternoon session audit 17:48 found no new hard inconsistencies; freeze state is clean for restart at KROK 69
@@ -961,14 +1034,15 @@ Rules:
 
 <!-- AUTO:PROJECT_MAP_START -->
 ## PROJECT STRUCTURE SNAPSHOT (AUTO)
-Updated: 2026-04-22T18:24:04
+Updated: 2026-04-22T18:31:53
 
-- Files: 2713
+- Files: 2716
 - Dirs: 546
 - Map MD: workflow\PROJECT_MAP_FULL.md
 - Map JSON: workflow\PROJECT_MAP_FULL.json
 
 <!-- AUTO:PROJECT_MAP_END -->
+
 
 
 

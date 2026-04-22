@@ -1,13 +1,13 @@
 # PROJECT MAP — FULL
 
-Generated: 2026-04-22T18:24:04
+Generated: 2026-04-22T18:31:53
 
 Root: C:\Work\romionsim
 
 ---
 
 ## Summary
-- Files: 2713
+- Files: 2716
 - Dirs: 546
 
 ### Largest files
@@ -21,7 +21,7 @@ Root: C:\Work\romionsim
 
 ## Full listing
 
-- file | .gitignore | 113 | 2026-04-22T18:01:58 |  | 94f48fb0b520
+- file | .gitignore | 130 | 2026-04-22T18:27:47 |  | c7a662bc13a4
 - file | .hermesignore | 16 | 2026-04-21T19:53:51 |  | d4447ec453af
 - file | rebuild_project_map.py | 5986 | 2026-04-19T13:33:29 | 220 | 0852602fe81e
 - dir  | analysis
@@ -402,7 +402,7 @@ Root: C:\Work\romionsim
 - file | workflow\AFTERNOON_SESSION_AUDIT_2026-04-21_1748.md | 1826 | 2026-04-21T17:49:16 | 66 | 1868f874704a
 - file | workflow\BRIDGE_WEIGHT_FREEZE_REFINEMENT_PLAN.md | 6027 | 2026-04-20T17:18:32 | 278 | 46ad71295f88
 - file | workflow\DOCS_WORKFLOW_CONSISTENCY_AUDIT_2026-04-21_0628.md | 6816 | 2026-04-21T06:28:34 | 238 | fe2070ced3f8
-- file | workflow\ENGINE_TEST_GRID.md | 15195 | 2026-04-22T18:02:57 | 512 | f9eee5a92c45
+- file | workflow\ENGINE_TEST_GRID.md | 13836 | 2026-04-22T18:31:23 | 482 | 1baf5ac67a1b
 - file | workflow\EVOLVING_FROZEN_PERSISTENCE_CONTROL_PLAN.md | 6673 | 2026-04-20T18:23:56 | 277 | bc8a2277e4cf
 - file | workflow\EVOLVING_FROZEN_PERSISTENCE_PLAN.md | 5644 | 2026-04-20T17:44:40 | 251 | 543db6e37fbb
 - file | workflow\EXCLUSION_CANDIDATE_PATH_PLAN.md | 5621 | 2026-04-21T06:13:48 | 215 | 346802eca815
@@ -425,20 +425,23 @@ Root: C:\Work\romionsim
 - file | workflow\FIXED_PARAMETER_AUDIT.md | 6361 | 2026-04-20T17:58:07 | 236 | f4a2d1a36cf9
 - file | workflow\FREEZE_THAW_STAGE_PLAN.md | 5908 | 2026-04-20T17:15:34 | 253 | 7ba559fd105a
 - file | workflow\FROZEN_PERSISTENCE_PLAN.md | 5739 | 2026-04-20T17:26:14 | 264 | 300f34093340
-- file | workflow\GITHUB_REPOSITORY_PREPARATION_PLAN.md | 3651 | 2026-04-22T18:23:36 | 135 | b37d15d190d7
+- file | workflow\GITHUB_REPOSITORY_PREPARATION_PLAN.md | 3822 | 2026-04-22T18:31:35 | 139 | 4e57699ab755
 - file | workflow\INHERITED_PARAMETER_ORIGINS.md | 8045 | 2026-04-20T17:58:07 | 275 | 6e0d44df3d7b
+- file | workflow\INITIAL_GIT_SNAPSHOT_INTERIM.md | 1064 | 2026-04-22T18:27:47 | 56 | fab653b86634
+- file | workflow\INITIAL_GIT_SNAPSHOT_PLAN.md | 2135 | 2026-04-22T18:27:47 | 108 | 636900925869
 - file | workflow\LOCAL_GIT_BOOTSTRAP_INTERIM.md | 1396 | 2026-04-22T18:02:57 | 69 | 2f9cd7d51302
 - file | workflow\LOOP_DETECTION_PLAN.md | 7910 | 2026-04-20T19:14:33 | 317 | ce5b057ce97e
 - file | workflow\LOOP_IDENTITY_PLAN.md | 7358 | 2026-04-20T21:36:54 | 298 | 8863e9ae8790
 - file | workflow\LOOP_INTERPRETATION_NOTE.md | 3969 | 2026-04-20T20:05:16 | 157 | 6a4fdee05790
 - file | workflow\LOOP_PERSISTENCE_PLAN.md | 6683 | 2026-04-20T19:55:22 | 281 | 3577e6d8f12b
 - file | workflow\MORNING_SESSION_AUDIT_2026-04-22_0548.md | 2344 | 2026-04-22T05:48:49 | 78 | 66d6d60fbeec
-- file | workflow\NEXT_SESSION_START.md | 1292 | 2026-04-22T18:23:56 | 59 | 2f6fe133012b
+- file | workflow\NEXT_SESSION_START.md | 1251 | 2026-04-22T18:31:09 | 58 | 19f7a44b1206
 - file | workflow\OLDIES_EVOLUTION_REVIEW.md | 9141 | 2026-04-20T18:09:48 | 295 | 0ab0d29f6a87
 - file | workflow\PROJECTION_LAYER_SEPARATION_PLAN.md | 8010 | 2026-04-19T20:46:16 | 325 | 1ce2d930574a
-- file | workflow\PROJECT_MAP_FULL.json | 776598 | 2026-04-22T18:03:36 | 23939 | ec476b071011
-- file | workflow\PROJECT_MAP_FULL.md | 407792 | 2026-04-22T18:03:36 | 3282 | 7e1f5fc926d4
-- file | workflow\PROJECT_WORKING_MEMORY.md | 41189 | 2026-04-22T18:23:45 | 1031 | ae92dfdcd096
+- file | workflow\PROJECT_MAP_FULL.json | 776598 | 2026-04-22T18:24:04 | 23939 | 25e603d6707a
+- file | workflow\PROJECT_MAP_FULL.md | 407792 | 2026-04-22T18:24:04 | 3282 | a8a8c6bac9c1
+- file | workflow\PROJECT_WORKING_MEMORY.md | 43188 | 2026-04-22T18:30:57 | 1105 | 19b525455f2f
+- file | workflow\REMOTE_IMPORT_PLAN.md | 2050 | 2026-04-22T18:30:42 | 96 | 715cae2e9346
 - file | workflow\SCAFFOLD_ROBUSTNESS_PLAN.md | 6345 | 2026-04-20T18:01:36 | 265 | 29aecd85c2a4
 - file | workflow\THEORY_REFRESH_2026-04-21_1653.md | 5122 | 2026-04-21T16:54:23 | 156 | 32353372ff1b
 - file | workflow\TICK_HORIZON_ASSESSMENT.md | 4587 | 2026-04-20T17:34:05 | 181 | 9afb18686986

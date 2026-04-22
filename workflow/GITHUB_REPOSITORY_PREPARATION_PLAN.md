@@ -26,8 +26,11 @@ Execution status update — 2026-04-22:
   - remotely on branch `archive/pre-rebuild-2026-04-22`
 - remote `main` has been cleared to a placeholder README
   so the rebuilt local repository can later replace it intentionally
-- the next Git-related blocker is no longer remote cleanup,
-  but the first clean local snapshot commit
+- first clean local snapshot commit now exists:
+  - `f4584f9` — `Initial rebuilt repository snapshot`
+- the next Git-related blocker is no longer remote cleanup
+  or first local capture,
+  but the controlled import execution to the cleaned remote
 
 ---
 
@@ -123,9 +126,10 @@ Do NOT:
 ## 6. RECOMMENDED NEXT GIT-RELATED ACTION
 
 The next honest move is now:
-- define the first snapshot scope from the real local status
-- create the first clean local snapshot commit
-- stop before any import push to the cleaned remote
+- execute the already defined linkage path from local commit `f4584f9`
+  to the cleaned remote
+- verify remote refs and archive preservation
+- complete the first intentional import push
 
 This should still happen as a dedicated small step,
 not mixed into engine semantics work.

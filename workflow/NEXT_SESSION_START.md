@@ -7,9 +7,9 @@ Give the smallest clean restart point for the next session.
 
 ## Current stopping point
 
-- KROK 80 is complete
+- KROK 83 is complete
 - result type: execution
-- next active step: `KROK 81 — Initial Git Snapshot Plan`
+- next active step: `KROK 84 — Remote Import Execution`
 
 ---
 
@@ -26,20 +26,19 @@ Give the smallest clean restart point for the next session.
 
 ---
 
-## What KROK 81 must do
+## What KROK 84 must do
 
-- define the first local snapshot scope
-- use the real current Git status as input
-- treat the cleaned GitHub remote as prepared but still untouched by rebuilt local history
-- stop before any import push
-- close with a narrow repo-hygiene plan
+- add the remote intentionally
+- align local branch naming with `main`
+- verify the preserved archive branch still exists
+- import the rebuilt local history onto remote `main`
+- verify the remote result after push
 
 ---
 
-## What KROK 81 must NOT do
+## What KROK 84 must NOT do
 
-- no remote replacement yet
-- no push to GitHub yet
+- no merge with placeholder remote history
 - no rewriting of canonical docs
 - no destructive history cleanup
 

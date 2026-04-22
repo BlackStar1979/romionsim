@@ -460,52 +460,22 @@ This keeps closure lightweight:
 ## 5. NEXT OPTIMAL MOVE
 
 Recommended next stage:
-- Repo hygiene — first snapshot planning after local Git bootstrap
+- Repo hygiene — remote import execution after the first local snapshot
 
 Recommended immediate output:
-- one narrow repo-hygiene note for:
-  - first local snapshot scope
-  - what should enter the first commit
-  - what should stay out pending later review
+- one controlled remote-import pass for:
+  - adding the remote
+  - aligning branch naming with `main`
+  - replacing placeholder remote `main` with rebuilt local history
+  - verifying the remote result
 
 Reason:
-- Stage 5 audit is closed,
-  KROK 53 closes richer identity instrumentation,
-  KROK 55 closes candidate-path signaling,
-  KROK 56 narrows the first enforcement point,
-  KROK 57 closes explicit rejection signaling,
-  KROK 58 closes rejection-outcome planning,
-  KROK 59 closes rejection-outcome validation,
-  KROK 60 closes minimal-enforcement planning,
-  KROK 61 closes minimal-enforcement validation,
-  KROK 62 closes contract narrowing,
-  KROK 63 closes contract boundary clarification,
-  KROK 64 closes promotion planning,
-  KROK 65 closes candidate identification,
-  KROK 66 closes promotion-gate planning,
-  KROK 67 closes promotion-gate assessment,
-  KROK 68 closes narrow contract-proposal planning,
-  KROK 69 closes narrow contract-proposal note,
-  KROK 70 closes contract-patch candidate planning,
-  KROK 71 closes contract-patch candidate note,
-  KROK 72 closes canonical-patch gate planning,
-  KROK 73 closes canonical-patch gate assessment,
-  KROK 74 closes human-review packet planning,
-  KROK 75 closes human-review packet note,
-  KROK 76 closes review-handoff planning,
-  KROK 77 closes review-handoff note,
-  KROK 78 closes workflow-consolidation planning,
-  KROK 79 closes workflow-consolidation execution,
-  KROK 80 closes local Git bootstrap,
-  KROK 60 closes minimal enforcement planning,
-  KROK 61 closes minimal enforcement validation,
-  KROK 62 closes contract narrowing,
-  KROK 63 closes the explicit contract-boundary note,
-  KROK 64 closes promotion planning,
-  KROK 65 closes the promotion-candidate note,
-  KROK 66 closes the promotion-gate plan,
-  and the next honest blocker is promotion-gate assessment
-  before broader exclusion implementation is attempted.
+- local Git bootstrap is already closed,
+- the first clean local snapshot now exists,
+- the old remote has already been archived and `main` cleared,
+- the import path is now defined,
+- so the next honest blocker is controlled remote execution,
+  not more local bootstrap work.
 
 ---
 
